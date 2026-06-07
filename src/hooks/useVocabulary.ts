@@ -37,6 +37,24 @@ const getNextWord = (
   return null;
 };
 
+const isAnswerCorrect = (answer: string, word: Word): boolean => {
+  const normalizedAnswer = answer.toLowerCase().trim();
+  
+  // Перевіряємо основне слово
+  if (normalizedAnswer === word.english.toLowerCase().trim()) {
+    return true;
+  }
+  
+  // Перевіряємо альтернативні слова
+  if (word.alternatives?.some(alt => 
+    normalizedAnswer === alt.toLowerCase().trim()
+  )) {
+    return true;
+  }
+  
+  return false;
+};
+
 export const useVocabulary = (initialWords: Word[]) => {
   const [state, setState] = useState<VocabularyState>({
     allWords: initialWords,
@@ -70,8 +88,7 @@ export const useVocabulary = (initialWords: Word[]) => {
     setState(prev => {
       if (!prev.currentWord) return prev;
 
-      const isCorrect = answer.toLowerCase().trim() === 
-                        prev.currentWord.english.toLowerCase().trim();
+      const isCorrect = isAnswerCorrect(answer, prev.currentWord);
 
       if (isCorrect) {
         const newLearned = [...prev.learnedWords, prev.currentWord];
