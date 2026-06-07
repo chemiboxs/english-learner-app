@@ -15,8 +15,8 @@ const getNextWord = (
   skippedWords: Word[],
   useSkippedWordsMode: boolean
 ): Word | null => {
-  // When repeat skipped words mode is DISABLED:
-  // Only offer words from availableWords (words not yet seen or learned)
+  // Коли режим "Повторювати пропущені слова" ВИМКНЕНИЙ:
+  // Пропонуються лише слова з availableWords (слова які ще не пропонувались)
   if (!useSkippedWordsMode) {
     if (availableWords.length > 0) {
       return availableWords[Math.floor(Math.random() * availableWords.length)];
@@ -24,8 +24,8 @@ const getNextWord = (
     return null;
   }
 
-  // When repeat skipped words mode is ENABLED:
-  // Mix both available words and skipped words together
+  // Коли режим "Повторювати пропущені слова" ВКЛЮЧЕНИЙ:
+  // Змішуються слова з обох списків - доступні і пропущені
   if (useSkippedWordsMode) {
     const combinedWords = [...availableWords, ...skippedWords];
     if (combinedWords.length > 0) {
@@ -80,6 +80,7 @@ export const useVocabulary = (initialWords: Word[]) => {
         
         const nextWord = getNextWord(newAvailable, newSkipped, prev.useSkippedWordsMode);
 
+        // Скидуємо success через 2.5 секунди
         setTimeout(() => {
           setState(s => ({ ...s, showSuccess: false }));
         }, 2500);
@@ -105,8 +106,8 @@ export const useVocabulary = (initialWords: Word[]) => {
 
       const isAlreadySkipped = prev.skippedWords.some(w => w.id === prev.currentWord!.id);
       const newSkipped = isAlreadySkipped 
-        ? prev.skippedWords  // Keep the word in skipped list if already skipped
-        : [...prev.skippedWords, prev.currentWord];  // Add to skipped list for first time
+        ? prev.skippedWords  // Залишаємо слово в списку пропущених
+        : [...prev.skippedWords, prev.currentWord];  // Додаємо у список пропущених
       
       const newAvailable = prev.availableWords.filter(w => w.id !== prev.currentWord!.id);
       const nextWord = getNextWord(newAvailable, newSkipped, prev.useSkippedWordsMode);
