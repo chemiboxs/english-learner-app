@@ -51,6 +51,9 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ words }) => {
 
   return (
     <div className="min-h-screen bg-surface flex flex-col">
+      {/* Success Notification - у верхній частині */}
+      <SuccessNotification show={state.showSuccess} />
+      
       {/* Header */}
       <header className="bg-surface-container-low p-4 shadow-soft flex-shrink-0">
         <div className="max-w-4xl mx-auto flex items-end justify-end">
@@ -78,14 +81,14 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ words }) => {
                 onChange={updateInput}
                 onSubmit={handleSubmit}
                 placeholder="Type English here..."
-                disabled={state.showSuccess}
+                disabled={false}
               />
 
               {/* Action Buttons */}
               <div className="flex gap-2 justify-center max-w-2xl mx-auto px-gutter">
                 <Button
                   onClick={handleSubmit}
-                  disabled={state.showSuccess}
+                  disabled={false}
                   variant="primary"
                   size="md"
                 >
@@ -93,7 +96,7 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ words }) => {
                 </Button>
                 <Button
                   onClick={skipWord}
-                  disabled={state.showSuccess}
+                  disabled={false}
                   variant="secondary"
                   size="md"
                 >
@@ -108,7 +111,7 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ words }) => {
                     enabled={state.useSkippedWordsMode}
                     onChange={toggleSkippedWordsMode}
                     label="Repeat skipped words"
-                    disabled={state.showSuccess}
+                    disabled={false}
                   />
                 </div>
               )}
@@ -132,9 +135,6 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ words }) => {
           )}
         </div>
       </main>
-
-      {/* Success Notification */}
-      <SuccessNotification show={state.showSuccess} />
 
       {/* Words Modal */}
       <WordsList
