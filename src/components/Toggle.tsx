@@ -24,17 +24,19 @@ export const Toggle: React.FC<ToggleProps> = ({
         onClick={() => !disabled && onChange(!enabled)}
         disabled={disabled}
         className={`
-          relative inline-flex h-8 w-14 rounded-full
+          relative inline-flex h-7 w-14 rounded-full
           transition-colors duration-200
           disabled:opacity-50 disabled:cursor-not-allowed
+          flex-shrink-0
           ${enabled ? 'bg-primary' : 'bg-outline-variant'}
         `}
       >
         <span
           className={`
-            inline-block h-7 w-7 transform rounded-full
+            inline-block h-6 w-6 transform rounded-full
             bg-on-surface transition-transform duration-200
-            ${enabled ? 'translate-x-6' : 'translate-x-0.5'}
+            absolute top-0.5
+            ${enabled ? 'translate-x-7' : 'translate-x-0.5'}
           `}
         />
       </button>
