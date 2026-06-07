@@ -53,27 +53,30 @@ export const WordsList: React.FC<WordsListProps> = ({
             </div>
           ) : (
             <div className="divide-y divide-outline-variant">
-              {words.map((word) => (
-                <div 
-                  key={word.id} 
-                  className="p-4 hover:bg-surface-container transition-colors"
-                >
-                  <div className="flex items-start justify-between">
-                    <div>
-                      <p className="text-on-surface-variant text-xs mb-1">Ukrainian</p>
-                      <p className="text-on-surface font-bold text-lg">
-                        {word.emoji ? `${word.emoji} ` : ''}{word.ukrainian}
-                      </p>
-                    </div>
-                    <div className="text-right">
-                      <p className="text-on-surface-variant text-xs mb-1">English</p>
-                      <p className="text-on-surface font-bold text-lg">
-                        {word.english}
-                      </p>
+              {words.map((word) => {
+                const hasEmoji = word.emoji && word.emoji.trim() !== '';
+                return (
+                  <div 
+                    key={word.id} 
+                    className="p-4 hover:bg-surface-container transition-colors"
+                  >
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <p className="text-on-surface-variant text-xs mb-1">Ukrainian</p>
+                        <p className="text-on-surface font-bold text-lg">
+                          {hasEmoji && `${word.emoji} `}{word.ukrainian}
+                        </p>
+                      </div>
+                      <div className="text-right">
+                        <p className="text-on-surface-variant text-xs mb-1">English</p>
+                        <p className="text-on-surface font-bold text-lg">
+                          {word.english}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           )}
         </div>
