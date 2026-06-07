@@ -1,0 +1,14 @@
+[
+  {
+  "id": "1",
+  "ukrainian": "Кіт",
+  "english": "cat",
+  "alternatives": ["kitten", "tom"]
+},
+{
+  "id": "2",
+  "ukrainian": "Пес",
+  "english": "dog",
+  "alternatives": ["pooch", "doggo", "doggy"]
+}
+]

@@ -1,0 +1,1199 @@
+[
+  {
+    "id": "427",
+    "ukrainian": "Літера, лист",
+    "english": "letter",
+    "phrases": [
+      "I wrote a letter to my grandmother yesterday.",
+      "This word has seven letters.",
+      "She received a letter from her best friend.",
+      "Please write your name in capital letters.",
+      "The first letter of my name is A.",
+      "He found an old letter in the drawer."
+    ]
+  },
+  {
+    "id": "428",
+    "ukrainian": "Слово",
+    "english": "word",
+    "phrases": [
+      "This word is easy to remember.",
+      "We learn new words every week.",
+      "Can you spell this word for me?",
+      "I don't know the meaning of this word.",
+      "She wrote every new word in her notebook.",
+      "Use this word in a simple sentence."
+    ]
+  },
+  {
+    "id": "429",
+    "ukrainian": "Історія",
+    "english": "story",
+    "phrases": [
+      "My grandfather told us a funny story.",
+      "She enjoys reading adventure stories.",
+      "This story has a happy ending.",
+      "Can you tell me another story?",
+      "The children listened to the story carefully.",
+      "I wrote a short story for school."
+    ]
+  },
+  {
+    "id": "430",
+    "ukrainian": "Домашнє завдання",
+    "english": "homework",
+    "phrases": [
+      "I finished my homework before dinner.",
+      "Our teacher gave us a lot of homework.",
+      "She forgot to bring her homework.",
+      "We usually do our homework together.",
+      "Today's homework was quite easy.",
+      "Have you already finished your homework?"
+    ]
+  },
+  {
+    "id": "431",
+    "ukrainian": "Сторінка",
+    "english": "page",
+    "phrases": [
+      "Please open your book to page twenty.",
+      "I read three pages before bed.",
+      "Write your answers on the next page.",
+      "The picture is on the last page.",
+      "He turned the page very slowly.",
+      "I can't find that page now."
+    ]
+  },
+  {
+    "id": "432",
+    "ukrainian": "Рослина",
+    "english": "plant",
+    "phrases": [
+      "We water this plant every morning.",
+      "The plant needs more sunlight.",
+      "My mother bought a new plant yesterday.",
+      "This plant grows very quickly.",
+      "Don't forget to water the plants.",
+      "There is a beautiful plant by the window."
+    ]
+  },
+  {
+    "id": "433",
+    "ukrainian": "Пагорб",
+    "english": "hill",
+    "phrases": [
+      "We walked up the green hill.",
+      "There is a small house on the hill.",
+      "The children ran down the hill.",
+      "You can see the village from the hill.",
+      "We stopped at the top of the hill.",
+      "The road goes over the hill."
+    ]
+  },
+  {
+    "id": "434",
+    "ukrainian": "Поле",
+    "english": "field",
+    "phrases": [
+      "The children played football in the field.",
+      "There is a large field behind our house.",
+      "The cows are eating grass in the field.",
+      "We walked across the field together.",
+      "The field is full of yellow flowers.",
+      "Farmers work in the fields every day."
+    ]
+  },
+  {
+    "id": "435",
+    "ukrainian": "Земля",
+    "english": "ground",
+    "phrases": [
+      "The ground is still wet after the rain.",
+      "The children sat on the ground.",
+      "There were leaves all over the ground.",
+      "He dropped his phone on the ground.",
+      "The ground became very dry in summer.",
+      "Please don't throw rubbish on the ground."
+    ]
+  },
+  {
+    "id": "436",
+    "ukrainian": "Печера",
+    "english": "cave",
+    "phrases": [
+      "We explored a large cave last summer.",
+      "The bear sleeps inside the cave.",
+      "The cave was dark and very cold.",
+      "They found old paintings in the cave.",
+      "Let's visit the cave with a guide.",
+      "The children were excited to see the cave."
+    ]
+  },
+  {
+    "id": "437",
+    "ukrainian": "Океан",
+    "english": "ocean",
+    "phrases": [
+      "The ocean looks beautiful at sunset.",
+      "We saw dolphins in the ocean.",
+      "Many large animals live in the ocean.",
+      "They traveled across the ocean by ship.",
+      "The ocean water was very cold.",
+      "I'd love to swim in the ocean someday."
+    ]
+  },
+  {
+    "id": "438",
+    "ukrainian": "Бджола",
+    "english": "bee",
+    "phrases": [
+      "A bee landed on the yellow flower.",
+      "Bees make sweet honey.",
+      "I watched a bee fly around the garden.",
+      "The bee disappeared into the flowers.",
+      "Bees are important for many plants.",
+      "Don't touch the bee."
+    ]
+  },
+  {
+    "id": "439",
+    "ukrainian": "Павук",
+    "english": "spider",
+    "phrases": [
+      "I found a spider under the table.",
+      "The spider built a web in the corner.",
+      "Some people are afraid of spiders.",
+      "The little spider climbed the wall.",
+      "The spider caught a small fly.",
+      "We carefully moved the spider outside."
+    ]
+  },
+  {
+    "id": "440",
+    "ukrainian": "Жаба",
+    "english": "frog",
+    "phrases": [
+      "The frog jumped into the pond.",
+      "We heard frogs near the lake.",
+      "A small frog sat on a rock.",
+      "The children watched the green frog.",
+      "The frog disappeared into the water.",
+      "Frogs can jump very high."
+    ]
+  },
+  {
+    "id": "441",
+    "ukrainian": "Вівця",
+    "english": "sheep",
+    "phrases": [
+      "The sheep are eating fresh grass.",
+      "We saw many sheep on the farm.",
+      "The little sheep followed its mother.",
+      "Sheep give us warm wool.",
+      "The farmer looked after the sheep.",
+      "The sheep were resting in the field."
+    ]
+  },
+  {
+    "id": "442",
+    "ukrainian": "Курка",
+    "english": "chicken",
+    "phrases": [
+      "The chicken laid an egg this morning.",
+      "We had chicken and rice for dinner.",
+      "The chickens ran around the yard.",
+      "My grandfather keeps chickens on his farm.",
+      "The little chicken followed its mother.",
+      "The chicken was looking for food."
+    ]
+  },
+  {
+    "id": "443",
+    "ukrainian": "Верблюд",
+    "english": "camel",
+    "phrases": [
+      "The camel walked slowly across the desert.",
+      "Camels can live without water for days.",
+      "We rode a camel during our trip.",
+      "The camel carried heavy bags.",
+      "A camel has long legs.",
+      "The children wanted to feed the camel."
+    ]
+  },
+  {
+    "id": "444",
+    "ukrainian": "Зебра",
+    "english": "zebra",
+    "phrases": [
+      "The zebra has black and white stripes.",
+      "We saw a zebra at the zoo.",
+      "The baby zebra stayed close to its mother.",
+      "The zebra was eating fresh grass.",
+      "Every zebra has a different pattern.",
+      "The children loved watching the zebras."
+    ]
+  },
+  {
+    "id": "445",
+    "ukrainian": "Акула",
+    "english": "shark",
+    "phrases": [
+      "The shark swam near the boat.",
+      "Some sharks are very large.",
+      "We watched a film about sharks.",
+      "The shark disappeared into deep water.",
+      "People should respect wild sharks.",
+      "The children learned about sharks at school."
+    ]
+  },
+  {
+    "id": "446",
+    "ukrainian": "Кит",
+    "english": "whale",
+    "phrases": [
+      "The whale came up for air.",
+      "Whales are the largest animals on Earth.",
+      "We saw a whale from the boat.",
+      "The whale swam slowly through the ocean.",
+      "A baby whale stayed near its mother.",
+      "I'd like to see a whale someday."
+    ]
+  },
+  {
+    "id": "447",
+    "ukrainian": "Дельфін",
+    "english": "dolphin",
+    "phrases": [
+      "The dolphin jumped out of the water.",
+      "Dolphins are friendly and intelligent animals.",
+      "We watched dolphins swimming together.",
+      "The dolphin followed the boat.",
+      "Children love seeing dolphins.",
+      "The dolphin swam very fast."
+    ]
+  },
+  {
+    "id": "448",
+    "ukrainian": "Цукор",
+    "english": "sugar",
+    "phrases": [
+      "I don't put sugar in my coffee.",
+      "Add a little sugar to the tea.",
+      "Too much sugar is not healthy.",
+      "The recipe needs two spoons of sugar.",
+      "She bought a bag of sugar.",
+      "This cake has less sugar."
+    ]
+  },
+  {
+    "id": "449",
+    "ukrainian": "Сіль",
+    "english": "salt",
+    "phrases": [
+      "Please add a little salt to the soup.",
+      "There isn't enough salt in this dish.",
+      "My father likes food with less salt.",
+      "Pass me the salt, please.",
+      "Too much salt isn't good for you.",
+      "She forgot to add salt while cooking."
+    ]
+  },
+  {
+    "id": "450",
+    "ukrainian": "Груша",
+    "english": "pear",
+    "phrases": [
+      "I ate a sweet pear after lunch.",
+      "This pear is fresh and juicy.",
+      "She bought some pears at the market.",
+      "The pear tree grows behind our house.",
+      "Would you like another pear?",
+      "The children picked pears from the tree."
+    ]
+  },
+  {
+    "id": "451",
+    "ukrainian": "Персик",
+    "english": "peach",
+    "phrases": [
+      "I ate a juicy peach after lunch.",
+      "This peach is sweet and very soft.",
+      "We bought fresh peaches at the market.",
+      "The peach tree grows in our garden.",
+      "Would you like another peach?",
+      "My little sister loves ripe peaches."
+    ]
+  },
+  {
+    "id": "452",
+    "ukrainian": "Стіна",
+    "english": "wall",
+    "phrases": [
+      "There is a clock on the wall.",
+      "The wall needs a new coat of paint.",
+      "She hung a picture on the wall.",
+      "Don't write on the classroom wall.",
+      "The cat jumped over the wall.",
+      "Our living room has white walls."
+    ]
+  },
+  {
+    "id": "453",
+    "ukrainian": "Дах",
+    "english": "roof",
+    "phrases": [
+      "The roof was covered with snow.",
+      "We heard rain on the roof.",
+      "The workers repaired the old roof.",
+      "A bird landed on the roof.",
+      "The roof keeps the house dry.",
+      "Leaves fell onto the roof."
+    ]
+  },
+  {
+    "id": "454",
+    "ukrainian": "Ворота",
+    "english": "gate",
+    "phrases": [
+      "Please close the gate behind you.",
+      "The school gate opens at eight.",
+      "We waited outside the gate.",
+      "A farmer walked through the gate.",
+      "The garden gate is made of wood.",
+      "The dog ran to the gate."
+    ]
+  },
+  {
+    "id": "455",
+    "ukrainian": "Полиця",
+    "english": "shelf",
+    "phrases": [
+      "My books are on the top shelf.",
+      "She put the cups on the shelf.",
+      "The shelf is full of old photos.",
+      "I found the book on a high shelf.",
+      "Please put everything back on the shelf.",
+      "We need another shelf for our books."
+    ]
+  },
+  {
+    "id": "456",
+    "ukrainian": "Тарілка",
+    "english": "plate",
+    "phrases": [
+      "There is some rice on my plate.",
+      "She washed every plate after dinner.",
+      "Please pass me a clean plate.",
+      "The plate fell onto the floor.",
+      "He put some fruit on the plate.",
+      "My plate is still full."
+    ]
+  },
+  {
+    "id": "457",
+    "ukrainian": "Чашка",
+    "english": "cup",
+    "phrases": [
+      "I drink coffee from my favorite cup.",
+      "Her cup is full of hot tea.",
+      "Please bring me a clean cup.",
+      "The cup broke when it fell.",
+      "He bought a new coffee cup.",
+      "There is a blue cup on the table."
+    ]
+  },
+  {
+    "id": "458",
+    "ukrainian": "Виделка",
+    "english": "fork",
+    "phrases": [
+      "I eat salad with a fork.",
+      "The fork is beside your plate.",
+      "Please use a clean fork.",
+      "She dropped her fork on the floor.",
+      "We need another fork for dinner.",
+      "The fork is made of metal."
+    ]
+  },
+  {
+    "id": "459",
+    "ukrainian": "Ложка",
+    "english": "spoon",
+    "phrases": [
+      "I stirred my tea with a spoon.",
+      "She uses a spoon to eat soup.",
+      "Please give me a small spoon.",
+      "The spoon fell into the bowl.",
+      "He added two spoons of sugar.",
+      "The baby is learning to use a spoon."
+    ]
+  },
+  {
+    "id": "460",
+    "ukrainian": "Рушник",
+    "english": "towel",
+    "phrases": [
+      "I dried my hair with a towel.",
+      "The towel is hanging behind the door.",
+      "Please bring a clean towel.",
+      "She folded the towel carefully.",
+      "The wet towel needs to dry.",
+      "We packed two towels for the beach."
+    ]
+  },
+  {
+    "id": "461",
+    "ukrainian": "Подушка",
+    "english": "pillow",
+    "phrases": [
+      "My pillow is soft and comfortable.",
+      "She bought a new pillow yesterday.",
+      "I sleep with two pillows.",
+      "The cat is sleeping on my pillow.",
+      "Please put your pillow on the bed.",
+      "This pillow feels much softer."
+    ]
+  },
+  {
+    "id": "462",
+    "ukrainian": "Ковдра",
+    "english": "blanket",
+    "phrases": [
+      "I sleep under a warm blanket.",
+      "The blanket kept us warm all night.",
+      "She covered the baby with a blanket.",
+      "This blanket is very soft.",
+      "We took a blanket for our picnic.",
+      "The dog is lying on the blanket."
+    ]
+  },
+  {
+    "id": "463",
+    "ukrainian": "Мило",
+    "english": "soap",
+    "phrases": [
+      "Always wash your hands with soap.",
+      "This soap smells like flowers.",
+      "I bought a new bar of soap.",
+      "The soap made lots of bubbles.",
+      "There isn't any soap in the bathroom.",
+      "Please use soap before dinner."
+    ]
+  },
+  {
+    "id": "464",
+    "ukrainian": "Правильний",
+    "english": "correct",
+    "phrases": [
+      "Your answer is completely correct.",
+      "That's the correct way to do it.",
+      "Only one answer is correct.",
+      "The teacher checked every correct answer.",
+      "Please choose the correct option.",
+      "You were correct about the weather."
+    ]
+  },
+  {
+    "id": "465",
+    "ukrainian": "Неправильний",
+    "english": "wrong",
+    "phrases": [
+      "My answer was completely wrong.",
+      "Something feels wrong today.",
+      "You took the wrong bus.",
+      "It's wrong to lie to people.",
+      "The address is wrong.",
+      "I chose the wrong answer by mistake."
+    ]
+  },
+  {
+    "id": "466",
+    "ukrainian": "Безпечний",
+    "english": "safe",
+    "phrases": [
+      "This park is safe for children.",
+      "It's safe to walk here at daytime.",
+      "Keep your passport in a safe place.",
+      "The baby is safe with her parents.",
+      "We arrived home safely and felt safe.",
+      "Always wear a helmet to stay safe."
+    ]
+  },
+  {
+    "id": "467",
+    "ukrainian": "Корисний",
+    "english": "useful",
+    "phrases": [
+      "This dictionary is very useful.",
+      "She gave me some useful advice.",
+      "Learning English is useful for travel.",
+      "This app is useful for students.",
+      "The video was really useful.",
+      "He shared many useful ideas."
+    ]
+  },
+  {
+    "id": "468",
+    "ukrainian": "Небезпечний",
+    "english": "dangerous",
+    "phrases": [
+      "It is dangerous to swim alone.",
+      "The road becomes dangerous in winter.",
+      "Fire can be very dangerous.",
+      "Don't play with dangerous tools.",
+      "Crossing here is too dangerous.",
+      "Some wild animals are dangerous."
+    ]
+  },
+  {
+    "id": "469",
+    "ukrainian": "Інший, різний",
+    "english": "different",
+    "phrases": [
+      "We have different plans for tomorrow.",
+      "This book is different from mine.",
+      "Everyone has different hobbies.",
+      "The two pictures look completely different.",
+      "Try a different way this time.",
+      "My brother and I are very different."
+    ]
+  },
+  {
+    "id": "470",
+    "ukrainian": "Яскравий",
+    "english": "bright",
+    "phrases": [
+      "The sun is very bright today.",
+      "She wore a bright yellow jacket.",
+      "The room became bright after sunrise.",
+      "I need a brighter light to read.",
+      "His bright smile made us happy.",
+      "The stars looked bright tonight."
+    ]
+  },
+  {
+    "id": "471",
+    "ukrainian": "Темний",
+    "english": "dark",
+    "phrases": [
+      "It's too dark to read outside.",
+      "The room became dark very quickly.",
+      "He wore a dark blue jacket.",
+      "The sky was dark before the storm.",
+      "Please turn on the light, it's dark.",
+      "We walked through a dark forest."
+    ]
+  },
+  {
+    "id": "472",
+    "ukrainian": "Перший",
+    "english": "first",
+    "phrases": [
+      "She was the first to arrive.",
+      "This is my first English lesson.",
+      "Read the first question carefully.",
+      "My first job was in a café.",
+      "Who finished the race first?",
+      "The first day was exciting."
+    ]
+  },
+  {
+    "id": "473",
+    "ukrainian": "Останній",
+    "english": "last",
+    "phrases": [
+      "He was the last person to leave.",
+      "This is the last page of the book.",
+      "We met each other last weekend.",
+      "I caught the last bus home.",
+      "That was my last piece of cake.",
+      "The last question was difficult."
+    ]
+  },
+  {
+    "id": "474",
+    "ukrainian": "Наступний",
+    "english": "next",
+    "phrases": [
+      "The next lesson starts at ten.",
+      "I'll see you next week.",
+      "Who is the next person in line?",
+      "Our next trip will be to the mountains.",
+      "Turn to the next page.",
+      "The next train arrives soon."
+    ]
+  },
+  {
+    "id": "475",
+    "ukrainian": "До",
+    "english": "before",
+    "phrases": [
+      "Wash your hands before dinner.",
+      "Please finish your homework before bedtime.",
+      "We met before the movie started.",
+      "Think carefully before you answer.",
+      "I always exercise before work.",
+      "Call me before you leave."
+    ]
+  },
+  {
+    "id": "476",
+    "ukrainian": "Після",
+    "english": "after",
+    "phrases": [
+      "We played football after school.",
+      "She went home after work.",
+      "I'll call you after dinner.",
+      "After the lesson, we went outside.",
+      "He felt tired after the trip.",
+      "Let's meet after lunch."
+    ]
+  },
+  {
+    "id": "477",
+    "ukrainian": "Станція",
+    "english": "station",
+    "phrases": [
+      "We met at the train station.",
+      "The bus station is very busy today.",
+      "Our station is only two stops away.",
+      "The train arrived at the station.",
+      "Please wait for me at the station.",
+      "There is a café inside the station."
+    ]
+  },
+  {
+    "id": "478",
+    "ukrainian": "Офіс",
+    "english": "office",
+    "phrases": [
+      "My mother works in a modern office.",
+      "The office is close to the station.",
+      "He arrived at the office early.",
+      "Our office has a small kitchen.",
+      "She left the office at six.",
+      "The office is closed on Sundays."
+    ]
+  },
+  {
+    "id": "479",
+    "ukrainian": "Ринок",
+    "english": "market",
+    "phrases": [
+      "We bought fresh fruit at the market.",
+      "The market opens early every morning.",
+      "There were many people at the market.",
+      "My grandmother sells vegetables at the market.",
+      "Let's go to the market together.",
+      "The market is closed on Monday."
+    ]
+  },
+  {
+    "id": "480",
+    "ukrainian": "Музей",
+    "english": "museum",
+    "phrases": [
+      "We visited a science museum yesterday.",
+      "The museum has many interesting paintings.",
+      "I'd like to visit that museum again.",
+      "The children enjoyed the museum tour.",
+      "You can't touch anything in the museum.",
+      "The museum is open every weekend."
+    ]
+  },
+  {
+    "id": "481",
+    "ukrainian": "Зоопарк",
+    "english": "zoo",
+    "phrases": [
+      "We spent the whole day at the zoo.",
+      "The zoo has many wild animals.",
+      "My favorite animal at the zoo was the tiger.",
+      "The children were excited to visit the zoo.",
+      "Let's go to the zoo this weekend.",
+      "We took lots of photos at the zoo."
+    ]
+  },
+  {
+    "id": "482",
+    "ukrainian": "Готель",
+    "english": "hotel",
+    "phrases": [
+      "We stayed in a small hotel near the beach.",
+      "The hotel has clean and comfortable rooms.",
+      "Our hotel was close to the city center.",
+      "They booked a hotel for two nights.",
+      "The hotel serves breakfast every morning.",
+      "We arrived at the hotel late."
+    ]
+  },
+  {
+    "id": "483",
+    "ukrainian": "Планшет",
+    "english": "tablet",
+    "phrases": [
+      "I read books on my tablet.",
+      "My tablet has a large screen.",
+      "She takes her tablet to school.",
+      "The tablet needs to be charged.",
+      "I use my tablet to learn English.",
+      "His new tablet is very fast."
+    ]
+  },
+  {
+    "id": "484",
+    "ukrainian": "Екран",
+    "english": "screen",
+    "phrases": [
+      "The screen is too bright today.",
+      "Please clean the computer screen carefully.",
+      "I looked at the screen for hours.",
+      "There is a small scratch on the screen.",
+      "The movie appeared on the big screen.",
+      "My phone screen is cracked."
+    ]
+  },
+  {
+    "id": "485",
+    "ukrainian": "Голова",
+    "english": "head",
+    "phrases": [
+      "My head hurts after the long trip.",
+      "He shook his head slowly.",
+      "She put a hat on her head.",
+      "The ball hit me on the head.",
+      "Please keep your head up.",
+      "I washed my hair and head."
+    ]
+  },
+  {
+    "id": "486",
+    "ukrainian": "Палець",
+    "english": "finger",
+    "phrases": [
+      "I hurt my finger while cooking.",
+      "She pointed at the picture with her finger.",
+      "The ring fits my finger perfectly.",
+      "He counted on his fingers.",
+      "Be careful not to cut your finger.",
+      "The baby held my finger."
+    ]
+  },
+  {
+    "id": "487",
+    "ukrainian": "Хворий",
+    "english": "sick",
+    "phrases": [
+      "I stayed home because I was sick.",
+      "She still feels a little sick.",
+      "He looks sick today.",
+      "Many students were sick last week.",
+      "Drink more water if you feel sick.",
+      "My brother is sick with a cold."
+    ]
+  },
+  {
+    "id": "488",
+    "ukrainian": "Здоровий",
+    "english": "healthy",
+    "phrases": [
+      "Eating vegetables helps you stay healthy.",
+      "She has a healthy lifestyle.",
+      "Healthy food gives us energy.",
+      "My grandparents are healthy for their age.",
+      "Walking every day is healthy.",
+      "The doctor says he is healthy."
+    ]
+  },
+  {
+    "id": "489",
+    "ukrainian": "Дешевий",
+    "english": "cheap",
+    "phrases": [
+      "These shoes were surprisingly cheap.",
+      "We found a cheap hotel near the station.",
+      "The market sells cheap fruit.",
+      "This restaurant is cheap but good.",
+      "I bought a cheap notebook.",
+      "The ticket was much cheaper online."
+    ]
+  },
+  {
+    "id": "490",
+    "ukrainian": "Тому що",
+    "english": "because",
+    "phrases": [
+      "I stayed home because I felt tired.",
+      "She smiled because she was happy.",
+      "We hurried because the bus was coming.",
+      "He wore a jacket because it was cold.",
+      "I study English because I enjoy it.",
+      "They left early because it started raining."
+    ]
+  },
+  {
+    "id": "491",
+    "ukrainian": "Також",
+    "english": "also",
+    "phrases": [
+      "I also enjoy reading adventure books.",
+      "She also speaks a little Spanish.",
+      "We also need some milk.",
+      "He also wants to come with us.",
+      "My sister also likes this game.",
+      "The hotel also has a swimming pool."
+    ]
+  },
+  {
+    "id": "492",
+    "ukrainian": "Дуже",
+    "english": "very",
+    "phrases": [
+      "This soup is very tasty.",
+      "I am very excited about the trip.",
+      "She speaks English very well.",
+      "The weather is very warm today.",
+      "Thank you very much for your help.",
+      "The test was very easy."
+    ]
+  },
+  {
+    "id": "493",
+    "ukrainian": "Теж",
+    "english": "too",
+    "phrases": [
+      "I want to come too.",
+      "She likes this song too.",
+      "It's too cold to swim.",
+      "The bag is too heavy.",
+      "My brother came too.",
+      "You're too close to the road."
+    ]
+  },
+  {
+    "id": "494",
+    "ukrainian": "Більше",
+    "english": "more",
+    "phrases": [
+      "Can I have some more juice?",
+      "I need more time to finish.",
+      "She wants to learn more English.",
+      "We need more chairs for everyone.",
+      "Read more books this year.",
+      "He works more carefully now."
+    ]
+  },
+  {
+    "id": "495",
+    "ukrainian": "Менше",
+    "english": "less",
+    "phrases": [
+      "I eat less sugar now.",
+      "We have less homework today.",
+      "Try to spend less money.",
+      "He watches less television now.",
+      "There is less water in the bottle.",
+      "I need less help than before."
+    ]
+  },
+  {
+    "id": "496",
+    "ukrainian": "Багато",
+    "english": "many",
+    "phrases": [
+      "Many people visit this museum.",
+      "We have many interesting books.",
+      "There are many birds in the park.",
+      "She has many good friends.",
+      "Many students came early.",
+      "How many apples do you need?"
+    ]
+  },
+  {
+    "id": "497",
+    "ukrainian": "Мало",
+    "english": "few",
+    "phrases": [
+      "Only a few students were late.",
+      "We have a few questions.",
+      "There are few cars on this road.",
+      "I know a few English songs.",
+      "A few birds sat on the tree.",
+      "He has very few free days."
+    ]
+  },
+  {
+    "id": "498",
+    "ukrainian": "Кожен",
+    "english": "every",
+    "phrases": [
+      "I call my parents every evening.",
+      "Every child received a gift.",
+      "She drinks tea every morning.",
+      "Every answer was correct.",
+      "We practice English every day.",
+      "Every room has a window."
+    ]
+  },
+  {
+    "id": "499",
+    "ukrainian": "Деякий",
+    "english": "some",
+    "phrases": [
+      "Can I have some water, please?",
+      "She bought some fresh bread.",
+      "I need some help with this task.",
+      "We spent some time together.",
+      "There are some flowers in the garden.",
+      "Would you like some cake?"
+    ]
+  },
+  {
+    "id": "500",
+    "ukrainian": "Хтось",
+    "english": "someone",
+    "phrases": [
+      "Someone knocked on the door.",
+      "I think someone is calling you.",
+      "Someone left a bag here.",
+      "Ask someone for directions.",
+      "Someone forgot their umbrella.",
+      "I heard someone laughing outside."
+    ]
+  },
+  {
+    "id": "501",
+    "ukrainian": "Щось",
+    "english": "something",
+    "phrases": [
+      "I need something to drink.",
+      "There is something in my pocket.",
+      "She wants to tell you something.",
+      "Something smells really good.",
+      "Did you hear something strange?",
+      "Let's cook something simple."
+    ]
+  },
+  {
+    "id": "502",
+    "ukrainian": "Ніхто",
+    "english": "nobody",
+    "phrases": [
+      "Nobody answered the phone.",
+      "Nobody knows the full story.",
+      "There was nobody at home.",
+      "Nobody can help without information.",
+      "Nobody wanted to leave early.",
+      "Nobody believed the funny story."
+    ]
+  },
+  {
+    "id": "503",
+    "ukrainian": "Нічого",
+    "english": "nothing",
+    "phrases": [
+      "There is nothing in the box.",
+      "I have nothing to do today.",
+      "Nothing happened after school.",
+      "She said nothing during the lesson.",
+      "We found nothing interesting there.",
+      "Nothing is impossible if you try."
+    ]
+  },
+  {
+    "id": "504",
+    "ukrainian": "Так",
+    "english": "yes",
+    "phrases": [
+      "Yes, I'd love to come.",
+      "Yes, that's a great idea.",
+      "Yes, I remember your name.",
+      "She smiled and said yes.",
+      "Yes, everything is ready.",
+      "Yes, we can start now."
+    ]
+  },
+  {
+    "id": "505",
+    "ukrainian": "Ні",
+    "english": "no",
+    "phrases": [
+      "No, I don't need any help.",
+      "No, that's not my bag.",
+      "He answered with a simple no.",
+      "No, we aren't busy today.",
+      "There is no milk left.",
+      "No, thank you very much."
+    ]
+  },
+  {
+    "id": "506",
+    "ukrainian": "Дорогий",
+    "english": "expensive",
+    "phrases": [
+      "This watch is very expensive.",
+      "The restaurant looks expensive.",
+      "We can't afford such an expensive car.",
+      "These shoes are too expensive.",
+      "Expensive phones aren't always better.",
+      "The tickets were more expensive yesterday."
+    ]
+  },
+  {
+    "id": "507",
+    "ukrainian": "Здоров'я",
+    "english": "health",
+    "phrases": [
+      "Good health is very important.",
+      "Exercise is good for your health.",
+      "She cares about her health.",
+      "Fresh food improves your health.",
+      "Health comes before money.",
+      "We talked about health at school."
+    ]
+  },
+  {
+    "id": "508",
+    "ukrainian": "Важливий",
+    "english": "important",
+    "phrases": [
+      "This meeting is very important.",
+      "It's important to drink enough water.",
+      "Family is important to me.",
+      "Reading is an important skill.",
+      "This question is important.",
+      "Sleep is important for your health."
+    ]
+  },
+  {
+    "id": "509",
+    "ukrainian": "Створювати",
+    "english": "create",
+    "phrases": [
+      "We created a simple school project.",
+      "She loves creating colorful pictures.",
+      "Let's create something together.",
+      "The program can create reports.",
+      "He wants to create a website.",
+      "Children create amazing ideas."
+    ]
+  },
+  {
+    "id": "510",
+    "ukrainian": "Пірнати",
+    "english": "dive",
+    "phrases": [
+      "The children love to dive into the pool.",
+      "He learned to dive safely.",
+      "Don't dive into shallow water.",
+      "We watched the birds dive for fish.",
+      "She can dive much deeper now.",
+      "I'd like to dive in the sea someday."
+    ]
+  },
+  {
+    "id": "511",
+    "ukrainian": "Ніж",
+    "english": "knife",
+    "phrases": [
+      "Please cut the bread with a knife.",
+      "Be careful with the sharp knife.",
+      "The knife is in the kitchen drawer.",
+      "He used a knife to peel the apple.",
+      "This knife is very sharp.",
+      "Put the knife back on the table."
+    ]
+  },
+  {
+    "id": "512",
+    "ukrainian": "Початок",
+    "english": "beginning",
+    "phrases": [
+      "We met at the beginning of summer.",
+      "The beginning of the film was exciting.",
+      "Read the beginning of the story.",
+      "School starts at the beginning of September.",
+      "Everything was easy at the beginning.",
+      "The beginning was better than the end."
+    ]
+  },
+  {
+    "id": "513",
+    "ukrainian": "Кінець",
+    "english": "end",
+    "phrases": [
+      "We clapped at the end of the show.",
+      "The end of the book was surprising.",
+      "School finishes at the end of May.",
+      "I'll call you at the end of the day.",
+      "The road ends near the river.",
+      "Everyone liked the happy end."
+    ]
+  },
+  {
+    "id": "514",
+    "ukrainian": "Безкоштовний",
+    "english": "free",
+    "phrases": [
+      "The museum is free on Sundays.",
+      "Children travel free on this bus.",
+      "We got free tickets to the concert.",
+      "The app is completely free.",
+      "Breakfast is free at this hotel.",
+      "You can download it for free."
+    ]
+  },
+  {
+    "id": "515",
+    "ukrainian": "Свобода",
+    "english": "freedom",
+    "phrases": [
+      "Freedom is important for everyone.",
+      "People want freedom and peace.",
+      "Children learn about freedom at school.",
+      "Freedom means making your own choices.",
+      "They fought for their freedom.",
+      "We all enjoy personal freedom."
+    ]
+  },
+  {
+    "id": "516",
+    "ukrainian": "Білка",
+    "english": "squirrel",
+    "phrases": [
+      "A squirrel climbed the tall tree.",
+      "We saw a squirrel in the park.",
+      "The squirrel was eating a nut.",
+      "My little brother likes squirrels.",
+      "The squirrel ran across the road.",
+      "I took a photo of the squirrel."
+    ]
+  },
+  {
+    "id": "517",
+    "ukrainian": "Туалет",
+    "english": "bathroom",
+    "alternatives": ["restroom", "toilet"],
+    "phrases": [
+      "Where is the bathroom, please?",
+      "The restroom is on the second floor.",
+      "I need to use the bathroom.",
+      "The bathroom is next to the kitchen.",
+      "The toilet is at the end of the hall.",
+      "Please wash your hands in the bathroom."
+    ]
+  },
+  {
+    "id": "518",
+    "ukrainian": "Пара",
+    "english": "pair",
+    "phrases": [
+      "I bought a new pair of shoes.",
+      "We worked in pairs during the lesson.",
+      "She needs a pair of gloves.",
+      "This pair of socks is clean.",
+      "The teacher put us into pairs.",
+      "I found the other pair of keys."
+    ]
+  }
+]
