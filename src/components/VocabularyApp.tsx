@@ -39,12 +39,12 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ words }) => {
   const canToggleSkippedMode = state.skippedWords.length > 0;
 
   return (
-    <div className="min-h-screen bg-surface">
+    <div className="min-h-screen bg-surface flex flex-col">
       {/* Header */}
-      <header className="bg-surface-container-low p-6 shadow-soft">
+      <header className="bg-surface-container-low p-4 shadow-soft flex-shrink-0">
         <div className="max-w-4xl mx-auto flex items-center justify-between">
           <h1 
-            className="text-3xl font-bold text-primary"
+            className="text-2xl font-bold text-primary"
             style={{ fontFamily: 'Quicksand' }}
           >
             English Fun
@@ -59,14 +59,14 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ words }) => {
       </header>
 
       {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-gutter py-12">
-        <div className="space-y-8">
+      <main className="flex-1 max-w-4xl mx-auto w-full px-gutter py-3 flex flex-col justify-center">
+        <div className="space-y-3">
           {/* Word Card */}
           <WordCard word={state.currentWord} />
 
           {/* Input and Controls */}
           {!isGameOver && state.currentWord && (
-            <div className="space-y-6">
+            <div className="space-y-2">
               {/* Input Field */}
               <InputField
                 value={state.userInput}
@@ -77,11 +77,12 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ words }) => {
               />
 
               {/* Action Buttons */}
-              <div className="flex gap-4 justify-center max-w-2xl mx-auto px-gutter">
+              <div className="flex gap-2 justify-center max-w-2xl mx-auto px-gutter">
                 <Button
                   onClick={handleSubmit}
                   disabled={state.showSuccess}
                   variant="primary"
+                  size="md"
                 >
                   Check
                 </Button>
@@ -89,6 +90,7 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ words }) => {
                   onClick={skipWord}
                   disabled={state.showSuccess}
                   variant="secondary"
+                  size="md"
                 >
                   ⏩ Skip
                 </Button>
@@ -111,14 +113,14 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ words }) => {
           {/* Game Over Message */}
           {isGameOver && (
             <div className="text-center">
-              <p className="text-3xl mb-6">🎉</p>
+              <p className="text-3xl mb-3">🎉</p>
               <p 
-                className="text-2xl font-bold text-primary mb-4"
+                className="text-xl font-bold text-primary mb-2"
                 style={{ fontFamily: 'Quicksand' }}
               >
                 Congratulations!
               </p>
-              <p className="text-on-surface-variant text-lg">
+              <p className="text-on-surface-variant text-sm">
                 You learned all {stats.learned} words!
               </p>
             </div>
@@ -136,30 +138,6 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ words }) => {
         onClose={closeSkippedModal}
         title="My Skipped Words"
       />
-
-      {/* Bottom Navigation */}
-      <nav className="fixed bottom-0 left-0 right-0 bg-surface-container-low border-t-2 border-outline-variant py-4">
-        <div className="max-w-4xl mx-auto px-gutter flex items-center justify-center gap-8">
-          <button className="flex flex-col items-center gap-1 text-primary hover:text-primary-container transition-colors">
-            <span className="text-2xl">▶️</span>
-            <span className="text-xs font-bold">Play</span>
-          </button>
-          <button 
-            onClick={openSkippedModal}
-            className="flex flex-col items-center gap-1 text-on-surface-variant hover:text-primary transition-colors"
-          >
-            <span className="text-2xl">📊</span>
-            <span className="text-xs font-bold">Progress</span>
-          </button>
-          <button className="flex flex-col items-center gap-1 text-on-surface-variant hover:text-primary transition-colors">
-            <span className="text-2xl">⚙️</span>
-            <span className="text-xs font-bold">Settings</span>
-          </button>
-        </div>
-      </nav>
-
-      {/* Padding for bottom nav */}
-      <div className="h-24"></div>
     </div>
   );
 };
