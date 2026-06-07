@@ -11,7 +11,7 @@ export const WordCard: React.FC<WordCardProps> = ({ word }) => {
       <div className="w-full max-w-2xl mx-auto px-gutter">
         <div className="bg-surface-container-lowest rounded-xl shadow-soft p-8 text-center">
           <p className="text-on-surface text-xl">
-            🎉 Вітаємо! Ви завершили всі слова!
+            🎉 Congratulations! You've completed all the words!
           </p>
         </div>
       </div>
