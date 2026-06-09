@@ -153,7 +153,7 @@ const toggleSkippedWordsMode = useCallback(() => {
   });
 }, []);
 
-  const resetVocabulary = useCallback(() => {
+const resetVocabulary = useCallback(() => {
   setState({
     allWords: state.allWords,
     currentWord: null,
@@ -164,6 +164,19 @@ const toggleSkippedWordsMode = useCallback(() => {
     showSuccess: false,
     showSkippedModal: false,
     useSkippedWordsMode: false,
+  });
+  
+  // Set the first word after resetting
+  setState(prev => {
+    const firstWord = getNextWord(
+      prev.availableWords,
+      prev.skippedWords,
+      prev.useSkippedWordsMode
+    );
+    if (firstWord) {
+      return { ...prev, currentWord: firstWord };
+    }
+    return prev;
   });
 }, [state.allWords]);
 
