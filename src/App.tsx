@@ -131,21 +131,22 @@ const handleResetVocabulary = () => {
         </div>
       </header>
 
-      {currentWords.length > 0 && (
-        <VocabularyApp 
-          key={key} 
-          words={currentWords}
-          learnedWords={[]}
-          skippedWords={[]}
-          onStatsUpdate={handleStatsUpdate}
-          onLearnedClick={handleLearnedClick}
-          onSkippedClick={handleSkippedClick}
-          showModal={showModal}
-          setShowModal={setShowModal}
-          modalType={modalType}
-          setModalType={setModalType}
-        />
-      )}
+{currentWords.length > 0 && (
+  <VocabularyApp 
+    key={key} 
+    words={currentWords}
+    learnedWords={[]}
+    skippedWords={[]}
+    onStatsUpdate={handleStatsUpdate}
+    onLearnedClick={handleLearnedClick}
+    onSkippedClick={handleSkippedClick}
+    showModal={showModal}
+    setShowModal={setShowModal}
+    modalType={modalType}
+    setModalType={setModalType}
+    resetVocabularyCallback={handleResetVocabulary}
+  />
+)}
     </div>
   );
 }
