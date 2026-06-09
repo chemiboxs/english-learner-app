@@ -1,5 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
-const VOCABULARY_DATA_KEY = 'vocabulary_data';
+import { Word, VocabularyState } from '../types/vocabulary';
+
+const VOCABULARY_DATA_KEY_PREFIX = 'vocabulary_data_';
 
 interface SavedVocabularyData {
   learnedWords: Word[];
@@ -7,11 +9,18 @@ interface SavedVocabularyData {
   availableWords: Word[];
 }
 
+const getStorageKey = (wordIds: string[]): string => {
+  // Create a unique key based on all word IDs
+  const hash = wordIds.sort().join('|');
+  return `${VOCABULARY_DATA_KEY_PREFIX}${hash}`;
+};
+
 const loadVocabularyData = (allWords: Word[]): SavedVocabularyData => {
   try {
-    const allData = localStorage.getItem(VOCABULARY_DATA_KEY);
-    if (allData) {
-      const parsedData = JSON.parse(allData);
+    const key = getStorageKey(allWords.map(w => w.id));
+    const data = localStorage.getItem(key);
+    if (data) {
+      const parsedData = JSON.parse(data);
       const wordIds = allWords.map(w => w.id);
       
       // Filter saved words to only include those in current vocabulary
@@ -32,9 +41,10 @@ const loadVocabularyData = (allWords: Word[]): SavedVocabularyData => {
   };
 };
 
-const saveVocabularyData = (learnedWords: Word[], skippedWords: Word[], availableWords: Word[]) => {
+const saveVocabularyData = (allWords: Word[], learnedWords: Word[], skippedWords: Word[], availableWords: Word[]) => {
   try {
-    localStorage.setItem(VOCABULARY_DATA_KEY, JSON.stringify({
+    const key = getStorageKey(allWords.map(w => w.id));
+    localStorage.setItem(key, JSON.stringify({
       learnedWords,
       skippedWords,
       availableWords,
@@ -43,7 +53,6 @@ const saveVocabularyData = (learnedWords: Word[], skippedWords: Word[], availabl
     console.error('Error saving vocabulary data to localStorage:', error);
   }
 };
-import { Word, VocabularyState } from '../types/vocabulary';
 
 const shuffleArray = <T,>(array: T[]): T[] => {
   const shuffled = [...array];
@@ -59,8 +68,6 @@ const getNextWord = (
   skippedWords: Word[],
   useSkippedWordsMode: boolean
 ): Word | null => {
-  // Коли режим "Повторювати пропущені слова" ВИМКНЕНИЙ:
-  // Пропонуються лише слова з availableWords (слова які ще не пропонувались)
   if (!useSkippedWordsMode) {
     if (availableWords.length > 0) {
       return availableWords[Math.floor(Math.random() * availableWords.length)];
@@ -68,8 +75,6 @@ const getNextWord = (
     return null;
   }
 
-  // Коли режим "Повторювати пропущені слова" ВКЛЮЧЕНИЙ:
-  // Змішуються слова з обох списків - доступні і пропущені
   if (useSkippedWordsMode) {
     const combinedWords = [...availableWords, ...skippedWords];
     if (combinedWords.length > 0) {
@@ -84,12 +89,10 @@ const getNextWord = (
 const isAnswerCorrect = (answer: string, word: Word): boolean => {
   const normalizedAnswer = answer.toLowerCase().trim();
   
-  // Перевіряємо основне слово
   if (normalizedAnswer === word.english.toLowerCase().trim()) {
     return true;
   }
   
-  // Перевіряємо альтернативні слова
   if (word.alternatives?.some(alt => 
     normalizedAnswer === alt.toLowerCase().trim()
   )) {
@@ -132,8 +135,8 @@ export const useVocabulary = (initialWords: Word[]) => {
 
   // Save to localStorage whenever state changes
   useEffect(() => {
-    saveVocabularyData(state.learnedWords, state.skippedWords, state.availableWords);
-  }, [state.learnedWords, state.skippedWords, state.availableWords]);
+    saveVocabularyData(state.allWords, state.learnedWords, state.skippedWords, state.availableWords);
+  }, [state.learnedWords, state.skippedWords, state.availableWords, state.allWords]);
 
   const checkAnswer = useCallback((answer: string) => {
     setState(prev => {
@@ -148,7 +151,6 @@ export const useVocabulary = (initialWords: Word[]) => {
         
         const nextWord = getNextWord(newAvailable, newSkipped, prev.useSkippedWordsMode);
 
-        // Скидуємо success через 2.5 секунди
         setTimeout(() => {
           setState(s => ({ ...s, showSuccess: false }));
         }, 2500);
@@ -174,8 +176,8 @@ export const useVocabulary = (initialWords: Word[]) => {
 
       const isAlreadySkipped = prev.skippedWords.some(w => w.id === prev.currentWord!.id);
       const newSkipped = isAlreadySkipped 
-        ? prev.skippedWords  // Залишаємо слово в списку пропущених
-        : [...prev.skippedWords, prev.currentWord];  // Додаємо у список пропущених
+        ? prev.skippedWords
+        : [...prev.skippedWords, prev.currentWord];
       
       const newAvailable = prev.availableWords.filter(w => w.id !== prev.currentWord!.id);
       const nextWord = getNextWord(newAvailable, newSkipped, prev.useSkippedWordsMode);
@@ -190,46 +192,44 @@ export const useVocabulary = (initialWords: Word[]) => {
     });
   }, []);
 
-const toggleSkippedWordsMode = useCallback(() => {
-  setState(prev => {
-    const newMode = !prev.useSkippedWordsMode;
-    if (newMode && prev.skippedWords.length === 0) return prev;
-    
-    // Keep the current word, just change the mode
-    return {
-      ...prev,
-      useSkippedWordsMode: newMode,
-      userInput: '',
-    };
-  });
-}, []);
+  const toggleSkippedWordsMode = useCallback(() => {
+    setState(prev => {
+      const newMode = !prev.useSkippedWordsMode;
+      if (newMode && prev.skippedWords.length === 0) return prev;
+      
+      return {
+        ...prev,
+        useSkippedWordsMode: newMode,
+        userInput: '',
+      };
+    });
+  }, []);
 
-const resetVocabulary = useCallback(() => {
-  setState({
-    allWords: state.allWords,
-    currentWord: null,
-    availableWords: shuffleArray(state.allWords),
-    skippedWords: [],
-    learnedWords: [],
-    userInput: '',
-    showSuccess: false,
-    showSkippedModal: false,
-    useSkippedWordsMode: false,
-  });
-  
-  // Set the first word after resetting
-  setState(prev => {
-    const firstWord = getNextWord(
-      prev.availableWords,
-      prev.skippedWords,
-      prev.useSkippedWordsMode
-    );
-    if (firstWord) {
-      return { ...prev, currentWord: firstWord };
-    }
-    return prev;
-  });
-}, [state.allWords]);
+  const resetVocabulary = useCallback(() => {
+    setState({
+      allWords: state.allWords,
+      currentWord: null,
+      availableWords: shuffleArray(state.allWords),
+      skippedWords: [],
+      learnedWords: [],
+      userInput: '',
+      showSuccess: false,
+      showSkippedModal: false,
+      useSkippedWordsMode: false,
+    });
+    
+    setState(prev => {
+      const firstWord = getNextWord(
+        prev.availableWords,
+        prev.skippedWords,
+        prev.useSkippedWordsMode
+      );
+      if (firstWord) {
+        return { ...prev, currentWord: firstWord };
+      }
+      return prev;
+    });
+  }, [state.allWords]);
 
   const openSkippedModal = useCallback(() => {
     setState(prev => ({ ...prev, showSkippedModal: true }));
@@ -250,15 +250,15 @@ const resetVocabulary = useCallback(() => {
     };
   }, [state.learnedWords.length, state.skippedWords.length]);
 
-return {
-  state,
-  checkAnswer,
-  skipWord,
-  toggleSkippedWordsMode,
-  resetVocabulary,
-  openSkippedModal,
-  closeSkippedModal,
-  updateInput,
-  getStats,
-};
+  return {
+    state,
+    checkAnswer,
+    skipWord,
+    toggleSkippedWordsMode,
+    resetVocabulary,
+    openSkippedModal,
+    closeSkippedModal,
+    updateInput,
+    getStats,
+  };
 };
