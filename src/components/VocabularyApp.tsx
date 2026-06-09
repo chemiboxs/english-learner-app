@@ -7,7 +7,6 @@ import { Button } from './Button';
 import { SuccessNotification } from './SuccessNotification';
 import { WordsList } from './WordsList';
 import { Toggle } from './Toggle';
-import { resetVocabulary } from './useVocabulary';
 
 interface VocabularyAppProps {
   words: Word[];
