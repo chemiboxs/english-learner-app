@@ -1,20 +1,18 @@
 import React from 'react';
 import { VocabularyApp } from './components/VocabularyApp';
 import { useDictionaries } from './hooks/useDictionaries';
-import { useVocabularyStats } from './hooks/useVocabularyStats';
 import { Button } from './components/Button';
 import './index.css';
 
 function App() {
   const { selectedDictionary, isLoading, switchDictionary, getCurrentDictionary, getDictionaryList } = useDictionaries();
-  const { stats, updateStats, resetStats } = useVocabularyStats(selectedDictionary);
   const [key, setKey] = React.useState(0);
   const [showModal, setShowModal] = React.useState(false);
   const [modalType, setModalType] = React.useState<'learned' | 'skipped'>('learned');
+  const [stats, setStats] = React.useState({ learned: 0, skipped: 0 });
 
   const handleDictionaryChange = (newDict: string) => {
     switchDictionary(newDict);
-    // Перезавантажуємо VocabularyApp компонент
     setKey(prev => prev + 1);
   };
 
@@ -29,11 +27,10 @@ function App() {
   };
 
   const handleStatsUpdate = (learned: number, skipped: number) => {
-    updateStats(learned, skipped);
+    setStats({ learned, skipped });
   };
 
   const handleResetVocabulary = () => {
-    resetStats();
     setKey(prev => prev + 1);
   };
 
