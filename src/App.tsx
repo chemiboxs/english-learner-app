@@ -90,7 +90,7 @@ function App() {
             )}
             
             {/* Stats Buttons */}
-            <div className="flex gap-3 justify-end items-center">
+            <div className="flex gap-3 justify-end items-center flex-wrap">
               <button
                 onClick={handleLearnedClick}
                 className="
@@ -120,6 +120,14 @@ function App() {
                   Skipped: {stats.skipped}
                 </span>
               </button>
+
+              <Button
+                onClick={handleResetVocabulary}
+                variant="secondary"
+                size="sm"
+              >
+                🔄 Reset
+              </Button>
             </div>
           </div>
         </div>
