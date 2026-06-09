@@ -106,27 +106,21 @@ export const SkippedWordsList: React.FC<SkippedWordsListProps> = ({
             </div>
           ) : (
             <div className="divide-y divide-outline-variant">
-              {filteredWords.map((word) => (
-                <div 
-                  key={word.id} 
-                  className="p-4 hover:bg-surface-container transition-colors"
-                >
-                  <div className="flex items-start justify-between">
-                    <div>
-                      <p className="text-on-surface-variant text-xs mb-1">Ukrainian</p>
-                      <p className="text-on-surface font-bold text-lg">
-                        {word.emoji ? `${word.emoji} ` : ''}{word.ukrainian}
-                      </p>
-                    </div>
-                    <div className="text-right">
-                      <p className="text-on-surface-variant text-xs mb-1">English</p>
-                      <p className="text-on-surface font-bold text-lg">
-                        {word.english}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              ))}
+{filteredWords.map((word) => (
+  <div 
+    key={word.id} 
+    className="p-4 hover:bg-surface-container transition-colors"
+  >
+    <div className="flex items-start justify-between gap-4">
+      <p className="text-on-surface font-bold text-lg flex-1">
+        {word.emoji ? `${word.emoji} ` : ''}{word.ukrainian}
+      </p>
+      <p className="text-on-surface font-bold text-lg flex-1 text-right">
+        {word.english}
+      </p>
+    </div>
+  </div>
+))}
             </div>
           )}
         </div>
