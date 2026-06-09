@@ -30,9 +30,10 @@ function App() {
     setStats({ learned, skipped });
   };
 
-  const handleResetVocabulary = () => {
-    setKey(prev => prev + 1);
-  };
+const handleResetVocabulary = () => {
+  setStats({ learned: 0, skipped: 0 });
+  setKey(prev => prev + 1);
+};
 
   if (isLoading) {
     return (
