@@ -119,6 +119,8 @@ export const useVocabulary = (initialWords: Word[]) => {
     useSkippedWordsMode: false,
   });
 
+  const [isCompleted, setIsCompleted] = useState(savedData.isCompleted);
+
   useEffect(() => {
     setState(prev => {
       if (prev.currentWord === null && prev.availableWords.length > 0) {
@@ -137,8 +139,8 @@ export const useVocabulary = (initialWords: Word[]) => {
 
   // Save to localStorage whenever state changes
   useEffect(() => {
-    saveVocabularyData(state.allWords, state.learnedWords, state.skippedWords, state.availableWords);
-  }, [state.learnedWords, state.skippedWords, state.availableWords, state.allWords]);
+    saveVocabularyData(state.allWords, state.learnedWords, state.skippedWords, state.availableWords, isCompleted);
+  }, [state.learnedWords, state.skippedWords, state.availableWords, state.allWords, isCompleted]);
 
   const checkAnswer = useCallback((answer: string) => {
     setState(prev => {
@@ -152,6 +154,12 @@ export const useVocabulary = (initialWords: Word[]) => {
         let newSkipped = prev.skippedWords.filter(w => w.id !== prev.currentWord!.id);
         
         const nextWord = getNextWord(newAvailable, newSkipped, prev.useSkippedWordsMode);
+
+        // Check if game is over
+        const gameOver = !nextWord && newAvailable.length === 0 && newSkipped.length === 0;
+        if (gameOver) {
+          setIsCompleted(true);
+        }
 
         setTimeout(() => {
           setState(s => ({ ...s, showSuccess: false }));
@@ -220,6 +228,8 @@ export const useVocabulary = (initialWords: Word[]) => {
       useSkippedWordsMode: false,
     });
     
+    setIsCompleted(false);
+    
     setState(prev => {
       const firstWord = getNextWord(
         prev.availableWords,
@@ -262,5 +272,6 @@ export const useVocabulary = (initialWords: Word[]) => {
     closeSkippedModal,
     updateInput,
     getStats,
+    isCompleted,
   };
 };
