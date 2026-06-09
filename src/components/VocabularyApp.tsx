@@ -71,17 +71,18 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
     checkAnswer(state.userInput);
   };
 
-  const isGameOver = 
-    !state.currentWord && 
-    state.availableWords.length === 0 && 
-    state.skippedWords.length === 0;
+const isGameOver = 
+  !state.currentWord && 
+  state.availableWords.length === 0 && 
+  state.skippedWords.length === 0;
 
-  const isAllWordsLearned = 
-    !state.currentWord && 
-    state.availableWords.length === 0;
+const isAllWordsLearned = 
+  !state.currentWord && 
+  state.availableWords.length === 0;
 
-  // Check if this vocabulary was previously completed
-  const wasCompleted = isCompleted && isAllWordsLearned;
+// Check if this vocabulary was previously completed
+// Use isCompleted from hook which is persisted in localStorage
+const wasCompleted = isCompleted;
 
   const canToggleSkippedMode = state.skippedWords.length > 0;
 
