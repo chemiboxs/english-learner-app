@@ -22,19 +22,6 @@ interface VocabularyAppProps {
   resetVocabularyCallback: () => void;
 }
 
-interface VocabularyAppProps {
-  words: Word[];
-  learnedWords: Word[];
-  skippedWords: Word[];
-  onStatsUpdate: (learned: number, skipped: number) => void;
-  onLearnedClick: () => void;
-  onSkippedClick: () => void;
-  showModal: boolean;
-  setShowModal: (show: boolean) => void;
-  modalType: 'learned' | 'skipped';
-  setModalType: (type: 'learned' | 'skipped') => void;
-}
-
 export const VocabularyApp: React.FC<VocabularyAppProps> = ({ 
   words,
   onStatsUpdate,
@@ -71,18 +58,17 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
     checkAnswer(state.userInput);
   };
 
-const isGameOver = 
-  !state.currentWord && 
-  state.availableWords.length === 0 && 
-  state.skippedWords.length === 0;
+  const isGameOver = 
+    !state.currentWord && 
+    state.availableWords.length === 0 && 
+    state.skippedWords.length === 0;
 
-const isAllWordsLearned = 
-  !state.currentWord && 
-  state.availableWords.length === 0;
+  const isAllWordsLearned = 
+    !state.currentWord && 
+    state.availableWords.length === 0;
 
-// Check if this vocabulary was previously completed
-// Use isCompleted from hook which is persisted in localStorage
-const wasCompleted = isCompleted;
+  // If vocabulary is marked as completed, show congratulations
+  const showCongratulations = isCompleted;
 
   const canToggleSkippedMode = state.skippedWords.length > 0;
 
@@ -98,7 +84,7 @@ const wasCompleted = isCompleted;
           <WordCard word={state.currentWord} />
 
           {/* Input and Controls */}
-          {!isGameOver && !wasCompleted && state.currentWord && (
+          {!showCongratulations && state.currentWord && (
             <div className="space-y-2">
               {/* Input Field */}
               <InputField
@@ -143,8 +129,8 @@ const wasCompleted = isCompleted;
             </div>
           )}
 
-          {/* Game Over Message - All words learned (no skipped) */}
-          {wasCompleted && (
+          {/* Congratulations Message */}
+          {showCongratulations && (
             <div className="text-center">
               <p className="text-3xl mb-3">🎉</p>
               <p 
@@ -155,46 +141,15 @@ const wasCompleted = isCompleted;
               </p>
               <p className="text-on-surface-variant text-sm mb-6">
                 You learned all {stats.learned} words!
+                {stats.skipped > 0 && ` (Skipped: ${stats.skipped})`}
               </p>
-<Button
-  onClick={() => {
-    resetVocabulary();
-    resetVocabularyCallback();
-  }}
-  variant="primary"
-  size="md"
->
-  Start Again
-</Button>
-            </div>
-          )}
-
-          {/* Game Over Message - Some words skipped */}
-         {isAllWordsLearned && !isGameOver && (
-            <div className="text-center">
-              <p className="text-3xl mb-3">🎉</p>
-              <p 
-                className="text-xl font-bold text-primary mb-2"
-                style={{ fontFamily: 'Quicksand' }}
+              <Button
+                onClick={handleReset}
+                variant="primary"
+                size="md"
               >
-                You've completed all words!
-              </p>
-              <p className="text-on-surface-variant text-sm mb-2">
-                Learned: {stats.learned} | Skipped: {stats.skipped}
-              </p>
-              <p className="text-on-surface-variant text-xs mb-6">
-                Practice the skipped words or start again
-              </p>
-<Button
-  onClick={() => {
-    resetVocabulary();
-    resetVocabularyCallback();
-  }}
-  variant="primary"
-  size="md"
->
-  Start Again
-</Button>
+                Start Again
+              </Button>
             </div>
           )}
         </div>
