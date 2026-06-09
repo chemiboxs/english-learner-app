@@ -186,14 +186,15 @@ const toggleSkippedWordsMode = useCallback(() => {
     };
   }, [state.learnedWords.length, state.skippedWords.length]);
 
-  return {
-    state,
-    checkAnswer,
-    skipWord,
-    toggleSkippedWordsMode,
-    openSkippedModal,
-    closeSkippedModal,
-    updateInput,
-    getStats,
-  };
+return {
+  state,
+  checkAnswer,
+  skipWord,
+  toggleSkippedWordsMode,
+  resetVocabulary,
+  openSkippedModal,
+  closeSkippedModal,
+  updateInput,
+  getStats,
+};
 };
