@@ -1,4 +1,48 @@
 import { useState, useCallback, useEffect } from 'react';
+const VOCABULARY_DATA_KEY = 'vocabulary_data';
+
+interface SavedVocabularyData {
+  learnedWords: Word[];
+  skippedWords: Word[];
+  availableWords: Word[];
+}
+
+const loadVocabularyData = (allWords: Word[]): SavedVocabularyData => {
+  try {
+    const allData = localStorage.getItem(VOCABULARY_DATA_KEY);
+    if (allData) {
+      const parsedData = JSON.parse(allData);
+      const wordIds = allWords.map(w => w.id);
+      
+      // Filter saved words to only include those in current vocabulary
+      return {
+        learnedWords: (parsedData.learnedWords || []).filter((w: Word) => wordIds.includes(w.id)),
+        skippedWords: (parsedData.skippedWords || []).filter((w: Word) => wordIds.includes(w.id)),
+        availableWords: (parsedData.availableWords || []).filter((w: Word) => wordIds.includes(w.id)),
+      };
+    }
+  } catch (error) {
+    console.error('Error loading vocabulary data from localStorage:', error);
+  }
+  
+  return {
+    learnedWords: [],
+    skippedWords: [],
+    availableWords: shuffleArray(allWords),
+  };
+};
+
+const saveVocabularyData = (learnedWords: Word[], skippedWords: Word[], availableWords: Word[]) => {
+  try {
+    localStorage.setItem(VOCABULARY_DATA_KEY, JSON.stringify({
+      learnedWords,
+      skippedWords,
+      availableWords,
+    }));
+  } catch (error) {
+    console.error('Error saving vocabulary data to localStorage:', error);
+  }
+};
 import { Word, VocabularyState } from '../types/vocabulary';
 
 const shuffleArray = <T,>(array: T[]): T[] => {
