@@ -31,6 +31,12 @@ function App() {
   };
 
 const handleResetVocabulary = () => {
+  // Clear localStorage for current vocabulary
+  const currentWords = getCurrentDictionary();
+  if (currentWords.length > 0) {
+    const key = `vocabulary_data_${currentWords.map(w => w.id).sort().join('|')}`;
+    localStorage.removeItem(key);
+  }
   setStats({ learned: 0, skipped: 0 });
   setKey(prev => prev + 1);
 };
