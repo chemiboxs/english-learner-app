@@ -50,10 +50,14 @@ const {
     checkAnswer(state.userInput);
   };
 
-  const isGameOver = 
-    !state.currentWord && 
-    state.availableWords.length === 0 && 
-    state.skippedWords.length === 0;
+const isGameOver = 
+  !state.currentWord && 
+  state.availableWords.length === 0 && 
+  state.skippedWords.length === 0;
+
+const isAllWordsLearned = 
+  !state.currentWord && 
+  state.availableWords.length === 0;
 
   const canToggleSkippedMode = state.skippedWords.length > 0;
 
@@ -114,8 +118,7 @@ const {
             </div>
           )}
 
-          {/* Game Over Message */}
-{/* Game Over Message */}
+{/* Game Over Message - All words learned (no skipped) */}
 {isGameOver && (
   <div className="text-center">
     <p className="text-3xl mb-3">🎉</p>
@@ -127,6 +130,32 @@ const {
     </p>
     <p className="text-on-surface-variant text-sm mb-6">
       You learned all {stats.learned} words!
+    </p>
+    <Button
+      onClick={resetVocabulary}
+      variant="primary"
+      size="md"
+    >
+      Start Again
+    </Button>
+  </div>
+)}
+
+{/* Game Over Message - Some words skipped */}
+{isAllWordsLearned && !isGameOver && (
+  <div className="text-center">
+    <p className="text-3xl mb-3">🎉</p>
+    <p 
+      className="text-xl font-bold text-primary mb-2"
+      style={{ fontFamily: 'Quicksand' }}
+    >
+      You've completed all words!
+    </p>
+    <p className="text-on-surface-variant text-sm mb-2">
+      Learned: {stats.learned} | Skipped: {stats.skipped}
+    </p>
+    <p className="text-on-surface-variant text-xs mb-6">
+      Practice the skipped words or start again
     </p>
     <Button
       onClick={resetVocabulary}
