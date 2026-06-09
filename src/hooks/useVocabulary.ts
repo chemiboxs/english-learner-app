@@ -100,12 +100,14 @@ const isAnswerCorrect = (answer: string, word: Word): boolean => {
 };
 
 export const useVocabulary = (initialWords: Word[]) => {
+  const savedData = loadVocabularyData(initialWords);
+  
   const [state, setState] = useState<VocabularyState>({
     allWords: initialWords,
     currentWord: null,
-    availableWords: shuffleArray(initialWords),
-    skippedWords: [],
-    learnedWords: [],
+    availableWords: savedData.availableWords.length > 0 ? savedData.availableWords : shuffleArray(initialWords),
+    skippedWords: savedData.skippedWords,
+    learnedWords: savedData.learnedWords,
     userInput: '',
     showSuccess: false,
     showSkippedModal: false,
@@ -127,6 +129,11 @@ export const useVocabulary = (initialWords: Word[]) => {
       return prev;
     });
   }, []);
+
+  // Save to localStorage whenever state changes
+  useEffect(() => {
+    saveVocabularyData(state.learnedWords, state.skippedWords, state.availableWords);
+  }, [state.learnedWords, state.skippedWords, state.availableWords]);
 
   const checkAnswer = useCallback((answer: string) => {
     setState(prev => {
