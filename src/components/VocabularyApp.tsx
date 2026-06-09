@@ -19,6 +19,20 @@ interface VocabularyAppProps {
   setShowModal: (show: boolean) => void;
   modalType: 'learned' | 'skipped';
   setModalType: (type: 'learned' | 'skipped') => void;
+  resetVocabularyCallback: () => void;
+}
+
+interface VocabularyAppProps {
+  words: Word[];
+  learnedWords: Word[];
+  skippedWords: Word[];
+  onStatsUpdate: (learned: number, skipped: number) => void;
+  onLearnedClick: () => void;
+  onSkippedClick: () => void;
+  showModal: boolean;
+  setShowModal: (show: boolean) => void;
+  modalType: 'learned' | 'skipped';
+  setModalType: (type: 'learned' | 'skipped') => void;
 }
 
 export const VocabularyApp: React.FC<VocabularyAppProps> = ({ 
