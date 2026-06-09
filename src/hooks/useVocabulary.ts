@@ -7,10 +7,10 @@ interface SavedVocabularyData {
   learnedWords: Word[];
   skippedWords: Word[];
   availableWords: Word[];
+  isCompleted: boolean;
 }
 
 const getStorageKey = (wordIds: string[]): string => {
-  // Create a unique key based on all word IDs
   const hash = wordIds.sort().join('|');
   return `${VOCABULARY_DATA_KEY_PREFIX}${hash}`;
 };
@@ -23,11 +23,11 @@ const loadVocabularyData = (allWords: Word[]): SavedVocabularyData => {
       const parsedData = JSON.parse(data);
       const wordIds = allWords.map(w => w.id);
       
-      // Filter saved words to only include those in current vocabulary
       return {
         learnedWords: (parsedData.learnedWords || []).filter((w: Word) => wordIds.includes(w.id)),
         skippedWords: (parsedData.skippedWords || []).filter((w: Word) => wordIds.includes(w.id)),
         availableWords: (parsedData.availableWords || []).filter((w: Word) => wordIds.includes(w.id)),
+        isCompleted: parsedData.isCompleted || false,
       };
     }
   } catch (error) {
@@ -38,16 +38,18 @@ const loadVocabularyData = (allWords: Word[]): SavedVocabularyData => {
     learnedWords: [],
     skippedWords: [],
     availableWords: shuffleArray(allWords),
+    isCompleted: false,
   };
 };
 
-const saveVocabularyData = (allWords: Word[], learnedWords: Word[], skippedWords: Word[], availableWords: Word[]) => {
+const saveVocabularyData = (allWords: Word[], learnedWords: Word[], skippedWords: Word[], availableWords: Word[], isCompleted: boolean) => {
   try {
     const key = getStorageKey(allWords.map(w => w.id));
     localStorage.setItem(key, JSON.stringify({
       learnedWords,
       skippedWords,
       availableWords,
+      isCompleted,
     }));
   } catch (error) {
     console.error('Error saving vocabulary data to localStorage:', error);
