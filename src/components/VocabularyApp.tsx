@@ -63,10 +63,32 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
 
   const canToggleSkippedMode = state.skippedWords.length > 0;
 
+  // Generate stars array based on learned words count
+  const stars = Array.from({ length: stats.learned }, (_, i) => i);
+
   return (
     <div className="min-h-screen bg-surface flex flex-col">
       {/* Success Notification - у верхній частині */}
       <SuccessNotification show={state.showSuccess} />
+
+      {/* Stars Display */}
+      {stats.learned > 0 && !showCongratulations && (
+        <div className="bg-surface-container-low px-gutter py-3">
+          <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-2">
+            {stars.map((_, index) => (
+              <span
+                key={index}
+                className="text-2xl animate-in fade-in duration-300"
+                style={{
+                  animationDelay: `${index * 50}ms`,
+                }}
+              >
+                ⭐
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Main Content */}
       <main className="flex-1 max-w-4xl mx-auto w-full px-gutter py-3 flex flex-col justify-center">
