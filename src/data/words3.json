@@ -1,0 +1,52 @@
+[
+  {
+  "id": "1",
+  "ukrainian": "Вчитель",
+  "english": "teacher"
+},
+{
+  "id": "2",
+  "ukrainian": "Качка",
+  "english": "duck"
+},
+{
+  "id": "3",
+  "ukrainian": "Восьминіг",
+  "english": "octopus"
+},
+{
+  "id": "4",
+  "ukrainian": "Будинок",
+  "english": "house"
+},
+{
+  "id": "5",
+  "ukrainian": "Небо",
+  "english": "sky"
+},
+{
+  "id": "6",
+  "ukrainian": "Привіт",
+  "english": "hello"
+},
+{
+  "id": "7",
+  "ukrainian": "Кошеня",
+  "english,": "kitty"
+},
+{
+  "id": "8",
+  "ukrainian": "Коричневий",
+  "english": "brown"
+},
+{
+  "id": "9",
+  "ukrainian": "Сонячно",
+  "english": "sunny"
+},
+{
+  "id": "10",
+  "ukrainian": "Поганий",
+  "english": "bad"
+}
+]
