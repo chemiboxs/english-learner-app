@@ -48,5 +48,53 @@
   "id": "10",
   "ukrainian": "Поганий",
   "english": "bad"
-}
+},
+  {
+  "id": "11",
+  "ukrainian": "Метелик",
+  "english": "butterfly"
+},
+  {
+  "id": "12",
+  "ukrainian": "Собака",
+  "english": "dog"
+},
+    {
+  "id": "13",
+  "ukrainian": "Літати",
+  "english": "fly"
+},
+    {
+  "id": "14",
+  "ukrainian": "Кіт",
+  "english": "cat"
+},
+      {
+  "id": "14",
+  "ukrainian": "Миша",
+  "english": "mouse"
+},
+      {
+  "id": "15",
+  "ukrainian": "Олівець",
+  "english": "pencil"
+},
+        {
+  "id": "16",
+  "ukrainian": "Телефон",
+  "english": "phone"
+},
+          {
+  "id": "17",
+  "ukrainian": "Папір",
+  "english": "paper"
+},
+            {
+  "id": "18",
+  "ukrainian": "Папір",
+  "english": "paper"
+},
+    { "id": "19", "ukrainian": "Кімната", "english": "room", "emoji": "" },
+  { "id": "20", "ukrainian": "Двері", "english": "door", "emoji": "🚪" },
+  { "id": "21", "ukrainian": "Підлога", "english": "floor", "emoji": "" }
 ]
