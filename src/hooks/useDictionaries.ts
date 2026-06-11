@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Word } from '../types/vocabulary';
 
 // Імпортуємо всі словники
-import wordsData from '../data/voc-1.json';
+import wordsData from '../data/words.json';
 
 export interface DictionaryInfo {
   name: string;
