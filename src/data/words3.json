@@ -94,7 +94,129 @@
   "ukrainian": "Дерево",
   "english": "tree"
 },
-    { "id": "19", "ukrainian": "Кімната", "english": "room", "emoji": "" },
+  { "id": "19", "ukrainian": "Кімната", "english": "room", "emoji": "" },
   { "id": "20", "ukrainian": "Двері", "english": "door", "emoji": "🚪" },
-  { "id": "21", "ukrainian": "Підлога", "english": "floor", "emoji": "" }
+  { "id": "21", "ukrainian": "Підлога", "english": "floor", "emoji": "" },
+  { "id": "22", "ukrainian": "Старий", "english": "old", "emoji": "👴" },
+  { "id": "23", "ukrainian": "Молодий", "english": "young", "emoji": "" },
+  { "id": "24", "ukrainian": "Я", "english": "I", "emoji": "" },
+  { "id": "25", "ukrainian": "Ти", "english": "you", "emoji": "" },
+  { "id": "26", "ukrainian": "Він", "english": "he", "emoji": "" },
+  { "id": "27", "ukrainian": "Вона", "english": "she", "emoji": "" },
+  { "id": "28", "ukrainian": "Ми", "english": "we", "emoji": "" },
+  {
+    "id": "29",
+    "ukrainian": "Їсти",
+    "english": "eat",
+    "emoji": "🍽️"
+  },
+  {
+    "id": "30",
+    "ukrainian": "Пити",
+    "english": "drink",
+    "emoji": "🥤"
+  },
+  {
+    "id": "31",
+    "ukrainian": "Бігти",
+    "english": "run",
+    "emoji": ""
+  },
+  {
+    "id": "32",
+    "ukrainian": "Ходити пішки / Гуляти пішки",
+    "english": "walk",
+    "emoji": ""
+  },
+  {
+    "id": "33",
+    "ukrainian": "Стрибати",
+    "english": "jump",
+    "emoji": ""
+  },
+  {
+    "id": "34",
+    "ukrainian": "Плавати",
+    "english": "swim",
+    "emoji": "🏊"
+  },
+  {
+    "id": "35",
+    "ukrainian": "Спати",
+    "english": "sleep",
+    "emoji": "😴"
+  },
+  {
+    "id": "36",
+    "ukrainian": "Читати",
+    "english": "read",
+    "emoji": "📖"
+  },
+  {
+    "id": "37",
+    "ukrainian": "Писати",
+    "english": "write",
+    "emoji": "✍️"
+  },
+  {
+    "id": "38",
+    "ukrainian": "Говорити",
+    "english": "speak",
+    "emoji": "🗣️",
+    "alternatives": ["talk"]
+  },
+  {
+    "id": "39",
+    "ukrainian": "Слухати",
+    "english": "listen",
+    "emoji": "👂"
+  },
+  {
+    "id": "40",
+    "ukrainian": "Дивитися",
+    "english": "watch",
+    "emoji": "👀"
+  },
+  {
+    "id": "41",
+    "ukrainian": "Грати",
+    "english": "play",
+    "emoji": "🎮"
+  },
+  {
+    "id": "42",
+    "ukrainian": "Малювати",
+    "english": "draw",
+    "emoji": "🎨"
+  },
+  {
+    "id": "43",
+    "ukrainian": "Танцювати",
+    "english": "dance",
+    "emoji": ""
+  },
+    {
+    "id": "44",
+    "ukrainian": "Голодний",
+    "english": "hungry",
+    "emoji": ""
+  },
+    {
+    "id": "45",
+    "ukrainian": "Швидкий",
+    "english": "fast",
+    "emoji": ""
+  },
+  {
+    "id": "46",
+    "ukrainian": "Повільний",
+    "english": "slow",
+    "emoji": ""
+  },
+  {
+    "id": "47",
+    "ukrainian": "Новий",
+    "english": "new",
+    "emoji": ""
+  }
 ]
