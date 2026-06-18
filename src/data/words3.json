@@ -226,5 +226,18 @@
 { "id": "217", "ukrainian": "Мова", "english": "language", "emoji": "" },
 { "id": "218", "ukrainian": "Питання", "english": "question", "emoji": "❓" },
 { "id": "219", "ukrainian": "Відповідь", "english": "answer", "emoji": "💬" },
-{ "id": "220", "ukrainian": "Допомога", "english": "help", "emoji": "🆘" }
+{ "id": "220", "ukrainian": "Допомога", "english": "help", "emoji": "🆘" },
+
+  { "id": "221", "ukrainian": "Завжди", "english": "always" },
+  { "id": "222", "ukrainian": "Ніколи", "english": "never" },
+  { "id": "223", "ukrainian": "Могти", "english": "can" },
+  { "id": "224", "ukrainian": "Хотіти", "english": "want" },
+  { "id": "225", "ukrainian": "Потребувати / Потрібно", "english": "need" },
+  { "id": "226", "ukrainian": "Мати (володіти)", "english": "have" },
+  { "id": "227", "ukrainian": "Робити / Створювати", "english": "make" },
+  { "id": "228", "ukrainian": "Йти / Їхати", "english": "go" },
+  { "id": "229", "ukrainian": "Бачити", "english": "see" },
+  { "id": "230", "ukrainian": "Знати", "english": "know" },
+  { "id": "231", "ukrainian": "В / У", "english": "in" },
+  { "id": "232", "ukrainian": "На", "english": "on" }
 ]
