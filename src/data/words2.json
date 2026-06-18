@@ -103,6 +103,39 @@
   { "id": "296", "ukrainian": "День народження", "english": "birthday" },
   { "id": "297", "ukrainian": "Торт", "english": "cake" },
   { "id": "298", "ukrainian": "Свічка", "english": "candle" },
-  { "id": "299", "ukrainian": "Фото", "english": "photo", "alternatives": ["picture"] }
+  { "id": "299", "ukrainian": "Фото", "english": "photo", "alternatives": ["picture"] },
   
+  { "id": "300", "ukrainian": "Довгий", "english": "long" },
+  { "id": "301", "ukrainian": "Короткий", "english": "short" },
+  { "id": "302", "ukrainian": "Важкий", "english": "heavy" },
+  { "id": "303", "ukrainian": "Легкий", "english": "light" },
+  { "id": "304", "ukrainian": "Правий", "english": "right" },
+  { "id": "305", "ukrainian": "Лівий", "english": "left" },
+  { "id": "306", "ukrainian": "Верх", "english": "top" },
+  { "id": "307", "ukrainian": "Низ", "english": "bottom" },
+  { "id": "308", "ukrainian": "Всередині", "english": "inside" },
+  { "id": "309", "ukrainian": "Зовні", "english": "outside" },
+  { "id": "310", "ukrainian": "Поруч", "english": "near" },
+
+  { "id": "311", "ukrainian": "Сьогодні", "english": "today" },
+  { "id": "312", "ukrainian": "Вчора", "english": "yesterday" },
+  { "id": "313", "ukrainian": "Завтра", "english": "tomorrow" },
+  { "id": "314", "ukrainian": "Зараз", "english": "now" },
+  { "id": "315", "ukrainian": "Рано", "english": "early" },
+  { "id": "316", "ukrainian": "Пізно", "english": "late" },
+  { "id": "317", "ukrainian": "Іноді", "english": "sometimes" },
+
+  { "id": "318", "ukrainian": "Купувати", "english": "buy" },
+  { "id": "319", "ukrainian": "Продавати", "english": "sell" },
+  { "id": "320", "ukrainian": "Будувати", "english": "build" },
+  { "id": "321", "ukrainian": "Шукати", "english": "search" },
+  { "id": "322", "ukrainian": "Знаходити", "english": "find" },
+  { "id": "323", "ukrainian": "Посміхатися", "english": "smile" },
+
+  { "id": "324", "ukrainian": "Дзеркало", "english": "mirror" },
+  { "id": "325", "ukrainian": "Коробка", "english": "box" },
+  { "id": "326", "ukrainian": "Ключ", "english": "key" },
+  { "id": "327", "ukrainian": "Карта", "english": "map" },
+  { "id": "328", "ukrainian": "Міст", "english": "bridge" }
+
 ]
