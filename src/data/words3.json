@@ -5,7 +5,7 @@
   { "id": "4", "ukrainian": "Будинок", "english": "house" },
   { "id": "5", "ukrainian": "Небо", "english": "sky" },
   { "id": "6", "ukrainian": "Привіт", "english": "hello" },
-  { "id": "7", "ukrainian": "Кошеня", "english": "kitten", "alternatives": ["kitty"] },
+  { "id": "7", "ukrainian": "Кошеня", "english": "kitten" },
   { "id": "8", "ukrainian": "Коричневий", "english": "brown" },
   { "id": "9", "ukrainian": "Сонячно", "english": "sunny" },
   { "id": "10", "ukrainian": "Поганий", "english": "bad" },
@@ -143,7 +143,7 @@
   { "id": "137", "ukrainian": "Зуби", "english": "teeth", "emoji": "🦷🦷🦷" },
   { "id": "138", "ukrainian": "Волосся", "english": "hair", "emoji": "💇" },
   { "id": "139", "ukrainian": "Губи", "english": "lips", "emoji": "💋" },
-  { "id": "140", "ukrainian": "Брови", "english": "eyebrows", "emoji": "", "alternatives": ["brows"] },
+  { "id": "140", "ukrainian": "Брови", "english": "eyebrows", "emoji": "" },
 
   { "id": "141", "ukrainian": "Немовля", "english": "baby", "emoji": "" },
   { "id": "142", "ukrainian": "Дочка", "english": "daughter", "emoji": "" },
