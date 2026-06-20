@@ -114,5 +114,7 @@
   { "id": "503", "ukrainian": "Нічого", "english": "nothing" },
   { "id": "504", "ukrainian": "Так", "english": "yes" },
   { "id": "505", "ukrainian": "Ні", "english": "no" },
-  { "id": "506", "ukrainian": "Дорогий", "english": "expensive" }
+  { "id": "506", "ukrainian": "Дорогий", "english": "expensive" },
+  { "id": "507", "ukrainian": "Здоров'я", "english": "health" }
+
 ]
