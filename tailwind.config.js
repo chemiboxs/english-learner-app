@@ -34,7 +34,7 @@ export default {
         'on-secondary': '#ffffff',
         'secondary-container': '#fdd0ea',
         'on-secondary-container': '#79576c',
-        'secondary-fixed': '#ffd8ed',
+        'secondary-fixed': '#e8ddff',
         'secondary-fixed-dim': '#e5bad3',
         'on-secondary-fixed': '#2c1325',
         'on-secondary-fixed-variant': '#5c3d51',
