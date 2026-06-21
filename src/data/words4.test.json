@@ -3,14 +3,12 @@
   "id": "1",
   "ukrainian": "Кіт",
   "english": "cat",
-  "emoji": "🐱",
   "alternatives": ["kitten", "tom"]
 },
 {
   "id": "2",
   "ukrainian": "Пес",
   "english": "dog",
-  "emoji": "",
   "alternatives": ["pooch", "doggo", "doggy"]
 }
 ]
