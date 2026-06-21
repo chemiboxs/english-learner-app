@@ -904,111 +904,893 @@
     ]
   },
 
-
-  { "id": "101", "ukrainian": "Риба", "english": "fish", "emoji": "🐟" },
-  { "id": "102", "ukrainian": "Щасливий", "english": "happy", "emoji": "" },
-  { "id": "103", "ukrainian": "Сумний", "english": "sad", "emoji": "" },
-  { "id": "104", "ukrainian": "Брудний", "english": "dirty", "emoji": "" },
-  { "id": "105", "ukrainian": "Чистий", "english": "clean", "emoji": "" },
-  { "id": "106", "ukrainian": "Смішний", "english": "funny", "emoji": "" },
-  { "id": "107", "ukrainian": "Серйозний", "english": "serious", "emoji": "" },
-
-  { "id": "108", "ukrainian": "І (та, також)", "english": "and", "emoji": "" },
-  { "id": "109", "ukrainian": "Але", "english": "but", "emoji": "" },
-  { "id": "110", "ukrainian": "Або", "english": "or", "emoji": "" },
-
-  { "id": "111", "ukrainian": "Кажан", "english": "bat", "emoji": "🦇" },
-  { "id": "112", "ukrainian": "Щур", "english": "rat", "emoji": "🐀" },
-  { "id": "113", "ukrainian": "Цуценя", "english": "puppy", "emoji": "🐶" },
-  { "id": "114", "ukrainian": "Тигр", "english": "tiger", "emoji": "🐯" },
-  { "id": "115", "ukrainian": "Лев", "english": "lion", "emoji": "🦁" },
-  { "id": "116", "ukrainian": "Крокодил", "english": "crocodile", "emoji": "🐊" },
-  { "id": "117", "ukrainian": "Мавпа", "english": "monkey", "emoji": "🐵" },
-
-  { "id": "118", "ukrainian": "Ручка", "english": "pen", "emoji": "🖊️" },
-  { "id": "119", "ukrainian": "Лампа", "english": "lamp", "emoji": "" },
-  { "id": "120", "ukrainian": "Годинник", "english": "clock", "emoji": "🕒" },
-  { "id": "121", "ukrainian": "Годинник (наручний)", "english": "watch", "emoji": "⌚" },
-  { "id": "122", "ukrainian": "Стіл", "english": "table", "emoji": "" },
-  { "id": "123", "ukrainian": "Стілець", "english": "chair", "emoji": "🪑" },
-  { "id": "124", "ukrainian": "Крісло", "english": "armchair", "emoji": "" },
-  { "id": "125", "ukrainian": "Ліжко", "english": "bed", "emoji": "🛏️" },
-
-  { "id": "126", "ukrainian": "Сонце", "english": "sun", "emoji": "☀️" },
-  { "id": "127", "ukrainian": "Парасолька", "english": "umbrella", "emoji": "☂️" },
-  { "id": "128", "ukrainian": "Хмарно", "english": "cloudy", "emoji": "☁️" },
-  { "id": "129", "ukrainian": "Сніжно", "english": "snowy", "emoji": "❄️" },
-  { "id": "130", "ukrainian": "Дощ", "english": "rain", "emoji": "🌧️" },
-
-  { "id": "131", "ukrainian": "Обличчя", "english": "face", "emoji": "" },
-  { "id": "132", "ukrainian": "Очі", "english": "eyes", "emoji": "👀" },
-  { "id": "133", "ukrainian": "Рот", "english": "mouth", "emoji": "" },
-  { "id": "134", "ukrainian": "Ніс", "english": "nose", "emoji": "👃" },
-  { "id": "135", "ukrainian": "Вуха", "english": "ears", "emoji": "" },
-  { "id": "136", "ukrainian": "Зуб", "english": "tooth", "emoji": "🦷" },
-  { "id": "137", "ukrainian": "Зуби", "english": "teeth", "emoji": "🦷🦷🦷" },
-  { "id": "138", "ukrainian": "Волосся", "english": "hair", "emoji": "💇" },
-  { "id": "139", "ukrainian": "Губи", "english": "lips", "emoji": "💋" },
-  { "id": "140", "ukrainian": "Брови", "english": "eyebrows", "emoji": "" },
-
-  { "id": "141", "ukrainian": "Немовля", "english": "baby", "emoji": "" },
-  { "id": "142", "ukrainian": "Дочка", "english": "daughter", "emoji": "" },
-
-  { "id": "143", "ukrainian": "Музика", "english": "music", "emoji": "🎵" },
-  { "id": "144", "ukrainian": "Пісня", "english": "song", "emoji": "" },
-  { "id": "145", "ukrainian": "Співати", "english": "sing", "emoji": "" },
-
-  { "id": "146", "ukrainian": "Майданчик", "english": "playground", "emoji": "🛝" },
-  { "id": "147", "ukrainian": "Червоний", "english": "red", "emoji": "🔴" },
-  { "id": "148", "ukrainian": "Гроші", "english": "money", "emoji": "💰" },
-  { "id": "149", "ukrainian": "Корова", "english": "cow", "emoji": "🐮" },
-  { "id": "150", "ukrainian": "Кінь", "english": "horse", "emoji": "🐴" },
-  { "id": "151", "ukrainian": "Кролик", "english": "rabbit", "emoji": "🐰", "alternatives": ["bunny"] },
-  { "id": "152", "ukrainian": "Хом'як", "english": "hamster", "emoji": "🐹" },
-  { "id": "153", "ukrainian": "Птах", "english": "bird", "emoji": "🐦" },
-  { "id": "154", "ukrainian": "Слон", "english": "elephant", "emoji": "🐘" },
-  { "id": "155", "ukrainian": "Ведмідь", "english": "bear", "emoji": "🐻" },
-  { "id": "156", "ukrainian": "Вовк", "english": "wolf", "emoji": "🐺" },
-  { "id": "157", "ukrainian": "Лисиця", "english": "fox", "emoji": "🦊" },
-  { "id": "158", "ukrainian": "Черепаха", "english": "turtle", "emoji": "🐢" },
-  { "id": "159", "ukrainian": "Змія", "english": "snake", "emoji": "🐍" },
-  { "id": "160", "ukrainian": "Банан", "english": "banana", "emoji": "🍌" },
-  { "id": "161", "ukrainian": "Апельсин", "english": "orange", "emoji": "🍊" },
-  { "id": "162", "ukrainian": "Морква", "english": "carrot", "emoji": "🥕" },
-  { "id": "163", "ukrainian": "Картопля", "english": "potato", "emoji": "🥔" },
-  { "id": "164", "ukrainian": "Огірок", "english": "cucumber", "emoji": "🥒" },
-  { "id": "165", "ukrainian": "Помідор", "english": "tomato", "emoji": "🍅" },
-  { "id": "166", "ukrainian": "Цибуля", "english": "onion", "emoji": "🧅" },
-  { "id": "167", "ukrainian": "Полуниця", "english": "strawberry", "emoji": "🍓" },
-  { "id": "168", "ukrainian": "Виноград", "english": "grape", "emoji": "🍇" },
-  { "id": "169", "ukrainian": "Лимон", "english": "lemon", "emoji": "🍋" },
-  { "id": "170", "ukrainian": "Молоко", "english": "milk", "emoji": "🥛" },
-  { "id": "171", "ukrainian": "Яйце", "english": "egg", "emoji": "🥚" },
-  { "id": "172", "ukrainian": "Хліб", "english": "bread", "emoji": "🍞" },
-  { "id": "173", "ukrainian": "Сир", "english": "cheese", "emoji": "🧀" },
-  { "id": "174", "ukrainian": "Чай", "english": "tea", "emoji": "" },
-  { "id": "175", "ukrainian": "Сік", "english": "juice", "emoji": "🧃" },
-  { "id": "176", "ukrainian": "Кухня", "english": "kitchen", "emoji": "" },
-  { "id": "177", "ukrainian": "Ванна кімната", "english": "bathroom", "emoji": "🛁" },
-  { "id": "178", "ukrainian": "Спальня", "english": "bedroom", "emoji": "" },
-  { "id": "179", "ukrainian": "Вікно", "english": "window", "emoji": "🪟" },
-  { "id": "180", "ukrainian": "Комп'ютер", "english": "computer", "emoji": "" },
-  { "id": "181", "ukrainian": "Ноутбук", "english": "laptop", "emoji": "💻" },
-  { "id": "182", "ukrainian": "Рюкзак", "english": "backpack", "emoji": "🎒" },
-  { "id": "183", "ukrainian": "Учень", "english": "student", "emoji": "" },
-  { "id": "184", "ukrainian": "Математика", "english": "math", "emoji": "", "alternatives": ["mathematics", "maths"] },
-  { "id": "185", "ukrainian": "Наука", "english": "science", "emoji": "" },
-  { "id": "186", "ukrainian": "Мед", "english": "honey", "emoji": "" },
-  { "id": "187", "ukrainian": "Мама", "english": "mother", "emoji": "", "alternatives": ["mom", "mum"] },
-  { "id": "188", "ukrainian": "Тато", "english": "father", "emoji": "", "alternatives": ["dad"] },
-  { "id": "189", "ukrainian": "Місто", "english": "city", "emoji": "" },
-  { "id": "190", "ukrainian": "Парк", "english": "park", "emoji": "" },
-  { "id": "191", "ukrainian": "Лікар", "english": "doctor", "emoji": "" },
-  { "id": "192", "ukrainian": "Лікарня", "english": "hospital", "emoji": "🏥" },
-  { "id": "193", "ukrainian": "Магазин", "english": "shop", "emoji": "", "alternatives": ["store"] },
-  { "id": "194", "ukrainian": "Автобус", "english": "bus", "emoji": "🚌" },
-  { "id": "195", "ukrainian": "Машина", "english": "car", "emoji": "🚗" },
-  { "id": "196", "ukrainian": "Велосипед", "english": "bicycle", "emoji": "🚲", "alternatives": ["bike"] },
-  { "id": "197", "ukrainian": "Потяг", "english": "train", "emoji": "🚆" },
-  { "id": "198", "ukrainian": "Літак", "english": "plane", "emoji": "✈️", "alternatives": ["aeroplane", "airplane"] }
-  ]
+  {
+    "id": "101",
+    "ukrainian": "Риба",
+    "english": "fish",
+    "phrases": [
+      "The fish is swimming in the river very fast.",
+      "I saw a big fish in the aquarium at the zoo."
+    ]
+  },
+  {
+    "id": "102",
+    "ukrainian": "Щасливий",
+    "english": "happy",
+    "phrases": [
+      "I feel happy when I play with my friends after school.",
+      "She is happy because she got a new toy today."
+    ]
+  },
+  {
+    "id": "103",
+    "ukrainian": "Сумний",
+    "english": "sad",
+    "phrases": [
+      "He is sad because he lost his favorite book at school.",
+      "I feel sad when my friends are not at school."
+    ]
+  },
+  {
+    "id": "104",
+    "ukrainian": "Брудний",
+    "english": "dirty",
+    "phrases": [
+      "My shoes are dirty after playing football in the park.",
+      "The table is dirty after we had lunch."
+    ]
+  },
+  {
+    "id": "105",
+    "ukrainian": "Чистий",
+    "english": "clean",
+    "phrases": [
+      "My room is clean because I tidied it this morning.",
+      "I like to keep my hands clean before eating."
+    ]
+  },
+  {
+    "id": "106",
+    "ukrainian": "Смішний",
+    "english": "funny",
+    "phrases": [
+      "That movie was very funny and made me laugh a lot.",
+      "My friend tells a funny story at school."
+    ]
+  },
+  {
+    "id": "107",
+    "ukrainian": "Серйозний",
+    "english": "serious",
+    "phrases": [
+      "The teacher looked serious during the test.",
+      "He is serious when he talks about his homework."
+    ]
+  },
+  {
+    "id": "108",
+    "ukrainian": "І (та, також)",
+    "english": "and",
+    "phrases": [
+      "I like apples and bananas for breakfast.",
+      "My brother and I go to school together."
+    ]
+  },
+  {
+    "id": "109",
+    "ukrainian": "Але",
+    "english": "but",
+    "phrases": [
+      "I want to play outside, but it is raining.",
+      "She is tired, but she still finishes her homework."
+    ]
+  },
+  {
+    "id": "110",
+    "ukrainian": "Або",
+    "english": "or",
+    "phrases": [
+      "Do you want tea or juice for breakfast?",
+      "We can play football or basketball after school."
+    ]
+  },
+  {
+    "id": "111",
+    "ukrainian": "Кажан",
+    "english": "bat",
+    "phrases": [
+      "The bat flies out of the cave at night.",
+      "I saw a bat in a nature documentary on TV."
+    ]
+  },
+  {
+    "id": "112",
+    "ukrainian": "Щур",
+    "english": "rat",
+    "phrases": [
+      "A rat ran quickly across the street at night.",
+      "The rat was looking for food near the wall."
+    ]
+  },
+  {
+    "id": "113",
+    "ukrainian": "Цуценя",
+    "english": "puppy",
+    "phrases": [
+      "The puppy is playing with a small ball in the garden.",
+      "I saw a cute puppy in the pet shop window."
+    ]
+  },
+  {
+    "id": "114",
+    "ukrainian": "Тигр",
+    "english": "tiger",
+    "phrases": [
+      "The tiger is walking slowly in the zoo.",
+      "I watched a video where a tiger hunts in the forest."
+    ]
+  },
+  {
+    "id": "115",
+    "ukrainian": "Лев",
+    "english": "lion",
+    "phrases": [
+      "The lion is called the king of the jungle.",
+      "I saw a lion sleeping under a tree at the zoo."
+    ]
+  },
+  {
+    "id": "116",
+    "ukrainian": "Крокодил",
+    "english": "crocodile",
+    "phrases": [
+      "The crocodile is lying near the river bank.",
+      "I saw a crocodile with big teeth in a nature show."
+    ]
+  },
+  {
+    "id": "117",
+    "ukrainian": "Мавпа",
+    "english": "monkey",
+    "phrases": [
+      "The monkey is jumping from tree to tree in the forest.",
+      "I saw a monkey eating bananas at the zoo."
+    ]
+  },
+  {
+    "id": "118",
+    "ukrainian": "Ручка",
+    "english": "pen",
+    "phrases": [
+      "I write my homework with a blue pen every day.",
+      "Can I borrow your pen for a moment in class?"
+    ]
+  },
+  {
+    "id": "119",
+    "ukrainian": "Лампа",
+    "english": "lamp",
+    "phrases": [
+      "The lamp on my desk gives me light when I study.",
+      "We turned on the lamp because it was dark in the room."
+    ]
+  },
+  {
+    "id": "120",
+    "ukrainian": "Годинник",
+    "english": "clock",
+    "phrases": [
+      "The clock on the wall shows that it is already eight o’clock.",
+      "I always check the clock before I leave for school."
+    ]
+  },
+  {
+    "id": "121",
+    "ukrainian": "Годинник (наручний)",
+    "english": "watch",
+    "phrases": [
+      "My watch helps me know the time during school.",
+      "He looked at his watch because the bus was late."
+    ]
+  },
+  {
+    "id": "122",
+    "ukrainian": "Стіл",
+    "english": "table",
+    "phrases": [
+      "We eat dinner together at the table every evening.",
+      "My books are on the table in my room."
+    ]
+  },
+  {
+    "id": "123",
+    "ukrainian": "Стілець",
+    "english": "chair",
+    "phrases": [
+      "I sit on the chair when I do my homework.",
+      "Please move the chair closer to the table."
+    ]
+  },
+  {
+    "id": "124",
+    "ukrainian": "Крісло",
+    "english": "armchair",
+    "phrases": [
+      "My grandfather likes to read books in his armchair.",
+      "I sat in the armchair and watched TV with my family."
+    ]
+  },
+  {
+    "id": "125",
+    "ukrainian": "Ліжко",
+    "english": "bed",
+    "phrases": [
+      "I go to bed at nine o’clock every night.",
+      "My bed is very comfortable and warm."
+    ]
+  },
+  {
+    "id": "126",
+    "ukrainian": "Сонце",
+    "english": "sun",
+    "phrases": [
+      "The sun is shining brightly in the sky today.",
+      "I like to play outside when the sun is warm."
+    ]
+  },
+  {
+    "id": "127",
+    "ukrainian": "Парасолька",
+    "english": "umbrella",
+    "phrases": [
+      "I take an umbrella when it rains outside.",
+      "She opened her umbrella because the rain started suddenly."
+    ]
+  },
+  {
+    "id": "128",
+    "ukrainian": "Хмарно",
+    "english": "cloudy",
+    "phrases": [
+      "It is cloudy today, so we might not see the sun.",
+      "The sky looks cloudy before the rain starts."
+    ]
+  },
+  {
+    "id": "129",
+    "ukrainian": "Сніжно",
+    "english": "snowy",
+    "phrases": [
+      "It is snowy outside and everything is white.",
+      "We stayed at home because the weather was snowy."
+    ]
+  },
+  {
+    "id": "130",
+    "ukrainian": "Дощ",
+    "english": "rain",
+    "phrases": [
+      "The rain is falling heavily on the roof.",
+      "I like to stay inside when it rains outside."
+    ]
+  },
+  {
+    "id": "131",
+    "ukrainian": "Обличчя",
+    "english": "face",
+    "phrases": [
+      "I wash my face every morning and evening.",
+      "Her face looks happy when she smiles."
+    ]
+  },
+  {
+    "id": "132",
+    "ukrainian": "Очі",
+    "english": "eyes",
+    "phrases": [
+      "My eyes are tired after reading a long book.",
+      "She has beautiful eyes and a kind smile."
+    ]
+  },
+  {
+    "id": "133",
+    "ukrainian": "Рот",
+    "english": "mouth",
+    "phrases": [
+      "I open my mouth when I eat an apple.",
+      "He covered his mouth when he laughed loudly."
+    ]
+  },
+  {
+    "id": "134",
+    "ukrainian": "Ніс",
+    "english": "nose",
+    "phrases": [
+      "My nose is cold because it is winter.",
+      "The dog touched my nose with its small nose."
+    ]
+  },
+  {
+    "id": "135",
+    "ukrainian": "Вуха",
+    "english": "ears",
+    "phrases": [
+      "My ears hear music from the next room.",
+      "She covered her ears because the noise was loud."
+    ]
+  },
+  {
+    "id": "136",
+    "ukrainian": "Зуб",
+    "english": "tooth",
+    "phrases": [
+      "I have a loose tooth and it will fall out soon.",
+      "He went to the dentist because his tooth hurt."
+    ]
+  },
+  {
+    "id": "137",
+    "ukrainian": "Зуби",
+    "english": "teeth",
+    "phrases": [
+      "I brush my teeth every morning and every night.",
+      "My teeth are clean after I visit the dentist."
+    ]
+  },
+  {
+    "id": "138",
+    "ukrainian": "Волосся",
+    "english": "hair",
+    "phrases": [
+      "She brushes her hair every morning before school.",
+      "My hair is wet after I take a shower."
+    ]
+  },
+  {
+    "id": "139",
+    "ukrainian": "Губи",
+    "english": "lips",
+    "phrases": [
+      "My lips are dry in cold weather.",
+      "She smiled and her lips looked very soft."
+    ]
+  },
+  {
+    "id": "140",
+    "ukrainian": "Брови",
+    "english": "eyebrows",
+    "phrases": [
+      "He raised his eyebrows when he was surprised.",
+      "Her eyebrows move when she is thinking."
+    ]
+  },
+  {
+    "id": "141",
+    "ukrainian": "Немовля",
+    "english": "baby",
+    "phrases": [
+      "The baby is sleeping quietly in the room.",
+      "I saw a baby laughing in the park today."
+    ]
+  },
+  {
+    "id": "142",
+    "ukrainian": "Дочка",
+    "english": "daughter",
+    "phrases": [
+      "Their daughter goes to school with me.",
+      "She is their only daughter in the family."
+    ]
+  },
+  {
+    "id": "143",
+    "ukrainian": "Музика",
+    "english": "music",
+    "phrases": [
+      "I listen to music when I do my homework.",
+      "Music makes me feel happy and relaxed."
+    ]
+  },
+  {
+    "id": "144",
+    "ukrainian": "Пісня",
+    "english": "song",
+    "phrases": [
+      "This song is my favorite and I sing it every day.",
+      "We learned a new song in music class."
+    ]
+  },
+  {
+    "id": "145",
+    "ukrainian": "Співати",
+    "english": "sing",
+    "phrases": [
+      "I like to sing songs in the shower.",
+      "She can sing very well in the school concert."
+    ]
+  },
+  {
+    "id": "146",
+    "ukrainian": "Майданчик",
+    "english": "playground",
+    "phrases": [
+      "We play football at the playground after school.",
+      "The playground is full of children every afternoon."
+    ]
+  },
+  {
+    "id": "147",
+    "ukrainian": "Червоний",
+    "english": "red",
+    "phrases": [
+      "I have a red backpack for school.",
+      "The red apple is on the table."
+    ]
+  },
+  {
+    "id": "148",
+    "ukrainian": "Гроші",
+    "english": "money",
+    "phrases": [
+      "I save my money to buy a new toy.",
+      "He used his money to buy a gift for his mom."
+    ]
+  },
+  {
+    "id": "149",
+    "ukrainian": "Корова",
+    "english": "cow",
+    "phrases": [
+      "The cow is eating grass in the field.",
+      "I saw a cow on a farm during our trip."
+    ]
+  },
+  {
+    "id": "150",
+    "ukrainian": "Кінь",
+    "english": "horse",
+    "phrases": [
+      "The horse runs very fast in the field.",
+      "I saw a horse at the farm and it looked strong."
+    ]
+  },
+  {
+    "id": "151",
+    "ukrainian": "Кролик",
+    "english": "rabbit",
+    "alternatives": ["bunny"],
+    "phrases": [
+      "The rabbit is eating carrots in the garden.",
+      "I saw a small rabbit running across the field near my house."
+    ]
+  },
+  {
+    "id": "152",
+    "ukrainian": "Хом'як",
+    "english": "hamster",
+    "phrases": [
+      "My hamster sleeps during the day and plays at night.",
+      "I clean the hamster’s cage every weekend."
+    ]
+  },
+  {
+    "id": "153",
+    "ukrainian": "Птах",
+    "english": "bird",
+    "phrases": [
+      "The bird is singing in the tree outside my window.",
+      "I saw a bird flying over the park this morning."
+    ]
+  },
+  {
+    "id": "154",
+    "ukrainian": "Слон",
+    "english": "elephant",
+    "phrases": [
+      "The elephant is very big and walks slowly in the zoo.",
+      "I watched a documentary where an elephant drinks water from a river."
+    ]
+  },
+  {
+    "id": "155",
+    "ukrainian": "Ведмідь",
+    "english": "bear",
+    "phrases": [
+      "The bear is sleeping in a cave during winter.",
+      "I saw a bear walking in a forest on TV."
+    ]
+  },
+  {
+    "id": "156",
+    "ukrainian": "Вовк",
+    "english": "wolf",
+    "phrases": [
+      "The wolf runs fast in the snowy forest.",
+      "I read a story about a wolf and a little rabbit."
+    ]
+  },
+  {
+    "id": "157",
+    "ukrainian": "Лисиця",
+    "english": "fox",
+    "phrases": [
+      "The fox has a long bushy tail and orange fur.",
+      "I saw a fox near the forest at sunset."
+    ]
+  },
+  {
+    "id": "158",
+    "ukrainian": "Черепаха",
+    "english": "turtle",
+    "phrases": [
+      "The turtle moves very slowly across the sand.",
+      "I saw a turtle swimming in a small pond."
+    ]
+  },
+  {
+    "id": "159",
+    "ukrainian": "Змія",
+    "english": "snake",
+    "phrases": [
+      "The snake is sliding through the grass quietly.",
+      "I saw a snake in a nature video about the forest."
+    ]
+  },
+  {
+    "id": "160",
+    "ukrainian": "Банан",
+    "english": "banana",
+    "phrases": [
+      "I eat a banana every morning for breakfast.",
+      "The banana is yellow and very sweet."
+    ]
+  },
+  {
+    "id": "161",
+    "ukrainian": "Апельсин",
+    "english": "orange",
+    "phrases": [
+      "I like to drink orange juice in the morning.",
+      "The orange is juicy and full of vitamin C."
+    ]
+  },
+  {
+    "id": "162",
+    "ukrainian": "Морква",
+    "english": "carrot",
+    "phrases": [
+      "The rabbit is eating a fresh carrot in the garden.",
+      "I add carrot to my soup for dinner."
+    ]
+  },
+  {
+    "id": "163",
+    "ukrainian": "Картопля",
+    "english": "potato",
+    "phrases": [
+      "We cooked potatoes for dinner last night.",
+      "I like baked potato with a little salt."
+    ]
+  },
+  {
+    "id": "164",
+    "ukrainian": "Огірок",
+    "english": "cucumber",
+    "phrases": [
+      "I eat cucumber in my salad every day.",
+      "The cucumber is fresh and crunchy."
+    ]
+  },
+  {
+    "id": "165",
+    "ukrainian": "Помідор",
+    "english": "tomato",
+    "phrases": [
+      "I put a tomato in my sandwich for lunch.",
+      "The tomato is red and very juicy."
+    ]
+  },
+  {
+    "id": "166",
+    "ukrainian": "Цибуля",
+    "english": "onion",
+    "phrases": [
+      "My eyes start to water when I cut an onion.",
+      "We added onion to the soup for more taste."
+    ]
+  },
+  {
+    "id": "167",
+    "ukrainian": "Полуниця",
+    "english": "strawberry",
+    "phrases": [
+      "I love eating strawberry ice cream in summer.",
+      "The strawberry is sweet and red."
+    ]
+  },
+  {
+    "id": "168",
+    "ukrainian": "Виноград",
+    "english": "grape",
+    "phrases": [
+      "I eat grapes as a healthy snack after school.",
+      "The grapes are small and very sweet."
+    ]
+  },
+  {
+    "id": "169",
+    "ukrainian": "Лимон",
+    "english": "lemon",
+    "phrases": [
+      "I add lemon to my tea in the evening.",
+      "The lemon is very sour but healthy."
+    ]
+  },
+  {
+    "id": "170",
+    "ukrainian": "Молоко",
+    "english": "milk",
+    "phrases": [
+      "I drink milk every morning with my breakfast.",
+      "The milk is cold and fresh from the fridge."
+    ]
+  },
+  {
+    "id": "171",
+    "ukrainian": "Яйце",
+    "english": "egg",
+    "phrases": [
+      "I eat a boiled egg for breakfast every day.",
+      "The egg is white on the outside and yellow inside."
+    ]
+  },
+  {
+    "id": "172",
+    "ukrainian": "Хліб",
+    "english": "bread",
+    "phrases": [
+      "I eat bread with butter in the morning.",
+      "The bread is fresh and warm from the bakery."
+    ]
+  },
+  {
+    "id": "173",
+    "ukrainian": "Сир",
+    "english": "cheese",
+    "phrases": [
+      "I like cheese on my sandwich at lunch.",
+      "The cheese has a strong and salty taste."
+    ]
+  },
+  {
+    "id": "174",
+    "ukrainian": "Чай",
+    "english": "tea",
+    "phrases": [
+      "I drink tea with honey when I am cold.",
+      "My grandmother makes delicious tea every evening."
+    ]
+  },
+  {
+    "id": "175",
+    "ukrainian": "Сік",
+    "english": "juice",
+    "phrases": [
+      "I drink orange juice in the morning for breakfast.",
+      "The juice is sweet and very refreshing."
+    ]
+  },
+  {
+    "id": "176",
+    "ukrainian": "Кухня",
+    "english": "kitchen",
+    "phrases": [
+      "My mom is cooking dinner in the kitchen.",
+      "We eat breakfast in the kitchen every morning."
+    ]
+  },
+  {
+    "id": "177",
+    "ukrainian": "Ванна кімната",
+    "english": "bathroom",
+    "phrases": [
+      "I brush my teeth in the bathroom every morning.",
+      "The bathroom is clean and bright."
+    ]
+  },
+  {
+    "id": "178",
+    "ukrainian": "Спальня",
+    "english": "bedroom",
+    "phrases": [
+      "My bedroom is small but very cozy.",
+      "I do my homework in my bedroom after school."
+    ]
+  },
+  {
+    "id": "179",
+    "ukrainian": "Вікно",
+    "english": "window",
+    "phrases": [
+      "I look out of the window in the morning.",
+      "The cat is sitting near the window and watching outside."
+    ]
+  },
+  {
+    "id": "180",
+    "ukrainian": "Комп'ютер",
+    "english": "computer",
+    "phrases": [
+      "I use the computer to do my school project.",
+      "The computer is on the desk in my room."
+    ]
+  },
+  {
+    "id": "181",
+    "ukrainian": "Ноутбук",
+    "english": "laptop",
+    "phrases": [
+      "I use my laptop for online classes at home.",
+      "The laptop is on the table and it is turned on."
+    ]
+  },
+  {
+    "id": "182",
+    "ukrainian": "Рюкзак",
+    "english": "backpack",
+    "phrases": [
+      "My backpack is heavy because of all my books.",
+      "I put my lunch and notebook in my backpack."
+    ]
+  },
+  {
+    "id": "183",
+    "ukrainian": "Учень",
+    "english": "student",
+    "phrases": [
+      "The student is reading a book in the classroom.",
+      "I am a student at a small school in my city."
+    ]
+  },
+  {
+    "id": "184",
+    "ukrainian": "Математика",
+    "english": "math",
+    "alternatives": ["mathematics", "maths"],
+    "phrases": [
+      "I have math class every Monday morning at school.",
+      "Math is sometimes difficult but very interesting."
+    ]
+  },
+  {
+    "id": "185",
+    "ukrainian": "Наука",
+    "english": "science",
+    "phrases": [
+      "We learn about plants and animals in science class.",
+      "Science experiments are fun and interesting at school."
+    ]
+  },
+  {
+    "id": "186",
+    "ukrainian": "Мед",
+    "english": "honey",
+    "phrases": [
+      "I add honey to my tea when I have a sore throat.",
+      "The honey is sweet and comes from bees."
+    ]
+  },
+  {
+    "id": "187",
+    "ukrainian": "Мама",
+    "english": "mother",
+    "alternatives": ["mom", "mum"],
+    "phrases": [
+      "My mother helps me with my homework every evening.",
+      "I love my mother because she takes care of our family."
+    ]
+  },
+  {
+    "id": "188",
+    "ukrainian": "Тато",
+    "english": "father",
+    "alternatives": ["dad"],
+    "phrases": [
+      "My father drives me to school in the morning.",
+      "I play football with my father on weekends."
+    ]
+  },
+  {
+    "id": "189",
+    "ukrainian": "Місто",
+    "english": "city",
+    "phrases": [
+      "I live in a big city with many buildings and cars.",
+      "The city is very busy during the daytime."
+    ]
+  },
+  {
+    "id": "190",
+    "ukrainian": "Парк",
+    "english": "park",
+    "phrases": [
+      "We go to the park to play football after school.",
+      "The park is green and full of trees and flowers."
+    ]
+  },
+  {
+    "id": "191",
+    "ukrainian": "Лікар",
+    "english": "doctor",
+    "phrases": [
+      "The doctor helps people when they are sick.",
+      "I visited the doctor when I had a cold."
+    ]
+  },
+  {
+    "id": "192",
+    "ukrainian": "Лікарня",
+    "english": "hospital",
+    "phrases": [
+      "My uncle works in a hospital as a doctor.",
+      "We went to the hospital to visit my grandmother."
+    ]
+  },
+  {
+    "id": "193",
+    "ukrainian": "Магазин",
+    "english": "shop",
+    "alternatives": ["store"],
+    "phrases": [
+      "We buy food at the shop near our house.",
+      "I went to the shop to buy a new notebook."
+    ]
+  },
+  {
+    "id": "194",
+    "ukrainian": "Автобус",
+    "english": "bus",
+    "phrases": [
+      "I go to school by bus every morning.",
+      "The bus is usually crowded after school."
+    ]
+  },
+  {
+    "id": "195",
+    "ukrainian": "Машина",
+    "english": "car",
+    "phrases": [
+      "My father drives a red car to work.",
+      "We travel by car when we visit my grandparents."
+    ]
+  },
+  {
+    "id": "196",
+    "ukrainian": "Велосипед",
+    "english": "bicycle",
+    "alternatives": ["bike"],
+    "phrases": [
+      "I ride my bicycle in the park every weekend.",
+      "My bicycle is blue and very fast."
+    ]
+  },
+  {
+    "id": "197",
+    "ukrainian": "Потяг",
+    "english": "train",
+    "phrases": [
+      "We travel by train when we go to another city.",
+      "The train arrives at the station every morning."
+    ]
+  },
+  {
+    "id": "198",
+    "ukrainian": "Літак",
+    "english": "plane",
+    "alternatives": ["aeroplane", "airplane"],
+    "phrases": [
+      "I saw a plane flying high in the sky.",
+      "We will travel by plane to another country next summer."
+    ]
+  }
+]
