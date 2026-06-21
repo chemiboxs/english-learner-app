@@ -11,10 +11,9 @@ interface ButtonProps {
 
 const variantClasses = {
   primary: 'bg-primary text-on-primary hover:bg-primary-container',
-  secondary: 'bg-secondary-fixed text-on-surface hover:bg-secondary-fixed-dim',
+  secondary: 'bg-secondary-fixed text-on-primary hover:bg-secondary-fixed-dim',
   tertiary: 'bg-tertiary-fixed text-on-tertiary-fixed hover:bg-tertiary-fixed-dim',
   error: 'bg-error text-on-error hover:bg-error-container',
-  ghost: 'bg-transparent text-on-primary border border-outline',
 };
 
 const sizeClasses = {
