@@ -1,4 +1,4 @@
-```tsx
+
 import React from 'react';
 import { Word } from '../types/vocabulary';
 
@@ -54,4 +54,3 @@ export const WordCard: React.FC<WordCardProps> = ({ word }) => {
     </div>
   );
 };
-```
