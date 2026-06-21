@@ -21,13 +21,15 @@ export const WordCard: React.FC<WordCardProps> = ({ word }) => {
   return (
     <div className="w-full max-w-2xl mx-auto px-gutter animate-slide-up">
       <div className="bg-surface-container-lowest rounded-xl shadow-soft p-6 text-center">
-        {/* Display Ukrainian word and phrases.
-            Container fontSize set to 110% so ukrainian inside is 110% of the card base.
-            Phrases use 0.9em so they are 10% smaller than the ukrainian word. */}
-        <div style={{ fontFamily: 'Quicksand', fontSize: '110%' }}>
+        {/* Ukrainian word enlarged by 10% using scale; phrases are rendered below on separate lines */}
+        <div style={{ fontFamily: 'Quicksand' }}>
           <p
-            className="text-primary font-bold"
-            style={{ fontSize: '1em' }}
+            className="text-primary font-bold text-4xl"
+            style={{
+              display: 'inline-block',        // so transform scales the element itself
+              transform: 'scale(1.1)',        // 10% larger than the original size
+              transformOrigin: 'center',
+            }}
           >
             {word.ukrainian}
           </p>
