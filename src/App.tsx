@@ -119,7 +119,6 @@ const handleResetVocabulary = () => {
                   cursor-pointer
                 "
               >
-                <span className="text-lg">⏩</span>
                 <span className="text-on-surface font-bold">
                   Skipped: {stats.skipped}
                 </span>
