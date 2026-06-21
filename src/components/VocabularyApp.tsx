@@ -124,7 +124,7 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
                   variant="secondary"
                   size="md"
                 >
-                  ⏩ Skip
+                  Skip
                 </Button>
               </div>
 
