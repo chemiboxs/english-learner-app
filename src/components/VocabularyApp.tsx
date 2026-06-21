@@ -121,8 +121,8 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
                 <Button
                   onClick={skipWord}
                   disabled={false}
+                  variant="secondary"
                   size="md"
-                  variant="ghost"
                 >
                   Skip
                 </Button>
