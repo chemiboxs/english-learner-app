@@ -14,6 +14,7 @@ const variantClasses = {
   secondary: 'bg-secondary-fixed text-on-surface hover:bg-secondary-fixed-dim',
   tertiary: 'bg-tertiary-fixed text-on-tertiary-fixed hover:bg-tertiary-fixed-dim',
   error: 'bg-error text-on-error hover:bg-error-container',
+  ghost: 'bg-transparent text-on-primary border border-outline',
 };
 
 const sizeClasses = {
