@@ -1,54 +1,456 @@
 [
-  { "id": "1", "ukrainian": "Вчитель", "english": "teacher" },
-  { "id": "2", "ukrainian": "Качка", "english": "duck" },
-  { "id": "3", "ukrainian": "Восьминіг", "english": "octopus" },
-  { "id": "4", "ukrainian": "Будинок", "english": "house" },
-  { "id": "5", "ukrainian": "Небо", "english": "sky" },
-  { "id": "6", "ukrainian": "Привіт", "english": "hello" },
-  { "id": "7", "ukrainian": "Кошеня", "english": "kitten" },
-  { "id": "8", "ukrainian": "Коричневий", "english": "brown" },
-  { "id": "9", "ukrainian": "Сонячно", "english": "sunny" },
-  { "id": "10", "ukrainian": "Поганий", "english": "bad" },
-  { "id": "11", "ukrainian": "Метелик", "english": "butterfly" },
-  { "id": "12", "ukrainian": "Собака", "english": "dog" },
-  { "id": "13", "ukrainian": "Літати", "english": "fly" },
-  { "id": "14", "ukrainian": "Кіт", "english": "cat" },
-  { "id": "15", "ukrainian": "Олівець", "english": "pencil" },
-  { "id": "16", "ukrainian": "Телефон", "english": "phone" },
-  { "id": "17", "ukrainian": "Папір", "english": "paper" },
-  { "id": "18", "ukrainian": "Дерево", "english": "tree" },
-  { "id": "19", "ukrainian": "Кімната", "english": "room", "emoji": "" },
-  { "id": "20", "ukrainian": "Двері", "english": "door", "emoji": "🚪" },
-  { "id": "21", "ukrainian": "Підлога", "english": "floor", "emoji": "" },
-  { "id": "22", "ukrainian": "Старий", "english": "old", "emoji": "👴" },
-  { "id": "23", "ukrainian": "Молодий", "english": "young", "emoji": "" },
-  { "id": "24", "ukrainian": "Я", "english": "I", "emoji": "" },
-  { "id": "25", "ukrainian": "Ти", "english": "you", "emoji": "" },
-  { "id": "26", "ukrainian": "Він", "english": "he", "emoji": "" },
-  { "id": "27", "ukrainian": "Вона", "english": "she", "emoji": "" },
-  { "id": "28", "ukrainian": "Ми", "english": "we", "emoji": "" },
-  { "id": "29", "ukrainian": "Їсти", "english": "eat", "emoji": "🍽️" },
-  { "id": "30", "ukrainian": "Пити", "english": "drink", "emoji": "🥤" },
-  { "id": "31", "ukrainian": "Бігти", "english": "run", "emoji": "" },
-  { "id": "32", "ukrainian": "Ходити пішки / Гуляти", "english": "walk", "emoji": "" },
-  { "id": "33", "ukrainian": "Стрибати", "english": "jump", "emoji": "" },
-  { "id": "34", "ukrainian": "Плавати", "english": "swim", "emoji": "🏊" },
-  { "id": "35", "ukrainian": "Спати", "english": "sleep", "emoji": "😴" },
-  { "id": "36", "ukrainian": "Читати", "english": "read", "emoji": "📖" },
-  { "id": "37", "ukrainian": "Писати", "english": "write", "emoji": "✍️" },
-  { "id": "38", "ukrainian": "Говорити", "english": "speak", "emoji": "🗣️", "alternatives": ["talk"] },
-  { "id": "39", "ukrainian": "Слухати", "english": "listen", "emoji": "👂" },
-  { "id": "40", "ukrainian": "Дивитися", "english": "watch", "emoji": "👀" },
-  { "id": "41", "ukrainian": "Грати", "english": "play", "emoji": "🎮" },
-  { "id": "42", "ukrainian": "Малювати", "english": "draw", "emoji": "🎨" },
-  { "id": "43", "ukrainian": "Танцювати", "english": "dance", "emoji": "" },
-  { "id": "44", "ukrainian": "Голодний", "english": "hungry", "emoji": "" },
-  { "id": "45", "ukrainian": "Швидко / швидкий", "english": "fast", "emoji": "" },
-  { "id": "46", "ukrainian": "Повільно / повільний", "english": "slow", "emoji": "" },
-  { "id": "47", "ukrainian": "Новий", "english": "new", "emoji": "" },
-  { "id": "48", "ukrainian": "Один", "english": "one", "emoji": "1️⃣" },
-  { "id": "49", "ukrainian": "Два", "english": "two", "emoji": "2️⃣" },
-  { "id": "50", "ukrainian": "Три", "english": "three", "emoji": "3️⃣" },
+  {
+    "id": "1",
+    "ukrainian": "Вчитель",
+    "english": "teacher",
+    "phrases": [
+      "My teacher is kind.",
+      "The teacher is in the classroom."
+    ]
+  },
+  {
+    "id": "2",
+    "ukrainian": "Качка",
+    "english": "duck",
+    "phrases": [
+      "I see a duck in the lake.",
+      "The duck is swimming."
+    ]
+  },
+  {
+    "id": "3",
+    "ukrainian": "Восьминіг",
+    "english": "octopus",
+    "phrases": [
+      "The octopus has eight arms.",
+      "I saw an octopus at the aquarium."
+    ]
+  },
+  {
+    "id": "4",
+    "ukrainian": "Будинок",
+    "english": "house",
+    "phrases": [
+      "This is my house.",
+      "The house is big."
+    ]
+  },
+  {
+    "id": "5",
+    "ukrainian": "Небо",
+    "english": "sky",
+    "phrases": [
+      "The sky is blue.",
+      "I look at the sky."
+    ]
+  },
+  {
+    "id": "6",
+    "ukrainian": "Привіт",
+    "english": "hello",
+    "phrases": [
+      "Hello, how are you?",
+      "I say hello to my friend."
+    ]
+  },
+  {
+    "id": "7",
+    "ukrainian": "Кошеня",
+    "english": "kitten",
+    "phrases": [
+      "The kitten is small.",
+      "I have a kitten."
+    ]
+  },
+  {
+    "id": "8",
+    "ukrainian": "Коричневий",
+    "english": "brown",
+    "phrases": [
+      "The dog is brown.",
+      "I like brown shoes."
+    ]
+  },
+  {
+    "id": "9",
+    "ukrainian": "Сонячно",
+    "english": "sunny",
+    "phrases": [
+      "It is sunny today.",
+      "The weather is sunny."
+    ]
+  },
+  {
+    "id": "10",
+    "ukrainian": "Поганий",
+    "english": "bad",
+    "phrases": [
+      "This is a bad idea.",
+      "I feel bad today."
+    ]
+  },
+  {
+    "id": "11",
+    "ukrainian": "Метелик",
+    "english": "butterfly",
+    "phrases": [
+      "The butterfly is beautiful.",
+      "I see a butterfly in the garden."
+    ]
+  },
+  {
+    "id": "12",
+    "ukrainian": "Собака",
+    "english": "dog",
+    "phrases": [
+      "The dog runs fast.",
+      "I have a dog."
+    ]
+  },
+  {
+    "id": "13",
+    "ukrainian": "Літати",
+    "english": "fly",
+    "phrases": [
+      "Birds can fly.",
+      "I want to fly a kite."
+    ]
+  },
+  {
+    "id": "14",
+    "ukrainian": "Кіт",
+    "english": "cat",
+    "phrases": [
+      "The cat is sleeping.",
+      "My cat is black."
+    ]
+  },
+  {
+    "id": "15",
+    "ukrainian": "Олівець",
+    "english": "pencil",
+    "phrases": [
+      "I need a pencil.",
+      "This pencil is new."
+    ]
+  },
+  {
+    "id": "16",
+    "ukrainian": "Телефон",
+    "english": "phone",
+    "phrases": [
+      "My phone is on the table.",
+      "I use my phone."
+    ]
+  },
+  {
+    "id": "17",
+    "ukrainian": "Папір",
+    "english": "paper",
+    "phrases": [
+      "I write on paper.",
+      "The paper is white."
+    ]
+  },
+  {
+    "id": "18",
+    "ukrainian": "Дерево",
+    "english": "tree",
+    "phrases": [
+      "The tree is tall.",
+      "Birds sit in the tree."
+    ]
+  },
+  {
+    "id": "19",
+    "ukrainian": "Кімната",
+    "english": "room",
+    "phrases": [
+      "This is my room.",
+      "The room is clean."
+    ]
+  },
+  {
+    "id": "20",
+    "ukrainian": "Двері",
+    "english": "door",
+    "phrases": [
+      "The door is open.",
+      "Close the door."
+    ]
+  },
+  {
+    "id": "21",
+    "ukrainian": "Підлога",
+    "english": "floor",
+    "phrases": [
+      "The floor is clean.",
+      "I sit on the floor."
+    ]
+  },
+  {
+    "id": "22",
+    "ukrainian": "Старий",
+    "english": "old",
+    "phrases": [
+      "My grandfather is old.",
+      "This is an old book."
+    ]
+  },
+  {
+    "id": "23",
+    "ukrainian": "Молодий",
+    "english": "young",
+    "phrases": [
+      "The boy is young.",
+      "She is very young."
+    ]
+  },
+  {
+    "id": "24",
+    "ukrainian": "Я",
+    "english": "I",
+    "phrases": [
+      "I am happy.",
+      "I like apples."
+    ]
+  },
+  {
+    "id": "25",
+    "ukrainian": "Ти",
+    "english": "you",
+    "phrases": [
+      "You are my friend.",
+      "I see you."
+    ]
+  },
+  {
+    "id": "26",
+    "ukrainian": "Він",
+    "english": "he",
+    "phrases": [
+      "He is my brother.",
+      "He plays football."
+    ]
+  },
+  {
+    "id": "27",
+    "ukrainian": "Вона",
+    "english": "she",
+    "phrases": [
+      "She is my sister.",
+      "She reads a book."
+    ]
+  },
+  {
+    "id": "28",
+    "ukrainian": "Ми",
+    "english": "we",
+    "phrases": [
+      "We are a team.",
+      "We play together."
+    ]
+  },
+  {
+    "id": "29",
+    "ukrainian": "Їсти",
+    "english": "eat",
+    "phrases": [
+      "I eat an apple.",
+      "We eat dinner."
+    ]
+  },
+  {
+    "id": "30",
+    "ukrainian": "Пити",
+    "english": "drink",
+    "phrases": [
+      "I drink water.",
+      "She drinks milk."
+    ]
+  },
+  {
+    "id": "31",
+    "ukrainian": "Бігти",
+    "english": "run",
+    "phrases": [
+      "I run in the park.",
+      "They run fast."
+    ]
+  },
+  {
+    "id": "32",
+    "ukrainian": "Ходити пішки / Гуляти",
+    "english": "walk",
+    "phrases": [
+      "I walk to school.",
+      "We walk together."
+    ]
+  },
+  {
+    "id": "33",
+    "ukrainian": "Стрибати",
+    "english": "jump",
+    "phrases": [
+      "I can jump high.",
+      "The cat can jump."
+    ]
+  },
+  {
+    "id": "34",
+    "ukrainian": "Плавати",
+    "english": "swim",
+    "phrases": [
+      "I swim in the pool.",
+      "They swim every day."
+    ]
+  },
+  {
+    "id": "35",
+    "ukrainian": "Спати",
+    "english": "sleep",
+    "phrases": [
+      "I sleep at night.",
+      "The baby sleeps well."
+    ]
+  },
+  {
+    "id": "36",
+    "ukrainian": "Читати",
+    "english": "read",
+    "phrases": [
+      "I read a book.",
+      "We read stories."
+    ]
+  },
+  {
+    "id": "37",
+    "ukrainian": "Писати",
+    "english": "write",
+    "phrases": [
+      "I write my name.",
+      "She writes a letter."
+    ]
+  },
+  {
+    "id": "38",
+    "ukrainian": "Говорити",
+    "english": "speak",
+    "alternatives": ["talk"],
+    "phrases": [
+      "I speak English.",
+      "They speak slowly."
+    ]
+  },
+  {
+    "id": "39",
+    "ukrainian": "Слухати",
+    "english": "listen",
+    "phrases": [
+      "I listen to music.",
+      "Please listen to me."
+    ]
+  },
+  {
+    "id": "40",
+    "ukrainian": "Дивитися",
+    "english": "watch",
+    "phrases": [
+      "I watch TV.",
+      "We watch a movie."
+    ]
+  },
+  {
+    "id": "41",
+    "ukrainian": "Грати",
+    "english": "play",
+    "phrases": [
+      "I play football.",
+      "They play games."
+    ]
+  },
+  {
+    "id": "42",
+    "ukrainian": "Малювати",
+    "english": "draw",
+    "phrases": [
+      "I draw a picture.",
+      "She draws a cat."
+    ]
+  },
+  {
+    "id": "43",
+    "ukrainian": "Танцювати",
+    "english": "dance",
+    "phrases": [
+      "I dance at the party.",
+      "They dance together."
+    ]
+  },
+  {
+    "id": "44",
+    "ukrainian": "Голодний",
+    "english": "hungry",
+    "phrases": [
+      "I am hungry.",
+      "She is hungry after school."
+    ]
+  },
+  {
+    "id": "45",
+    "ukrainian": "Швидко / швидкий",
+    "english": "fast",
+    "phrases": [
+      "He runs fast.",
+      "This car is fast."
+    ]
+  },
+  {
+    "id": "46",
+    "ukrainian": "Повільно / повільний",
+    "english": "slow",
+    "phrases": [
+      "The turtle is slow.",
+      "He walks slow."
+    ]
+  },
+  {
+    "id": "47",
+    "ukrainian": "Новий",
+    "english": "new",
+    "phrases": [
+      "I have a new toy.",
+      "This is a new book."
+    ]
+  },
+  {
+    "id": "48",
+    "ukrainian": "Один",
+    "english": "one",
+    "phrases": [
+      "I have one apple.",
+      "One dog is here."
+    ]
+  },
+  {
+    "id": "49",
+    "ukrainian": "Два",
+    "english": "two",
+    "phrases": [
+      "I have two cats.",
+      "Two birds are in the tree."
+    ]
+  },
+  {
+    "id": "50",
+    "ukrainian": "Три",
+    "english": "three",
+    "phrases": [
+      "I see three apples.",
+      "Three kids are playing."
+    ]
+  },
+
   { "id": "51", "ukrainian": "Чотири", "english": "four", "emoji": "4️⃣" },
   { "id": "52", "ukrainian": "П'ять", "english": "five", "emoji": "5️⃣" },
   { "id": "53", "ukrainian": "Шість", "english": "six", "emoji": "6️⃣" },
