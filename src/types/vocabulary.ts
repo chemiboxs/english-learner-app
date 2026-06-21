@@ -2,8 +2,8 @@ export interface Word {
   id: string;
   ukrainian: string;
   english: string;
-  emoji?: string;
   alternatives?: string[];
+  phrases?: string[];
 }
 
 export interface VocabularyState {
