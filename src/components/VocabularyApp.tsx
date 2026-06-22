@@ -104,7 +104,7 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
                 value={state.userInput}
                 onChange={updateInput}
                 onSubmit={handleSubmit}
-                placeholder="Type English here..."
+                placeholder="Type here..."
                 disabled={false}
               />
 
