@@ -98,22 +98,23 @@ export const WordsList: React.FC<WordsListProps> = ({
           left,
           top,
           transform: 'translateX(-50%)',
-          width: 320,
+          width: 360,
           zIndex: 99999,
         }}
-        className="bg-surface-container-lowest text-on-surface border border-outline rounded-md p-3 shadow-lg whitespace-normal text-sm"
+        className="bg-surface-container-lowest text-on-surface border border-outline rounded-md p-3 shadow-lg whitespace-normal text-lg"
       >
+        {/* Use the same font family and size as the words list */}
         {alternatives && alternatives.length > 0 && (
-          <div className="mb-2">
-            <div className="text-xs font-bold">Alternatives</div>
-            <div className="text-xs mt-1">{alternatives.join(', ')}</div>
+          <div className="mb-2" style={{ fontFamily: 'Quicksand' }}>
+            <div className="text-lg font-bold">Alternatives</div>
+            <div className="text-lg mt-1">{alternatives.join(', ')}</div>
           </div>
         )}
 
         {phrases && phrases.length > 0 && (
-          <div>
-            <div className="text-xs font-bold">Phrases</div>
-            <div className="text-xs mt-1 space-y-1">
+          <div style={{ fontFamily: 'Quicksand' }}>
+            <div className="text-lg font-bold">Phrases</div>
+            <div className="text-lg mt-1 space-y-1">
               {phrases.map((p: string, i: number) => (
                 <div key={i}>• {p}</div>
               ))}
@@ -123,7 +124,6 @@ export const WordsList: React.FC<WordsListProps> = ({
       </div>
     );
 
-    // render to document.body
     return typeof document !== 'undefined' ? createPortal(tooltip, document.body) : null;
   };
 
@@ -200,10 +200,10 @@ export const WordsList: React.FC<WordsListProps> = ({
                     onBlur={() => showTooltipForRow(null, null)}
                   >
                     <div className="flex items-start justify-between gap-4">
-                      <p className="text-on-surface font-bold text-lg flex-1">
+                      <p className="text-on-surface font-bold text-lg flex-1" style={{ fontFamily: 'Quicksand' }}>
                         {hasEmoji && `${(word as any).emoji} `}{word.ukrainian}
                       </p>
-                      <p className="text-on-surface font-bold text-lg flex-1 text-right">
+                      <p className="text-on-surface font-bold text-lg flex-1 text-right" style={{ fontFamily: 'Quicksand' }}>
                         {word.english}
                       </p>
                     </div>
