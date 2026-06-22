@@ -1,4 +1,4 @@
-# English Fun - Vocabulary Learning App
+# English Vocabulary Trainer App
 
 A delightful, child-friendly React application for learning English vocabulary in Ukrainian. Built with the "Whimsical Learner" design system.
 
