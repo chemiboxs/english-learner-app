@@ -10,14 +10,12 @@ export const VoiceSelector: React.FC = () => {
   const [playingSample, setPlayingSample] = useState(false);
 
   // Build display list: sort by friendly name, then lang
-  const voiceOptions = useMemo(() => {
-    return voices.map((v) => ({
-      label: `${v.name} — ${v.lang}`,
-      uri: v.voiceURI || v.name,
-      name: v.name,
-      lang: v.lang,
-    }));
-  }, [voices]);
+const voiceOptions = useMemo(() => englishVoices.map((v) => ({
+  label: `${v.name} — ${v.lang}`,
+  uri: v.voiceURI || v.name,
+  name: v.name,
+  lang: v.lang,
+})), [englishVoices]);
 
   const onPick = (uri: string | null) => {
     setLocalSelection(uri);
