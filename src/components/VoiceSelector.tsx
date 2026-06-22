@@ -5,44 +5,55 @@ import { Button } from './Button';
 const SAMPLE_TEXT = 'This is a pronunciation test.';
 
 export const VoiceSelector: React.FC = () => {
-  const { voices, selectedVoiceURI, setSelectedVoice, lastSelection, speak, cancel } = useSpeech();
+  const {
+    // use the english-only list exposed by the hook
+    englishVoices,
+    selectedVoiceURI,
+    setSelectedVoice,
+    lastSelection,
+    speak,
+    cancel,
+  } = useSpeech();
+
   const [localSelection, setLocalSelection] = useState<string | null>(selectedVoiceURI || null);
   const [playingSample, setPlayingSample] = useState(false);
 
-  // Build display list: sort by friendly name, then lang
-const voiceOptions = useMemo(() => englishVoices.map((v) => ({
-  label: `${v.name} — ${v.lang}`,
-  uri: v.voiceURI || v.name,
-  name: v.name,
-  lang: v.lang,
-})), [englishVoices]);
+  // Build display list from englishVoices
+  const voiceOptions = useMemo(() => {
+    return englishVoices.map((v) => ({
+      label: `${v.name} — ${v.lang}`,
+      uri: v.voiceURI || v.name,
+      name: v.name,
+      lang: v.lang,
+    }));
+  }, [englishVoices]);
 
   const onPick = (uri: string | null) => {
     setLocalSelection(uri);
     setSelectedVoice(uri);
   };
 
-  const playSample = async (uri?: string | null) => {
+  const playSample = (uri?: string | null) => {
+    // Play a sample using the currently selected or provided URI
     try {
       setPlayingSample(true);
-      // If URI provided, temporarily set override, play sample, then restore previous override
-      const prev = selectedVoiceURI;
+      // If a specific uri is given, set it as override temporarily (persisted)
       if (uri) {
         setSelectedVoice(uri);
       }
-      // speak from hook; speak will pick selectedVoiceURI if set
+      // speak sample slightly slower to improve clarity
       speak(SAMPLE_TEXT, { lang: 'en-US', rate: 0.95 });
-      // We don't await; use speaking state if you want to toggle UI when ended
     } finally {
-      // leave selection as user set it (do not auto-revert)
-      setPlayingSample(false);
+      // setPlayingSample will be toggled by speaking state if needed;
+      // we clear here after a short delay for basic UX (not required)
+      setTimeout(() => setPlayingSample(false), 1000);
     }
   };
 
   return (
     <div className="flex items-center gap-3">
       <label className="text-sm text-on-surface-variant" style={{ fontFamily: 'Quicksand' }}>
-        Voice:
+        English voice:
       </label>
 
       <select
@@ -51,7 +62,7 @@ const voiceOptions = useMemo(() => englishVoices.map((v) => ({
         className="px-3 py-1 rounded-lg bg-surface-container text-on-surface border border-outline"
         style={{ fontFamily: 'Quicksand' }}
       >
-        <option value="">Auto (best match)</option>
+        <option value="">Auto (best English)</option>
         {voiceOptions.map((v) => (
           <option key={v.uri} value={v.uri}>
             {v.label}
@@ -70,7 +81,6 @@ const voiceOptions = useMemo(() => englishVoices.map((v) => ({
 
       <Button
         onClick={() => {
-          // clear override and let auto-selection happen
           setLocalSelection(null);
           setSelectedVoice(null);
         }}
@@ -84,7 +94,7 @@ const voiceOptions = useMemo(() => englishVoices.map((v) => ({
       <div className="text-xs text-on-surface-variant ml-2" style={{ fontFamily: 'Quicksand' }}>
         {lastSelection ? (
           <>
-            <div>Using: {lastSelection.voice?.name ?? '—' } ({lastSelection.voice?.lang ?? '—'})</div>
+            <div>Using: {lastSelection.voice?.name ?? '—'} ({lastSelection.voice?.lang ?? '—'})</div>
             <div className="text-xs opacity-80">Reason: {lastSelection.reason}</div>
           </>
         ) : (
