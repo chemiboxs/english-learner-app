@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from './Button';
 
 interface StatsProps {
   learned: number;
@@ -15,52 +16,35 @@ export const Stats: React.FC<StatsProps> = ({
   onSkippedClick,
   onResetClick,
 }) => {
-  const baseButton =
-    "flex items-center gap-2 px-4 py-2 rounded-full font-bold text-sm transition-colors cursor-pointer border";
-
   return (
     <div className="flex gap-3 justify-end items-center">
-      {/* Learned */}
-      <button
-        onClick={onLearnedClick}
-        className={`
-          ${baseButton}
-          bg-success/15
-          border-success/40
-          text-on-surface
-          hover:bg-success/25
-        `}
+      <Button
+        onClick={onLearnedClick || (() => {})}
+        variant="primary"
+        size="md"
+        className="flex items-center gap-2"
       >
         <span className="text-lg">✓</span>
         <span>Learned: {learned}</span>
-      </button>
+      </Button>
 
-      {/* Skipped */}
-      <button
-        onClick={onSkippedClick}
-        className={`
-          ${baseButton}
-          bg-primary/10
-          border-primary/30
-          text-on-surface
-          hover:bg-primary/15
-        `}
+      <Button
+        onClick={onSkippedClick || (() => {})}
+        variant="secondary"
+        size="md"
+        className="flex items-center gap-2"
       >
         <span>Skipped: {skipped}</span>
-      </button>
+      </Button>
 
-      {/* Reset (акцентна кнопка — залишаємо як є) */}
-      <button
-        onClick={onResetClick}
-        className={`
-          flex items-center gap-2 px-4 py-2 rounded-full font-bold text-sm
-          bg-primary text-on-primary
-          hover:bg-primary-container
-          transition-colors cursor-pointer
-        `}
+      <Button
+        onClick={onResetClick || (() => {})}
+        variant="primary"
+        size="md"
+        className="flex items-center gap-2"
       >
         Reset
-      </button>
+      </Button>
     </div>
   );
 };
