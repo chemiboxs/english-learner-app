@@ -14,7 +14,9 @@ export const WordCard: React.FC<WordCardProps> = ({ word }) => {
     return (
       <div className="w-full max-w-2xl mx-auto px-gutter">
         <div className="bg-surface-container-lowest rounded-xl shadow-soft p-8 text-center">
-          <p className="text-on-surface text-xl">🎉 Congratulations! You've completed all the words!</p>
+          <p className="text-on-surface text-xl">
+            🎉 Congratulations! You've completed all the words!
+          </p>
         </div>
       </div>
     );
@@ -58,7 +60,7 @@ export const WordCard: React.FC<WordCardProps> = ({ word }) => {
                     onClick={() => pronouncePhrase(phrase)}
                     variant="tertiary"
                     size="sm"
-                    className="min-w-0 p-2 rounded-full bg-transparent text-on-surface border border-outline hover:bg-secondary-fixed/30 hover:text-on-primary"
+                    className="min-w-0 p-2 rounded-full bg-transparent text-on-surface hover:bg-secondary-fixed/30 hover:text-on-primary border border-outline"
                     aria-label={`Pronounce example: ${phrase}`}
                   >
                     🔊

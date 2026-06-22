@@ -1,4 +1,3 @@
-// src/context/SpeechProvider.tsx
 import React, { createContext, useContext, useEffect, useRef, useState } from 'react';
 
 type SpeakOptions = { lang?: string; rate?: number; pitch?: number; volume?: number; };
@@ -77,6 +76,7 @@ export const SpeechProvider: React.FC<{ children: React.ReactNode }> = ({ childr
   });
   const [lastSelection, setLastSelection] = useState<SelectionLog | null>(null);
 
+  // load voices
   useEffect(() => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
     const synth = window.speechSynthesis;
@@ -95,41 +95,15 @@ export const SpeechProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     return voices.find(v => (v.voiceURI || '').toLowerCase() === u || (v.name || '').toLowerCase() === u);
   };
 
-  const setSeriousOnly = (on: boolean) => {
-    setSeriousOnlyState(on);
-    try { localStorage.setItem(SERIOUS_ONLY_KEY, String(on)); } catch {}
-    // update lastSelection to reflect new filtering
-    const chosen = chooseVoice();
-    setLastSelection({ voice: chosen || null, reason: on ? 'serious-only' : 'all-voices', timestamp: Date.now() });
-  };
-
-  const chooseVoice = (preferredLang?: string) => {
-    // Honor persisted user override if it's available and English-like (and passes seriousOnly when enabled)
-    if (selectedVoiceURI) {
-      const user = getVoiceByURI(selectedVoiceURI);
-      if (user && isEnglishVoiceCandidate(user) && (!seriousOnly || isSeriousEnglishVoice(user))) {
-        const log = { voice: user, reason: 'user-selected', timestamp: Date.now() };
-        setLastSelection(log);
-        console.info('[SpeechProvider] using user-selected voice', user.name);
-        return user;
-      }
-      // invalid stored selection, clear it
-      console.info('[SpeechProvider] clearing invalid or filtered stored voice', selectedVoiceURI);
-      try { localStorage.removeItem(STORAGE_KEY); } catch {}
-      setSelectedVoiceURI(null);
-    }
-
+  // Pure function: pick best voice and reason from current voices (no state updates)
+  const pickBestVoice = (preferredLang?: string) => {
     const all = voices.length ? voices : (typeof window !== 'undefined' ? window.speechSynthesis.getVoices() : []);
-    if (!all || all.length === 0) return undefined;
+    if (!all || all.length === 0) return { voice: undefined as SpeechSynthesisVoice | undefined, reason: 'no-voices' };
 
-    // pick only English-like candidates first
     const englishAll = all.filter(isEnglishVoiceCandidate);
-
-    // apply serious-only filter if enabled
     const seriousCandidates = englishAll.filter(v => isSeriousEnglishVoice(v));
     const candidates = (seriousOnly && seriousCandidates.length > 0) ? seriousCandidates : (englishAll.length > 0 ? englishAll : all);
 
-    // optional additional filtering by preferredLang
     let shortlist = candidates;
     if (preferredLang) {
       const pref = preferredLang.toLowerCase();
@@ -140,12 +114,15 @@ export const SpeechProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     const scored = shortlist.map(v => ({ v, score: scoreVoice(v, preferredLang) }));
     scored.sort((a, b) => b.score - a.score);
 
-    console.info('[SpeechProvider] voice candidates scored:', scored.map(s => ({ name: s.v.name, lang: s.v.lang, score: s.score })));
     const best = scored[0]?.v;
-    const reason = `auto-select (${preferredLang ?? 'en-prefer'}) best=${scored[0]?.score ?? 0}`;
-    setLastSelection({ voice: best || null, reason, timestamp: Date.now() });
-    console.info('[SpeechProvider] selected voice:', best?.name, best?.lang, reason);
-    return best;
+    const reason = best ? `auto-select (${preferredLang ?? 'en-prefer'}) best=${scored[0]?.score ?? 0}` : 'no-candidate';
+    return { voice: best, reason };
+  };
+
+  const setSeriousOnly = (on: boolean) => {
+    setSeriousOnlyState(on);
+    try { localStorage.setItem(SERIOUS_ONLY_KEY, String(on)); } catch {}
+    // lastSelection will be updated by useEffect watching [voices, seriousOnly]
   };
 
   const setSelectedVoice = (uri: string | null) => {
@@ -158,8 +135,10 @@ export const SpeechProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     }
     setSelectedVoiceURI(uri);
     try { if (uri) localStorage.setItem(STORAGE_KEY, uri); else localStorage.removeItem(STORAGE_KEY); } catch {}
-    const chosen = uri ? getVoiceByURI(uri) : chooseVoice();
-    setLastSelection({ voice: chosen || null, reason: uri ? 'user-selected' : 'auto', timestamp: Date.now() });
+
+    // update lastSelection to reflect this user choice
+    const voice = uri ? getVoiceByURI(uri) : pickBestVoice().voice;
+    setLastSelection({ voice: voice || null, reason: uri ? 'user-selected' : 'auto', timestamp: Date.now() });
   };
 
   const cancel = () => {
@@ -185,8 +164,9 @@ export const SpeechProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     u.volume = opts.volume ?? 1;
     if (opts.lang) u.lang = opts.lang;
 
-    const v = selectedVoiceURI ? getVoiceByURI(selectedVoiceURI) : chooseVoice(opts.lang);
-    if (v) u.voice = v;
+    const userVoice = selectedVoiceURI ? getVoiceByURI(selectedVoiceURI) : undefined;
+    const chosen = userVoice || pickBestVoice(opts.lang).voice;
+    if (chosen) u.voice = chosen;
 
     u.onstart = () => setSpeaking(true);
     u.onend = () => { setSpeaking(false); utterRef.current = null; };
@@ -201,12 +181,30 @@ export const SpeechProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     }
   };
 
-  // pick an initial voice once voices load
+  // Validate stored selection and set initial selection when voices change or seriousOnly toggles
   useEffect(() => {
     if (!voices || voices.length === 0) return;
-    const best = chooseVoice();
-    if (best) {
-      setLastSelection({ voice: best, reason: 'auto-initial-select', timestamp: Date.now() });
+
+    // If stored selectedVoiceURI is present but no longer available or filtered out, clear it
+    if (selectedVoiceURI) {
+      const persisted = getVoiceByURI(selectedVoiceURI);
+      if (!persisted || !isEnglishVoiceCandidate(persisted) || (seriousOnly && !isSeriousEnglishVoice(persisted))) {
+        console.info('[SpeechProvider] clearing invalid/filtered persisted voice:', selectedVoiceURI);
+        try { localStorage.removeItem(STORAGE_KEY); } catch {};
+        setSelectedVoiceURI(null);
+      } else {
+        // persisted selection is valid — reflect it in lastSelection
+        setLastSelection({ voice: persisted, reason: 'user-selected', timestamp: Date.now() });
+        return;
+      }
+    }
+
+    // No valid persisted selection — compute best available voice
+    const { voice: best, reason } = pickBestVoice();
+    const prevURI = lastSelection?.voice?.voiceURI ?? lastSelection?.voice?.name ?? null;
+    const bestURI = best ? (best.voiceURI ?? best.name) : null;
+    if (bestURI !== prevURI) {
+      setLastSelection({ voice: best || null, reason, timestamp: Date.now() });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [voices, seriousOnly]);
@@ -236,7 +234,8 @@ export const SpeechProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     if (excludedVoices.length > 0) {
       console.info('[SpeechProvider] excluded (comic/novelty) voices:', excludedVoices.map(v => ({ name: v.name, lang: v.lang, uri: v.voiceURI })));
     }
-  }, [voices, seriousOnly]); // re-log if toggle changes
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [voices, seriousOnly]);
 
   return <SpeechContext.Provider value={value}>{children}</SpeechContext.Provider>;
 };
