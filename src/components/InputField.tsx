@@ -12,7 +12,7 @@ export const InputField: React.FC<InputFieldProps> = ({
   value,
   onChange,
   onSubmit,
-  placeholder = 'Type English here...',
+  placeholder = 'Type here...',
   disabled = false,
 }) => {
   const [error, setError] = useState(false);
