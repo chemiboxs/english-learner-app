@@ -66,7 +66,7 @@ export const WordsList: React.FC<WordsListProps> = ({
   };
 
   return (
-    <div 
+    <div
       className="fixed inset-0 bg-black/50 flex items-center justify-center z-40 p-gutter"
       onClick={handleBackdropClick}
     >
@@ -76,7 +76,7 @@ export const WordsList: React.FC<WordsListProps> = ({
           <div className="flex items-center gap-3">
             <span className={`text-2xl ${isLearned ? 'text-on-primary' : 'text-on-surface'}`}>{icon}</span>
             <div>
-              <h2 
+              <h2
                 className={`text-lg font-bold ${titleTextClass}`}
                 style={{ fontFamily: 'Quicksand' }}
               >
@@ -121,24 +121,60 @@ export const WordsList: React.FC<WordsListProps> = ({
             </div>
           ) : (
             <div className="divide-y divide-outline-variant">
-{filteredWords.map((word) => {
-  const hasEmoji = (word as any).emoji && (word as any).emoji.trim() !== '';
-  return (
-    <div 
-      key={word.id} 
-      className="p-4 hover:bg-surface-container transition-colors"
-    >
-      <div className="flex items-start justify-between gap-4">
-        <p className="text-on-surface font-bold text-lg flex-1">
-          {hasEmoji && `${(word as any).emoji} `}{word.ukrainian}
-        </p>
-        <p className="text-on-surface font-bold text-lg flex-1 text-right">
-          {word.english}
-        </p>
-      </div>
-    </div>
-  );
-})}
+              {filteredWords.map((word) => {
+                const hasEmoji = (word as any).emoji && (word as any).emoji.trim() !== '';
+                const alternatives = (word as any).alternatives || [];
+                const phrases = (word as any).phrases || [];
+                const hasTooltip = (alternatives && alternatives.length > 0) || (phrases && phrases.length > 0);
+
+                return (
+                  <div
+                    key={word.id}
+                    tabIndex={0}
+                    className="p-4 hover:bg-surface-container transition-colors group relative"
+                  >
+                    <div className="flex items-start justify-between gap-4">
+                      <p className="text-on-surface font-bold text-lg flex-1">
+                        {hasEmoji && `${(word as any).emoji} `}{word.ukrainian}
+                      </p>
+                      <p className="text-on-surface font-bold text-lg flex-1 text-right">
+                        {word.english}
+                      </p>
+                    </div>
+
+                    {/* Tooltip: shown on hover and focus */}
+                    {hasTooltip && (
+                      <div
+                        className="
+                          hidden group-hover:block group-focus:block
+                          absolute left-1/2 transform -translate-x-1/2 top-full mt-2 w-[320px]
+                          bg-surface-container-lowest text-on-surface border border-outline rounded-md p-3
+                          shadow-lg z-50 whitespace-normal text-sm
+                        "
+                        role="tooltip"
+                      >
+                        {alternatives && alternatives.length > 0 && (
+                          <div className="mb-2">
+                            <div className="text-xs font-bold">Alternatives</div>
+                            <div className="text-xs mt-1">{alternatives.join(', ')}</div>
+                          </div>
+                        )}
+
+                        {phrases && phrases.length > 0 && (
+                          <div>
+                            <div className="text-xs font-bold">Phrases</div>
+                            <div className="text-xs mt-1 space-y-1">
+                              {phrases.map((p: string, i: number) => (
+                                <div key={i}>• {p}</div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           )}
         </div>
