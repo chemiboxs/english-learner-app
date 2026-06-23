@@ -63,7 +63,6 @@ src/
 │   ├── Button.tsx          # Reusable button component
 │   ├── Toggle.tsx          # Toggle switch component
 │   ├── Stats.tsx           # Learning statistics display
-│   ├── SuccessNotification.tsx # Success feedback animation
 │   └── SkippedWordsList.tsx    # Modal with skipped words
 ├── hooks/
 │   └── useVocabulary.ts    # Core learning logic hook
