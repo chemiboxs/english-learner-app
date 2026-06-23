@@ -4,7 +4,6 @@ import { Word } from '../types/vocabulary';
 import { WordCard } from './WordCard';
 import { InputField } from './InputField';
 import { Button } from './Button';
-import { SuccessNotification } from './SuccessNotification';
 import { WordsList } from './WordsList';
 import { Toggle } from './Toggle';
 
@@ -86,8 +85,6 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
 
   return (
     <div className="min-h-screen bg-surface flex flex-col">
-
-      <SuccessNotification show={state.showSuccess} />
 
 
       <main
