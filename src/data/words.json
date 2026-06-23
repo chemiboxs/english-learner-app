@@ -1510,5 +1510,23 @@
       "This is an important lesson.",
       "Sleep is important for children."
     ]
+  },
+    {
+    "id": "509",
+    "ukrainian": "Створювати",
+    "english": "create",
+    "phrases": [
+      "We create a new project at school.",
+      "She likes to create colorful drawings."
+    ]
+  },
+  {
+    "id": "510",
+    "ukrainian": "Пірнати",
+    "english": "dive",
+    "phrases": [
+      "The children dive into the pool on hot days.",
+      "I want to learn how to dive safely."
+    ]
   }
 ]
