@@ -1,5 +1,263 @@
 [
   {
+    "id": "171",
+    "ukrainian": "Яйце",
+    "english": "egg",
+    "phrases": [
+      "I eat a boiled egg for breakfast every day.",
+      "The egg is white on the outside and yellow inside."
+    ]
+  },
+  {
+    "id": "172",
+    "ukrainian": "Хліб",
+    "english": "bread",
+    "phrases": [
+      "I eat bread with butter in the morning.",
+      "The bread is fresh and warm from the bakery."
+    ]
+  },
+  {
+    "id": "173",
+    "ukrainian": "Сир",
+    "english": "cheese",
+    "phrases": [
+      "I like cheese on my sandwich at lunch.",
+      "The cheese has a strong and salty taste."
+    ]
+  },
+  {
+    "id": "174",
+    "ukrainian": "Чай",
+    "english": "tea",
+    "phrases": [
+      "I drink tea with honey when I am cold.",
+      "My grandmother makes delicious tea every evening."
+    ]
+  },
+  {
+    "id": "175",
+    "ukrainian": "Сік",
+    "english": "juice",
+    "phrases": [
+      "I drink orange juice in the morning for breakfast.",
+      "The juice is sweet and very refreshing."
+    ]
+  },
+  {
+    "id": "176",
+    "ukrainian": "Кухня",
+    "english": "kitchen",
+    "phrases": [
+      "My mom is cooking dinner in the kitchen.",
+      "We eat breakfast in the kitchen every morning."
+    ]
+  },
+  {
+    "id": "177",
+    "ukrainian": "Ванна кімната",
+    "english": "bathroom",
+    "phrases": [
+      "I brush my teeth in the bathroom every morning.",
+      "The bathroom is clean and bright."
+    ]
+  },
+  {
+    "id": "178",
+    "ukrainian": "Спальня",
+    "english": "bedroom",
+    "phrases": [
+      "My bedroom is small but very cozy.",
+      "I do my homework in my bedroom after school."
+    ]
+  },
+  {
+    "id": "179",
+    "ukrainian": "Вікно",
+    "english": "window",
+    "phrases": [
+      "I look out of the window in the morning.",
+      "The cat is sitting near the window and watching outside."
+    ]
+  },
+  {
+    "id": "180",
+    "ukrainian": "Комп'ютер",
+    "english": "computer",
+    "phrases": [
+      "I use the computer to do my school project.",
+      "The computer is on the desk in my room."
+    ]
+  },
+  {
+    "id": "181",
+    "ukrainian": "Ноутбук",
+    "english": "laptop",
+    "phrases": [
+      "I use my laptop for online classes at home.",
+      "The laptop is on the table and it is turned on."
+    ]
+  },
+  {
+    "id": "182",
+    "ukrainian": "Рюкзак",
+    "english": "backpack",
+    "phrases": [
+      "My backpack is heavy because of all my books.",
+      "I put my lunch and notebook in my backpack."
+    ]
+  },
+  {
+    "id": "183",
+    "ukrainian": "Учень",
+    "english": "student",
+    "phrases": [
+      "The student is reading a book in the classroom.",
+      "I am a student at a small school in my city."
+    ]
+  },
+  {
+    "id": "184",
+    "ukrainian": "Математика",
+    "english": "math",
+    "alternatives": ["mathematics", "maths"],
+    "phrases": [
+      "I have math class every Monday morning at school.",
+      "Math is sometimes difficult but very interesting."
+    ]
+  },
+  {
+    "id": "185",
+    "ukrainian": "Наука",
+    "english": "science",
+    "phrases": [
+      "We learn about plants and animals in science class.",
+      "Science experiments are fun and interesting at school."
+    ]
+  },
+  {
+    "id": "186",
+    "ukrainian": "Мед",
+    "english": "honey",
+    "phrases": [
+      "I add honey to my tea when I have a sore throat.",
+      "The honey is sweet and comes from bees."
+    ]
+  },
+  {
+    "id": "187",
+    "ukrainian": "Мама",
+    "english": "mother",
+    "alternatives": ["mom", "mum"],
+    "phrases": [
+      "My mother helps me with my homework every evening.",
+      "I love my mother because she takes care of our family."
+    ]
+  },
+  {
+    "id": "188",
+    "ukrainian": "Тато",
+    "english": "father",
+    "alternatives": ["dad"],
+    "phrases": [
+      "My father drives me to school in the morning.",
+      "I play football with my father on weekends."
+    ]
+  },
+  {
+    "id": "189",
+    "ukrainian": "Місто",
+    "english": "city",
+    "phrases": [
+      "I live in a big city with many buildings and cars.",
+      "The city is very busy during the daytime."
+    ]
+  },
+  {
+    "id": "190",
+    "ukrainian": "Парк",
+    "english": "park",
+    "phrases": [
+      "We go to the park to play football after school.",
+      "The park is green and full of trees and flowers."
+    ]
+  },
+  {
+    "id": "191",
+    "ukrainian": "Лікар",
+    "english": "doctor",
+    "phrases": [
+      "The doctor helps people when they are sick.",
+      "I visited the doctor when I had a cold."
+    ]
+  },
+  {
+    "id": "192",
+    "ukrainian": "Лікарня",
+    "english": "hospital",
+    "phrases": [
+      "My uncle works in a hospital as a doctor.",
+      "We went to the hospital to visit my grandmother."
+    ]
+  },
+  {
+    "id": "193",
+    "ukrainian": "Магазин",
+    "english": "shop",
+    "alternatives": ["store"],
+    "phrases": [
+      "We buy food at the shop near our house.",
+      "I went to the shop to buy a new notebook."
+    ]
+  },
+  {
+    "id": "194",
+    "ukrainian": "Автобус",
+    "english": "bus",
+    "phrases": [
+      "I go to school by bus every morning.",
+      "The bus is usually crowded after school."
+    ]
+  },
+  {
+    "id": "195",
+    "ukrainian": "Машина",
+    "english": "car",
+    "phrases": [
+      "My father drives a red car to work.",
+      "We travel by car when we visit my grandparents."
+    ]
+  },
+  {
+    "id": "196",
+    "ukrainian": "Велосипед",
+    "english": "bicycle",
+    "alternatives": ["bike"],
+    "phrases": [
+      "I ride my bicycle in the park every weekend.",
+      "My bicycle is blue and very fast."
+    ]
+  },
+  {
+    "id": "197",
+    "ukrainian": "Потяг",
+    "english": "train",
+    "phrases": [
+      "We travel by train when we go to another city.",
+      "The train arrives at the station every morning."
+    ]
+  },
+  {
+    "id": "198",
+    "ukrainian": "Літак",
+    "english": "plane",
+    "alternatives": ["aeroplane", "airplane"],
+    "phrases": [
+      "I saw a plane flying high in the sky.",
+      "We will travel by plane to another country next summer."
+    ]
+  },
+  {
     "id": "199",
     "ukrainian": "Море",
     "english": "sea",
@@ -1285,546 +1543,6 @@
     "phrases": [
       "I ask my teacher a question.",
       "We ask for help when we don’t understand."
-    ]
-  },
-  {
-    "id": "341",
-    "ukrainian": "Розуміти",
-    "english": "understand",
-    "phrases": [
-      "I understand this lesson very well.",
-      "Do you understand the question?"
-    ]
-  },
-  {
-    "id": "342",
-    "ukrainian": "Пояснювати",
-    "english": "explain",
-    "phrases": [
-      "The teacher explains the rule clearly.",
-      "Can you explain this to me?"
-    ]
-  },
-  {
-    "id": "343",
-    "ukrainian": "Сильний",
-    "english": "strong",
-    "phrases": [
-      "He is strong and can lift heavy things.",
-      "The wind is strong today."
-    ]
-  },
-  {
-    "id": "344",
-    "ukrainian": "Слабкий",
-    "english": "weak",
-    "phrases": [
-      "I feel weak after being sick.",
-      "The old chair is weak and broken."
-    ]
-  },
-  {
-    "id": "345",
-    "ukrainian": "Сміятися",
-    "english": "laugh",
-    "phrases": [
-      "We laugh together at funny jokes.",
-      "The children laugh in the playground."
-    ]
-  },
-  {
-    "id": "346",
-    "ukrainian": "Плакати",
-    "english": "cry",
-    "phrases": [
-      "The baby cries when it is hungry.",
-      "She cried after losing her toy."
-    ]
-  },
-  {
-    "id": "347",
-    "ukrainian": "Думати",
-    "english": "think",
-    "phrases": [
-      "I think about my homework every evening.",
-      "He thinks before answering the question."
-    ]
-  },
-  {
-    "id": "348",
-    "ukrainian": "Мріяти",
-    "english": "dream",
-    "phrases": [
-      "I dream about becoming a pilot.",
-      "She dreams of traveling around the world."
-    ]
-  },
-  {
-    "id": "349",
-    "ukrainian": "Сад",
-    "english": "garden",
-    "phrases": [
-      "We grow flowers in our garden.",
-      "The garden is full of green plants."
-    ]
-  },
-  {
-    "id": "350",
-    "ukrainian": "Бібліотека",
-    "english": "library",
-    "phrases": [
-      "I borrow books from the library.",
-      "The library is quiet and full of books."
-    ]
-  },
-  {
-    "id": "351",
-    "ukrainian": "Космос",
-    "english": "space",
-    "phrases": [
-      "There are many stars in space.",
-      "Astronauts travel to space in rockets."
-    ]
-  },
-  {
-    "id": "352",
-    "ukrainian": "Планета",
-    "english": "planet",
-    "phrases": [
-      "Earth is a beautiful planet.",
-      "There are eight planets in our solar system."
-    ]
-  },
-  {
-    "id": "353",
-    "ukrainian": "Гра",
-    "english": "game",
-    "phrases": [
-      "We play a game after school.",
-      "This game is fun and easy to learn."
-    ]
-  },
-  {
-    "id": "354",
-    "ukrainian": "Перемога",
-    "english": "victory",
-    "phrases": [
-      "Our team got a big victory in the match.",
-      "Victory makes everyone very happy."
-    ]
-  },
-  {
-    "id": "355",
-    "ukrainian": "Правило",
-    "english": "rule",
-    "phrases": [
-      "There is a rule in our classroom: be quiet.",
-      "You must follow the rules in the game."
-    ]
-  },
-  {
-    "id": "356",
-    "ukrainian": "Ідея",
-    "english": "idea",
-    "phrases": [
-      "I have an idea for a new game.",
-      "That is a very good idea!"
-    ]
-  },
-  {
-    "id": "357",
-    "ukrainian": "Втомлений",
-    "english": "tired",
-    "phrases": [
-      "I am very tired after school.",
-      "She feels tired after running in PE class."
-    ]
-  },
-  {
-    "id": "358",
-    "ukrainian": "Нудний",
-    "english": "boring",
-    "phrases": [
-      "This movie is boring for me.",
-      "The lesson was boring today."
-    ]
-  },
-  {
-    "id": "359",
-    "ukrainian": "Складний",
-    "english": "difficult",
-    "phrases": [
-      "This math problem is difficult for me.",
-      "The test was difficult, but I tried my best."
-    ]
-  },
-  {
-    "id": "360",
-    "ukrainian": "Розумний",
-    "english": "smart",
-    "phrases": [
-      "She is very smart and learns fast.",
-      "My dog is smart and understands commands."
-    ]
-  },
-  {
-    "id": "361",
-    "ukrainian": "Веселий",
-    "english": "fun",
-    "phrases": [
-      "The party was really fun.",
-      "It is fun to play games with friends."
-    ]
-  },
-  {
-    "id": "362",
-    "ukrainian": "Зайнятий",
-    "english": "busy",
-    "phrases": [
-      "My mom is busy in the kitchen.",
-      "I am busy doing my homework now."
-    ]
-  },
-  {
-    "id": "363",
-    "ukrainian": "Вільний",
-    "english": "free",
-    "phrases": [
-      "I am free after school today.",
-      "We are free to play outside now."
-    ]
-  },
-  {
-    "id": "364",
-    "ukrainian": "Гучний",
-    "english": "loud",
-    "phrases": [
-      "The music is too loud for me.",
-      "He has a loud voice when he talks."
-    ]
-  },
-  {
-    "id": "365",
-    "ukrainian": "Тихий",
-    "english": "quiet",
-    "phrases": [
-      "The library is very quiet.",
-      "Please be quiet in the classroom."
-    ]
-  },
-  {
-    "id": "366",
-    "ukrainian": "Смачний",
-    "english": "tasty",
-    "phrases": [
-      "This soup is very tasty.",
-      "The cake looks tasty and sweet."
-    ]
-  },
-  {
-    "id": "367",
-    "ukrainian": "Змішувати",
-    "english": "mix",
-    "phrases": [
-      "Mix the eggs and milk in a bowl.",
-      "We mix colors to make new ones."
-    ]
-  },
-  {
-    "id": "368",
-    "ukrainian": "Телефонувати",
-    "english": "call",
-    "phrases": [
-      "I call my friend after school.",
-      "She will call her mom in the evening."
-    ]
-  },
-  {
-    "id": "369",
-    "ukrainian": "Вибирати",
-    "english": "choose",
-    "phrases": [
-      "I choose a blue T-shirt.",
-      "You can choose any book you like."
-    ]
-  },
-  {
-    "id": "370",
-    "ukrainian": "Пробувати",
-    "english": "try",
-    "phrases": [
-      "I want to try this new game.",
-      "Try to answer the question carefully."
-    ]
-  },
-  {
-    "id": "371",
-    "ukrainian": "Солодкий",
-    "english": "sweet",
-    "phrases": [
-      "This apple is very sweet.",
-      "She likes sweet chocolate and candy."
-    ]
-  },
-  {
-    "id": "372",
-    "ukrainian": "Повний",
-    "english": "full",
-    "phrases": [
-      "My glass is full of water.",
-      "I am full after dinner."
-    ]
-  },
-  {
-    "id": "373",
-    "ukrainian": "Порожній",
-    "english": "empty",
-    "phrases": [
-      "The box is empty now.",
-      "My bottle is empty, I need water."
-    ]
-  },
-  {
-    "id": "374",
-    "ukrainian": "Чекати",
-    "english": "wait",
-    "phrases": [
-      "Please wait for me at the door.",
-      "We wait for the bus every morning."
-    ]
-  },
-  {
-    "id": "375",
-    "ukrainian": "Відпочивати",
-    "english": "rest",
-    "phrases": [
-      "I rest after school.",
-      "Let’s rest for five minutes."
-    ]
-  },
-  {
-    "id": "376",
-    "ukrainian": "Подорожувати",
-    "english": "travel",
-    "phrases": [
-      "We travel to the mountains in summer.",
-      "I want to travel to many countries."
-    ]
-  },
-  {
-    "id": "377",
-    "ukrainian": "Зустрічати",
-    "english": "meet",
-    "phrases": [
-      "I meet my friends at school.",
-      "We meet new students today."
-    ]
-  },
-  {
-    "id": "378",
-    "ukrainian": "Давати",
-    "english": "give",
-    "phrases": [
-      "I give my friend a pencil.",
-      "Please give me your book."
-    ]
-  },
-  {
-    "id": "379",
-    "ukrainian": "Брати",
-    "english": "take",
-    "phrases": [
-      "I take my backpack to school.",
-      "Take this apple, it is for you."
-    ]
-  },
-  {
-    "id": "380",
-    "ukrainian": "Показувати",
-    "english": "show",
-    "phrases": [
-      "I show my drawing to my teacher.",
-      "Can you show me your room?"
-    ]
-  },
-  {
-    "id": "381",
-    "ukrainian": "Готувати",
-    "english": "cook",
-    "phrases": [
-      "My mom cooks dinner every evening.",
-      "I want to cook pasta today."
-    ]
-  },
-  {
-    "id": "382",
-    "ukrainian": "Там (у тому місці)",
-    "english": "there",
-    "phrases": [
-      "The book is over there on the table.",
-      "We will meet there at five o’clock."
-    ]
-  },
-  {
-    "id": "383",
-    "ukrainian": "Назад (у зворотний бік)",
-    "english": "back",
-    "phrases": [
-      "Come back home after school.",
-      "He looked back and smiled."
-    ]
-  },
-  {
-    "id": "384",
-    "ukrainian": "Такий самий (однаковий)",
-    "english": "same",
-    "phrases": [
-      "We have the same T-shirt.",
-      "They are in the same class."
-    ]
-  },
-  {
-    "id": "385",
-    "ukrainian": "Достатньо (досить, більше не треба)",
-    "english": "enough",
-    "phrases": [
-      "I have enough water for the trip.",
-      "Is this food enough for you?"
-    ]
-  },
-  {
-    "id": "386",
-    "ukrainian": "Від (звідки, від когось)",
-    "english": "from",
-    "phrases": [
-      "I got a gift from my friend.",
-      "She comes from a small town."
-    ]
-  },
-  {
-    "id": "387",
-    "ukrainian": "З (разом, за допомогою)",
-    "english": "with",
-    "phrases": [
-      "I play football with my friends.",
-      "She writes with a blue pen."
-    ]
-  },
-  {
-    "id": "388",
-    "ukrainian": "Для (призначено комусь)",
-    "english": "for",
-    "phrases": [
-      "This gift is for you.",
-      "I study for my English test."
-    ]
-  },
-  {
-    "id": "389",
-    "ukrainian": "Чесний",
-    "english": "honest",
-    "phrases": [
-      "He is honest and always tells the truth.",
-      "Be honest with your teacher."
-    ]
-  },
-  {
-    "id": "390",
-    "ukrainian": "Лінивий",
-    "english": "lazy",
-    "phrases": [
-      "I feel lazy on Sunday morning.",
-      "He is lazy and does not do his homework."
-    ]
-  },
-  {
-    "id": "391",
-    "ukrainian": "Можливо",
-    "english": "maybe",
-    "phrases": [
-      "Maybe we will go to the park later.",
-      "Maybe it will rain tomorrow."
-    ]
-  },
-  {
-    "id": "392",
-    "ukrainian": "Дійсно (дуже, справді, насправді)",
-    "english": "really",
-    "phrases": [
-      "I really like this game.",
-      "She is really good at drawing."
-    ]
-  },
-  {
-    "id": "393",
-    "ukrainian": "Знову (ще раз, повторно)",
-    "english": "again",
-    "phrases": [
-      "Please say it again.",
-      "I want to play again."
-    ]
-  },
-  {
-    "id": "394",
-    "ukrainian": "Разом",
-    "english": "together",
-    "phrases": [
-      "We study together at school.",
-      "Let’s play together after lunch."
-    ]
-  },
-  {
-    "id": "395",
-    "ukrainian": "Наодинці (сам, без інших)",
-    "english": "alone",
-    "phrases": [
-      "I like to read alone in my room.",
-      "He is alone at home today."
-    ]
-  },
-  {
-    "id": "396",
-    "ukrainian": "Готовий (підготовлений, можна починати)",
-    "english": "ready",
-    "phrases": [
-      "I am ready for school.",
-      "Are you ready to start the game?"
-    ]
-  },
-  {
-    "id": "397",
-    "ukrainian": "Скоро (незабаром, через короткий час)",
-    "english": "soon",
-    "phrases": [
-      "The bus will come soon.",
-      "I will see you soon."
-    ]
-  },
-  {
-    "id": "398",
-    "ukrainian": "Пізніше (через деякий час, не зараз)",
-    "english": "later",
-    "phrases": [
-      "I will do my homework later.",
-      "See you later after school."
-    ]
-  },
-  {
-    "id": "399",
-    "ukrainian": "Інтернет",
-    "english": "internet",
-    "phrases": [
-      "I use the internet to watch videos.",
-      "We can find information on the internet."
-    ]
-  },
-  {
-    "id": "400",
-    "ukrainian": "Тут (у цьому місці)",
-    "english": "here",
-    "phrases": [
-      "Come here and sit next to me.",
-      "My book is here on the table."
     ]
   }
 ]
