@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { Word } from '../types/vocabulary';
 import { selectRandomPhrases } from '../utils/phraseSelector';
@@ -12,6 +12,18 @@ interface WordsListProps {
   type?: 'learned' | 'skipped';
 }
 
+interface TooltipState {
+  rect: DOMRect;
+  word: Word;
+}
+
+interface ComputedTooltipPosition {
+  left: number;
+  top: number;
+  maxHeight?: number;
+  placement: 'top' | 'bottom';
+}
+
 export const WordsList: React.FC<WordsListProps> = ({
   words,
   isOpen,
@@ -21,6 +33,7 @@ export const WordsList: React.FC<WordsListProps> = ({
 }) => {
   const { speak, cancel } = useSpeech();
   const [searchQuery, setSearchQuery] = useState('');
+  const tooltipRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
   if (isOpen) {
@@ -29,10 +42,9 @@ export const WordsList: React.FC<WordsListProps> = ({
 }, [isOpen, type]);
 
   // Tooltip state (word + rect)
-  const [tooltipTarget, setTooltipTarget] = useState<{
-    rect: DOMRect;
-    word: Word;
-  } | null>(null);
+  const [tooltipTarget, setTooltipTarget] = useState<TooltipState | null>(null);
+  const [tooltipPosition, setTooltipPosition] = useState<ComputedTooltipPosition | null>(null);
+  const [tooltipMeasured, setTooltipMeasured] = useState(false);
 
   // Handle Escape key
   useEffect(() => {
@@ -47,6 +59,118 @@ export const WordsList: React.FC<WordsListProps> = ({
       return () => document.removeEventListener('keydown', handleEscape);
     }
   }, [isOpen, onClose]);
+
+  //
+  // Tooltip rendering fix:
+  // The previous implementation returned null until tooltipPosition existed.
+  // This caused a render loop because tooltipPosition could only be calculated
+  // after the tooltip DOM element existed.
+  //
+  // New flow:
+  // 1. Render tooltip invisibly with a fallback position.
+  // 2. Measure real tooltip dimensions using tooltipRef.
+  // 3. Calculate the correct viewport-aware position.
+  // 4. Re-render tooltip in the final position.
+  //
+
+  // Calculate tooltip position with intelligent viewport awareness
+  const calculateTooltipPosition = (
+    triggerRect: DOMRect,
+    tooltipRect: DOMRect
+  ): ComputedTooltipPosition => {
+    const GAP = 8;
+    const PADDING = 16;
+
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+
+    // Calculate available vertical space
+    const spaceBelow = viewportHeight - triggerRect.bottom - GAP;
+    const spaceAbove = triggerRect.top - GAP;
+
+    const fitsBelow = tooltipRect.height <= spaceBelow;
+    const fitsAbove = tooltipRect.height <= spaceAbove;
+
+    let placement: 'top' | 'bottom';
+
+    if (fitsBelow) {
+      placement = 'bottom';
+    } else if (fitsAbove) {
+      placement = 'top';
+    } else {
+      // Use the side with more available space
+      placement = spaceBelow >= spaceAbove ? 'bottom' : 'top';
+    }
+
+    let maxHeight: number | undefined;
+
+    // Enable scrolling only when the tooltip cannot fit naturally
+    if (!fitsBelow && !fitsAbove) {
+      maxHeight = Math.max(
+        150,
+        placement === 'bottom' ? spaceBelow - PADDING : spaceAbove - PADDING
+      );
+    }
+
+    const tooltipHeight = maxHeight ?? tooltipRect.height;
+
+    let top =
+      placement === 'bottom'
+        ? triggerRect.bottom + GAP
+        : triggerRect.top - tooltipHeight - GAP;
+
+    // Keep tooltip inside viewport vertically
+    if (top < PADDING) {
+      top = PADDING;
+    }
+
+    if (top + tooltipHeight > viewportHeight - PADDING) {
+      top = viewportHeight - tooltipHeight - PADDING;
+    }
+
+    // Horizontal positioning
+    let left = triggerRect.left + triggerRect.width / 2;
+
+    const halfWidth = tooltipRect.width / 2;
+
+    if (left - halfWidth < PADDING) {
+      left = halfWidth + PADDING;
+    }
+
+    if (left + halfWidth > viewportWidth - PADDING) {
+      left = viewportWidth - halfWidth - PADDING;
+    }
+
+    return {
+      left,
+      top,
+      maxHeight,
+      placement,
+    };
+  };
+
+  // Measure tooltip and compute position after it renders
+  useEffect(() => {
+    if (!tooltipTarget) {
+      setTooltipPosition(null);
+      setTooltipMeasured(false);
+      return;
+    }
+
+    // Wait until tooltip is mounted in DOM before measuring
+    requestAnimationFrame(() => {
+      if (!tooltipRef.current) {
+        return;
+      }
+
+      const tooltipRect = tooltipRef.current.getBoundingClientRect();
+
+      const position = calculateTooltipPosition(tooltipTarget.rect, tooltipRect);
+
+      setTooltipPosition(position);
+      setTooltipMeasured(true);
+    });
+  }, [tooltipTarget]);
 
   if (!isOpen) return null;
 
@@ -78,78 +202,107 @@ export const WordsList: React.FC<WordsListProps> = ({
     }
   };
 
-  // Handlers to show/hide tooltip based on the row element
-  const showTooltipForRow = (rowEl: HTMLElement | null, word: Word | null) => {
-    if (rowEl && word) {
-      const rect = rowEl.getBoundingClientRect();
+  // Handlers to show/hide tooltip based on the info icon element
+  const showTooltipForIcon = (iconEl: HTMLElement | null, word: Word | null) => {
+    if (iconEl && word) {
+      const rect = iconEl.getBoundingClientRect();
       setTooltipTarget({ rect, word });
     } else {
       setTooltipTarget(null);
+      setTooltipPosition(null);
+      setTooltipMeasured(false);
     }
   };
 
   // Portal tooltip rendering
   const renderTooltipPortal = () => {
-    if (!tooltipTarget) return null;
-    const { rect, word } = tooltipTarget;
+    if (!tooltipTarget) {
+      return null;
+    }
+
+    const { word, rect } = tooltipTarget;
+
+    // Use fallback position during first render
+    const left = tooltipPosition?.left ?? rect.left + rect.width / 2;
+    const top = tooltipPosition?.top ?? rect.bottom + 8;
+    const maxHeight = tooltipPosition?.maxHeight;
+
     const alternatives = (word as any).alternatives || [];
     const phrases = (word as any).phrases || [];
+
     const displayPhrases = selectRandomPhrases(phrases, 6);
-
-    const tooltipWidth = 360;
-    const padding = 12;
-
-    let left = rect.left + rect.width / 2;
-    let top = rect.bottom + 8;
-
-    // keep tooltip inside visible viewport
-    if (left - tooltipWidth / 2 < padding) {
-      left = tooltipWidth / 2 + padding;
-    }
-
-    if (left + tooltipWidth / 2 > window.innerWidth - padding) {
-      left = window.innerWidth - tooltipWidth / 2 - padding;
-    }
-
-    // if there is no space below, show above the row
-    const estimatedHeight = 280;
-
-    if (top + estimatedHeight > window.innerHeight - padding) {
-      top = rect.top - estimatedHeight - 8;
-    }
 
     const tooltip = (
       <div
+        ref={tooltipRef}
         role="tooltip"
         style={{
           position: 'fixed',
           left,
           top,
           transform: 'translateX(-50%)',
-          width: tooltipWidth,
-          maxWidth: `calc(100vw - ${padding * 2}px)`,
+          width: 468,
+          maxWidth: 'calc(100vw - 32px)',
           zIndex: 99999,
+          pointerEvents: 'auto',
+          // Hide tooltip only during the measuring phase
+          // to prevent visual jump
+          visibility: tooltipMeasured ? 'visible' : 'hidden',
         }}
-        className="bg-surface-container-lowest text-on-surface border border-outline rounded-md p-3 shadow-lg whitespace-normal text-lg"
+        className="
+          bg-surface-container-lowest
+          text-on-surface
+          border
+          border-outline
+          rounded-md
+          shadow-lg
+          overflow-hidden
+        "
+        onMouseEnter={() => {
+          // Keep tooltip visible while hovering inside it
+        }}
+        onMouseLeave={() => {
+          // Hide tooltip after leaving tooltip area
+          setTooltipTarget(null);
+          setTooltipPosition(null);
+          setTooltipMeasured(false);
+        }}
       >
-        {/* Use the same font family and size as the words list */}
-        {alternatives && alternatives.length > 0 && (
-          <div className="mb-2">
-            <div className="text-lg font-bold">Alternatives</div>
-            <div className="text-lg mt-1">{alternatives.join(', ')}</div>
-          </div>
-        )}
+        <div
+          style={
+            maxHeight
+              ? {
+                  maxHeight,
+                  overflowY: 'auto',
+                }
+              : undefined
+          }
+          className="
+            p-3
+            whitespace-normal
+            text-lg
+          "
+        >
+          {alternatives && alternatives.length > 0 && (
+            <div className="mb-2">
+              <div className="text-lg font-bold">Alternatives</div>
 
-        {displayPhrases && displayPhrases.length > 0 && (
-          <div>
-            <div className="text-lg font-bold">Phrases</div>
-            <div className="text-lg mt-1 space-y-1">
-              {displayPhrases.map((p: string, i: number) => (
-                <div key={i}>• {p}</div>
-              ))}
+              <div className="text-lg mt-1">{alternatives.join(', ')}</div>
             </div>
-          </div>
-        )}
+          )}
+
+          {displayPhrases && displayPhrases.length > 0 && (
+            <div>
+              <div className="text-lg font-bold">Phrases</div>
+
+              <div className="text-lg mt-1 space-y-1">
+                {displayPhrases.map((p: string, i: number) => (
+                  <div key={i}>• {p}</div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     );
 
@@ -265,10 +418,12 @@ export const WordsList: React.FC<WordsListProps> = ({
                     key={word.id}
                     tabIndex={0}
                     className="p-4 hover:bg-surface-container transition-colors group relative"
-                    onMouseEnter={(e) => showTooltipForRow(e.currentTarget as HTMLElement, hasTooltip ? word : null)}
-                    onMouseLeave={() => showTooltipForRow(null, null)}
-                    onFocus={(e) => showTooltipForRow(e.currentTarget as HTMLElement, hasTooltip ? word : null)}
-                    onBlur={() => showTooltipForRow(null, null)}
+                    onFocus={() => {
+                      // Focus on row but don't show tooltip
+                    }}
+                    onBlur={() => {
+                      // Blur on row
+                    }}
                   >
                     <div className="flex items-center gap-3">
                       <p className="text-on-surface font-bold text-lg flex-1">
@@ -278,6 +433,13 @@ export const WordsList: React.FC<WordsListProps> = ({
                         <p className="text-on-surface font-bold text-lg w-24">
                           {word.english}
                         </p>
+                        {hasTooltip && (
+                          <InfoButton
+                            word={word}
+                            onHover={(el) => showTooltipForIcon(el, word)}
+                            onLeave={() => showTooltipForIcon(null, null)}
+                          />
+                        )}
                         <PlayButton
                           word={word.english}
                           onSpeak={() => pronounceWord(word.english)}
@@ -310,6 +472,82 @@ export const WordsList: React.FC<WordsListProps> = ({
       {/* Tooltip portal rendered above everything */}
       {renderTooltipPortal()}
     </div>
+  );
+};
+
+interface InfoButtonProps {
+  word: Word;
+  onHover: (el: HTMLElement | null) => void;
+  onLeave: () => void;
+}
+
+const InfoButton: React.FC<InfoButtonProps> = ({ word, onHover, onLeave }) => {
+  const [hover, setHover] = useState(false);
+  const infoButtonRef = useRef<HTMLButtonElement>(null);
+
+  const hoverBg = 'var(--surface-container-high, rgba(0,0,0,0.06))';
+  const hoverColor = 'var(--on-surface, inherit)';
+
+  return (
+    <button
+      ref={infoButtonRef}
+      className="
+        w-6
+        h-6
+        p-0
+        rounded-full
+        bg-transparent
+        text-on-surface
+        border border-outline
+        transition-colors
+        flex items-center justify-center
+        flex-shrink-0
+        hover:border-on-surface
+      "
+      aria-label={`Info about: ${word.english}`}
+      onMouseEnter={() => {
+        setHover(true);
+        if (infoButtonRef.current) {
+          onHover(infoButtonRef.current);
+        }
+      }}
+      onMouseLeave={() => {
+        setHover(false);
+        onLeave();
+      }}
+      onFocus={() => {
+        if (infoButtonRef.current) {
+          onHover(infoButtonRef.current);
+        }
+      }}
+      onBlur={() => {
+        onLeave();
+      }}
+      style={
+        hover
+          ? { backgroundColor: hoverBg, color: hoverColor }
+          : { backgroundColor: 'transparent' }
+      }
+    >
+      <svg
+        width="12"
+        height="12"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+        focusable="false"
+        style={{ display: 'block' }}
+      >
+        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.6" />
+        <path
+          d="M12 16v-4M12 8h0"
+          stroke="currentColor"
+          strokeWidth="1.6"
+          strokeLinecap="round"
+        />
+      </svg>
+    </button>
   );
 };
 
