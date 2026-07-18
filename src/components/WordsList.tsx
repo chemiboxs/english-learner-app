@@ -94,26 +94,26 @@ export const WordsList: React.FC<WordsListProps> = ({
     const { rect, word } = tooltipTarget;
     const alternatives = (word as any).alternatives || [];
     const phrases = (word as any).phrases || [];
-    const displayPhrases = selectRandomPhrases(phrases);
+    const displayPhrases = selectRandomPhrases(phrases, 6);
 
     const tooltipWidth = 360;
     const padding = 12;
-    
+
     let left = rect.left + rect.width / 2;
     let top = rect.bottom + 8;
-    
+
     // keep tooltip inside visible viewport
     if (left - tooltipWidth / 2 < padding) {
       left = tooltipWidth / 2 + padding;
     }
-    
+
     if (left + tooltipWidth / 2 > window.innerWidth - padding) {
       left = window.innerWidth - tooltipWidth / 2 - padding;
     }
-    
+
     // if there is no space below, show above the row
-    const estimatedHeight = 180;
-    
+    const estimatedHeight = 280;
+
     if (top + estimatedHeight > window.innerHeight - padding) {
       top = rect.top - estimatedHeight - 8;
     }
