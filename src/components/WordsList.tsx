@@ -104,7 +104,6 @@ export const WordsList: React.FC<WordsListProps> = ({
   }, []);
 
   // Constants for tooltip sizing
-  const TOOLTIP_WIDTH = 468; // consistent width across rows
   const TOOLTIP_MIN_WIDTH = 320;
 
   // Calculate tooltip position with intelligent viewport awareness
@@ -326,7 +325,7 @@ export const WordsList: React.FC<WordsListProps> = ({
       return null;
     }
 
-    const { word, triggerRect, rowRect } = tooltipTarget;
+    const { word } = tooltipTarget;
 
     // Use fallback position during first render (measure at a stable in-viewport location)
     const PADDING = 16;
@@ -350,13 +349,10 @@ export const WordsList: React.FC<WordsListProps> = ({
           position: 'fixed',
           left,
           top,
-          width: TOOLTIP_WIDTH,
           minWidth: TOOLTIP_MIN_WIDTH,
           maxWidth: 'calc(100vw - 32px)',
           zIndex: 99999,
           pointerEvents: 'auto',
-          // Hide tooltip only during the measuring phase
-          // to prevent visual jump
           visibility: tooltipMeasured ? 'visible' : 'hidden',
         }}
         className="

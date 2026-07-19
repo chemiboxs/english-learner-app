@@ -1,9 +1,9 @@
+// src/App.tsx
 import React from 'react';
 import { VocabularyApp } from './components/VocabularyApp';
 import { useDictionaries } from './hooks/useDictionaries';
 import { VoiceSelector } from './components/VoiceSelector';
 import { WordsList } from './components/WordsList';
-
 import './index.css';
 
 function App() {
@@ -29,24 +29,20 @@ function App() {
     skipped: 0,
   });
 
-
   const handleDictionaryChange = (newDict: string) => {
     switchDictionary(newDict);
     setKey(prev => prev + 1);
   };
-
 
   const handleLearnedClick = () => {
     setModalType('learned');
     setShowModal(true);
   };
 
-
   const handleSkippedClick = () => {
     setModalType('skipped');
     setShowModal(true);
   };
-
 
   const handleStatsUpdate = (learned: number, skipped: number) => {
     setStats({
@@ -54,7 +50,6 @@ function App() {
       skipped,
     });
   };
-
 
   const handleResetVocabulary = () => {
     const currentWords = getCurrentDictionary();
@@ -76,7 +71,6 @@ function App() {
     setKey(prev => prev + 1);
   };
 
-
   if (isLoading) {
     return (
       <div className="min-h-screen bg-surface flex items-center justify-center">
@@ -90,16 +84,15 @@ function App() {
     );
   }
 
-
   const currentWords = getCurrentDictionary();
   const allWords = getAllWords();
   const dictionaryList = getDictionaryList();
 
+  const commitShort = __COMMIT_SHA__ !== 'dev' ? __COMMIT_SHA__.slice(0, 7) : 'dev';
+  const versionLabel = `v.${commitShort}`;
 
   return (
     <div className="App">
-
-
       <header
         className="
           relative
@@ -110,7 +103,6 @@ function App() {
           shadow-soft
         "
       >
-
         <div
           className="
             max-w-[1400px]
@@ -121,11 +113,8 @@ function App() {
             h-12
           "
         >
-
-
           {/* LEFT */}
           <div className="flex items-center h-10 gap-2">
-
             <select
               value={selectedDictionary}
               onChange={(e) => handleDictionaryChange(e.target.value)}
@@ -148,7 +137,6 @@ function App() {
                 </option>
               ))}
             </select>
-
 
             <button
               onClick={() => setShowCurrentWordsModal(true)}
@@ -185,24 +173,15 @@ function App() {
             >
               All words
             </button>
-
           </div>
-
-
 
           {/* CENTER */}
           <div className="flex justify-center">
-
             <VoiceSelector />
-
           </div>
-
-
 
           {/* RIGHT */}
           <div className="flex items-center justify-end gap-2 h-10">
-
-
             <button
               onClick={handleLearnedClick}
               className="
@@ -220,7 +199,6 @@ function App() {
             >
               Learned {stats.learned}
             </button>
-
 
             <button
               onClick={handleSkippedClick}
@@ -240,7 +218,6 @@ function App() {
               Skipped {stats.skipped}
             </button>
 
-
             <button
               onClick={handleResetVocabulary}
               className="
@@ -254,18 +231,11 @@ function App() {
             >
               Reset
             </button>
-
-
           </div>
-
         </div>
-
       </header>
 
-
-
       {currentWords.length > 0 && (
-
         <VocabularyApp
           key={key}
           words={currentWords}
@@ -278,10 +248,7 @@ function App() {
           setModalType={setModalType}
           resetVocabularyCallback={handleResetVocabulary}
         />
-
       )}
-
-
 
       {/* CURRENT DICTIONARY WORDS MODAL */}
       <WordsList
@@ -301,7 +268,14 @@ function App() {
         type="all"
       />
 
-
+      {/* --- Version badge (app-level, bottom-right) --- */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none fixed bottom-3 right-3 z-[1000] rounded px-2 py-1 text-xs bg-surface-container-high/80 text-on-surface-variant border border-outline/50 shadow-sm"
+        style={{ backdropFilter: 'blur(4px)' }}
+      >
+        {versionLabel}
+      </div>
     </div>
   );
 }
