@@ -13,7 +13,8 @@ interface WordsListProps {
 }
 
 interface TooltipState {
-  rect: DOMRect;
+  triggerRect: DOMRect;
+  rowRect: DOMRect;
   word: Word;
 }
 
@@ -34,14 +35,27 @@ export const WordsList: React.FC<WordsListProps> = ({
   const { speak, cancel } = useSpeech();
   const [searchQuery, setSearchQuery] = useState('');
   const tooltipRef = useRef<HTMLDivElement>(null);
+  const hideTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Track hovered state flags (used for quick checks)
+  const [isTriggerHovered, setIsTriggerHovered] = useState(false);
+  const [isTooltipHovered, setIsTooltipHovered] = useState(false);
+
+  // Save a live reference to the current trigger element so we can
+  // test containment when deciding to hide the tooltip.
+  const tooltipTriggerElRef = useRef<HTMLElement | null>(null);
+
+  // Track last pointer coords so we can query the element under the pointer
+  // at the moment the hide timer fires (more robust than relying only on state).
+  const lastPointerRef = useRef<{ x: number; y: number } | null>(null);
 
   useEffect(() => {
-  if (isOpen) {
-    setSearchQuery('');
-  }
-}, [isOpen, type]);
+    if (isOpen) {
+      setSearchQuery('');
+    }
+  }, [isOpen, type]);
 
-  // Tooltip state (word + rect)
+  // Tooltip state (word + trigger + row rects)
   const [tooltipTarget, setTooltipTarget] = useState<TooltipState | null>(null);
   const [tooltipPosition, setTooltipPosition] = useState<ComputedTooltipPosition | null>(null);
   const [tooltipMeasured, setTooltipMeasured] = useState(false);
@@ -60,36 +74,58 @@ export const WordsList: React.FC<WordsListProps> = ({
     }
   }, [isOpen, onClose]);
 
-  //
-  // Tooltip rendering fix:
-  // The previous implementation returned null until tooltipPosition existed.
-  // This caused a render loop because tooltipPosition could only be calculated
-  // after the tooltip DOM element existed.
-  //
-  // New flow:
-  // 1. Render tooltip invisibly with a fallback position.
-  // 2. Measure real tooltip dimensions using tooltipRef.
-  // 3. Calculate the correct viewport-aware position.
-  // 4. Re-render tooltip in the final position.
-  //
+  // Ensure tooltip state is cleared when modal is closed
+  useEffect(() => {
+    if (!isOpen) {
+      // clear any pending hide timeout
+      if (hideTimeoutRef.current) {
+        clearTimeout(hideTimeoutRef.current);
+        hideTimeoutRef.current = null;
+      }
+
+      // Reset tooltip and hover flags so reopening starts fresh
+      setTooltipTarget(null);
+      setTooltipPosition(null);
+      setTooltipMeasured(false);
+      setIsTriggerHovered(false);
+      setIsTooltipHovered(false);
+      tooltipTriggerElRef.current = null;
+    }
+  }, [isOpen]);
+
+  // Capture pointer coordinates globally so the hide-timer can check
+  // what element the pointer currently sits over.
+  useEffect(() => {
+    const onMove = (e: MouseEvent) => {
+      lastPointerRef.current = { x: e.clientX, y: e.clientY };
+    };
+    document.addEventListener('mousemove', onMove);
+    return () => document.removeEventListener('mousemove', onMove);
+  }, []);
+
+  // Constants for tooltip sizing
+  const TOOLTIP_WIDTH = 468; // consistent width across rows
+  const TOOLTIP_MIN_WIDTH = 320;
 
   // Calculate tooltip position with intelligent viewport awareness
   const calculateTooltipPosition = (
     triggerRect: DOMRect,
+    rowRect: DOMRect,
     tooltipRect: DOMRect
   ): ComputedTooltipPosition => {
     const GAP = 8;
-    const PADDING = 16;
+    const PADDING = 16; // keep some space from viewport edges
 
     const viewportWidth = window.innerWidth;
     const viewportHeight = window.innerHeight;
 
-    // Calculate available vertical space
-    const spaceBelow = viewportHeight - triggerRect.bottom - GAP;
-    const spaceAbove = triggerRect.top - GAP;
+    // Calculate available vertical space (respect top/bottom padding)
+    const availableBelow = viewportHeight - PADDING - triggerRect.bottom - GAP;
+    const availableAbove = triggerRect.top - PADDING - GAP;
 
-    const fitsBelow = tooltipRect.height <= spaceBelow;
-    const fitsAbove = tooltipRect.height <= spaceAbove;
+    // Determine if natural tooltip height fits without scrolling
+    const fitsBelow = tooltipRect.height <= availableBelow;
+    const fitsAbove = tooltipRect.height <= availableAbove;
 
     let placement: 'top' | 'bottom';
 
@@ -99,17 +135,16 @@ export const WordsList: React.FC<WordsListProps> = ({
       placement = 'top';
     } else {
       // Use the side with more available space
-      placement = spaceBelow >= spaceAbove ? 'bottom' : 'top';
+      placement = availableBelow >= availableAbove ? 'bottom' : 'top';
     }
 
     let maxHeight: number | undefined;
 
     // Enable scrolling only when the tooltip cannot fit naturally
     if (!fitsBelow && !fitsAbove) {
-      maxHeight = Math.max(
-        150,
-        placement === 'bottom' ? spaceBelow - PADDING : spaceAbove - PADDING
-      );
+      const chosenAvailable = placement === 'bottom' ? availableBelow : availableAbove;
+      // Ensure we leave some padding and set a reasonable minimum
+      maxHeight = Math.max(150, chosenAvailable);
     }
 
     const tooltipHeight = maxHeight ?? tooltipRect.height;
@@ -128,17 +163,21 @@ export const WordsList: React.FC<WordsListProps> = ({
       top = viewportHeight - tooltipHeight - PADDING;
     }
 
-    // Horizontal positioning
-    let left = triggerRect.left + triggerRect.width / 2;
+    // Horizontal positioning: align tooltip right edge before English word column
+    // The right-side flex container has Play/Stop (6+6 + 2*gap) and Info (6 + gap)
+    const rightSideWidth = 24 + 8 + 24 + 8 + 24; // info + gap + play + gap + stop + gaps
+    const englishColumnStart = rowRect.right - rightSideWidth - 24 - 8; // minus English word width and gap
 
-    const halfWidth = tooltipRect.width / 2;
+    // Position tooltip so its right edge is before English column with small gap
+    let left = englishColumnStart - tooltipRect.width - GAP;
 
-    if (left - halfWidth < PADDING) {
-      left = halfWidth + PADDING;
+    // Only constrain to viewport if would go outside
+    if (left < PADDING) {
+      left = PADDING;
     }
 
-    if (left + halfWidth > viewportWidth - PADDING) {
-      left = viewportWidth - halfWidth - PADDING;
+    if (left + tooltipRect.width > viewportWidth - PADDING) {
+      left = viewportWidth - tooltipRect.width - PADDING;
     }
 
     return {
@@ -165,12 +204,72 @@ export const WordsList: React.FC<WordsListProps> = ({
 
       const tooltipRect = tooltipRef.current.getBoundingClientRect();
 
-      const position = calculateTooltipPosition(tooltipTarget.rect, tooltipRect);
+      const position = calculateTooltipPosition(tooltipTarget.triggerRect, tooltipTarget.rowRect, tooltipRect);
 
       setTooltipPosition(position);
       setTooltipMeasured(true);
     });
   }, [tooltipTarget]);
+
+  // Cancel pending hide timeout on cleanup
+  useEffect(() => {
+    return () => {
+      if (hideTimeoutRef.current) {
+        clearTimeout(hideTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  // Function to schedule tooltip hide with delay, but only if pointer is not inside trigger/tooltip.
+  // We use the last pointer coordinates and elementFromPoint to make this reliable.
+  const scheduleHideTooltip = () => {
+    if (hideTimeoutRef.current) {
+      clearTimeout(hideTimeoutRef.current);
+    }
+
+    hideTimeoutRef.current = setTimeout(() => {
+      // If we have pointer coords, check the element under the pointer.
+      let pointerInside = false;
+
+      const lp = lastPointerRef.current;
+      if (lp) {
+        const el = document.elementFromPoint(lp.x, lp.y);
+        if (el) {
+          if (tooltipRef.current && tooltipRef.current.contains(el)) {
+            pointerInside = true;
+          }
+          if (tooltipTriggerElRef.current && tooltipTriggerElRef.current.contains(el)) {
+            pointerInside = true;
+          }
+        }
+      }
+
+      // Fallback to state-based check if pointer coordinates are not available
+      if (!lp) {
+        pointerInside = isTriggerHovered || isTooltipHovered;
+      }
+
+      if (!pointerInside) {
+        // Hide tooltip and reset measured/trigger refs
+        setTooltipTarget(null);
+        setTooltipPosition(null);
+        setTooltipMeasured(false);
+        tooltipTriggerElRef.current = null;
+        setIsTriggerHovered(false);
+        setIsTooltipHovered(false);
+      }
+
+      hideTimeoutRef.current = null;
+    }, 150); // keep the short delay to allow cursor move
+  };
+
+  // Function to cancel hide timeout
+  const cancelHideTooltip = () => {
+    if (hideTimeoutRef.current) {
+      clearTimeout(hideTimeoutRef.current);
+      hideTimeoutRef.current = null;
+    }
+  };
 
   if (!isOpen) return null;
 
@@ -202,16 +301,23 @@ export const WordsList: React.FC<WordsListProps> = ({
     }
   };
 
-  // Handlers to show/hide tooltip based on the info icon element
-  const showTooltipForIcon = (iconEl: HTMLElement | null, word: Word | null) => {
-    if (iconEl && word) {
-      const rect = iconEl.getBoundingClientRect();
-      setTooltipTarget({ rect, word });
-    } else {
-      setTooltipTarget(null);
-      setTooltipPosition(null);
-      setTooltipMeasured(false);
+  // Handlers to show tooltip based on the info icon element
+  const showTooltipForIcon = (iconEl: HTMLElement | null, rowEl: HTMLElement | null, word: Word | null) => {
+    if (iconEl && rowEl && word) {
+      cancelHideTooltip();
+      setIsTriggerHovered(true);
+      tooltipTriggerElRef.current = iconEl;
+      const triggerRect = iconEl.getBoundingClientRect();
+      const rowRect = rowEl.getBoundingClientRect();
+      setTooltipTarget({ triggerRect, rowRect, word });
     }
+  };
+
+  // Handler to hide tooltip when leaving trigger
+  const hideTooltipFromTrigger = () => {
+    setIsTriggerHovered(false);
+    // Schedule hide only if tooltip is also not hovered (the scheduleHideTooltip will guard with pointer check)
+    scheduleHideTooltip();
   };
 
   // Portal tooltip rendering
@@ -220,11 +326,15 @@ export const WordsList: React.FC<WordsListProps> = ({
       return null;
     }
 
-    const { word, rect } = tooltipTarget;
+    const { word, triggerRect, rowRect } = tooltipTarget;
 
-    // Use fallback position during first render
-    const left = tooltipPosition?.left ?? rect.left + rect.width / 2;
-    const top = tooltipPosition?.top ?? rect.bottom + 8;
+    // Use fallback position during first render (measure at a stable in-viewport location)
+    const PADDING = 16;
+    const fallbackLeft = PADDING; // measure at left padding to get consistent wrapping
+    const fallbackTop = PADDING; // measure at top padding to avoid being constrained by trigger row
+
+    const left = tooltipPosition?.left ?? fallbackLeft;
+    const top = tooltipPosition?.top ?? fallbackTop;
     const maxHeight = tooltipPosition?.maxHeight;
 
     const alternatives = (word as any).alternatives || [];
@@ -240,8 +350,8 @@ export const WordsList: React.FC<WordsListProps> = ({
           position: 'fixed',
           left,
           top,
-          transform: 'translateX(-50%)',
-          width: 468,
+          width: TOOLTIP_WIDTH,
+          minWidth: TOOLTIP_MIN_WIDTH,
           maxWidth: 'calc(100vw - 32px)',
           zIndex: 99999,
           pointerEvents: 'auto',
@@ -259,13 +369,14 @@ export const WordsList: React.FC<WordsListProps> = ({
           overflow-hidden
         "
         onMouseEnter={() => {
-          // Keep tooltip visible while hovering inside it
+          // Cancel scheduled hide and mark tooltip as hovered
+          cancelHideTooltip();
+          setIsTooltipHovered(true);
         }}
         onMouseLeave={() => {
-          // Hide tooltip after leaving tooltip area
-          setTooltipTarget(null);
-          setTooltipPosition(null);
-          setTooltipMeasured(false);
+          // Mark tooltip as not hovered and schedule hide; scheduleHideTooltip will check pointer location
+          setIsTooltipHovered(false);
+          scheduleHideTooltip();
         }}
       >
         <div
@@ -418,12 +529,6 @@ export const WordsList: React.FC<WordsListProps> = ({
                     key={word.id}
                     tabIndex={0}
                     className="p-4 hover:bg-surface-container transition-colors group relative"
-                    onFocus={() => {
-                      // Focus on row but don't show tooltip
-                    }}
-                    onBlur={() => {
-                      // Blur on row
-                    }}
                   >
                     <div className="flex items-center gap-3">
                       <p className="text-on-surface font-bold text-lg flex-1">
@@ -436,8 +541,8 @@ export const WordsList: React.FC<WordsListProps> = ({
                         {hasTooltip && (
                           <InfoButton
                             word={word}
-                            onHover={(el) => showTooltipForIcon(el, word)}
-                            onLeave={() => showTooltipForIcon(null, null)}
+                            onHover={(iconEl, rowEl) => showTooltipForIcon(iconEl, rowEl, word)}
+                            onLeave={() => hideTooltipFromTrigger()}
                           />
                         )}
                         <PlayButton
@@ -477,7 +582,7 @@ export const WordsList: React.FC<WordsListProps> = ({
 
 interface InfoButtonProps {
   word: Word;
-  onHover: (el: HTMLElement | null) => void;
+  onHover: (iconEl: HTMLElement, rowEl: HTMLElement) => void;
   onLeave: () => void;
 }
 
@@ -487,6 +592,34 @@ const InfoButton: React.FC<InfoButtonProps> = ({ word, onHover, onLeave }) => {
 
   const hoverBg = 'var(--surface-container-high, rgba(0,0,0,0.06))';
   const hoverColor = 'var(--on-surface, inherit)';
+
+  const handleMouseEnter = () => {
+    setHover(true);
+    if (infoButtonRef.current) {
+      const rowEl = infoButtonRef.current.closest('div[class*="p-4"]') as HTMLElement;
+      if (rowEl) {
+        onHover(infoButtonRef.current, rowEl);
+      }
+    }
+  };
+
+  const handleMouseLeave = () => {
+    setHover(false);
+    onLeave();
+  };
+
+  const handleFocus = () => {
+    if (infoButtonRef.current) {
+      const rowEl = infoButtonRef.current.closest('div[class*="p-4"]') as HTMLElement;
+      if (rowEl) {
+        onHover(infoButtonRef.current, rowEl);
+      }
+    }
+  };
+
+  const handleBlur = () => {
+    onLeave();
+  };
 
   return (
     <button
@@ -505,24 +638,10 @@ const InfoButton: React.FC<InfoButtonProps> = ({ word, onHover, onLeave }) => {
         hover:border-on-surface
       "
       aria-label={`Info about: ${word.english}`}
-      onMouseEnter={() => {
-        setHover(true);
-        if (infoButtonRef.current) {
-          onHover(infoButtonRef.current);
-        }
-      }}
-      onMouseLeave={() => {
-        setHover(false);
-        onLeave();
-      }}
-      onFocus={() => {
-        if (infoButtonRef.current) {
-          onHover(infoButtonRef.current);
-        }
-      }}
-      onBlur={() => {
-        onLeave();
-      }}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onFocus={handleFocus}
+      onBlur={handleBlur}
       style={
         hover
           ? { backgroundColor: hoverBg, color: hoverColor }
