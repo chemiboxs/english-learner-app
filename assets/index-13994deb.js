@@ -73,7 +73,7 @@ Error generating stack: `+a.message+`
             text-on-surface
             border border-outline
             flex items-center justify-center
-          `,"aria-label":"Stop pronunciation",children:y.jsx("svg",{className:"w-[14px] h-[14px] md:w-4 md:h-4",viewBox:"0 0 24 24",fill:"currentColor",xmlns:"http://www.w3.org/2000/svg",children:y.jsx("rect",{x:"6",y:"6",width:"12",height:"12",rx:"1"})})})]})]})},xf=({value:e,onChange:n,onSubmit:t,placeholder:r="Type here...",disabled:i=!1})=>{const[a,s]=W.useState(!1);W.useEffect(()=>{a&&e.length>0&&s(!1)},[e,a]);const o=d=>{if(d.key==="Enter"&&!i){if(e.trim().length===0){s(!0);return}t(e)}},l=()=>{n(""),s(!1)};return y.jsxs("div",{className:"w-full max-w-2xl mx-auto px-gutter",children:[y.jsxs("div",{className:"relative",children:[y.jsx("input",{type:"text",value:e,onChange:d=>n(d.target.value),onKeyPress:o,placeholder:r,disabled:i,autoFocus:!0,className:`
+          `,"aria-label":"Stop pronunciation",children:y.jsx("svg",{className:"w-[14px] h-[14px] md:w-4 md:h-4",viewBox:"0 0 24 24",fill:"currentColor",xmlns:"http://www.w3.org/2000/svg",children:y.jsx("rect",{x:"6",y:"6",width:"12",height:"12",rx:"1"})})})]})]})},xf=({value:e,onChange:n,onSubmit:t,placeholder:r="Type here...",disabled:i=!1})=>{const[a,s]=W.useState(!1);W.useEffect(()=>{a&&e.length>0&&s(!1)},[e,a]);const o=d=>{if(d.key==="Enter"&&!i){if(e.trim().length===0){s(!0);return}t(e)}},l=()=>{n(""),s(!1)};return y.jsxs("div",{className:"w-full max-w-2xl mx-auto px-gutter",children:[y.jsxs("div",{className:"relative",children:[y.jsx("input",{type:"text",value:e,onChange:d=>n(d.target.value),onKeyPress:o,placeholder:r,disabled:i,autoFocus:typeof window<"u"&&window.innerWidth>=768,className:`
             w-full
             px-6
             py-4
@@ -166,8 +166,8 @@ Error generating stack: `+a.message+`
               hover:bg-primary-container transition-colors
               active:translate-y-0.5
             `,children:"Close"})})]}),Z()]})},Tf=({word:e,onHover:n,onLeave:t})=>{const[r,i]=W.useState(!1),a=W.useRef(null),s="var(--surface-container-high, rgba(0,0,0,0.06))",o="var(--on-surface, inherit)",l=()=>{if(i(!0),a.current){const k=a.current.closest('div[class*="p-4"]');k&&n(a.current,k)}},d=()=>{i(!1),t()},p=()=>{if(i(!0),a.current){const k=a.current.closest('div[class*="p-4"]');k&&n(a.current,k)}},m=()=>{if(a.current){const k=a.current.closest('div[class*="p-4"]');k&&n(a.current,k)}},f=()=>{t()};return y.jsx("button",{ref:a,className:`
-        w-10
-        h-10
+        w-[34px]
+        h-[34px]
         md:w-6
         md:h-6
         p-0
@@ -181,7 +181,7 @@ Error generating stack: `+a.message+`
         active:border-on-surface
         focus-visible:border-on-surface
         hover:border-on-surface
-      `,"aria-label":`Info about: ${e.english}`,onMouseEnter:l,onMouseLeave:d,onTouchStart:p,onFocus:m,onBlur:f,style:r?{backgroundColor:s,color:o}:{backgroundColor:"transparent"},children:y.jsxs("svg",{width:"12",height:"12",viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg","aria-hidden":"true",focusable:"false",style:{display:"block"},children:[y.jsx("circle",{cx:"12",cy:"12",r:"10",stroke:"currentColor",strokeWidth:"1.6"}),y.jsx("path",{d:"M12 16v-4M12 8h0",stroke:"currentColor",strokeWidth:"1.6",strokeLinecap:"round"})]})})},bf=({word:e,onSpeak:n,onStop:t})=>{const[r,i]=W.useState(!1),a="var(--surface-container-high, rgba(0,0,0,0.06))",s="var(--on-surface, inherit)";return y.jsxs("div",{className:"flex items-center gap-2 md:flex-shrink-0",children:[y.jsx("button",{onClick:n,className:`
+      `,"aria-label":`Info about: ${e.english}`,onMouseEnter:l,onMouseLeave:d,onTouchStart:p,onFocus:m,onBlur:f,style:r?{backgroundColor:s,color:o}:{backgroundColor:"transparent"},children:y.jsxs("svg",{className:"w-[10px] h-[10px] md:w-3 md:h-3",viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg","aria-hidden":"true",focusable:"false",style:{display:"block"},children:[y.jsx("circle",{cx:"12",cy:"12",r:"10",stroke:"currentColor",strokeWidth:"1.6"}),y.jsx("path",{d:"M12 16v-4M12 8h0",stroke:"currentColor",strokeWidth:"1.6",strokeLinecap:"round"})]})})},bf=({word:e,onSpeak:n,onStop:t})=>{const[r,i]=W.useState(!1),a="var(--surface-container-high, rgba(0,0,0,0.06))",s="var(--on-surface, inherit)";return y.jsxs("div",{className:"flex items-center gap-2 md:flex-shrink-0",children:[y.jsx("button",{onClick:n,className:`
           w-[34px]
           h-[34px]
           md:w-6
@@ -214,16 +214,16 @@ Error generating stack: `+a.message+`
           focus-visible:border-on-surface
           hover:border-on-surface
         `,"aria-label":"Stop pronunciation",children:y.jsx("svg",{className:"w-[8px] h-[8px] md:w-[10px] md:h-[10px]",viewBox:"0 0 24 24",fill:"currentColor",xmlns:"http://www.w3.org/2000/svg",children:y.jsx("rect",{x:"6",y:"6",width:"12",height:"12",rx:"1"})})})]})},cl=({enabled:e,onChange:n,label:t="",disabled:r=!1})=>y.jsxs("div",{className:"flex items-center w-full justify-between md:w-auto md:justify-start md:gap-3",children:[t&&y.jsx("label",{className:"text-on-surface font-medium",children:t}),y.jsx("button",{onClick:()=>!r&&n(!e),disabled:r,className:`
-          relative inline-flex h-11 md:h-7 w-14 rounded-full
+          relative inline-flex h-[33px] w-[42px] md:h-7 md:w-14 rounded-full
           transition-colors duration-200
           disabled:opacity-50 disabled:cursor-not-allowed
           flex-shrink-0
           ${e?"bg-primary":"bg-outline-variant"}
         `,children:y.jsx("span",{className:`
-            inline-block h-6 w-6 transform rounded-full
+            inline-block h-[18px] w-[18px] md:h-6 md:w-6 transform rounded-full
             bg-on-surface transition-transform duration-200
             absolute top-1/2 -translate-y-1/2
-            ${e?"translate-x-7":"translate-x-0.5"}
+            ${e?"translate-x-[21px] md:translate-x-7":"translate-x-0.5"}
           `})})]}),If=({words:e,onStatsUpdate:n,showModal:t,setShowModal:r,modalType:i,resetVocabularyCallback:a})=>{const{state:s,checkAnswer:o,skipWord:l,toggleSkippedWordsMode:d,toggleHidePhrases:p,hidePhrases:m,resetVocabulary:f,updateInput:k,getStats:T,isCompleted:b}=ff(e),N=T(),c=W.useRef({learned:-1,skipped:-1});dn.useEffect(()=>{(N.learned!==c.current.learned||N.skipped!==c.current.skipped)&&(n(N.learned,N.skipped),c.current={learned:N.learned,skipped:N.skipped})},[N.learned,N.skipped,n]);const u=()=>{f(),a(),n(0,0)},h=()=>{o(s.userInput)},v=b,I=Array.from({length:N.learned},(w,M)=>M),g=I.slice(0,Math.ceil(I.length/2)),S=I.slice(Math.ceil(I.length/2));return y.jsxs("div",{className:"min-h-screen bg-surface flex flex-col",children:[y.jsxs("main",{className:`
           relative
           flex-1
@@ -272,7 +272,7 @@ Error generating stack: `+a.message+`
           border border-outline
           text-sm
           font-medium
-        `,children:[y.jsx("option",{value:"",children:"Auto (best English)"}),a.map(o=>y.jsx("option",{value:o.uri,children:o.label},o.uri))]})})};function Uf(){const{selectedDictionary:e,isLoading:n,switchDictionary:t,getCurrentDictionary:r,getDictionaryList:i,getAllWords:a}=Af(),[s,o]=dn.useState(0),[l,d]=dn.useState(!1),[p,m]=dn.useState(!1),[f,k]=dn.useState(!1),[T,b]=dn.useState("learned"),[N,c]=dn.useState({learned:0,skipped:0}),u=R=>{t(R),o(J=>J+1)},h=()=>{b("learned"),d(!0)},v=()=>{b("skipped"),d(!0)},I=(R,J)=>{c({learned:R,skipped:J})},g=()=>{const R=r();if(R.length>0){const J=`vocabulary_data_${R.map(sn=>sn.id).sort().join("|")}`;localStorage.removeItem(J)}c({learned:0,skipped:0}),o(J=>J+1)};if(n)return y.jsx("div",{className:"min-h-screen bg-surface flex items-center justify-center",children:y.jsxs("div",{className:"text-center",children:[y.jsx("p",{className:"text-3xl mb-4",children:"📚"}),y.jsx("p",{className:"text-lg text-on-surface-variant",children:"Завантаження словників..."})]})});const S=r(),w=a(),M=i(),A=`v.${"41c8757".slice(0,7)}`;return y.jsxs("div",{className:"App",children:[y.jsx("header",{className:`
+        `,children:[y.jsx("option",{value:"",children:"Auto (best English)"}),a.map(o=>y.jsx("option",{value:o.uri,children:o.label},o.uri))]})})};function Uf(){const{selectedDictionary:e,isLoading:n,switchDictionary:t,getCurrentDictionary:r,getDictionaryList:i,getAllWords:a}=Af(),[s,o]=dn.useState(0),[l,d]=dn.useState(!1),[p,m]=dn.useState(!1),[f,k]=dn.useState(!1),[T,b]=dn.useState("learned"),[N,c]=dn.useState({learned:0,skipped:0}),u=R=>{t(R),o(J=>J+1)},h=()=>{b("learned"),d(!0)},v=()=>{b("skipped"),d(!0)},I=(R,J)=>{c({learned:R,skipped:J})},g=()=>{const R=r();if(R.length>0){const J=`vocabulary_data_${R.map(sn=>sn.id).sort().join("|")}`;localStorage.removeItem(J)}c({learned:0,skipped:0}),o(J=>J+1)};if(n)return y.jsx("div",{className:"min-h-screen bg-surface flex items-center justify-center",children:y.jsxs("div",{className:"text-center",children:[y.jsx("p",{className:"text-3xl mb-4",children:"📚"}),y.jsx("p",{className:"text-lg text-on-surface-variant",children:"Завантаження словників..."})]})});const S=r(),w=a(),M=i(),A=`v.${"1f092e2".slice(0,7)}`;return y.jsxs("div",{className:"App",children:[y.jsx("header",{className:`
           relative
           z-50
           bg-surface-container-low
