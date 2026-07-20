@@ -12,12 +12,9 @@ interface VocabularyAppProps {
   learnedWords: Word[];
   skippedWords: Word[];
   onStatsUpdate: (learned: number, skipped: number) => void;
-  onLearnedClick: () => void;
-  onSkippedClick: () => void;
   showModal: boolean;
   setShowModal: (show: boolean) => void;
   modalType: 'learned' | 'skipped';
-  setModalType: (type: 'learned' | 'skipped') => void;
   resetVocabularyCallback: () => void;
 }
 
@@ -27,7 +24,6 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
   showModal,
   setShowModal,
   modalType,
-  setModalType,
   resetVocabularyCallback,
 }) => {
   const {
@@ -84,7 +80,7 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
 
 
   return (
-    <div className="min-h-screen bg-surface flex flex-col">
+    <div className="bg-surface flex flex-col">
 
 
       <main
@@ -104,13 +100,14 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
         {!showCongratulations && leftStars.length > 0 && (
           <div
             className="
+              hidden
+              lg:flex
               absolute
               left-0
               top-1/2
               -translate-y-1/2
               w-[calc((100vw-1024px)/2)]
               min-w-[90px]
-              flex
               flex-wrap
               justify-end
               gap-2
@@ -137,13 +134,14 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
         {!showCongratulations && rightStars.length > 0 && (
           <div
             className="
+              hidden
+              lg:flex
               absolute
               right-0
               top-1/2
               -translate-y-1/2
               w-[calc((100vw-1024px)/2)]
               min-w-[90px]
-              flex
               flex-wrap
               justify-start
               gap-2
@@ -181,7 +179,7 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
 
           {/* INPUT + BUTTONS FIXED LOW */}
           {!showCongratulations && state.currentWord && (
-           <div className="mt-auto mb-24 space-y-2">
+           <div className="mt-4 mb-8 md:mb-12 space-y-2">
 
 
               <InputField
@@ -221,7 +219,7 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
 
 
 
-              <div className="max-w-2xl mx-auto px-gutter flex justify-center gap-8">
+              <div className="max-w-2xl mx-auto px-gutter flex flex-col md:flex-row justify-center gap-4 md:gap-8">
 
                 <Toggle
                   enabled={state.useSkippedWordsMode}

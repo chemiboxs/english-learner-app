@@ -39,10 +39,12 @@ export const WordCard: React.FC<WordCardProps> = ({ word, hidePhrases = false })
 
           <div className="flex items-center justify-center gap-3">
             <p
-              className="text-primary font-bold"
+              className="text-primary font-bold text-[36px] md:text-[48px]"
               style={{
-                fontSize: '48px',
                 lineHeight: 1,
+                overflowWrap: 'break-word',
+                wordBreak: 'break-word',
+                maxWidth: '100%',
               }}
             >
               {word.ukrainian}
@@ -52,9 +54,8 @@ export const WordCard: React.FC<WordCardProps> = ({ word, hidePhrases = false })
 
           {selectedPhrases && selectedPhrases.length > 0 && (
             <div
-              className="text-on-surface"
+              className="text-on-surface text-[22px] md:text-[30px]"
               style={{
-                fontSize: '30px',
                 marginTop: '0.5rem',
               }}
             >
@@ -94,17 +95,17 @@ const PhraseRow: React.FC<{
   const hoverColor = 'var(--on-surface, inherit)';
 
   return (
-    <div className="leading-tight flex items-center w-full">
+    <div className="leading-tight flex flex-col md:flex-row items-start md:items-center w-full">
 
       {!hideText && (
-        <p className="flex-1 text-left">
+        <p className="flex-1 text-left w-full md:w-auto">
           {phrase}
         </p>
       )}
 
-      {hideText && <div className="flex-1" />}
+      {hideText && <div className="flex-1 w-full md:w-auto" />}
 
-      <div className="flex items-center gap-2 ml-3">
+      <div className="flex items-center gap-2 md:ml-3 mt-1 md:mt-0 self-end md:self-auto">
 
 
         {/* PLAY */}
@@ -114,9 +115,12 @@ const PhraseRow: React.FC<{
           size="sm"
           className="
             speaker-button
-            w-10
-            h-10
-            min-w-10
+            w-[34px]
+            h-[34px]
+            min-w-[34px]
+            md:w-10
+            md:h-10
+            md:min-w-10
             p-0
             rounded-full
             bg-transparent
@@ -128,6 +132,8 @@ const PhraseRow: React.FC<{
           aria-label={`Pronounce example: ${phrase}`}
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}
+          onTouchStart={() => setHover(true)}
+          onTouchEnd={() => setTimeout(() => setHover(false), 300)}
           style={
             hover
               ? { backgroundColor: hoverBg, color: hoverColor }
@@ -135,8 +141,7 @@ const PhraseRow: React.FC<{
           }
         >
           <svg
-            width="18"
-            height="18"
+            className="w-[15px] h-[15px] md:w-[18px] md:h-[18px]"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -170,9 +175,12 @@ const PhraseRow: React.FC<{
           size="sm"
           className="
             speaker-button
-            w-10
-            h-10
-            min-w-10
+            w-[34px]
+            h-[34px]
+            min-w-[34px]
+            md:w-10
+            md:h-10
+            md:min-w-10
             p-0
             rounded-full
             bg-transparent
@@ -183,8 +191,7 @@ const PhraseRow: React.FC<{
           aria-label="Stop pronunciation"
         >
           <svg
-            width="16"
-            height="16"
+            className="w-[14px] h-[14px] md:w-4 md:h-4"
             viewBox="0 0 24 24"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
@@ -198,6 +205,7 @@ const PhraseRow: React.FC<{
             />
           </svg>
         </Button>
+
 
 
       </div>

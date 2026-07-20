@@ -17,7 +17,7 @@ export const Stats: React.FC<StatsProps> = ({
   onResetClick,
 }) => {
   return (
-    <div className="flex gap-3 justify-end items-center">
+    <div className="flex flex-wrap gap-3 justify-end items-center">
       <Button
         onClick={onLearnedClick || (() => {})}
         variant="primary"

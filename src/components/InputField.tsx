@@ -50,7 +50,7 @@ export const InputField: React.FC<InputFieldProps> = ({
           onKeyPress={handleKeyPress}
           placeholder={placeholder}
           disabled={disabled}
-          autoFocus
+          autoFocus={typeof window !== 'undefined' && window.innerWidth >= 768}
           className={`
             w-full
             px-6

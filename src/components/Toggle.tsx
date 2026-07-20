@@ -14,7 +14,7 @@ export const Toggle: React.FC<ToggleProps> = ({
   disabled = false,
 }) => {
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center w-full justify-between md:w-auto md:justify-start md:gap-3">
       {label && (
         <label className="text-on-surface font-medium">
           {label}
@@ -24,7 +24,7 @@ export const Toggle: React.FC<ToggleProps> = ({
         onClick={() => !disabled && onChange(!enabled)}
         disabled={disabled}
         className={`
-          relative inline-flex h-7 w-14 rounded-full
+          relative inline-flex h-[33px] w-[42px] md:h-7 md:w-14 rounded-full
           transition-colors duration-200
           disabled:opacity-50 disabled:cursor-not-allowed
           flex-shrink-0
@@ -33,10 +33,10 @@ export const Toggle: React.FC<ToggleProps> = ({
       >
         <span
           className={`
-            inline-block h-6 w-6 transform rounded-full
+            inline-block h-[18px] w-[18px] md:h-6 md:w-6 transform rounded-full
             bg-on-surface transition-transform duration-200
-            absolute top-0.5
-            ${enabled ? 'translate-x-7' : 'translate-x-0.5'}
+            absolute top-1/2 -translate-y-1/2
+            ${enabled ? 'translate-x-[21px] md:translate-x-7' : 'translate-x-0.5'}
           `}
         />
       </button>

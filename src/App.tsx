@@ -4,6 +4,7 @@ import { VocabularyApp } from './components/VocabularyApp';
 import { useDictionaries } from './hooks/useDictionaries';
 import { VoiceSelector } from './components/VoiceSelector';
 import { WordsList } from './components/WordsList';
+import { Select } from './components/Select';
 import './index.css';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
 
   const handleDictionaryChange = (newDict: string) => {
     switchDictionary(newDict);
+    setStats({ learned: 0, skipped: 0 });
     setKey(prev => prev + 1);
   };
 
@@ -107,87 +109,89 @@ function App() {
           className="
             max-w-[1400px]
             mx-auto
-            grid
-            grid-cols-3
-            items-center
-            h-12
+            flex
+            flex-col
+            lg:grid
+            lg:grid-cols-3
+            items-stretch
+            lg:items-center
+            gap-2
+            lg:gap-0
+            py-2
+            lg:py-0
+            h-auto
+            lg:h-12
           "
         >
           {/* LEFT */}
-          <div className="flex items-center h-10 gap-2">
-            <select
+          <div className="flex flex-col lg:flex-row items-center lg:flex-nowrap justify-center lg:justify-start gap-2">
+            <Select
               value={selectedDictionary}
-              onChange={(e) => handleDictionaryChange(e.target.value)}
-              className="
-                h-10
-                w-[180px]
-                px-3
-                rounded-lg
-                bg-surface-container
-                text-on-surface
-                border
-                border-outline
-                text-sm
-                font-medium
-              "
-            >
-              {dictionaryList.map(dict => (
-                <option key={dict} value={dict}>
-                  {dict}
-                </option>
-              ))}
-            </select>
+              onChange={handleDictionaryChange}
+              options={dictionaryList.map(d => ({ value: d, label: d }))}
+              className="lg:w-[180px]"
+            />
 
-            <button
-              onClick={() => setShowCurrentWordsModal(true)}
-              className="
-                h-10
-                px-4
-                rounded-lg
-                bg-secondary-fixed
-                text-black
-                border border-black
-                font-bold
-                transition-all
-                hover:bg-secondary-fixed-dim
-                whitespace-nowrap
-              "
-            >
-              Current words
-            </button>
+            <div className="flex flex-row gap-2">
+              <button
+                onClick={() => setShowCurrentWordsModal(true)}
+                className="
+                  h-12
+                  lg:h-10
+                  px-4
+                  rounded-lg
+                  bg-secondary-fixed
+                  text-black
+                  border border-black
+                  font-bold
+                  transition-all
+                  active:bg-secondary-fixed-dim
+                  focus-visible:bg-secondary-fixed-dim
+                  hover:bg-secondary-fixed-dim
+                  whitespace-nowrap
+                "
+              >
+                Current words
+              </button>
 
-            <button
-              onClick={() => setShowAllWordsModal(true)}
-              className="
-                h-10
-                px-4
-                rounded-lg
-                bg-secondary-fixed
-                text-black
-                border border-black
-                font-bold
-                transition-all
-                hover:bg-secondary-fixed-dim
-                whitespace-nowrap
-              "
-            >
-              All words
-            </button>
+              <button
+                onClick={() => setShowAllWordsModal(true)}
+                className="
+                  h-12
+                  lg:h-10
+                  px-4
+                  rounded-lg
+                  bg-secondary-fixed
+                  text-black
+                  border border-black
+                  font-bold
+                  transition-all
+                  active:bg-secondary-fixed-dim
+                  focus-visible:bg-secondary-fixed-dim
+                  hover:bg-secondary-fixed-dim
+                  whitespace-nowrap
+                "
+              >
+                All words
+              </button>
+            </div>
           </div>
 
           {/* CENTER */}
-          <div className="flex justify-center">
+          <div className="hidden lg:flex justify-center">
             <VoiceSelector />
           </div>
 
           {/* RIGHT */}
-          <div className="flex items-center justify-end gap-2 h-10">
+          <div className="flex flex-wrap lg:flex-nowrap items-center justify-center lg:justify-end gap-2">
             <button
               onClick={handleLearnedClick}
               className="
-                h-10
+                h-12
+                lg:h-10
                 px-4
-                min-w-[120px]
+                min-w-0
+                lg:min-w-[120px]
                 rounded-lg
                 bg-primary
                 text-white
@@ -195,6 +199,8 @@ function App() {
                 border-black
                 font-bold
                 whitespace-nowrap
+                active:bg-primary-container
+                focus-visible:bg-primary-container
               "
             >
               Learned {stats.learned}
@@ -203,9 +209,11 @@ function App() {
             <button
               onClick={handleSkippedClick}
               className="
-                h-10
+                h-12
+                lg:h-10
                 px-4
-                min-w-[120px]
+                min-w-0
+                lg:min-w-[120px]
                 rounded-lg
                 bg-secondary-fixed
                 text-black
@@ -213,6 +221,9 @@ function App() {
                 border-black
                 font-bold
                 whitespace-nowrap
+                active:bg-secondary-fixed-dim
+                focus-visible:bg-secondary-fixed-dim
+                hover:bg-secondary-fixed-dim
               "
             >
               Skipped {stats.skipped}
@@ -221,12 +232,15 @@ function App() {
             <button
               onClick={handleResetVocabulary}
               className="
-                h-10
+                h-12
+                lg:h-10
                 px-3
                 rounded-lg
                 bg-secondary-fixed/20
                 border
                 border-black
+                active:bg-secondary-fixed/40
+                focus-visible:bg-secondary-fixed/40
               "
             >
               Reset
@@ -245,7 +259,6 @@ function App() {
           showModal={showModal}
           setShowModal={setShowModal}
           modalType={modalType}
-          setModalType={setModalType}
           resetVocabularyCallback={handleResetVocabulary}
         />
       )}
@@ -272,7 +285,7 @@ function App() {
       <div
         aria-hidden="true"
         className="pointer-events-none fixed bottom-3 right-3 z-[1000] rounded px-2 py-1 text-xs bg-surface-container-high/80 text-on-surface-variant border border-outline/50 shadow-sm"
-        style={{ backdropFilter: 'blur(4px)' }}
+        style={{ backdropFilter: 'blur(4px)', bottom: 'calc(0.75rem + env(safe-area-inset-bottom, 0px))' }}
       >
         {versionLabel}
       </div>

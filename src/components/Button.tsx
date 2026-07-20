@@ -7,10 +7,10 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 }
 
 const variantClasses: Record<string, string> = {
-  primary: 'bg-primary text-on-primary hover:bg-primary-container',
-  secondary: 'bg-secondary-fixed text-black hover:bg-secondary-fixed-dim',
+  primary: 'bg-primary text-on-primary active:bg-primary-container focus-visible:bg-primary-container hover:bg-primary-container',
+  secondary: 'bg-secondary-fixed text-black active:bg-secondary-fixed-dim focus-visible:bg-secondary-fixed-dim hover:bg-secondary-fixed-dim',
   tertiary: 'bg-tertiary-fixed text-on-tertiary-fixed',
-  error: 'bg-error text-on-error hover:bg-error-container',
+  error: 'bg-error text-on-error active:bg-error-container focus-visible:bg-error-container hover:bg-error-container',
 };
 
 const sizeClasses: Record<string, string> = {

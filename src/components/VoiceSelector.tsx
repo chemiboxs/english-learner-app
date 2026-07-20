@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import useSpeech from '../hooks/useSpeech';
+import { Select } from './Select';
 
 export const VoiceSelector: React.FC = () => {
   const { seriousVoices = [], selectedVoiceURI, setSelectedVoice } = useSpeech();
@@ -15,46 +16,28 @@ export const VoiceSelector: React.FC = () => {
   const options = useMemo(() => {
     const list = seriousVoices?.length ? seriousVoices : [];
 
-    return list.map(v => ({
+    const items = list.map(v => ({
+      value: v.voiceURI || v.name,
       label: `${v.name} — ${v.lang}`,
-      uri: v.voiceURI || v.name,
     }));
+
+    return [{ value: '', label: 'Auto (best English)' }, ...items];
   }, [seriousVoices]);
 
-  const onPick = (uri: string | null) => {
+  const onPick = (value: string) => {
+    const uri = value || null;
     setLocalSelected(uri);
     setSelectedVoice(uri);
   };
 
   return (
-    <div
-      className="flex items-center"
-    >
-      <select
+    <div className="flex items-center">
+      <Select
         value={localSelected ?? ''}
-        onChange={(e) => onPick(e.target.value || null)}
-        className="
-          h-10
-          min-w-[180px]
-          px-3
-          rounded-lg
-          bg-surface-container
-          text-on-surface
-          border border-outline
-          text-sm
-          font-medium
-        "
-      >
-        <option value="">
-          Auto (best English)
-        </option>
-
-        {options.map(o => (
-          <option key={o.uri} value={o.uri}>
-            {o.label}
-          </option>
-        ))}
-      </select>
+        onChange={onPick}
+        options={options}
+        className="min-w-0 lg:min-w-[180px] w-full"
+      />
     </div>
   );
 };

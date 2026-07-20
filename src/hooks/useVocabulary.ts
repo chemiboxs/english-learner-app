@@ -151,7 +151,11 @@ export const useVocabulary = (initialWords: Word[]) => {
   const [state, setState] = useState<VocabularyState>({
     allWords: initialWords,
     currentWord: null,
-    availableWords: savedData.availableWords.length > 0 ? savedData.availableWords : shuffleArray(initialWords),
+    availableWords: savedData.availableWords.length > 0
+      ? savedData.availableWords
+      : savedData.isCompleted
+        ? []
+        : shuffleArray(initialWords),
     skippedWords: savedData.skippedWords,
     learnedWords: savedData.learnedWords,
     userInput: '',
@@ -209,7 +213,7 @@ export const useVocabulary = (initialWords: Word[]) => {
         const nextWord = getNextWord(newAvailable, newSkipped, prev.useSkippedWordsMode);
 
         // Check if game is over (all words processed)
-        const gameOver = !nextWord && newAvailable.length === 0 && newSkipped.length === 0;
+        const gameOver = !nextWord && newAvailable.length === 0;
         if (gameOver) {
           setIsCompleted(true);
         }
@@ -258,8 +262,7 @@ const skipWord = useCallback(() => {
 
     const nextWord = getNextWord(newAvailable, newSkipped, prev.useSkippedWordsMode);
 
-    // Check if game is over (all words processed in skipped mode)
-    const gameOver = !nextWord && newAvailable.length === 0 && newSkipped.length === 0;
+    const gameOver = !nextWord && newAvailable.length === 0;
     if (gameOver) {
       setIsCompleted(true);
     }
