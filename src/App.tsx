@@ -36,6 +36,22 @@ function App() {
     setKey(prev => prev + 1);
   };
 
+  const handlePrevDictionary = () => {
+    const list = getDictionaryList();
+    const idx = list.indexOf(selectedDictionary);
+    if (idx > 0) {
+      handleDictionaryChange(list[idx - 1]);
+    }
+  };
+
+  const handleNextDictionary = () => {
+    const list = getDictionaryList();
+    const idx = list.indexOf(selectedDictionary);
+    if (idx < list.length - 1) {
+      handleDictionaryChange(list[idx + 1]);
+    }
+  };
+
   const handleLearnedClick = () => {
     setModalType('learned');
     setShowModal(true);
@@ -260,6 +276,10 @@ function App() {
           setShowModal={setShowModal}
           modalType={modalType}
           resetVocabularyCallback={handleResetVocabulary}
+          dictionaryList={dictionaryList}
+          selectedDictionary={selectedDictionary}
+          onPrevDictionary={handlePrevDictionary}
+          onNextDictionary={handleNextDictionary}
         />
       )}
 
@@ -270,6 +290,10 @@ function App() {
         onClose={() => setShowCurrentWordsModal(false)}
         title="Current Words"
         type="all"
+        onPrevDictionary={handlePrevDictionary}
+        onNextDictionary={handleNextDictionary}
+        hasPrev={dictionaryList.indexOf(selectedDictionary) > 0}
+        hasNext={dictionaryList.indexOf(selectedDictionary) < dictionaryList.length - 1}
       />
 
       {/* ALL VOCABULARIES WORDS MODAL */}

@@ -16,6 +16,10 @@ interface VocabularyAppProps {
   setShowModal: (show: boolean) => void;
   modalType: 'learned' | 'skipped';
   resetVocabularyCallback: () => void;
+  dictionaryList: string[];
+  selectedDictionary: string;
+  onPrevDictionary: () => void;
+  onNextDictionary: () => void;
 }
 
 export const VocabularyApp: React.FC<VocabularyAppProps> = ({
@@ -25,6 +29,10 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
   setShowModal,
   modalType,
   resetVocabularyCallback,
+  dictionaryList,
+  selectedDictionary,
+  onPrevDictionary,
+  onNextDictionary,
 }) => {
   const {
     state,
@@ -308,10 +316,14 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
         onClose={() => setShowModal(false)}
         title={
           modalType === 'learned'
-            ? 'My Learned Words'
-            : 'My Skipped Words'
+            ? 'Learned Words'
+            : 'Skipped Words'
         }
         type={modalType}
+        onPrevDictionary={onPrevDictionary}
+        onNextDictionary={onNextDictionary}
+        hasPrev={dictionaryList.indexOf(selectedDictionary) > 0}
+        hasNext={dictionaryList.indexOf(selectedDictionary) < dictionaryList.length - 1}
       />
 
     </div>

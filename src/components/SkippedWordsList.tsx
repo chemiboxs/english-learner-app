@@ -12,7 +12,7 @@ export const SkippedWordsList: React.FC<SkippedWordsListProps> = ({
   words,
   isOpen,
   onClose,
-  title = 'My Skipped Words',
+  title = 'Skipped Words',
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
 

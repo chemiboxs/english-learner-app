@@ -10,6 +10,10 @@ interface WordsListProps {
   onClose: () => void;
   title?: string;
   type?: 'learned' | 'skipped' | 'all';
+  onPrevDictionary?: () => void;
+  onNextDictionary?: () => void;
+  hasPrev?: boolean;
+  hasNext?: boolean;
 }
 
 interface TooltipState {
@@ -31,6 +35,10 @@ export const WordsList: React.FC<WordsListProps> = ({
   onClose,
   title = 'Words',
   type = 'skipped',
+  onPrevDictionary,
+  onNextDictionary,
+  hasPrev,
+  hasNext,
 }) => {
   const { speak, cancel } = useSpeech();
   const [searchQuery, setSearchQuery] = useState('');
@@ -483,13 +491,27 @@ export const WordsList: React.FC<WordsListProps> = ({
 
   return (
     <div
-      className="fixed inset-0 bg-black/50 flex items-center justify-center z-[100] p-gutter"
+      className="fixed inset-0 bg-black/50 flex items-start justify-center z-[100] pt-[12vh]"
       onClick={handleBackdropClick}
     >
       <div className="bg-surface-container-lowest rounded-xl max-w-2xl w-full max-h-[90vh] overflow-hidden flex flex-col shadow-soft-lg animate-slide-up">
         {/* Header */}
         <div className={`${headerBg} px-6 py-3 flex items-center justify-between border-b-2 ${headerBorder}`}>
           <div className="flex items-center gap-3">
+            {onPrevDictionary && (
+              <button
+                onClick={onPrevDictionary}
+                disabled={!hasPrev}
+                className={`w-8 h-8 flex items-center justify-center rounded-full transition-colors text-lg font-bold ${
+                  hasPrev
+                    ? 'bg-surface-container hover:bg-surface-container-high active:bg-surface-container-high text-on-surface cursor-pointer'
+                    : 'bg-surface-container/50 text-on-surface/30 cursor-not-allowed'
+                }`}
+                aria-label="Previous vocabulary"
+              >
+                ‹
+              </button>
+            )}
             <div>
               <h2
                 className={`text-[13px] md:text-lg font-bold ${titleTextClass}`}
@@ -497,6 +519,20 @@ export const WordsList: React.FC<WordsListProps> = ({
                 {title}
               </h2>
             </div>
+            {onNextDictionary && (
+              <button
+                onClick={onNextDictionary}
+                disabled={!hasNext}
+                className={`w-8 h-8 flex items-center justify-center rounded-full transition-colors text-lg font-bold ${
+                  hasNext
+                    ? 'bg-surface-container hover:bg-surface-container-high active:bg-surface-container-high text-on-surface cursor-pointer'
+                    : 'bg-surface-container/50 text-on-surface/30 cursor-not-allowed'
+                }`}
+                aria-label="Next vocabulary"
+              >
+                ›
+              </button>
+            )}
           </div>
           <span className={`${badgeBg} ${badgeBorder} px-3 py-1 rounded-full text-[10px] md:text-sm font-bold ${badgeTextClass}`}>
             {filteredWords.length}/{words.length}
