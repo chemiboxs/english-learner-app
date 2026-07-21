@@ -20,8 +20,8 @@ export const WordCard: React.FC<WordCardProps> = ({ word, hidePhrases = false })
   if (!word) {
     return (
       <div className="w-full max-w-2xl mx-auto px-gutter">
-        <div className="bg-surface-container-lowest rounded-xl shadow-soft p-8 text-center">
-          <p className="text-on-surface text-xl">
+        <div className="bg-surface-container-lowest rounded-xl shadow-soft p-8 md:p-12 text-center">
+          <p className="text-on-surface text-xl md:text-2xl font-semibold">
             🎉 Congratulations! You've completed all the words!
           </p>
         </div>
@@ -35,7 +35,7 @@ export const WordCard: React.FC<WordCardProps> = ({ word, hidePhrases = false })
 
   return (
     <div className="w-full max-w-2xl mx-auto px-gutter animate-slide-up">
-      <div className="bg-surface-container-lowest rounded-xl shadow-soft p-6 text-center">
+      <div className="bg-surface-container-lowest rounded-xl shadow-soft p-6 md:p-10 text-center">
 
           <div className="flex items-center justify-center gap-3">
             <p
@@ -56,7 +56,7 @@ export const WordCard: React.FC<WordCardProps> = ({ word, hidePhrases = false })
             <div
               className="text-on-surface text-[22px] md:text-[30px]"
               style={{
-                marginTop: '0.5rem',
+                marginTop: '1rem',
               }}
             >
               {selectedPhrases.map((phrase, idx) => (
@@ -125,8 +125,9 @@ const PhraseRow: React.FC<{
             rounded-full
             bg-transparent
             text-on-surface
-            border border-outline
-            transition-colors
+            border-outline/30
+            hover:border-outline/60
+            transition-all
             flex items-center justify-center
           "
           aria-label={`Pronounce example: ${phrase}`}
@@ -185,7 +186,8 @@ const PhraseRow: React.FC<{
             rounded-full
             bg-transparent
             text-on-surface
-            border border-outline
+            border-outline/30
+            hover:border-outline/60
             flex items-center justify-center
           "
           aria-label="Stop pronunciation"

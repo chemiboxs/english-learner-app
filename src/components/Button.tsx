@@ -7,10 +7,10 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 }
 
 const variantClasses: Record<string, string> = {
-  primary: 'bg-primary text-on-primary active:bg-primary-container focus-visible:bg-primary-container hover:bg-primary-container',
-  secondary: 'bg-secondary-fixed text-black active:bg-secondary-fixed-dim focus-visible:bg-secondary-fixed-dim hover:bg-secondary-fixed-dim',
-  tertiary: 'bg-tertiary-fixed text-on-tertiary-fixed',
-  error: 'bg-error text-on-error active:bg-error-container focus-visible:bg-error-container hover:bg-error-container',
+  primary: 'bg-primary text-on-primary hover:bg-primary-container active:bg-primary-container focus-visible:bg-primary-container',
+  secondary: 'bg-secondary-fixed text-black hover:bg-secondary-fixed-dim active:bg-secondary-fixed-dim focus-visible:bg-secondary-fixed-dim',
+  tertiary: 'bg-tertiary-fixed text-on-tertiary-fixed hover:bg-tertiary-fixed-dim active:bg-tertiary-fixed-dim focus-visible:bg-tertiary-fixed-dim',
+  error: 'bg-error text-on-error hover:bg-error-container active:bg-error-container focus-visible:bg-error-container',
 };
 
 const sizeClasses: Record<string, string> = {
@@ -33,7 +33,8 @@ export const Button: React.FC<ButtonProps> = ({
       className={`
         rounded-base font-bold transition-all duration-200
         active:translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed
-        border border-black
+        border border-outline/30
+        shadow-sm hover:shadow-md active:shadow-none
         ${variantClasses[variant]}
         ${sizeClasses[size]}
         ${className}

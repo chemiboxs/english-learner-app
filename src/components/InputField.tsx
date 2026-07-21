@@ -56,7 +56,7 @@ export const InputField: React.FC<InputFieldProps> = ({
             px-6
             py-4
             pr-14
-            rounded-base
+            rounded-xl
             text-lg
             font-medium
             border-2
@@ -67,10 +67,11 @@ export const InputField: React.FC<InputFieldProps> = ({
             focus:ring-0
             disabled:opacity-50
             disabled:cursor-not-allowed
+            shadow-sm focus:shadow-md
 
             ${error 
               ? 'border-error bg-error-container/10' 
-              : 'border-outline-variant bg-surface-container-lowest focus:border-primary'
+              : 'border-outline/30 bg-surface-container-lowest focus:border-primary'
             }
           `}
         />

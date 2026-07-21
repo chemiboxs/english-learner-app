@@ -119,6 +119,7 @@ function App() {
           px-3
           py-0
           shadow-soft
+          border-b border-outline/10
         "
       >
         <div
@@ -129,14 +130,12 @@ function App() {
             flex-col
             lg:grid
             lg:grid-cols-3
-            items-stretch
-            lg:items-center
-            gap-2
+            items-center
+            gap-3
             lg:gap-0
-            py-2
+            py-3
             lg:py-0
-            h-auto
-            lg:h-12
+            lg:h-14
           "
         >
           {/* LEFT */}
@@ -158,13 +157,14 @@ function App() {
                   rounded-lg
                   bg-secondary-fixed
                   text-black
-                  border border-black
                   font-bold
                   transition-all
                   active:bg-secondary-fixed-dim
                   focus-visible:bg-secondary-fixed-dim
                   hover:bg-secondary-fixed-dim
                   whitespace-nowrap
+                  border border-outline/30
+                  shadow-sm hover:shadow-md active:shadow-none
                 "
               >
                 Current words
@@ -179,13 +179,14 @@ function App() {
                   rounded-lg
                   bg-secondary-fixed
                   text-black
-                  border border-black
                   font-bold
                   transition-all
                   active:bg-secondary-fixed-dim
                   focus-visible:bg-secondary-fixed-dim
                   hover:bg-secondary-fixed-dim
                   whitespace-nowrap
+                  border border-outline/30
+                  shadow-sm hover:shadow-md active:shadow-none
                 "
               >
                 All words
@@ -211,12 +212,13 @@ function App() {
                 rounded-lg
                 bg-primary
                 text-white
-                border
-                border-black
                 font-bold
                 whitespace-nowrap
                 active:bg-primary-container
                 focus-visible:bg-primary-container
+                border border-primary/30
+                shadow-sm hover:shadow-md active:shadow-none
+                transition-all
               "
             >
               Learned {stats.learned}
@@ -233,13 +235,14 @@ function App() {
                 rounded-lg
                 bg-secondary-fixed
                 text-black
-                border
-                border-black
                 font-bold
                 whitespace-nowrap
                 active:bg-secondary-fixed-dim
                 focus-visible:bg-secondary-fixed-dim
                 hover:bg-secondary-fixed-dim
+                border border-outline/30
+                shadow-sm hover:shadow-md active:shadow-none
+                transition-all
               "
             >
               Skipped {stats.skipped}
@@ -253,10 +256,13 @@ function App() {
                 px-3
                 rounded-lg
                 bg-secondary-fixed/20
-                border
-                border-black
                 active:bg-secondary-fixed/40
                 focus-visible:bg-secondary-fixed/40
+                text-on-surface
+                font-medium
+                border border-outline/20
+                shadow-sm hover:shadow-md active:shadow-none
+                transition-all
               "
             >
               Reset

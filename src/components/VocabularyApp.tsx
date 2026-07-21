@@ -226,7 +226,6 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
                   disabled={false}
                   variant="primary"
                   size="md"
-                  className="border border-black"
                 >
                   Check
                 </Button>
@@ -237,7 +236,6 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
                 disabled={false}
                 variant="secondary"
                 size="md"
-                className="border border-black"
               >
                 Skip
               </Button>
