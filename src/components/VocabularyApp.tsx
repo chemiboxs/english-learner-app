@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useMemo, useRef } from 'react';
 import { useVocabulary } from '../hooks/useVocabulary';
 import { Word } from '../types/vocabulary';
 import { WordCard } from './WordCard';
@@ -40,6 +40,15 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
   } = useVocabulary(words);
 
   const stats = getStats();
+
+  const validation = useMemo(() => {
+    const input = state.userInput.trim();
+    if (!input || !state.currentWord) return null;
+    const normalized = input.toLowerCase().trim();
+    if (normalized === state.currentWord.english.toLowerCase().trim()) return 'correct';
+    if (state.currentWord.alternatives?.some(a => normalized === a.toLowerCase().trim())) return 'correct';
+    return 'incorrect';
+  }, [state.userInput, state.currentWord]);
 
   const prevStatsRef = useRef({ learned: -1, skipped: -1 });
 
@@ -189,6 +198,16 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({
                 placeholder="Type here..."
                 disabled={false}
               />
+
+              {validation && (
+                <div className="hidden lg:block max-w-2xl mx-auto px-gutter">
+                  <p className={`text-xs font-medium ${
+                    validation === 'correct' ? 'text-success/80' : 'text-error/80'
+                  }`}>
+                    {validation === 'correct' ? 'Perfect!' : 'Not quite!'}
+                  </p>
+                </div>
+              )}
 
 
 
