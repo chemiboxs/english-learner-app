@@ -1,50 +1,79 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Word } from '../types/vocabulary';
 
-// Імпортуємо всі словники
-import wordsData from '../data/words.json';
+export type Mode = 'words' | 'phrases' | 'irregular';
 
-export interface DictionaryInfo {
-  name: string;
-  path: string;
-  words: Word[];
-}
+const loadDictionaries = async (): Promise<Map<string, unknown[]>> => {
+  const dictionaries = new Map<string, unknown[]>();
 
-const loadDictionaries = async (): Promise<Map<string, Word[]>> => {
-  const dictionaries = new Map<string, Word[]>();
-  
   try {
-    // Основний словник
-    const words = Array.isArray(wordsData) ? wordsData : (wordsData as any).default;
-    dictionaries.set('words', words);
-    
-    // Спробуємо завантажити динамічно всі .json файли з data папки
-    // Це працює з Vite glob import
-    const modules = import.meta.glob<{ default: Word[] }>('../data/*.json', { eager: true });
-    
+    const modules = import.meta.glob<{ default: unknown[] }>('../data/*.json', { eager: true });
+
     Object.entries(modules).forEach(([path, module]) => {
       const fileName = path.split('/').pop()?.replace('.json', '') || '';
-      if (fileName && fileName !== 'words') {
-        const data = module.default;
-        if (Array.isArray(data)) {
-          dictionaries.set(fileName, data);
-        }
+      if (!fileName) return;
+      const data = module.default;
+      if (Array.isArray(data) && data.length > 0) {
+        dictionaries.set(fileName, data);
       }
     });
   } catch (error) {
     console.error('Error loading dictionaries:', error);
-    // Повертаємо хоча б основний словник
-    const words = Array.isArray(wordsData) ? wordsData : (wordsData as any).default;
-    dictionaries.set('words', words);
   }
-  
+
   return dictionaries;
 };
 
+const isWordsFile = (name: string) => name.includes('vocabulary');
+const isPhrasesFile = (name: string) => name.includes('.phrases');
+const isIrregularFile = (name: string) => name.includes('.irreg');
+const storageKeyForMode = (mode: Mode) => `selectedDictionary_${mode}`;
+
+const filterByMode = (dictionaries: Map<string, unknown[]>, mode: Mode) => {
+  const filtered = new Map<string, unknown[]>();
+  dictionaries.forEach((data, name) => {
+    const matches =
+      mode === 'words' ? isWordsFile(name) :
+      mode === 'phrases' ? isPhrasesFile(name) :
+      isIrregularFile(name);
+    if (matches) {
+      filtered.set(name, data);
+    }
+  });
+  return filtered;
+};
+
+const sortKeys = (keys: string[]) => {
+  return keys.sort((a, b) => {
+    const numA = parseInt(a.match(/\d+/)?.[0] || '0', 10);
+    const numB = parseInt(b.match(/\d+/)?.[0] || '0', 10);
+    if (numA && numB) return numA - numB;
+    return a.localeCompare(b);
+  });
+};
+
 export const useDictionaries = () => {
-  const [dictionaries, setDictionaries] = useState<Map<string, Word[]>>(new Map());
-  const [selectedDictionary, setSelectedDictionary] = useState<string>('words');
+  const [dictionaries, setDictionaries] = useState<Map<string, unknown[]>>(new Map());
+  const [selectedDictionary, setSelectedDictionary] = useState<string>('');
   const [isLoading, setIsLoading] = useState(true);
+  const [mode, setMode] = useState<Mode>(() => {
+    const saved = localStorage.getItem('mode');
+    return saved === 'words' || saved === 'phrases' || saved === 'irregular' ? saved : 'words';
+  });
+
+  const filteredDictionaries = useMemo(() => {
+    return filterByMode(dictionaries, mode);
+  }, [dictionaries, mode]);
+
+  const sortedFilteredKeys = useMemo(() => {
+    return sortKeys(Array.from(filteredDictionaries.keys()));
+  }, [filteredDictionaries]);
+
+  useEffect(() => {
+    if (sortedFilteredKeys.length > 0 && !sortedFilteredKeys.includes(selectedDictionary)) {
+      setSelectedDictionary(sortedFilteredKeys[0]);
+    }
+  }, [sortedFilteredKeys, selectedDictionary]);
 
   useEffect(() => {
     const loadAsync = async () => {
@@ -52,17 +81,10 @@ export const useDictionaries = () => {
       try {
         const dicts = await loadDictionaries();
         setDictionaries(dicts);
-        
-        console.log('Available dictionaries:', Array.from(dicts.keys()));
-        
-        // Завантажуємо виб or зі localStorage
-        const savedDict = localStorage.getItem('selectedDictionary');
-        if (savedDict && dicts.has(savedDict)) {
-          setSelectedDictionary(savedDict);
-        } else if (dicts.size > 0) {
-          // Встановлюємо першу доступну словник
-          const firstKey = Array.from(dicts.keys())[0];
-          setSelectedDictionary(firstKey);
+
+        const saved = localStorage.getItem(storageKeyForMode(mode));
+        if (saved && dicts.has(saved)) {
+          setSelectedDictionary(saved);
         }
       } finally {
         setIsLoading(false);
@@ -70,44 +92,66 @@ export const useDictionaries = () => {
     };
 
     loadAsync();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  const switchMode = (newMode: Mode) => {
+    if (selectedDictionary) {
+      localStorage.setItem(storageKeyForMode(mode), selectedDictionary);
+    }
+
+    const filtered = filterByMode(dictionaries, newMode);
+    const keys = sortKeys(Array.from(filtered.keys()));
+
+    const saved = localStorage.getItem(storageKeyForMode(newMode));
+
+    setMode(newMode);
+    if (saved && keys.includes(saved)) {
+      setSelectedDictionary(saved);
+    } else if (keys.length > 0) {
+      setSelectedDictionary(keys[0]);
+    }
+    localStorage.setItem('mode', newMode);
+  };
+
   const switchDictionary = (name: string) => {
-    if (dictionaries.has(name)) {
+    if (filteredDictionaries.has(name)) {
       setSelectedDictionary(name);
-      localStorage.setItem('selectedDictionary', name);
+      localStorage.setItem(storageKeyForMode(mode), name);
     }
   };
 
-  const getCurrentDictionary = (): Word[] => {
-    return dictionaries.get(selectedDictionary) || [];
+  const getCurrentDictionary = <T = Word,>(): T[] => {
+    return (filteredDictionaries.get(selectedDictionary) || []) as T[];
   };
 
   const getDictionaryList = (): string[] => {
-    return Array.from(dictionaries.keys()).sort();
+    return sortedFilteredKeys;
   };
 
-  const getAllWords = (): Word[] => {
-    const allWords: Word[] = [];
+  const getAllWords = <T = Word,>(): T[] => {
+    const all: T[] = [];
     const seenIds = new Set<string>();
-    
-    // Iterate through all dictionaries and collect unique words
-    dictionaries.forEach((words) => {
-      words.forEach((word) => {
-        if (!seenIds.has(word.id)) {
-          allWords.push(word);
-          seenIds.add(word.id);
+
+    filteredDictionaries.forEach((items, dictName) => {
+      (items as T[]).forEach((item) => {
+        const id = (item as Record<string, string>).id;
+        if (id && !seenIds.has(id)) {
+          all.push({ ...item, source: dictName } as T);
+          seenIds.add(id);
         }
       });
     });
-    
-    return allWords;
+
+    return all;
   };
 
   return {
     dictionaries,
     selectedDictionary,
     isLoading,
+    mode,
+    switchMode,
     switchDictionary,
     getCurrentDictionary,
     getDictionaryList,

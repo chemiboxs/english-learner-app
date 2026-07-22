@@ -1,0 +1,668 @@
+[
+  {
+    "id": "951",
+    "ukrainian": "вхід; вхідні двері",
+    "english": "entrance",
+    "phrases": [
+      "The main entrance is on the left.",
+      "Please wait for me at the entrance.",
+      "There is a sign above the entrance.",
+      "We couldn't find the entrance to the building.",
+      "The entrance to the museum is free.",
+      "She stood near the entrance and waited."
+    ]
+  },
+  {
+    "id": "952",
+    "ukrainian": "скрізь, всюди",
+    "english": "everywhere",
+    "phrases": [
+      "I looked everywhere for my keys.",
+      "There were people everywhere.",
+      "You can see flowers everywhere in spring.",
+      "She takes her phone everywhere.",
+      "We looked everywhere for a good restaurant.",
+      "There are signs everywhere in the city."
+    ]
+  },
+  {
+    "id": "953",
+    "ukrainian": "через; крізь; протягом",
+    "english": "through",
+    "phrases": [
+      "We walked through the park.",
+      "The train goes through a long tunnel.",
+      "She looked through the window.",
+      "I read the book through the night.",
+      "The light came through the open door.",
+      "He went through the documents carefully."
+    ]
+  },
+  {
+  "id": "954",
+  "ukrainian": "належати; бути чиїмось",
+  "english": "belong",
+  "phrases": [
+  "This backpack belongs to my brother, so please give it to him.",
+  "These books belong to the school, so we must leave them here.",
+  "Does this pencil belong to you, or did someone leave it here?",
+  "I found a phone on the desk, but I don't know who it belongs to.",
+  "She feels like she belongs in the new class after making some friends.",
+  "Put your shoes in the cupboard where they belong."
+  ]
+  },
+  {
+    "id": "955",
+    "ukrainian": "лежати; бути розташованим",
+    "english": "lie",
+    "phrases": [
+      "I want to lie down for a few minutes.",
+      "The cat is lying on the couch.",
+      "She lay on the beach all afternoon.",
+      "The book is lying on the table.",
+      "He was tired, so he went to lie down.",
+      "A small village lies near the river."
+    ]
+  },
+  {
+    "id": "956",
+    "ukrainian": "повітряна кулька",
+    "english": "balloon",
+    "phrases": [
+      "The children played with colorful balloons.",
+      "She bought a red balloon for the party.",
+      "The balloon flew up into the sky.",
+      "There were balloons all over the room.",
+      "He gave the little girl a balloon.",
+      "The balloon suddenly broke."
+    ]
+  },
+  {
+    "id": "957",
+    "ukrainian": "політ; рейс",
+    "english": "flight",
+    "phrases": [
+      "Our flight leaves at six in the morning.",
+      "The flight was delayed because of bad weather.",
+      "I booked a flight to Paris.",
+      "How long is the flight?",
+      "We arrived at the airport two hours before our flight.",
+      "She was tired after the long flight."
+    ]
+  },
+  {
+    "id": "958",
+    "ukrainian": "знак; вивіска; позначка",
+    "english": "sign",
+    "phrases": [
+      "There is a stop sign at the corner.",
+      "I saw a sign for a small restaurant.",
+      "The sign says that the shop is closed.",
+      "Please read the signs carefully.",
+      "She put a sign on the door.",
+      "This sign means that you cannot park here."
+    ]
+  },
+  {
+    "id": "959",
+    "ukrainian": "нещасний випадок; аварія",
+    "english": "accident",
+    "phrases": [
+      "He had a car accident yesterday.",
+      "The accident happened near the station.",
+      "Nobody was hurt in the accident.",
+      "She broke her arm in an accident.",
+      "The road was closed after the accident.",
+      "It was just an accident."
+    ]
+  },
+  {
+    "id": "960",
+    "ukrainian": "залізниця; залізнична колія",
+    "english": "railroad",
+    "phrases": [
+      "The railroad runs through the village.",
+      "There is a railroad bridge near the town.",
+      "We crossed the railroad tracks carefully.",
+      "The railroad connects the two cities.",
+      "He works for a railroad company.",
+      "A train was moving along the railroad."
+    ]
+  },
+  {
+    "id": "961",
+    "ukrainian": "перетинати; хрест; хреститися",
+    "english": "cross",
+    "phrases": [
+      "Look both ways before you cross the road.",
+      "We crossed the river by boat.",
+      "There is a red cross on the sign.",
+      "She crossed the street at the traffic lights.",
+      "He drew a cross on the piece of paper.",
+      "The bridge lets people cross the river safely."
+    ]
+  },
+  {
+    "id": "962",
+    "ukrainian": "пропустити; сумувати за; не встигнути",
+    "english": "miss",
+    "phrases": [
+      "I missed the bus this morning.",
+      "Don't miss your train.",
+      "I miss my family when I am away.",
+      "She missed an important lesson yesterday.",
+      "We arrived too late and missed the beginning of the movie.",
+      "He really misses his old friends."
+    ]
+  },
+  {
+    "id": "963",
+    "ukrainian": "сучасний",
+    "english": "modern",
+    "phrases": [
+      "They live in a modern apartment.",
+      "The city has many modern buildings.",
+      "This kitchen has a modern design.",
+      "We need modern equipment for this work.",
+      "She prefers modern music.",
+      "The museum combines old and modern art."
+    ]
+  },
+  {
+    "id": "964",
+    "ukrainian": "обидва; обоє",
+    "english": "both",
+    "phrases": [
+      "Both of my parents work.",
+      "We both like this restaurant.",
+      "Both answers are correct.",
+      "She speaks both English and Spanish.",
+      "They are both very friendly.",
+      "I need both books for my course."
+    ]
+  },
+  {
+    "id": "965",
+    "ukrainian": "означати; мати на увазі",
+    "english": "mean",
+    "phrases": [
+      "What does this word mean?",
+      "What do you mean by that?",
+      "This sign means that the road is closed.",
+      "I didn't mean to hurt you.",
+      "What does this message mean?",
+      "Being polite means showing respect to other people."
+    ]
+  },
+  {
+    "id": "966",
+    "ukrainian": "звук; звучати",
+    "english": "sound",
+    "phrases": [
+      "I heard a strange sound outside.",
+      "That sounds like a good idea.",
+      "The sound of the rain helped me sleep.",
+      "Can you hear that sound?",
+      "This music sounds beautiful.",
+      "The machine makes a loud sound."
+    ]
+  },
+  {
+  "id": "967",
+  "ukrainian": "уникати; оминати",
+  "english": "avoid",
+  "phrases": [
+  "I try to avoid eating too much sugar every day.",
+  "We should avoid talking loudly while the baby is sleeping.",
+  "She takes a different road to avoid the busy traffic.",
+  "Try to avoid making the same mistake again.",
+  "He avoids playing outside when the weather is very cold.",
+  "I want to avoid being late for school tomorrow."
+  ]
+  },
+  {
+    "id": "968",
+    "ukrainian": "натискати; клацати",
+    "english": "click",
+    "phrases": [
+      "Click the button to start.",
+      "Click on the picture to make it bigger.",
+      "You can click here to open the website.",
+      "Click the link with your mouse.",
+      "I clicked the wrong button by accident.",
+      "Click twice to open the file."
+    ]
+  },
+  {
+    "id": "969",
+    "ukrainian": "файл; справа",
+    "english": "file",
+    "phrases": [
+      "I saved the file on my computer.",
+      "Please send me the file by email.",
+      "Open the file and check the information.",
+      "I can't find the file on my laptop.",
+      "The teacher asked us to upload the file.",
+      "She put all the documents in one file."
+    ]
+  },
+  {
+    "id": "970",
+    "ukrainian": "колега",
+    "english": "colleague",
+    "phrases": [
+      "My colleague helped me with the project.",
+      "I have lunch with my colleagues sometimes.",
+      "She is a new colleague at our office.",
+      "One of my colleagues lives near me.",
+      "I asked my colleague for some advice.",
+      "He is friendly with all his colleagues."
+    ]
+  },
+  {
+    "id": "971",
+    "ukrainian": "компанія; фірма",
+    "english": "company",
+    "phrases": [
+      "She works for a large company.",
+      "The company has offices in several countries.",
+      "I sent my CV to the company yesterday.",
+      "He started his own company last year.",
+      "The company is looking for new employees.",
+      "My brother works for a technology company."
+    ]
+  },
+  {
+    "id": "972",
+    "ukrainian": "ціна",
+    "english": "price",
+    "phrases": [
+      "What is the price of this jacket?",
+      "The price is too high for me.",
+      "They reduced the price of the tickets.",
+      "The price includes breakfast.",
+      "I always check the price before I buy something.",
+      "The price of food has increased recently."
+    ]
+  },
+  {
+    "id": "973",
+    "ukrainian": "власний; володіти",
+    "english": "own",
+    "phrases": [
+      "I have my own room.",
+      "She owns a small apartment.",
+      "He wants to start his own business.",
+      "They have their own car.",
+      "Do you own this house?",
+      "I would like to have my own office."
+    ]
+  },
+  {
+  "id": "974",
+  "ukrainian": "усвідомлювати; розуміти; збагнути",
+  "english": "realize",
+  "phrases": [
+  "I didn't realize that we had a test at school today.",
+  "She suddenly realized that she had left her bag at home.",
+  "When I saw the map, I realized how far we had to walk.",
+  "He didn't realize that his friend was waiting outside.",
+  "I realize now that I should have listened to my parents.",
+  "She realized that learning English could be fun when she started reading books."
+  ]
+  },
+  {
+    "id": "975",
+    "ukrainian": "війна",
+    "english": "war",
+    "phrases": [
+      "The country has been affected by war.",
+      "Many people lost their homes during the war.",
+      "They hope the war will end soon.",
+      "He studied the history of the war.",
+      "The war changed many people's lives.",
+      "Children should not have to grow up during a war."
+    ]
+  },
+  {
+    "id": "976",
+    "ukrainian": "статися, трапитися",
+    "english": "happen",
+    "phrases": [
+      "What happened yesterday?",
+      "Accidents can happen at any time.",
+      "I don't know what happened to him.",
+      "What will happen if we are late?",
+      "Something strange happened on the way home.",
+      "These things sometimes happen in life."
+    ]
+  },
+  {
+  "id": "977",
+  "ukrainian": "довіряти; довіра",
+  "english": "trust",
+  "phrases": [
+  "I trust my best friend because she always tells me the truth.",
+  "You can trust him to keep your secret safe.",
+  "It takes time to trust someone you have just met.",
+  "My parents trust me to take care of our dog when they are away.",
+  "I don't trust websites that ask for too much personal information.",
+  "She trusts her teacher and feels comfortable asking for help."
+  ]
+  },
+  {
+  "id": "978",
+  "ukrainian": "доступний; наявний",
+  "english": "available",
+  "phrases": [
+    "Is this book available in the school library?",
+    "The teacher is available after class if you need help.",
+    "There are no available seats on the bus.",
+    "This product is available in many different colors.",
+    "I checked the website to see if the tickets were available.",
+    "The hotel has a few rooms available for tonight."
+  ]
+},
+{
+  "id": "979",
+  "ukrainian": "справді; дуже",
+  "english": "really",
+  "phrases": [
+    "I really like this song.",
+    "Do you really want to go there alone?",
+    "She was really happy to see her old friend.",
+    "I didn't really understand the question.",
+    "It was really cold when we went outside.",
+    "He really wants to become an explorer one day."
+  ]
+},
+{
+  "id": "980",
+  "ukrainian": "справжній; реальний",
+  "english": "real",
+  "phrases": [
+    "Is this a real story or a movie?",
+    "She has a real talent for drawing.",
+    "The danger was real, so we decided to leave.",
+    "I couldn't believe that the famous actor was a real person.",
+    "This problem is real, and we need to find a solution.",
+    "He finally understood that his dream could become real."
+  ]
+},
+{
+  "id": "981",
+  "ukrainian": "герой",
+  "english": "hero",
+  "phrases": [
+    "The main hero of the story is a young boy.",
+    "My grandfather was a hero to me when I was a child.",
+    "The firefighter became a local hero after saving two people.",
+    "The hero of the movie has to protect his family.",
+    "She thinks her mother is a real hero.",
+    "Everyone was excited when the hero finally arrived."
+  ]
+},
+{
+  "id": "982",
+  "ukrainian": "дослідник; мандрівник",
+  "english": "explorer",
+  "phrases": [
+    "The explorer traveled to places that few people had seen before.",
+    "He wants to become an explorer and travel around the world.",
+    "The famous explorer spent years studying the ocean.",
+    "We read a book about an explorer who crossed the desert.",
+    "The explorer discovered a small island in the Pacific Ocean.",
+    "She is an explorer who loves learning about different countries."
+  ]
+},
+{
+  "id": "983",
+  "ukrainian": "виділяти; підкреслювати; виділення",
+  "english": "highlight",
+  "phrases": [
+    "Please highlight the most important words in the text.",
+    "The teacher asked us to highlight the new vocabulary.",
+    "This photo highlights the beauty of the mountains.",
+    "I used a yellow pen to highlight the important information.",
+    "The guide highlighted the best places to visit.",
+    "The final goal was the highlight of the game."
+  ]
+},
+{
+  "id": "984",
+  "ukrainian": "прибулець; інопланетянин",
+  "english": "alien",
+  "phrases": [
+    "The movie is about an alien who comes to Earth.",
+    "The children imagined that they had met an alien.",
+    "Scientists are looking for signs of alien life in space.",
+    "The alien spaceship landed near the city.",
+    "He loves watching movies about aliens and other planets.",
+    "The story tells us what happens when an alien becomes friends with a boy."
+  ]
+},
+{
+  "id": "985",
+  "ukrainian": "тунець",
+  "english": "tuna",
+  "phrases": [
+    "I usually have a tuna sandwich for lunch.",
+    "She ordered a salad with tuna and vegetables.",
+    "We bought a can of tuna at the supermarket.",
+    "My brother doesn't like tuna, but I love it.",
+    "This restaurant serves fresh tuna with rice.",
+    "I made a simple tuna salad for dinner."
+  ]
+},
+  {
+    "id": "986",
+    "ukrainian": "коштовність, дорогоцінний камінь",
+    "english": "jewel",
+    "phrases": [
+      "She wore a beautiful jewel around her neck.",
+      "The museum has a collection of rare jewels.",
+      "This ring contains a precious jewel.",
+      "He gave her a jewel as a birthday present.",
+      "The necklace was decorated with small jewels.",
+      "They discovered a valuable jewel in the old house."
+    ]
+  },
+  {
+    "id": "987",
+    "ukrainian": "низький; низько",
+    "english": "low",
+    "phrases": [
+      "The table is too low for me.",
+      "The temperature is very low today.",
+      "He spoke in a low voice.",
+      "Prices are usually low in this store.",
+      "The plane was flying very low.",
+      "My battery is getting low."
+    ]
+  },
+  {
+    "id": "988",
+    "ukrainian": "високий; високо",
+    "english": "high",
+    "phrases": [
+      "The mountain is very high.",
+      "The temperature is high today.",
+      "He lives in a high building.",
+      "The plane is flying high above the clouds.",
+      "Prices are getting higher every year.",
+      "She jumped high into the air."
+    ]
+  },
+  {
+    "id": "989",
+    "ukrainian": "частина",
+    "english": "part",
+    "phrases": [
+      "This is my favorite part of the movie.",
+      "I only read the first part of the book.",
+      "Everyone played a part in the project.",
+      "This machine has many small parts.",
+      "We spent part of the day at the beach.",
+      "Learning new words is an important part of studying English."
+    ]
+  },
+  {
+    "id": "990",
+    "ukrainian": "і так далі",
+    "english": "etc",
+    "phrases": [
+      "We bought fruit, vegetables, bread, etc.",
+      "You need to bring a passport, tickets, money, etc.",
+      "She likes reading, drawing, dancing, etc.",
+      "The shop sells clothes, shoes, bags, etc.",
+      "We talked about work, family, travel, etc.",
+      "You can use a pen, pencil, marker, etc."
+    ]
+  },
+  {
+    "id": "991",
+    "ukrainian": "дієслово",
+    "english": "verb",
+    "phrases": [
+      "Run is a common English verb.",
+      "We learned ten new verbs today.",
+      "This verb has an irregular past tense.",
+      "You need to use the correct verb in this sentence.",
+      "Can you give me an example of a verb?",
+      "The teacher explained how to use this verb."
+    ]
+  },
+  {
+    "id": "992",
+    "ukrainian": "іменник",
+    "english": "noun",
+    "phrases": [
+      "Book is a common English noun.",
+      "We learned several new nouns today.",
+      "This noun can be used in both singular and plural forms.",
+      "You should put a noun after the article.",
+      "Can you find the noun in this sentence?",
+      "The teacher explained how to use this noun."
+    ]
+  },
+  {
+    "id": "993",
+    "ukrainian": "дія; діяти",
+    "english": "act",
+    "phrases": [
+      "We need to act quickly.",
+      "He decided to act immediately.",
+      "The police asked him to act calmly.",
+      "It was a brave act.",
+      "Her act of kindness helped many people.",
+      "You should act like a responsible adult."
+    ]
+  },
+  {
+    "id": "994",
+    "ukrainian": "вступ; введення; знайомство",
+    "english": "introduction",
+    "phrases": [
+      "The book has a short introduction.",
+      "Let me give you a quick introduction to the topic.",
+      "The teacher started the lesson with an introduction.",
+      "I wrote an introduction for my essay.",
+      "His introduction to the company was very helpful.",
+      "The introduction explains the main idea of the book."
+    ]
+  },
+  {
+    "id": "995",
+    "ukrainian": "розділ",
+    "english": "chapter",
+    "phrases": [
+      "I read the first chapter last night.",
+      "This book has twelve chapters.",
+      "We need to finish this chapter today.",
+      "The next chapter is very interesting.",
+      "She skipped the last chapter by mistake.",
+      "The teacher asked us to read chapter five."
+    ]
+  },
+  {
+    "id": "996",
+    "ukrainian": "форма; фігура; формувати",
+    "english": "shape",
+    "phrases": [
+      "The table has a round shape.",
+      "What shape is this object?",
+      "The clouds changed shape.",
+      "Exercise helps you stay in shape.",
+      "The experience shaped his character.",
+      "We need to shape the clay carefully."
+    ]
+  },
+  {
+  "id": "997",
+  "ukrainian": "вік",
+  "english": "age",
+  "phrases": [
+    "What is your age?",
+    "She is the same age as me.",
+    "At the age of ten, he started playing tennis.",
+    "Age is just a number.",
+    "The minimum age for this job is eighteen.",
+    "People of all ages can enjoy this activity."
+  ]
+},
+{
+  "id": "998",
+  "ukrainian": "біля; поруч; поблизу",
+  "english": "near",
+  "alternatives": [
+    "close"
+  ],
+  "phrases": [
+    "I live near the city center.",
+    "Is there a supermarket near here?",
+    "She sat near the window.",
+    "The hotel is near the beach.",
+    "There is a bus stop near my house.",
+    "We are getting near the end of the project."
+  ]
+},
+{
+  "id": "999",
+  "ukrainian": "писати по буквах; вимовляти по буквах",
+  "english": "spell",
+  "phrases": [
+    "How do you spell your name?",
+    "Can you spell this word for me?",
+    "I don't know how to spell this word.",
+    "She spelled my name correctly.",
+    "Please spell your last name.",
+    "He spelled the word incorrectly."
+  ]
+},
+{
+  "id": "1000",
+  "ukrainian": "дослівно; слово в слово",
+  "english": "verbatim",
+  "phrases": [
+    "Please translate the sentence verbatim.",
+    "The article quoted him verbatim.",
+    "I wrote down her words verbatim.",
+    "The report contains the interview verbatim.",
+    "He repeated the instructions verbatim.",
+    "This is a verbatim copy of the original text."
+  ]
+},
+{
+  "id": "1001",
+  "ukrainian": "застереження; обмовка; важлива умова",
+  "english": "caveat",
+  "phrases": [
+    "There is one important caveat.",
+    "The plan sounds good, with one caveat.",
+    "I agree with the idea, but there is a caveat.",
+    "The offer comes with a few caveats.",
+    "There is a caveat to this rule.",
+    "The results are promising, with one important caveat."
+  ]
+}
+]

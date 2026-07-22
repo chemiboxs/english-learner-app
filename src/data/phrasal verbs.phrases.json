@@ -1,0 +1,522 @@
+[
+  {
+    "id": "611",
+    "ukrainian": "прокидатися (після сну)",
+    "english": "wake up",
+    "phrases": [
+      "I wake up at seven every morning.",
+      "She woke up late today.",
+      "The noise woke me up.",
+      "I usually wake up before my alarm.",
+      "He wakes up early for work.",
+      "Wake up, it is time to go."
+    ]
+  },
+  {
+    "id": "612",
+    "ukrainian": "вставати (з ліжка)",
+    "english": "get up",
+    "phrases": [
+      "I get up at seven o'clock.",
+      "She got up and opened the window.",
+      "It is time to get up.",
+      "He gets up early every day.",
+      "I do not want to get up yet.",
+      "We got up and had breakfast."
+    ]
+  },
+  {
+    "id": "613",
+    "ukrainian": "сідати (на місце)",
+    "english": "sit down",
+    "phrases": [
+      "Please sit down here.",
+      "She sat down on the chair.",
+      "I need to sit down for a minute.",
+      "The children sat down quietly.",
+      "He asked me to sit down.",
+      "We sat down at the table."
+    ]
+  },
+  {
+    "id": "614",
+    "ukrainian": "вставати (на ноги)",
+    "english": "stand up",
+    "phrases": [
+      "Please stand up.",
+      "He stood up from the chair.",
+      "Everyone stood up when the teacher came in.",
+      "I stood up and walked away.",
+      "She cannot stand up quickly.",
+      "The students stood up together."
+    ]
+  },
+  {
+    "id": "615",
+    "ukrainian": "шукати (намагатися знайти)",
+    "english": "look for",
+    "phrases": [
+      "I am looking for my keys.",
+      "She looked for her phone.",
+      "We are looking for a new house.",
+      "He looked for information online.",
+      "They looked for a place to sit.",
+      "I need to look for my glasses."
+    ]
+  },
+  {
+    "id": "616",
+    "ukrainian": "дізнатися (відкрити інформацію)",
+    "english": "find out",
+    "phrases": [
+      "I want to find out the truth.",
+      "She found out the answer.",
+      "We found out about the problem.",
+      "He found out where she lived.",
+      "I will find out tomorrow.",
+      "They found out something interesting."
+    ]
+  },
+  {
+    "id": "617",
+    "ukrainian": "увімкнути (пристрій)",
+    "english": "turn on",
+    "phrases": [
+      "Please turn on the light.",
+      "She turned on the TV.",
+      "I turned on my computer.",
+      "Can you turn on the music?",
+      "He turned on the heater.",
+      "Turn on your phone."
+    ]
+  },
+  {
+    "id": "618",
+    "ukrainian": "вимкнути (пристрій)",
+    "english": "turn off",
+    "phrases": [
+      "Please turn off the light.",
+      "She turned off the TV.",
+      "I turned off my computer.",
+      "Turn off the water, please.",
+      "He turned off the alarm.",
+      "Do not forget to turn off the oven."
+    ]
+  },
+  {
+    "id": "619",
+    "ukrainian": "одягнути (на себе)",
+    "english": "put on",
+    "phrases": [
+      "Put on your jacket.",
+      "She put on a beautiful dress.",
+      "I put on my shoes.",
+      "He put on his hat.",
+      "Put on warm clothes in winter.",
+      "She put on her coat before leaving."
+    ]
+  },
+  {
+    "id": "620",
+    "ukrainian": "зняти (одяг)",
+    "english": "take off",
+    "phrases": [
+      "Take off your shoes.",
+      "He took off his jacket.",
+      "She took off her hat.",
+      "I took off my coat.",
+      "Please take off your glasses.",
+      "The plane took off on time."
+    ]
+  },
+  {
+    "id": "621",
+    "ukrainian": "виходити (з дому, приміщення)",
+    "english": "go out",
+    "phrases": [
+      "We usually go out on weekends.",
+      "She went out with her friends.",
+      "I do not want to go out today.",
+      "They went out for dinner.",
+      "Let's go out and get some fresh air.",
+      "He went out after lunch."
+    ]
+  },
+  {
+    "id": "622",
+    "ukrainian": "підняти (взяти з поверхні)",
+    "english": "pick up",
+    "phrases": [
+      "Please pick up the book.",
+      "I picked up my phone.",
+      "She picked up the keys from the floor.",
+      "He will pick me up after work.",
+      "Can you pick up the package?",
+      "The child picked up a stone."
+    ]
+  },
+  {
+    "id": "623",
+    "ukrainian": "заходити (в приміщення)",
+    "english": "come in",
+    "phrases": [
+      "Please come in.",
+      "She came in and sat down.",
+      "He came in through the door.",
+      "Can I come in?",
+      "The children came in after playing.",
+      "The dog came in from the garden."
+    ]
+  },
+  {
+    "id": "624",
+    "ukrainian": "повертатися (назад)",
+    "english": "come back",
+    "phrases": [
+      "I will come back soon.",
+      "She came back home late.",
+      "Please come back tomorrow.",
+      "He came back from work.",
+      "They came back after an hour.",
+      "I hope you come back again."
+    ]
+  },
+  {
+    "id": "625",
+    "ukrainian": "сідати (в транспорт)",
+    "english": "get in",
+    "phrases": [
+      "Get in the car, please.",
+      "She got in the taxi.",
+      "We got in the bus quickly.",
+      "He got in and closed the door.",
+      "I got in the car after work.",
+      "They got in before the rain started."
+    ]
+  },
+  {
+    "id": "626",
+    "ukrainian": "виходити (з транспорту)",
+    "english": "get out",
+    "phrases": [
+      "Get out of the car.",
+      "She got out of the taxi.",
+      "We got out at the next stop.",
+      "He got out and walked home.",
+      "Please get out carefully.",
+      "They got out of the bus."
+    ]
+  },
+  {
+    "id": "627",
+    "ukrainian": "сідати (на транспорт)",
+    "english": "get on",
+    "phrases": [
+      "We got on the bus.",
+      "She got on the train.",
+      "I get on the bus every morning.",
+      "They got on the plane.",
+      "He got on his bike.",
+      "Please get on quickly."
+    ]
+  },
+  {
+    "id": "628",
+    "ukrainian": "виходити (з транспорту)",
+    "english": "get off",
+    "phrases": [
+      "I get off the bus at school.",
+      "She got off the train.",
+      "We got off at the wrong stop.",
+      "He got off his bike.",
+      "Please get off the bus carefully.",
+      "They got off the plane."
+    ]
+  },
+  {
+    "id": "629",
+    "ukrainian": "заходити (пішки)",
+    "english": "walk in",
+    "phrases": [
+      "She walked in and smiled.",
+      "He walked in without knocking.",
+      "I saw him walk in the room.",
+      "They walked in together.",
+      "The dog walked in slowly.",
+      "She walked in through the door."
+    ]
+  },
+  {
+    "id": "630",
+    "ukrainian": "виходити (пішки)",
+    "english": "walk out",
+    "phrases": [
+      "He walked out of the room.",
+      "She walked out after the meeting.",
+      "I saw him walk out.",
+      "They walked out of the building.",
+      "The actor walked out on stage.",
+      "She walked out without saying goodbye."
+    ]
+  },
+  {
+    "id": "631",
+    "ukrainian": "прибирати (покласти на місце)",
+    "english": "put away",
+    "phrases": [
+      "Put away your toys.",
+      "She put away her clothes.",
+      "I need to put away the books.",
+      "He put away the dishes.",
+      "Please put your phone away.",
+      "They put away everything after dinner."
+    ]
+  },
+  {
+    "id": "632",
+    "ukrainian": "дістати / винести (назовні)",
+    "english": "take out",
+    "phrases": [
+      "Please take out the trash.",
+      "She took out her phone.",
+      "I need to take out some money.",
+      "He took out a book from his bag.",
+      "We take out the garbage every evening.",
+      "She took out the food from the fridge."
+    ]
+  },
+  {
+    "id": "633",
+    "ukrainian": "викинути (у сміття)",
+    "english": "throw away",
+    "phrases": [
+      "Do not throw away the paper.",
+      "She threw away old clothes.",
+      "I need to throw away this box.",
+      "He threw away the broken toy.",
+      "Please throw away the trash.",
+      "They threw away the empty bottles."
+    ]
+  },
+  {
+    "id": "634",
+    "ukrainian": "прибрати (навести порядок)",
+    "english": "clean up",
+    "phrases": [
+      "Please clean up your room.",
+      "We cleaned up after dinner.",
+      "She cleaned up the kitchen.",
+      "The children cleaned up their toys.",
+      "I need to clean up this mess.",
+      "They cleaned up the park."
+    ]
+  },
+  {
+    "id": "635",
+    "ukrainian": "приміряти (одяг)",
+    "english": "try on",
+    "phrases": [
+      "Can I try on this jacket?",
+      "She tried on a new dress.",
+      "I want to try on these shoes.",
+      "He tried on the shirt.",
+      "Try on the coat before buying it.",
+      "They tried on different clothes."
+    ]
+  },
+  {
+    "id": "636",
+    "ukrainian": "записати (занотувати)",
+    "english": "write down",
+    "phrases": [
+      "Please write down your name.",
+      "I wrote down the phone number.",
+      "She writes down new words.",
+      "Write down the important information.",
+      "He wrote down the address.",
+      "I need to write down this idea."
+    ]
+  },
+  {
+    "id": "637",
+    "ukrainian": "знайти інформацію (переглянути)",
+    "english": "look up",
+    "phrases": [
+      "I looked up the word in the dictionary.",
+      "She looked up information online.",
+      "Can you look up this address?",
+      "He looked up the meaning of the word.",
+      "I need to look up the answer.",
+      "We looked up the new restaurant."
+    ]
+  },
+  {
+    "id": "638",
+    "ukrainian": "повернути (комусь назад)",
+    "english": "give back",
+    "phrases": [
+      "Please give back my book.",
+      "She gave back the money.",
+      "I need to give back this pen.",
+      "He gave back the keys.",
+      "Can you give back my phone?",
+      "They gave back the borrowed items."
+    ]
+  },
+  {
+    "id": "639",
+    "ukrainian": "читати вголос",
+    "english": "read aloud",
+    "phrases": [
+      "Please read the text aloud.",
+      "She read a story aloud.",
+      "The teacher asked me to read aloud.",
+      "I like reading books aloud.",
+      "He read the instructions aloud.",
+      "The children read aloud together."
+    ]
+  },
+  {
+    "id": "640",
+    "ukrainian": "піклуватися (доглядати)",
+    "english": "look after",
+    "phrases": [
+      "She looks after her little brother.",
+      "I look after my grandparents.",
+      "Can you look after my dog?",
+      "He looked after the children.",
+      "They look after the garden.",
+      "She likes looking after animals."
+    ]
+  },
+  {
+    "id": "641",
+    "ukrainian": "передзвонити",
+    "english": "call back",
+    "phrases": [
+      "I will call you back later.",
+      "She called back in the evening.",
+      "Please call me back tomorrow.",
+      "He forgot to call back.",
+      "I need to call back my friend.",
+      "They called back after an hour."
+    ]
+  },
+  {
+    "id": "642",
+    "ukrainian": "поспішати (швидше робити)",
+    "english": "hurry up",
+    "phrases": [
+      "Hurry up, we are late.",
+      "Please hurry up and get ready.",
+      "She hurried up to catch the bus.",
+      "I need to hurry up.",
+      "They hurried up before the rain.",
+      "Hurry up, dinner is ready."
+    ]
+  },
+  {
+    "id": "643",
+    "ukrainian": "сповільнити (зменшити швидкість)",
+    "english": "slow down",
+    "phrases": [
+      "Slow down, you are walking too fast.",
+      "The driver slowed down near the school.",
+      "Please slow down the car.",
+      "I need to slow down and relax.",
+      "The rain slowed down the traffic.",
+      "Slow down and think carefully."
+    ]
+  },
+  {
+    "id": "644",
+    "ukrainian": "виростати (дорослішати)",
+    "english": "grow up",
+    "phrases": [
+      "I grew up in a small town.",
+      "Children grow up quickly.",
+      "She wants to be a doctor when she grows up.",
+      "He grew up with two brothers.",
+      "We grow up and learn new things.",
+      "Where did you grow up?"
+    ]
+  },
+  {
+    "id": "645",
+    "ukrainian": "піти геть (залишити місце)",
+    "english": "go away",
+    "phrases": [
+      "Please go away.",
+      "The rain went away after an hour.",
+      "He went away for the weekend.",
+      "The pain will go away soon.",
+      "She told the dog to go away.",
+      "I want to go away and relax."
+    ]
+  },
+  {
+    "id": "646",
+    "ukrainian": "залишатися вдома (не виходити)",
+    "english": "stay in",
+    "phrases": [
+      "I will stay in tonight.",
+      "We stayed in because of the rain.",
+      "She likes to stay in on weekends.",
+      "Let's stay in and watch a movie.",
+      "He stayed in all day.",
+      "They decided to stay in."
+    ]
+  },
+  {
+    "id": "647",
+    "ukrainian": "їсти не вдома (у кафе, ресторані)",
+    "english": "eat out",
+    "phrases": [
+      "We usually eat out on Fridays.",
+      "She likes to eat out with friends.",
+      "They ate out last night.",
+      "Let's eat out today.",
+      "I do not often eat out.",
+      "We decided to eat out for dinner."
+    ]
+  },
+  {
+    "id": "648",
+    "ukrainian": "переглянути (ще раз, детально)",
+    "english": "go over",
+    "phrases": [
+      "Let's go over the plan again.",
+      "She went over her notes.",
+      "I need to go over this information.",
+      "The teacher went over the lesson.",
+      "We went over the details together.",
+      "He went over the rules."
+    ]
+  },
+  {
+    "id": "649",
+    "ukrainian": "тренуватися (займатися спортом)",
+    "english": "work out",
+    "phrases": [
+      "I work out three times a week.",
+      "She works out at the gym.",
+      "We worked out together yesterday.",
+      "Exercise helps you work out better.",
+      "He likes to work out in the morning.",
+      "I want to work out more often."
+    ]
+  },
+  {
+    "id": "650",
+    "ukrainian": "вказати на (звернути увагу)",
+    "english": "point out",
+    "phrases": [
+      "She pointed out a mistake.",
+      "He pointed out the important details.",
+      "I want to point out one thing.",
+      "The teacher pointed out the answer.",
+      "She pointed out the beautiful view.",
+      "He pointed out where we should go."
+    ]
+  }
+]

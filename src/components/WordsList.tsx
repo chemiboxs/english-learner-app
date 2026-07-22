@@ -442,7 +442,7 @@ export const WordsList: React.FC<WordsListProps> = ({
 
           {displayPhrases && displayPhrases.length > 0 && (
             <div>
-              <div className="text-[13px] md:text-lg font-bold">"{word.english}" phrases</div>
+              <div className="text-[13px] md:text-lg font-bold">"{word.english}" phrases{word.source ? ` - ${displayName(word.source)}` : ''}</div>
 
               <div className="text-[13px] md:text-lg mt-1 space-y-1">
                 {displayPhrases.map((p: string, i: number) => (
@@ -487,6 +487,14 @@ export const WordsList: React.FC<WordsListProps> = ({
 
   const pronouncePhrase = (phrase: string) => {
     speak(phrase, { lang: 'en-US', rate: 0.9 });
+  };
+
+  const displayName = (name: string) => {
+    let idx = name.indexOf('.phrases');
+    if (idx !== -1) return name.slice(0, idx);
+    idx = name.indexOf('.irreg');
+    if (idx !== -1) return name.slice(0, idx);
+    return name;
   };
 
   return (

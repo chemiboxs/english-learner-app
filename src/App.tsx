@@ -1,16 +1,21 @@
-// src/App.tsx
 import React from 'react';
 import { VocabularyApp } from './components/VocabularyApp';
+import { IrregularVerbApp } from './components/IrregularVerbApp';
 import { useDictionaries } from './hooks/useDictionaries';
+import { IrregularVerb } from './types/vocabulary';
 import { VoiceSelector } from './components/VoiceSelector';
 import { WordsList } from './components/WordsList';
 import { Select } from './components/Select';
 import './index.css';
 
+type Mode = 'words' | 'phrases' | 'irregular';
+
 function App() {
   const {
     selectedDictionary,
     isLoading,
+    mode,
+    switchMode,
     switchDictionary,
     getCurrentDictionary,
     getDictionaryList,
@@ -32,6 +37,12 @@ function App() {
 
   const handleDictionaryChange = (newDict: string) => {
     switchDictionary(newDict);
+    setStats({ learned: 0, skipped: 0 });
+    setKey(prev => prev + 1);
+  };
+
+  const handleModeChange = (newMode: string) => {
+    switchMode(newMode as Mode);
     setStats({ learned: 0, skipped: 0 });
     setKey(prev => prev + 1);
   };
@@ -73,12 +84,13 @@ function App() {
     const currentWords = getCurrentDictionary();
 
     if (currentWords.length > 0) {
-      const storageKey = `vocabulary_data_${currentWords
-        .map(w => w.id)
+      const idHash = currentWords
+        .map((w: { id: string }) => w.id)
         .sort()
-        .join('|')}`;
+        .join('|');
 
-      localStorage.removeItem(storageKey);
+      localStorage.removeItem(`vocabulary_data_${idHash}`);
+      localStorage.removeItem(`irrverb_data_${idHash}`);
     }
 
     setStats({
@@ -102,12 +114,52 @@ function App() {
     );
   }
 
+  const isIrregular = mode === 'irregular';
   const currentWords = getCurrentDictionary();
   const allWords = getAllWords();
   const dictionaryList = getDictionaryList();
 
-  const commitShort = __COMMIT_SHA__ !== 'dev' ? __COMMIT_SHA__.slice(0, 7) : 'dev';
-  const versionLabel = `v.${commitShort}`;
+const commitShort = __COMMIT_SHA__ !== 'dev' ? __COMMIT_SHA__.slice(0, 7) : 'dev';
+const versionLabel = `v.${commitShort}`;
+
+const displayName = (name: string) => {
+  let idx = name.indexOf('.phrases');
+  if (idx !== -1) return name.slice(0, idx);
+  idx = name.indexOf('.irreg');
+  if (idx !== -1) return name.slice(0, idx);
+  return name;
+};
+
+const currentLabel = isIrregular ? 'Current verbs' : mode === 'words' ? 'Current words' : 'Current phrases';
+const allLabel = isIrregular ? 'All verbs' : mode === 'words' ? 'All words' : 'All phrases';
+const titleLabel = isIrregular ? 'Verbs' : mode === 'words' ? 'Words' : 'Phrases';
+
+const formatVerb = (v: IrregularVerb) => {
+  const base = v.base || '';
+  const past = v.past || '';
+  const participle = v.participle || '';
+  const examples = v.examples;
+  const allPhrases: string[] = [];
+  if (examples) {
+    if (examples.base) allPhrases.push(...examples.base);
+    if (examples.past) allPhrases.push(...examples.past);
+    if (examples.participle) allPhrases.push(...examples.participle);
+  }
+  return {
+    id: v.id,
+    ukrainian: v.ukrainian,
+    english: `${base} / ${past} / ${participle}`,
+    phrases: allPhrases,
+  };
+};
+
+const currentDisplayWords = isIrregular
+  ? (currentWords as unknown as IrregularVerb[]).map(formatVerb)
+  : currentWords;
+
+const allDisplayWords = isIrregular
+  ? (allWords as unknown as IrregularVerb[]).map(formatVerb)
+  : allWords;
 
   return (
     <div className="App">
@@ -141,13 +193,24 @@ function App() {
           {/* LEFT */}
           <div className="flex flex-col lg:flex-row items-center lg:flex-nowrap justify-center lg:justify-start gap-2">
             <Select
+              value={mode}
+              onChange={handleModeChange}
+              options={[
+                { value: 'words', label: 'Words' },
+                { value: 'phrases', label: 'Phrases' },
+                { value: 'irregular', label: 'Irregular' },
+              ]}
+              className="lg:w-[120px]"
+            />
+
+            <Select
               value={selectedDictionary}
               onChange={handleDictionaryChange}
-              options={dictionaryList.map(d => ({ value: d, label: d }))}
+              options={dictionaryList.map(d => ({ value: d, label: displayName(d) }))}
               className="lg:w-[180px]"
             />
 
-            <div className="flex flex-row gap-2">
+            <div className="flex flex-row gap-2 relative z-10">
               <button
                 onClick={() => setShowCurrentWordsModal(true)}
                 className="
@@ -167,7 +230,7 @@ function App() {
                   shadow-sm hover:shadow-md active:shadow-none
                 "
               >
-                Current words
+                {currentLabel}
               </button>
 
               <button
@@ -189,7 +252,7 @@ function App() {
                   shadow-sm hover:shadow-md active:shadow-none
                 "
               >
-                All words
+                {allLabel}
               </button>
             </div>
           </div>
@@ -271,7 +334,7 @@ function App() {
         </div>
       </header>
 
-      {currentWords.length > 0 && (
+      {currentWords.length > 0 && !isIrregular && (
         <VocabularyApp
           key={key}
           words={currentWords}
@@ -289,12 +352,30 @@ function App() {
         />
       )}
 
+      {currentWords.length > 0 && isIrregular && (
+        <IrregularVerbApp
+          key={key}
+          verbs={currentWords as unknown as IrregularVerb[]}
+          learnedVerbs={[]}
+          skippedVerbs={[]}
+          onStatsUpdate={handleStatsUpdate}
+          showModal={showModal}
+          setShowModal={setShowModal}
+          modalType={modalType}
+          resetVerbsCallback={handleResetVocabulary}
+          dictionaryList={dictionaryList}
+          selectedDictionary={selectedDictionary}
+          onPrevDictionary={handlePrevDictionary}
+          onNextDictionary={handleNextDictionary}
+        />
+      )}
+
       {/* CURRENT DICTIONARY WORDS MODAL */}
       <WordsList
-        words={currentWords}
+        words={currentDisplayWords}
         isOpen={showCurrentWordsModal}
         onClose={() => setShowCurrentWordsModal(false)}
-        title="Current Words"
+        title={`Current ${titleLabel}`}
         type="all"
         onPrevDictionary={handlePrevDictionary}
         onNextDictionary={handleNextDictionary}
@@ -304,10 +385,10 @@ function App() {
 
       {/* ALL VOCABULARIES WORDS MODAL */}
       <WordsList
-        words={allWords}
+        words={allDisplayWords}
         isOpen={showAllWordsModal}
         onClose={() => setShowAllWordsModal(false)}
-        title="All Words"
+        title={`All ${titleLabel}`}
         type="all"
       />
 
