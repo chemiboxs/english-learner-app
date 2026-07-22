@@ -1,0 +1,652 @@
+[
+  {
+    "id": "651",
+    "ukrainian": "кора дерева",
+    "english": "bark",
+    "phrases": [
+      "The tree has rough bark.",
+      "The bark protects the tree.",
+      "I touched the bark of the tree.",
+      "The bark is brown.",
+      "Some animals live under the bark.",
+      "The bark fell from the old tree."
+    ]
+  },
+  {
+    "id": "652",
+    "ukrainian": "перо",
+    "english": "feather",
+    "phrases": [
+      "The bird has a beautiful feather.",
+      "I found a feather on the ground.",
+      "The feather is very light.",
+      "The eagle has large feathers.",
+      "She keeps a feather as a souvenir.",
+      "The feather is soft."
+    ]
+  },
+  {
+    "id": "653",
+    "ukrainian": "гніздо",
+    "english": "nest",
+    "phrases": [
+      "The bird is building a nest.",
+      "There are eggs in the nest.",
+      "The nest is in the tree.",
+      "We saw a small nest outside.",
+      "The baby birds are in the nest.",
+      "The nest is made of small branches."
+    ]
+  },
+  {
+    "id": "654",
+    "ukrainian": "м'ясо",
+    "english": "meat",
+    "phrases": [
+      "I do not eat much meat.",
+      "She bought fresh meat.",
+      "The meat is ready for dinner.",
+      "We cook meat with vegetables.",
+      "This meat is very tasty.",
+      "He likes grilled meat."
+    ]
+  },
+  {
+    "id": "655",
+    "ukrainian": "макарони",
+    "english": "pasta",
+    "phrases": [
+      "I like pasta with cheese.",
+      "She cooks pasta for dinner.",
+      "The pasta is very hot.",
+      "We need some pasta for the meal.",
+      "He makes pasta at home.",
+      "This pasta tastes great."
+    ]
+  },
+  {
+    "id": "656",
+    "ukrainian": "локшина",
+    "english": "noodles",
+    "phrases": [
+      "I like noodles with vegetables.",
+      "She made noodles for lunch.",
+      "The noodles are in the bowl.",
+      "We eat noodles with soup.",
+      "These noodles are delicious.",
+      "He cooked noodles yesterday."
+    ]
+  },
+  {
+    "id": "657",
+    "ukrainian": "варення",
+    "english": "jam",
+    "phrases": [
+      "I like bread with jam.",
+      "My grandmother makes strawberry jam.",
+      "The jam is sweet.",
+      "She put jam on her toast.",
+      "There is a jar of jam in the kitchen.",
+      "We bought some jam."
+    ]
+  },
+  {
+    "id": "658",
+    "ukrainian": "пиріг",
+    "english": "pie",
+    "phrases": [
+      "My mother makes apple pie.",
+      "The pie smells good.",
+      "We ate pie after dinner.",
+      "She baked a chocolate pie.",
+      "This pie is very sweet.",
+      "I want a piece of pie."
+    ]
+  },
+  {
+    "id": "659",
+    "ukrainian": "млинець",
+    "english": "pancake",
+    "phrases": [
+      "I eat pancakes for breakfast.",
+      "She made a big pancake.",
+      "The pancake is hot.",
+      "We like pancakes with honey.",
+      "He cooked pancakes yesterday.",
+      "This pancake is delicious."
+    ]
+  },
+  {
+    "id": "660",
+    "ukrainian": "кишеня",
+    "english": "pocket",
+    "phrases": [
+      "My phone is in my pocket.",
+      "He put the coin in his pocket.",
+      "The jacket has two pockets.",
+      "She found a key in her pocket.",
+      "My pocket is full.",
+      "The pocket is too small."
+    ]
+  },
+  {
+    "id": "661",
+    "ukrainian": "ґудзик",
+    "english": "button",
+    "phrases": [
+      "My shirt has a missing button.",
+      "Please fasten the button.",
+      "The button is small and white.",
+      "She sewed a button on her coat.",
+      "This jacket has many buttons.",
+      "The button fell off."
+    ]
+  },
+  {
+    "id": "662",
+    "ukrainian": "шолом",
+    "english": "helmet",
+    "phrases": [
+      "Always wear a helmet when riding a bike.",
+      "The helmet protects your head.",
+      "He bought a new helmet.",
+      "The cyclist is wearing a helmet.",
+      "This helmet is too big.",
+      "She forgot her helmet at home."
+    ]
+  },
+  {
+    "id": "663",
+    "ukrainian": "пожежник",
+    "english": "firefighter",
+    "phrases": [
+      "The firefighter helps people.",
+      "My uncle is a firefighter.",
+      "The firefighter put out the fire.",
+      "Firefighters work in a team.",
+      "The firefighter wears a helmet.",
+      "We thanked the firefighter."
+    ]
+  },
+  {
+    "id": "664",
+    "ukrainian": "покупець, клієнт",
+    "english": "customer",
+    "phrases": [
+      "The customer bought a new phone.",
+      "The customer asked a question.",
+      "The shop has many customers.",
+      "The customer paid for the food.",
+      "A good shop helps customers.",
+      "The customer was happy."
+    ]
+  },
+  {
+    "id": "665",
+    "ukrainian": "гість",
+    "english": "guest",
+    "phrases": [
+      "We have a guest today.",
+      "The guest stayed at the hotel.",
+      "She invited many guests.",
+      "The guests arrived in the evening.",
+      "Please welcome our guest.",
+      "The guest sat at the table."
+    ]
+  },
+  {
+    "id": "666",
+    "ukrainian": "турист",
+    "english": "tourist",
+    "phrases": [
+      "The tourist took many photos.",
+      "Many tourists visit this city.",
+      "The tourist asked for directions.",
+      "She is a tourist from another country.",
+      "The tourist visited the museum.",
+      "Tourists like beautiful places."
+    ]
+  },
+  {
+    "id": "667",
+    "ukrainian": "однокласник",
+    "english": "classmate",
+    "phrases": [
+      "My classmate sits next to me.",
+      "I help my classmate with homework.",
+      "She is my best classmate.",
+      "We study with our classmates.",
+      "My classmate likes science.",
+      "I met my old classmate yesterday."
+    ]
+  },
+  {
+    "id": "668",
+    "ukrainian": "пасажир",
+    "english": "passenger",
+    "phrases": [
+      "The passenger got on the bus.",
+      "There are many passengers on the train.",
+      "The passenger bought a ticket.",
+      "The driver helped the passenger.",
+      "Every passenger needs a seat.",
+      "The passenger opened the door."
+    ]
+  },
+  {
+    "id": "669",
+    "ukrainian": "спраглий",
+    "english": "thirsty",
+    "phrases": [
+      "I am thirsty after the walk.",
+      "She feels thirsty in hot weather.",
+      "The dog is thirsty.",
+      "He drank water because he was thirsty.",
+      "The children are thirsty after playing.",
+      "I am very thirsty now."
+    ]
+  },
+  {
+    "id": "670",
+    "ukrainian": "багатий",
+    "english": "rich",
+    "phrases": [
+      "He is a rich man.",
+      "The country is rich in natural resources.",
+      "She wants to become rich.",
+      "The rich family lives in a big house.",
+      "This food has a rich taste.",
+      "The city has a rich history."
+    ]
+  },
+  {
+    "id": "671",
+    "ukrainian": "бідний",
+    "english": "poor",
+    "phrases": [
+      "The poor family needs help.",
+      "He was poor when he was young.",
+      "Some people are very poor.",
+      "The poor village has few houses.",
+      "She feels sorry for the poor animals.",
+      "The country was poor many years ago."
+    ]
+  },
+  {
+    "id": "672",
+    "ukrainian": "відомий",
+    "english": "famous",
+    "phrases": [
+      "She is a famous singer.",
+      "This city is famous for its history.",
+      "He became famous after the film.",
+      "The restaurant is famous for its food.",
+      "Many famous people live here.",
+      "The museum is famous around the world."
+    ]
+  },
+  {
+    "id": "673",
+    "ukrainian": "місцевий",
+    "english": "local",
+    "phrases": [
+      "We bought local food.",
+      "She works at a local shop.",
+      "The local people are friendly.",
+      "This is a local market.",
+      "He knows the local area well.",
+      "We visited a local restaurant."
+    ]
+  },
+  {
+    "id": "674",
+    "ukrainian": "іноземний",
+    "english": "foreign",
+    "phrases": [
+      "She speaks a foreign language.",
+      "I like learning foreign languages.",
+      "He works for a foreign company.",
+      "They met some foreign tourists.",
+      "This food is from a foreign country.",
+      "We watched a foreign film."
+    ]
+  },
+  {
+    "id": "675",
+    "ukrainian": "шум",
+    "english": "noise",
+    "phrases": [
+      "The noise is very loud.",
+      "I heard a strange noise.",
+      "Please do not make noise.",
+      "The street noise woke me up.",
+      "There is too much noise here.",
+      "The children make a lot of noise."
+    ]
+  },
+  {
+    "id": "676",
+    "ukrainian": "мокрий",
+    "english": "wet",
+    "phrases": [
+      "My clothes are wet.",
+      "The floor is wet.",
+      "The dog is wet after the rain.",
+      "Do not touch the wet paint.",
+      "Her hair is wet.",
+      "The towel is still wet."
+    ]
+  },
+  {
+    "id": "677",
+    "ukrainian": "сухий",
+    "english": "dry",
+    "phrases": [
+      "The towel is dry now.",
+      "The desert is dry and hot.",
+      "My clothes are dry.",
+      "The ground is dry after the sun.",
+      "This bread is too dry.",
+      "Keep the paper dry."
+    ]
+  },
+  {
+    "id": "678",
+    "ukrainian": "повільно",
+    "english": "slowly",
+    "phrases": [
+      "Please speak slowly.",
+      "The turtle walks slowly.",
+      "He opened the door slowly.",
+      "The car moved slowly.",
+      "She slowly drank her tea.",
+      "The snow fell slowly."
+    ]
+  },
+  {
+    "id": "679",
+    "ukrainian": "швидко",
+    "english": "quickly",
+    "phrases": [
+      "Please come quickly.",
+      "He finished his homework quickly.",
+      "The dog runs quickly.",
+      "She quickly opened the door.",
+      "We need to leave quickly.",
+      "The children ate quickly."
+    ]
+  },
+  {
+    "id": "680",
+    "ukrainian": "раптово",
+    "english": "suddenly",
+    "phrases": [
+      "It suddenly started raining.",
+      "The lights suddenly went out.",
+      "He suddenly stopped talking.",
+      "The dog suddenly ran away.",
+      "She suddenly remembered the answer.",
+      "The weather changed suddenly."
+    ]
+  },
+  {
+    "id": "681",
+    "ukrainian": "без",
+    "english": "without",
+    "phrases": [
+      "I cannot live without water.",
+      "She left without her bag.",
+      "He went outside without a coat.",
+      "We finished the work without help.",
+      "You can make tea without sugar.",
+      "He left the room without saying goodbye."
+    ]
+  },
+  {
+    "id": "682",
+    "ukrainian": "між",
+    "english": "between",
+    "phrases": [
+      "The bank is between the shops.",
+      "The ball is between the chairs.",
+      "She sat between her friends.",
+      "The house is between two trees.",
+      "Choose between these two options.",
+      "The letter is between the pages."
+    ]
+  },
+  {
+    "id": "683",
+    "ukrainian": "крім, за винятком",
+    "english": "except",
+    "phrases": [
+      "Everyone came except Tom.",
+      "I eat everything except fish.",
+      "The shop is open every day except Sunday.",
+      "Nobody knows the answer except her.",
+      "All students passed the test except one.",
+      "I like all fruits except bananas."
+    ]
+  },
+  {
+    "id": "684",
+    "ukrainian": "приносити",
+    "english": "bring",
+    "phrases": [
+      "Please bring me a glass of water.",
+      "She brought a gift for her friend.",
+      "Can you bring your book tomorrow?",
+      "He brings lunch to work every day.",
+      "They brought good news.",
+      "I will bring my camera on the trip."
+    ]
+  },
+  {
+    "id": "685",
+    "ukrainian": "горіти, палити",
+    "english": "burn",
+    "phrases": [
+      "The fire can burn the wood.",
+      "Be careful not to burn your hand.",
+      "The candle is burning.",
+      "He burned the old paper.",
+      "The sun can burn your skin.",
+      "The toast is burned."
+    ]
+  },
+  {
+    "id": "686",
+    "ukrainian": "перевіряти",
+    "english": "check",
+    "phrases": [
+      "Please check your answer.",
+      "I check my email every morning.",
+      "She checked the time on her phone.",
+      "The teacher checked our homework.",
+      "Can you check this information?",
+      "He checked the door before leaving."
+    ]
+  },
+  {
+    "id": "687",
+    "ukrainian": "продовжувати",
+    "english": "continue",
+    "phrases": [
+      "Please continue your work.",
+      "She continued reading the book.",
+      "The rain continued all day.",
+      "We will continue tomorrow.",
+      "He continued to learn English.",
+      "The story continues on the next page."
+    ]
+  },
+  {
+    "id": "688",
+    "ukrainian": "копіювати",
+    "english": "copy",
+    "phrases": [
+      "Please copy this sentence.",
+      "Students copy words from the board.",
+      "She copied the picture.",
+      "Do not copy other people's work.",
+      "I need to copy this document.",
+      "He copied the information into his notebook."
+    ]
+  },
+  {
+    "id": "689",
+    "ukrainian": "рахувати",
+    "english": "count",
+    "phrases": [
+      "Can you count to ten?",
+      "The child is learning to count.",
+      "She counted the apples.",
+      "We count money before paying.",
+      "He counted all the books.",
+      "Let's count how many people are here."
+    ]
+  },
+  {
+    "id": "690",
+    "ukrainian": "доставляти",
+    "english": "deliver",
+    "phrases": [
+      "The company delivers food.",
+      "They deliver packages every day.",
+      "The driver delivered the pizza.",
+      "The letter was delivered yesterday.",
+      "He delivers newspapers in the morning.",
+      "The shop can deliver your order."
+    ]
+  },
+  {
+    "id": "691",
+    "ukrainian": "описувати",
+    "english": "describe",
+    "phrases": [
+      "Can you describe the picture?",
+      "She described her new house.",
+      "He described the problem.",
+      "Please describe what happened.",
+      "The teacher asked us to describe the animal.",
+      "I cannot describe this feeling."
+    ]
+  },
+  {
+    "id": "692",
+    "ukrainian": "заробляти",
+    "english": "earn",
+    "phrases": [
+      "He earns money at his job.",
+      "She wants to earn more money.",
+      "They earn enough to live well.",
+      "My father earns money by driving.",
+      "You can earn points in this game.",
+      "He earned a lot of respect."
+    ]
+  },
+  {
+    "id": "693",
+    "ukrainian": "насолоджуватися",
+    "english": "enjoy",
+    "phrases": [
+      "I enjoy listening to music.",
+      "She enjoys reading books.",
+      "We enjoyed our holiday.",
+      "They enjoy playing football.",
+      "Do you enjoy this food?",
+      "He enjoys spending time with friends."
+    ]
+  },
+  {
+    "id": "694",
+    "ukrainian": "падати",
+    "english": "fall",
+    "phrases": [
+      "Be careful not to fall.",
+      "The leaves fall from the trees.",
+      "She fell on the ice.",
+      "The rain falls from the sky.",
+      "The glass fell on the floor.",
+      "Prices can fall quickly."
+    ]
+  },
+  {
+    "id": "695",
+    "ukrainian": "відчувати",
+    "english": "feel",
+    "phrases": [
+      "I feel happy today.",
+      "She feels tired after work.",
+      "Do you feel better now?",
+      "He felt cold outside.",
+      "I can feel the wind.",
+      "They feel excited about the trip."
+    ]
+  },
+  {
+    "id": "696",
+    "ukrainian": "битися, боротися",
+    "english": "fight",
+    "phrases": [
+      "The two boys started to fight.",
+      "They fight for their team.",
+      "Animals sometimes fight for food.",
+      "We should not fight with friends.",
+      "He fought against the problem.",
+      "The soldiers fought bravely."
+    ]
+  },
+  {
+    "id": "697",
+    "ukrainian": "вгадувати",
+    "english": "guess",
+    "phrases": [
+      "Can you guess the answer?",
+      "I guess he is at home.",
+      "She guessed the correct word.",
+      "Try to guess my age.",
+      "He guessed the right number.",
+      "Let me guess what happened."
+    ]
+  },
+  {
+    "id": "698",
+    "ukrainian": "тримати",
+    "english": "hold",
+    "phrases": [
+      "Please hold my bag.",
+      "She is holding a cup of tea.",
+      "He held the door open.",
+      "Hold my hand, please.",
+      "The box is too heavy to hold.",
+      "I always hold my phone carefully."
+    ]
+  },
+  {
+    "id": "699",
+    "ukrainian": "уявляти",
+    "english": "imagine",
+    "phrases": [
+      "Imagine living in a big house.",
+      "I cannot imagine that place.",
+      "She imagined a beautiful garden.",
+      "Can you imagine this situation?",
+      "Children like to imagine new worlds.",
+      "He imagined himself as a famous actor."
+    ]
+  },
+  {
+    "id": "700",
+    "ukrainian": "вбивати",
+    "english": "kill",
+    "phrases": [
+      "The snake can kill small animals.",
+      "This medicine can kill bacteria.",
+      "The story was about a dragon that could kill people.",
+      "The hunter did not want to kill the animal.",
+      "Too much heat can kill plants.",
+      "The insect spray kills bugs."
+    ]
+  }
+]

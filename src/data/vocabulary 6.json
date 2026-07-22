@@ -1,0 +1,667 @@
+[
+  {
+    "id": "251",
+    "ukrainian": "Сукня",
+    "english": "dress",
+    "phrases": [
+      "She is wearing a beautiful dress to the party.",
+      "My sister bought a new dress for her birthday.",
+      "The dress is long and has a pretty color.",
+      "I saw a beautiful dress in the shop window.",
+      "She chose a red dress for the special day.",
+      "The little girl likes wearing her favorite dress."
+    ]
+  },
+  {
+    "id": "252",
+    "ukrainian": "Куртка",
+    "english": "jacket",
+    "phrases": [
+      "I wear a warm jacket when it is cold outside.",
+      "My jacket is hanging on the chair in my room.",
+      "I put on my jacket before going outside.",
+      "This jacket keeps me warm during winter.",
+      "My new jacket has two big pockets.",
+      "He forgot his jacket at school yesterday."
+    ]
+  },
+  {
+    "id": "253",
+    "ukrainian": "Шапка",
+    "english": "hat",
+    "phrases": [
+      "I wear a hat when it is sunny in summer.",
+      "His hat fell on the ground when he was running.",
+      "My winter hat keeps my head warm.",
+      "She bought a new hat for the trip.",
+      "The boy wears a blue hat outside.",
+      "I found my hat under the chair."
+    ]
+  },
+  {
+    "id": "254",
+    "ukrainian": "Взуття",
+    "english": "shoes",
+    "phrases": [
+      "I put on my shoes before going to school.",
+      "My shoes are dirty after playing outside.",
+      "These shoes are comfortable for walking.",
+      "I keep my shoes near the front door.",
+      "My new shoes are black and very clean.",
+      "He takes off his shoes before entering the house."
+    ]
+  },
+  {
+    "id": "255",
+    "ukrainian": "Шкарпетка",
+    "english": "sock",
+    "phrases": [
+      "I lost one sock after washing my clothes.",
+      "My sock is wet because I stepped in water.",
+      "I wear warm socks in winter.",
+      "The little sock is under the bed.",
+      "She found her missing sock in the room.",
+      "My socks have colorful pictures on them."
+    ]
+  },
+  {
+    "id": "256",
+    "ukrainian": "Джинси",
+    "english": "jeans",
+    "phrases": [
+      "I wear jeans almost every day at school.",
+      "My jeans are blue and very comfortable.",
+      "These jeans are new and fit me well.",
+      "I like wearing jeans with my favorite T-shirt.",
+      "My brother washed his jeans yesterday.",
+      "She bought a pair of jeans at the shop."
+    ]
+  },
+  {
+    "id": "257",
+    "ukrainian": "Светр",
+    "english": "sweater",
+    "phrases": [
+      "I wear a sweater when it is cold in the morning.",
+      "My grandmother knitted a warm sweater for me.",
+      "The sweater is soft and very comfortable.",
+      "I put on my sweater before going outside.",
+      "My favorite sweater is green and warm.",
+      "He received a new sweater as a gift."
+    ]
+  },
+  {
+    "id": "258",
+    "ukrainian": "Сходи",
+    "english": "stairs",
+    "phrases": [
+      "I walk up the stairs to my classroom every day.",
+      "Be careful when you go down the stairs.",
+      "The stairs in our house are made of wood.",
+      "The cat is sitting on the stairs near the door.",
+      "I climbed the stairs to reach the second floor.",
+      "The children ran down the stairs after class."
+    ]
+  },
+  {
+    "id": "259",
+    "ukrainian": "Хмара",
+    "english": "cloud",
+    "phrases": [
+      "A big cloud is covering the sun today.",
+      "I saw a white cloud in the blue sky.",
+      "The dark cloud means that rain may come soon.",
+      "There are many clouds above the mountains.",
+      "The cloud moved slowly across the sky.",
+      "I like watching shapes in the clouds."
+    ]
+  },
+  {
+    "id": "260",
+    "ukrainian": "Вітер",
+    "english": "wind",
+    "phrases": [
+      "The wind is blowing strongly outside today.",
+      "I feel the wind when I ride my bicycle.",
+      "The cold wind makes me wear a jacket.",
+      "The wind moves the leaves on the trees.",
+      "A strong wind opened the door suddenly.",
+      "Children like flying kites when there is wind."
+    ]
+  },
+  {
+    "id": "261",
+    "ukrainian": "Веселка",
+    "english": "rainbow",
+    "phrases": [
+      "We saw a rainbow after the rain stopped.",
+      "The rainbow looks beautiful in the sky.",
+      "A colorful rainbow appeared after the summer storm.",
+      "I took a picture of the rainbow above the trees.",
+      "The rainbow has many different colors in the sky.",
+      "Children were happy when they saw the bright rainbow."
+    ]
+  },
+  {
+    "id": "262",
+    "ukrainian": "М'яч",
+    "english": "ball",
+    "phrases": [
+      "I kicked the ball very far in the park.",
+      "The ball rolled under the table.",
+      "My brother and I play with a ball outside.",
+      "The red ball is near the door.",
+      "The children threw the ball to each other.",
+      "I found my favorite ball in the garden."
+    ]
+  },
+  {
+    "id": "263",
+    "ukrainian": "Футбол",
+    "english": "football",
+    "phrases": [
+      "We play football after school in the park.",
+      "Football is my favorite sport to watch and play.",
+      "My friends and I practice football every weekend.",
+      "The football match was exciting and very close.",
+      "He scored a goal during the football game.",
+      "Many children enjoy playing football outside."
+    ]
+  },
+  {
+    "id": "264",
+    "ukrainian": "Баскетбол",
+    "english": "basketball",
+    "phrases": [
+      "I play basketball with my friends at school.",
+      "The basketball game was very exciting yesterday.",
+      "He throws the basketball into the basket easily.",
+      "Our team practices basketball after classes.",
+      "Basketball is a popular sport around the world.",
+      "I watched a basketball game with my family."
+    ]
+  },
+  {
+    "id": "265",
+    "ukrainian": "Волейбол",
+    "english": "volleyball",
+    "phrases": [
+      "We play volleyball in physical education class.",
+      "The volleyball went over the net very fast.",
+      "My sister likes playing volleyball with her friends.",
+      "The volleyball team practiced before the competition.",
+      "They hit the volleyball back and forth over the net.",
+      "Volleyball is fun to play on the beach."
+    ]
+  },
+  {
+    "id": "266",
+    "ukrainian": "Теніс",
+    "english": "tennis",
+    "phrases": [
+      "I play tennis with my coach on weekends.",
+      "The tennis match was long but fun.",
+      "She practices tennis every Saturday morning.",
+      "The players hit the tennis ball across the court.",
+      "My friend wants to learn how to play tennis.",
+      "Tennis is an interesting sport with many rules."
+    ]
+  },
+  {
+    "id": "267",
+    "ukrainian": "Камінь",
+    "english": "stone",
+    "alternatives": [
+      "rock"
+    ],
+    "phrases": [
+      "I picked up a small stone from the ground.",
+      "The stone was smooth and cold in my hand.",
+      "The child found a beautiful stone near the river.",
+      "There were many stones on the mountain path.",
+      "I threw a small stone into the water.",
+      "The stone was heavy and difficult to move."
+    ]
+  },
+  {
+    "id": "268",
+    "ukrainian": "Корабель",
+    "english": "ship",
+    "alternatives": [
+      "boat"
+    ],
+    "phrases": [
+      "We saw a big ship in the sea during our trip.",
+      "The ship is sailing across the ocean.",
+      "The old ship was near the harbor.",
+      "People traveled on the ship for many days.",
+      "The small boat moved next to the big ship.",
+      "I would like to travel on a ship someday."
+    ]
+  },
+  {
+    "id": "269",
+    "ukrainian": "Легкий / простий",
+    "english": "easy",
+    "phrases": [
+      "This math task is very easy for me.",
+      "The test was easy because I studied well.",
+      "This book is easy to read for beginners.",
+      "The game looks easy but can be challenging.",
+      "Learning new words becomes easy with practice.",
+      "The teacher gave us an easy exercise today."
+    ]
+  },
+  {
+    "id": "270",
+    "ukrainian": "Місяць (як одиниця часу)",
+    "english": "month",
+    "phrases": [
+      "There are twelve months in one year.",
+      "We start a new school topic every month.",
+      "My birthday is in the same month every year.",
+      "A month can pass very quickly during holidays.",
+      "I save money every month for something special.",
+      "Next month we will visit our grandparents."
+    ]
+  },
+  {
+    "id": "271",
+    "ukrainian": "Хвилина",
+    "english": "minute",
+    "phrases": [
+      "I waited five minutes for the bus.",
+      "One minute can feel very short or very long.",
+      "The lesson will start in one minute.",
+      "I brushed my teeth for two minutes.",
+      "Please wait a minute while I finish my work.",
+      "Every minute is important when we are busy."
+    ]
+  },
+  {
+    "id": "272",
+    "ukrainian": "Година",
+    "english": "hour",
+    "phrases": [
+      "We study for one hour in the classroom.",
+      "It takes one hour to go to the city.",
+      "I spend an hour reading books every day.",
+      "The movie lasted for two hours.",
+      "We played outside for an hour after school.",
+      "One hour has sixty minutes."
+    ]
+  },
+  {
+    "id": "273",
+    "ukrainian": "Тиждень",
+    "english": "week",
+    "phrases": [
+      "We go to school five days a week.",
+      "Last week I visited my grandparents.",
+      "I have football practice twice a week.",
+      "This week we are learning new words.",
+      "A week has seven days.",
+      "Next week we will have a school project."
+    ]
+  },
+  {
+    "id": "274",
+    "ukrainian": "Рік",
+    "english": "year",
+    "phrases": [
+      "I learn many new things every year at school.",
+      "A year has four seasons.",
+      "We celebrate New Year at the beginning of the year.",
+      "This year I want to learn more English.",
+      "A year can pass very quickly.",
+      "My family travels somewhere new every year."
+    ]
+  },
+  {
+    "id": "275",
+    "ukrainian": "Великий",
+    "english": "big",
+    "phrases": [
+      "I have a big bag for all my school books.",
+      "The elephant is a big animal.",
+      "They live in a big house near the park.",
+      "The big tree gives shade on hot days.",
+      "My brother has a big collection of toys.",
+      "We saw a big ship on the sea."
+    ]
+  },
+  {
+    "id": "276",
+    "ukrainian": "Маленький",
+    "english": "small",
+    "phrases": [
+      "I live in a small house near the park.",
+      "The kitten is very small and cute.",
+      "This small box is easy to carry.",
+      "She has a small bag for her books.",
+      "A small bird is sitting on the tree.",
+      "My room is small but comfortable."
+    ]
+  },
+  {
+    "id": "277",
+    "ukrainian": "Гарячий",
+    "english": "hot",
+    "phrases": [
+      "The tea is very hot, so be careful.",
+      "It is hot outside in summer.",
+      "The soup is hot and ready for dinner.",
+      "I like hot chocolate on cold days.",
+      "The sand is hot at the beach.",
+      "The food is too hot to eat now."
+    ]
+  },
+  {
+    "id": "278",
+    "ukrainian": "Холодний",
+    "english": "cold",
+    "phrases": [
+      "The water is cold in the river.",
+      "It is cold in winter, so I wear a jacket.",
+      "The ice cream is cold and sweet.",
+      "My hands are cold after playing outside.",
+      "The wind feels cold in the morning.",
+      "I drink cold water after exercise."
+    ]
+  },
+  {
+    "id": "279",
+    "ukrainian": "Відкрити",
+    "english": "open",
+    "phrases": [
+      "Please open the window, it is hot in the room.",
+      "I open my book and start reading.",
+      "She opens the door for her friend.",
+      "We open our presents on Christmas morning.",
+      "He opens the box carefully.",
+      "I open my backpack before class."
+    ]
+  },
+  {
+    "id": "280",
+    "ukrainian": "Закрити",
+    "english": "close",
+    "phrases": [
+      "Please close the door when you leave the room.",
+      "I close my eyes when I go to sleep.",
+      "She closes the window because it is cold.",
+      "Please close your book after reading.",
+      "He closes the box and puts it away.",
+      "I close my backpack after packing my books."
+    ]
+  },
+  {
+    "id": "281",
+    "ukrainian": "Сидіти",
+    "english": "sit",
+    "phrases": [
+      "I sit on my chair during the lesson.",
+      "We sit together and talk after school.",
+      "The cat likes to sit on the sofa.",
+      "Please sit down and listen to the teacher.",
+      "I sit near the window in my classroom.",
+      "They sit at the table and eat dinner."
+    ]
+  },
+  {
+    "id": "282",
+    "ukrainian": "Стояти",
+    "english": "stand",
+    "phrases": [
+      "Please stand up when the teacher comes in.",
+      "I stand near the window and look outside.",
+      "The boy stands next to his friend.",
+      "We stand in line before entering the bus.",
+      "The book stands on the shelf.",
+      "She stands in front of the classroom."
+    ]
+  },
+  {
+    "id": "283",
+    "ukrainian": "Чорний",
+    "english": "black",
+    "phrases": [
+      "My cat is black and very fast.",
+      "I wear black shoes to school.",
+      "The black bird is sitting on the tree.",
+      "He has a black backpack for school.",
+      "The night sky looks black without stars.",
+      "She bought a black dress for the party."
+    ]
+  },
+  {
+    "id": "284",
+    "ukrainian": "Білий",
+    "english": "white",
+    "phrases": [
+      "The snow is white in winter.",
+      "I have a white T-shirt for school.",
+      "The white rabbit is eating a carrot.",
+      "She has a white flower in her hand.",
+      "The walls of the room are white.",
+      "A white cloud is moving across the sky."
+    ]
+  },
+  {
+    "id": "285",
+    "ukrainian": "Синій",
+    "english": "blue",
+    "phrases": [
+      "The sky is blue today.",
+      "My backpack is blue and new.",
+      "The sea looks blue in the sunlight.",
+      "I have a blue pen for writing.",
+      "The blue bird is flying over the garden.",
+      "She wears a blue jacket in winter."
+    ]
+  },
+  {
+    "id": "286",
+    "ukrainian": "Зелений",
+    "english": "green",
+    "phrases": [
+      "The grass is green in spring.",
+      "I like green apples.",
+      "The trees are green in summer.",
+      "She has a green dress for the holiday.",
+      "The green frog is sitting near the pond.",
+      "My favorite color is green."
+    ]
+  },
+  {
+    "id": "287",
+    "ukrainian": "Жовтий",
+    "english": "yellow",
+    "phrases": [
+      "The sun is yellow and bright.",
+      "I have a yellow pencil in my pencil case.",
+      "The yellow flower grows in the garden.",
+      "She wears a yellow coat in autumn.",
+      "The banana is yellow and sweet.",
+      "A yellow bird is sitting on the branch."
+    ]
+  },
+  {
+    "id": "288",
+    "ukrainian": "Рожевий",
+    "english": "pink",
+    "phrases": [
+      "She wears a pink dress to the party.",
+      "My backpack has pink flowers on it.",
+      "The pink flower smells very nice.",
+      "I have a pink notebook for school.",
+      "The baby has a pink blanket.",
+      "The sunset has pink colors in the sky."
+    ]
+  },
+  {
+    "id": "289",
+    "ukrainian": "Фіолетовий",
+    "english": "purple",
+    "phrases": [
+      "I like purple flowers in the garden.",
+      "Her notebook is purple and very pretty.",
+      "The purple butterfly is flying near the flowers.",
+      "She has a purple bag for school.",
+      "The grapes are dark purple and sweet.",
+      "I painted the picture with purple colors."
+    ]
+  },
+  {
+    "id": "290",
+    "ukrainian": "Сірий",
+    "english": "gray",
+    "alternatives": [
+      "grey"
+    ],
+    "phrases": [
+      "The sky is gray before the rain.",
+      "I wear a gray sweater in winter.",
+      "The gray cat is sleeping on the chair.",
+      "He has a gray backpack for school.",
+      "The old house has gray walls.",
+      "Gray clouds cover the sky today."
+    ]
+  },
+  {
+    "id": "291",
+    "ukrainian": "Камера",
+    "english": "camera",
+    "phrases": [
+      "My father takes pictures with his camera.",
+      "We used a camera to take photos on vacation.",
+      "The camera is on the table next to my computer.",
+      "I want to buy a small camera for my trips.",
+      "She holds the camera and takes a beautiful photo.",
+      "This camera can take very clear pictures."
+    ]
+  },
+  {
+    "id": "292",
+    "ukrainian": "Лялька",
+    "english": "doll",
+    "phrases": [
+      "My sister plays with her doll every day.",
+      "The doll has a small pink dress.",
+      "The little girl puts her doll on the bed.",
+      "I saw a beautiful doll in the toy shop.",
+      "Her favorite doll has long hair.",
+      "She gives her doll a new dress."
+    ]
+  },
+  {
+    "id": "293",
+    "ukrainian": "Робот",
+    "english": "robot",
+    "phrases": [
+      "The robot can move and speak simple words.",
+      "We learned about robots in science class.",
+      "The robot helps people with different tasks.",
+      "I built a small robot with my teacher.",
+      "The robot walks across the room slowly.",
+      "Children like playing with toy robots."
+    ]
+  },
+  {
+    "id": "294",
+    "ukrainian": "Подарунок",
+    "english": "gift",
+    "alternatives": [
+      "present"
+    ],
+    "phrases": [
+      "I gave my friend a gift for his birthday.",
+      "She opened the gift and smiled happily.",
+      "My parents bought me a special gift.",
+      "The gift was wrapped in colorful paper.",
+      "I want to choose a gift for my sister.",
+      "He was happy when he received the gift."
+    ]
+  },
+  {
+    "id": "295",
+    "ukrainian": "Свято",
+    "english": "holiday",
+    "phrases": [
+      "We celebrate a holiday with our family every year.",
+      "School is closed during the holiday season.",
+      "My favorite holiday is Christmas.",
+      "We decorate our house before the holiday.",
+      "The children are happy during the holiday.",
+      "We visit our relatives on this holiday."
+    ]
+  },
+  {
+    "id": "296",
+    "ukrainian": "День народження",
+    "english": "birthday",
+    "phrases": [
+      "It is my birthday today and I am very happy.",
+      "We had a big party for my friend’s birthday.",
+      "I got many presents on my birthday.",
+      "My family sings a song on my birthday.",
+      "She invites her friends to her birthday party.",
+      "The birthday cake is on the table."
+    ]
+  },
+  {
+    "id": "297",
+    "ukrainian": "Торт",
+    "english": "cake",
+    "phrases": [
+      "We ate chocolate cake at the birthday party.",
+      "My mom baked a delicious cake for me.",
+      "The cake has candles on the top.",
+      "I like eating cake with my family.",
+      "The cake is sweet and very tasty.",
+      "She made a beautiful cake for the holiday."
+    ]
+  },
+  {
+    "id": "298",
+    "ukrainian": "Свічка",
+    "english": "candle",
+    "phrases": [
+      "We put candles on the birthday cake.",
+      "The candle is burning on the table.",
+      "I light a candle when the room is dark.",
+      "The candle gives a small warm light.",
+      "She blows out the candle on her birthday.",
+      "There are three candles on the cake."
+    ]
+  },
+  {
+    "id": "299",
+    "ukrainian": "Фото",
+    "english": "photo",
+    "alternatives": [
+      "picture"
+    ],
+    "phrases": [
+      "I took a photo of my friends at school.",
+      "This photo reminds me of our summer holiday.",
+      "My family keeps old photos in an album.",
+      "She showed me a photo of her dog.",
+      "We took a photo near the sea.",
+      "The photo looks very beautiful and clear."
+    ]
+  },
+  {
+    "id": "300",
+    "ukrainian": "Довгий",
+    "english": "long",
+    "phrases": [
+      "I have long hair that reaches my shoulders.",
+      "The river is very long and beautiful.",
+      "It was a long day at school.",
+      "The road to the city is long.",
+      "He reads a long book every month.",
+      "The snake has a long body."
+    ]
+  }
+]

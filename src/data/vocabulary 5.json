@@ -1,0 +1,664 @@
+[
+  {
+    "id": "201",
+    "ukrainian": "Комаха",
+    "english": "insect",
+    "phrases": [
+      "An insect is flying around the light in the evening.",
+      "We learned about different insects in science class.",
+      "The insect has six legs and a small body.",
+      "I saw a colorful insect on a flower in the garden.",
+      "Some insects help plants grow and spread seeds.",
+      "The child watched an insect moving on the ground."
+    ]
+  },
+  {
+    "id": "202",
+    "ukrainian": "Мураха",
+    "english": "ant",
+    "phrases": [
+      "An ant is carrying a small piece of food on the ground.",
+      "I saw a line of ants walking in the garden.",
+      "The ant is very small but very strong.",
+      "Many ants live together in a large colony.",
+      "I watched an ant building a home under the ground.",
+      "The ant found some food near the tree."
+    ]
+  },
+  {
+    "id": "203",
+    "ukrainian": "Син",
+    "english": "son",
+    "phrases": [
+      "Their son goes to the same school as I do.",
+      "He is a proud son who helps his parents at home.",
+      "The son plays football with his father every weekend.",
+      "Their son likes reading books before going to bed.",
+      "The parents are happy because their son is kind.",
+      "The young son learns many new things at school."
+    ]
+  },
+  {
+    "id": "204",
+    "ukrainian": "Сім'я",
+    "english": "family",
+    "phrases": [
+      "My family goes to the park every Sunday together.",
+      "A family is important because we help and love each other.",
+      "My family eats dinner together every evening.",
+      "I enjoy spending holidays with my family.",
+      "My family supports me when I have problems.",
+      "We take family photos during special celebrations."
+    ]
+  },
+  {
+    "id": "205",
+    "ukrainian": "Дитина",
+    "english": "child",
+    "alternatives": [
+      "kid"
+    ],
+    "phrases": [
+      "Every child in the class is working on a small project.",
+      "The child is playing happily in the playground.",
+      "The child learns new words at school every day.",
+      "A child needs love and care from family.",
+      "The child is drawing a picture with colorful pencils.",
+      "Every child likes playing games with friends."
+    ]
+  },
+  {
+    "id": "206",
+    "ukrainian": "Чоловік",
+    "english": "man",
+    "phrases": [
+      "The man is walking across the street with a bag.",
+      "I saw a man helping a child in the park.",
+      "The man is wearing a warm coat in winter.",
+      "A man is standing near the bus stop.",
+      "The man works in a small office downtown.",
+      "I saw a kind man helping an old woman."
+    ]
+  },
+  {
+    "id": "207",
+    "ukrainian": "Жінка",
+    "english": "woman",
+    "phrases": [
+      "The woman is reading a book on the bench.",
+      "I saw a woman buying fruit at the shop.",
+      "The woman is walking with her child in the park.",
+      "A woman helped me find the right street.",
+      "The woman is wearing a beautiful blue dress.",
+      "I talked with a friendly woman at the market."
+    ]
+  },
+  {
+    "id": "208",
+    "ukrainian": "Хлопчик",
+    "english": "boy",
+    "phrases": [
+      "The boy is playing football with his friends.",
+      "I saw a boy running to school in the morning.",
+      "The boy has a new backpack for his classes.",
+      "A boy is riding a bicycle near the park.",
+      "The boy likes drawing pictures in his notebook.",
+      "The little boy is laughing with his friends."
+    ]
+  },
+  {
+    "id": "209",
+    "ukrainian": "Дівчинка",
+    "english": "girl",
+    "phrases": [
+      "The girl is drawing a picture in her notebook.",
+      "I saw a girl singing a song in music class.",
+      "The girl has a beautiful red dress.",
+      "A girl is reading a story near the window.",
+      "The girl plays with her friends after school.",
+      "The little girl likes flowers and animals."
+    ]
+  },
+  {
+    "id": "210",
+    "ukrainian": "Любити",
+    "english": "love",
+    "phrases": [
+      "I love spending time with my family and friends.",
+      "She loves her dog very much and plays with it every day.",
+      "I love reading books before I go to sleep.",
+      "They love visiting new places during holidays.",
+      "We love sunny days because we can play outside.",
+      "My parents love and support me every day."
+    ]
+  },
+  {
+    "id": "211",
+    "ukrainian": "Вулиця",
+    "english": "street",
+    "phrases": [
+      "We live on a quiet street near the park.",
+      "The street is busy with cars and people today.",
+      "I walk along the street when I go to school.",
+      "There are many houses and shops on this street.",
+      "The street looks beautiful with lights at night.",
+      "Children are playing safely on the quiet street."
+    ]
+  },
+  {
+    "id": "212",
+    "ukrainian": "Робота",
+    "english": "work",
+    "phrases": [
+      "My father goes to work early in the morning.",
+      "I finish my homework before I start other work.",
+      "My parents work hard to help our family.",
+      "I have a lot of work to do at school today.",
+      "She enjoys her work because she helps people.",
+      "People go to work every day to earn money."
+    ]
+  },
+  {
+    "id": "213",
+    "ukrainian": "Час",
+    "english": "time",
+    "phrases": [
+      "I don’t have much time to finish my homework.",
+      "Time goes quickly when I play with my friends.",
+      "I check the time before I leave home.",
+      "We spend a lot of time together on weekends.",
+      "It is time to go to school now.",
+      "Learning a new language takes time and practice."
+    ]
+  },
+  {
+    "id": "214",
+    "ukrainian": "День",
+    "english": "day",
+    "phrases": [
+      "Today is a beautiful day with sunny weather.",
+      "I study a little every day after school.",
+      "It was a busy day because I had many lessons.",
+      "I like starting my day with a healthy breakfast.",
+      "Every day brings new things to learn and enjoy.",
+      "We spent the whole day outside with our friends."
+    ]
+  },
+  {
+    "id": "215",
+    "ukrainian": "Ніч",
+    "english": "night",
+    "phrases": [
+      "At night I like to read a book before sleeping.",
+      "The night is quiet and the sky is full of stars.",
+      "I close my window before going to bed at night.",
+      "Many animals sleep during the night in the forest.",
+      "The moon shines brightly in the sky at night.",
+      "We stayed home because the night was cold and dark."
+    ]
+  },
+  {
+    "id": "216",
+    "ukrainian": "Країна",
+    "english": "country",
+    "phrases": [
+      "I live in a country with many forests and rivers.",
+      "Every country has its own language and culture.",
+      "Ukraine is a beautiful country with many interesting places.",
+      "People in every country have different traditions and customs.",
+      "I want to visit another country during my summer holiday.",
+      "This country is famous for its beautiful mountains and lakes."
+    ]
+  },
+  {
+    "id": "217",
+    "ukrainian": "Мова",
+    "english": "language",
+    "phrases": [
+      "English is an important language to learn at school.",
+      "We speak our language at home with our family.",
+      "Learning a new language can be fun and exciting.",
+      "Many people around the world speak the English language.",
+      "My favorite language class is English at school.",
+      "Every language has its own special words and sounds."
+    ]
+  },
+  {
+    "id": "218",
+    "ukrainian": "Питання",
+    "english": "question",
+    "phrases": [
+      "The teacher asked a difficult question in class today.",
+      "I raised my hand to answer the question.",
+      "I always ask a question when I do not understand.",
+      "The student wrote a question in his notebook.",
+      "This question is easy and I know the answer.",
+      "The teacher answered every question from the students."
+    ]
+  },
+  {
+    "id": "219",
+    "ukrainian": "Відповідь / відповідати",
+    "english": "answer",
+    "phrases": [
+      "I know the answer to this simple math question.",
+      "She answered the teacher’s question very quickly.",
+      "I wrote the correct answer in my notebook.",
+      "The student tried to answer the difficult question.",
+      "My friend knows the answer to the problem.",
+      "The teacher checked my answer after the test."
+    ]
+  },
+  {
+    "id": "220",
+    "ukrainian": "Допомога",
+    "english": "help",
+    "phrases": [
+      "Can you help me with my homework, please?",
+      "I asked my friend for help with a difficult task.",
+      "My parents always help me when I need support.",
+      "The teacher gave me help with my school project.",
+      "Helping other people is a kind and good thing.",
+      "I need some help carrying this heavy bag."
+    ]
+  },
+  {
+    "id": "221",
+    "ukrainian": "Завжди",
+    "english": "always",
+    "phrases": [
+      "I always brush my teeth before going to bed.",
+      "She always arrives at school on time.",
+      "I always try to do my homework carefully.",
+      "My father always drinks coffee in the morning.",
+      "We always play together after school.",
+      "He always helps his friends when they need him."
+    ]
+  },
+  {
+    "id": "222",
+    "ukrainian": "Ніколи",
+    "english": "never",
+    "phrases": [
+      "I never eat junk food before dinner.",
+      "He never forgets his homework at school.",
+      "I never go outside without my jacket in winter.",
+      "She never gives up when something is difficult.",
+      "We never play games during important lessons.",
+      "My brother never wakes up late on school days."
+    ]
+  },
+  {
+    "id": "223",
+    "ukrainian": "Могти",
+    "english": "can",
+    "phrases": [
+      "I can swim very well in the swimming pool.",
+      "She can speak English and Ukrainian.",
+      "I can help you with this school project.",
+      "He can run very fast when he plays football.",
+      "We can visit the park after lunch.",
+      "They can learn new words very quickly."
+    ]
+  },
+  {
+    "id": "224",
+    "ukrainian": "Хотіти",
+    "english": "want",
+    "phrases": [
+      "I want to play football after school today.",
+      "She wants a new book for her birthday.",
+      "I want to learn more English words.",
+      "They want to visit their grandparents this weekend.",
+      "He wants to buy a new backpack for school.",
+      "We want to watch a funny movie tonight."
+    ]
+  },
+  {
+    "id": "225",
+    "ukrainian": "Потребувати / Потрібно",
+    "english": "need",
+    "phrases": [
+      "I need help with my math homework tonight.",
+      "We need water after playing outside.",
+      "I need a pencil to write my answer.",
+      "Plants need sunlight and water to grow.",
+      "She needs more time to finish her project.",
+      "We need warm clothes during cold winter days."
+    ]
+  },
+  {
+    "id": "226",
+    "ukrainian": "Мати (володіти)",
+    "english": "have",
+    "phrases": [
+      "I have a small dog at home.",
+      "They have a big garden near their house.",
+      "I have many books in my bedroom.",
+      "She has a beautiful voice and likes singing.",
+      "We have English lessons at school every week.",
+      "My friend has a new bicycle for riding outside."
+    ]
+  },
+  {
+    "id": "227",
+    "ukrainian": "Робити / Створювати",
+    "english": "make",
+    "phrases": [
+      "I make a card for my friend’s birthday.",
+      "My mom makes delicious soup for dinner.",
+      "I like to make drawings with colorful pencils.",
+      "They make a snowman when it snows outside.",
+      "We make plans for our weekend together.",
+      "She makes beautiful things with her hands."
+    ]
+  },
+  {
+    "id": "228",
+    "ukrainian": "Йти / Їхати",
+    "english": "go",
+    "phrases": [
+      "I go to school by bus every morning.",
+      "We go to the park after finishing our homework.",
+      "They go shopping with their family on Saturday.",
+      "I go to bed early when I am tired.",
+      "She goes to music lessons after school.",
+      "We go on trips during our summer holidays."
+    ]
+  },
+  {
+    "id": "229",
+    "ukrainian": "Бачити",
+    "english": "see",
+    "phrases": [
+      "I can see a bird flying in the sky.",
+      "We see many stars at night.",
+      "I see my friends at school every day.",
+      "She can see a beautiful rainbow after the rain.",
+      "They see mountains from their house window.",
+      "I want to see new places around the world."
+    ]
+  },
+  {
+    "id": "230",
+    "ukrainian": "Знати",
+    "english": "know",
+    "phrases": [
+      "I know the answer to this easy question.",
+      "She knows my best friend from school.",
+      "I know many interesting facts about animals.",
+      "Do you know where my book is?",
+      "He knows how to ride a bicycle.",
+      "We know that practice helps us learn better."
+    ]
+  },
+  {
+    "id": "231",
+    "ukrainian": "В / У",
+    "english": "in",
+    "phrases": [
+      "My books are in my backpack.",
+      "We play in the park every afternoon.",
+      "The toys are in the box near my bed.",
+      "I live in a small house with my family.",
+      "There are many pictures in my school notebook.",
+      "She is sitting in the classroom with her friends."
+    ]
+  },
+  {
+    "id": "232",
+    "ukrainian": "На",
+    "english": "on",
+    "phrases": [
+      "The book is on the table in my room.",
+      "My bag is on the chair near the desk.",
+      "The cat is sleeping on the sofa in the living room.",
+      "I put my phone on the table before dinner.",
+      "There is a picture on the wall above my bed.",
+      "The children are playing on the playground outside."
+    ]
+  },
+  {
+    "id": "233",
+    "ukrainian": "Намет",
+    "english": "tent",
+    "phrases": [
+      "We slept in a tent during our camping trip.",
+      "The tent was small but warm and comfortable.",
+      "My family put up a tent near the lake.",
+      "The children are playing inside the tent.",
+      "We packed our tent before leaving the forest.",
+      "The blue tent was easy to see between the trees."
+    ]
+  },
+  {
+    "id": "234",
+    "ukrainian": "Річка",
+    "english": "river",
+    "phrases": [
+      "The river flows slowly through the forest.",
+      "We walked along the river near our village.",
+      "The river water is clean and very cold.",
+      "Many animals drink water from the river.",
+      "I like watching fish swim in the river.",
+      "The bridge goes across the river near the town."
+    ]
+  },
+  {
+    "id": "235",
+    "ukrainian": "Озеро",
+    "english": "lake",
+    "phrases": [
+      "We swam in the lake during summer vacation.",
+      "The lake is calm and very beautiful today.",
+      "There are many trees around the lake.",
+      "I like walking near the lake in the evening.",
+      "The ducks are swimming on the lake water.",
+      "Our family had a picnic near the lake last weekend."
+    ]
+  },
+  {
+    "id": "236",
+    "ukrainian": "Острів",
+    "english": "island",
+    "phrases": [
+      "We visited a small island during our holiday.",
+      "The island is surrounded by blue water.",
+      "Many birds live on the island near the sea.",
+      "They traveled to the island by boat.",
+      "The island has beautiful beaches and green trees.",
+      "I would like to explore a tropical island someday."
+    ]
+  },
+  {
+    "id": "237",
+    "ukrainian": "Земля (планета)",
+    "english": "earth",
+    "phrases": [
+      "The Earth is our home planet in space.",
+      "We learn about Earth in science class.",
+      "People and animals live on Earth together.",
+      "The Earth moves around the Sun every year.",
+      "We should protect the Earth and keep it clean.",
+      "There are many beautiful places on Earth."
+    ]
+  },
+  {
+    "id": "238",
+    "ukrainian": "Вогонь",
+    "english": "fire",
+    "phrases": [
+      "We sat near the fire during our camping trip.",
+      "Fire can be very dangerous if we are not careful.",
+      "The fire keeps us warm on cold nights.",
+      "My father made a small fire outside.",
+      "We cooked food over the fire in the forest.",
+      "The children watched the fire with curiosity."
+    ]
+  },
+  {
+    "id": "239",
+    "ukrainian": "Повітря",
+    "english": "air",
+    "phrases": [
+      "We need clean air to breathe and live.",
+      "The air feels fresh in the morning.",
+      "Plants help make the air cleaner.",
+      "The mountain air is cold and fresh.",
+      "I like walking outside when the air is cool.",
+      "Animals also need air to survive."
+    ]
+  },
+  {
+    "id": "240",
+    "ukrainian": "Свиня",
+    "english": "pig",
+    "phrases": [
+      "The pig is eating food on the farm.",
+      "I saw a pig rolling in the mud at the zoo.",
+      "The farmer gives food to the pig every morning.",
+      "The pig has a small house near the field.",
+      "The children saw a pig during their farm visit.",
+      "The pig was walking slowly around the farm."
+    ]
+  },
+  {
+    "id": "241",
+    "ukrainian": "Папуга",
+    "english": "parrot",
+    "phrases": [
+      "The parrot can repeat some words it hears.",
+      "I saw a colorful parrot in a pet shop.",
+      "The parrot is sitting on a branch in the cage.",
+      "My friend has a parrot that can say hello.",
+      "The green parrot has bright feathers and a long tail.",
+      "We watched a video about a talking parrot."
+    ]
+  },
+  {
+    "id": "242",
+    "ukrainian": "Золота рибка",
+    "english": "goldfish",
+    "phrases": [
+      "The goldfish is swimming in a small aquarium.",
+      "I feed my goldfish every evening at home.",
+      "My goldfish has a beautiful orange color.",
+      "The goldfish moves slowly around the clean water.",
+      "I clean the aquarium where my goldfish lives.",
+      "The little goldfish is my favorite pet."
+    ]
+  },
+  {
+    "id": "243",
+    "ukrainian": "Ліс",
+    "english": "forest",
+    "alternatives": [
+      "wood"
+    ],
+    "phrases": [
+      "We walked through the forest during our school trip.",
+      "The forest is full of trees and animals.",
+      "Many birds and insects live in the forest.",
+      "The forest looks beautiful in the autumn.",
+      "We collected leaves while walking in the forest.",
+      "The forest is a quiet place with fresh air."
+    ]
+  },
+  {
+    "id": "244",
+    "ukrainian": "Пісок",
+    "english": "sand",
+    "phrases": [
+      "I built a castle in the sand at the beach.",
+      "The sand is warm under my feet.",
+      "Children like playing with sand near the sea.",
+      "The beach has soft golden sand.",
+      "My shoes were full of sand after the walk.",
+      "The wind moved the sand across the beach."
+    ]
+  },
+  {
+    "id": "245",
+    "ukrainian": "Зошит",
+    "english": "notebook",
+    "phrases": [
+      "I write my homework in my notebook every day.",
+      "My notebook is full of notes from school.",
+      "I keep my English words in a special notebook.",
+      "The notebook is on my desk next to the book.",
+      "She opened her notebook and started writing.",
+      "My new notebook has a colorful cover."
+    ]
+  },
+  {
+    "id": "246",
+    "ukrainian": "Лінійка",
+    "english": "ruler",
+    "phrases": [
+      "I use a ruler to draw straight lines in math class.",
+      "The ruler is on my desk in the classroom.",
+      "My ruler is long and made of plastic.",
+      "I need a ruler for my school project.",
+      "He measured the paper with a ruler.",
+      "The teacher asked us to bring a ruler tomorrow."
+    ]
+  },
+  {
+    "id": "247",
+    "ukrainian": "Гумка",
+    "english": "eraser",
+    "phrases": [
+      "I use an eraser when I make a mistake in my notebook.",
+      "My eraser is small and white.",
+      "I keep my eraser inside my pencil case.",
+      "She gave me an eraser during the lesson.",
+      "The eraser helps me remove wrong answers.",
+      "My new eraser has a funny shape."
+    ]
+  },
+  {
+    "id": "248",
+    "ukrainian": "Клас",
+    "english": "classroom",
+    "phrases": [
+      "Our classroom is big and full of light.",
+      "We study math and science in the classroom.",
+      "There are many desks and chairs in our classroom.",
+      "The teacher writes new words on the board in class.",
+      "I like spending time in my classroom with friends.",
+      "Our classroom has colorful pictures on the walls."
+    ]
+  },
+  {
+    "id": "249",
+    "ukrainian": "Футболка",
+    "english": "T-shirt",
+    "alternatives": [
+      "tee"
+    ],
+    "phrases": [
+      "I wear a T-shirt when the weather is warm.",
+      "My favorite T-shirt has a cool picture on it.",
+      "I bought a new T-shirt for summer.",
+      "The blue T-shirt is clean and comfortable.",
+      "He wears a T-shirt and jeans every day.",
+      "My T-shirt is too small now because I grew."
+    ]
+  },
+  {
+    "id": "250",
+    "ukrainian": "Штани",
+    "english": "trousers",
+    "alternatives": [
+      "pants"
+    ],
+    "phrases": [
+      "I wear trousers to school every day.",
+      "My trousers are blue and very comfortable.",
+      "These trousers are new and fit me well.",
+      "He put on his trousers before leaving home.",
+      "My black trousers are ready for the school event.",
+      "I washed my trousers with my other clothes."
+    ]
+  }
+]

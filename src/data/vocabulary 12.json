@@ -1,0 +1,652 @@
+[
+  {
+    "id": "551",
+    "ukrainian": "банк",
+    "english": "bank",
+    "phrases": [
+      "My parents went to the bank yesterday morning.",
+      "The bank is next to the supermarket in town.",
+      "People keep their money safe in a bank.",
+      "I saw a big bank building near the street.",
+      "My mom stopped at the bank after work.",
+      "The bank closes in the evening."
+    ]
+  },
+  {
+    "id": "552",
+    "ukrainian": "медсестра",
+    "english": "nurse",
+    "phrases": [
+      "The nurse helped me when I felt sick.",
+      "The nurse works at the hospital every day.",
+      "A kind nurse checked my temperature.",
+      "The nurse gave the child some medicine.",
+      "I thanked the nurse for helping me.",
+      "The nurse takes care of many patients."
+    ]
+  },
+  {
+    "id": "553",
+    "ukrainian": "водій",
+    "english": "driver",
+    "phrases": [
+      "The driver takes people to different places.",
+      "My dad is a careful driver on the road.",
+      "The bus driver stopped near the school.",
+      "A good driver follows all traffic rules.",
+      "The driver helped the passengers with their bags.",
+      "I want to learn how to become a driver someday."
+    ]
+  },
+  {
+    "id": "554",
+    "ukrainian": "пілот",
+    "english": "pilot",
+    "phrases": [
+      "The pilot flies a large airplane in the sky.",
+      "My cousin wants to become a pilot when older.",
+      "The pilot checked the plane before the flight.",
+      "Everyone thanked the pilot after landing safely.",
+      "The pilot wears a special uniform at work.",
+      "I saw a pilot walking through the airport."
+    ]
+  },
+  {
+    "id": "555",
+    "ukrainian": "лазити",
+    "english": "climb",
+    "phrases": [
+      "Children like to climb trees in the park.",
+      "I can climb the small wall carefully.",
+      "The monkey can climb very high trees.",
+      "We decided to climb the mountain together.",
+      "My little brother learned to climb the stairs.",
+      "I use my hands and feet to climb safely."
+    ]
+  },
+  {
+    "id": "556",
+    "ukrainian": "ховатися",
+    "english": "hide",
+    "phrases": [
+      "The children like to hide during the game.",
+      "The cat likes to hide under the table.",
+      "I tried to hide behind the door quietly.",
+      "The rabbit can hide in tall grass.",
+      "My little brother likes to hide his toys.",
+      "The mouse ran away to hide from the cat."
+    ]
+  },
+  {
+    "id": "557",
+    "ukrainian": "ділитися",
+    "english": "share",
+    "phrases": [
+      "I like to share my toys with my friends.",
+      "Good friends share their ideas and help each other.",
+      "She shared her snack with her classmate.",
+      "We should share things and be kind to others.",
+      "My brother and I share the same room.",
+      "I always share my books with my family."
+    ]
+  },
+  {
+    "id": "558",
+    "ukrainian": "нести",
+    "english": "carry",
+    "phrases": [
+      "I carry my school bag every morning.",
+      "The boy helped carry the heavy box.",
+      "She can carry many books in her backpack.",
+      "The mother carries her baby carefully.",
+      "I need to carry these bags to the car.",
+      "The dog can carry a small stick in its mouth."
+    ]
+  },
+  {
+    "id": "559",
+    "ukrainian": "шторм",
+    "english": "storm",
+    "phrases": [
+      "The storm brought strong wind and heavy rain.",
+      "We stayed inside because of the big storm.",
+      "The trees moved a lot during the storm.",
+      "I watched the storm from my bedroom window.",
+      "The storm ended after several hours.",
+      "Animals looked for safe places during the storm."
+    ]
+  },
+  {
+    "id": "560",
+    "ukrainian": "туман",
+    "english": "fog",
+    "phrases": [
+      "The road was covered with thick fog this morning.",
+      "I could not see far because of the fog.",
+      "The forest looked mysterious in the morning fog.",
+      "The fog disappeared when the sun came out.",
+      "Drivers must be careful when there is fog.",
+      "We walked slowly through the fog near the lake."
+    ]
+  },
+  {
+    "id": "561",
+    "ukrainian": "фрукт",
+    "english": "fruit",
+    "phrases": [
+      "I eat fruit every morning.",
+      "An apple is a popular fruit.",
+      "We bought fresh fruit at the store.",
+      "Fruit is full of vitamins.",
+      "She made a fruit salad.",
+      "The children enjoyed sweet fruit."
+    ]
+  },
+  {
+    "id": "562",
+    "ukrainian": "овоч",
+    "english": "vegetable",
+    "phrases": [
+      "I eat a vegetable with every lunch.",
+      "Carrots are my favorite vegetable.",
+      "We bought fresh vegetables at the market.",
+      "This soup has many vegetables.",
+      "My mother grows vegetables in the garden.",
+      "A vegetable is good for your health."
+    ]
+  },
+  {
+    "id": "563",
+    "ukrainian": "гриб",
+    "english": "mushroom",
+    "phrases": [
+      "We found a mushroom in the forest.",
+      "This mushroom is very big.",
+      "Some mushrooms are safe to eat.",
+      "My dad cooked mushrooms for dinner.",
+      "The mushroom grew after the rain.",
+      "Never eat a wild mushroom without checking it."
+    ]
+  },
+  {
+    "id": "564",
+    "ukrainian": "пилосос",
+    "english": "vacuum",
+    "phrases": [
+      "I use the vacuum every weekend.",
+      "The vacuum cleaned the carpet well.",
+      "Our vacuum is very quiet.",
+      "She bought a new vacuum yesterday.",
+      "The vacuum picked up all the dust.",
+      "Please put the vacuum back in the closet."
+    ]
+  },
+  {
+    "id": "565",
+    "ukrainian": "їхати (верхи, на велосипеді, транспортом)",
+    "english": "ride",
+    "phrases": [
+      "I ride my bike to school.",
+      "We rode the bus together.",
+      "She likes to ride a horse.",
+      "Can you ride a scooter?",
+      "They ride the train every day.",
+      "We enjoyed the ride home."
+    ]
+  },
+  {
+    "id": "566",
+    "ukrainian": "сусід",
+    "english": "neighbour",
+    "phrases": [
+      "My neighbour is very friendly.",
+      "We talked with our neighbour yesterday.",
+      "Our neighbour has a cute dog.",
+      "She helped her elderly neighbour.",
+      "The neighbour waved from the garden.",
+      "We invited our neighbour for dinner."
+    ]
+  },
+  {
+    "id": "567",
+    "ukrainian": "вирішувати",
+    "english": "decide",
+    "phrases": [
+      "I need to decide today.",
+      "She decided to stay at home.",
+      "We cannot decide without more information.",
+      "He decided to study English.",
+      "They will decide tomorrow.",
+      "Please decide carefully."
+    ]
+  },
+  {
+    "id": "568",
+    "ukrainian": "сподіватися",
+    "english": "hope",
+    "phrases": [
+      "I hope you feel better soon.",
+      "We hope for good weather.",
+      "She hopes to visit London.",
+      "They hope everything goes well.",
+      "I hope to see you again.",
+      "There is always hope."
+    ]
+  },
+  {
+    "id": "569",
+    "ukrainian": "запрошувати",
+    "english": "invite",
+    "phrases": [
+      "I want to invite my friends.",
+      "She invited us to her party.",
+      "They always invite their neighbours.",
+      "Can I invite you for dinner?",
+      "We invited our teacher to the event.",
+      "Thank you for inviting me."
+    ]
+  },
+  {
+    "id": "570",
+    "ukrainian": "отримувати",
+    "english": "receive",
+    "phrases": [
+      "I received a nice gift.",
+      "Did you receive my email?",
+      "She received good news.",
+      "We received the package today.",
+      "He was happy to receive the award.",
+      "You will receive a message soon."
+    ]
+  },
+  {
+    "id": "571",
+    "ukrainian": "схожий",
+    "english": "similar",
+    "phrases": [
+      "These two bags look similar.",
+      "Our ideas are very similar.",
+      "The twins have similar faces.",
+      "This book is similar to that one.",
+      "The colors are similar.",
+      "We had similar experiences."
+    ]
+  },
+  {
+    "id": "572",
+    "ukrainian": "часто",
+    "english": "often",
+    "phrases": [
+      "I often read before bed.",
+      "She often visits her grandparents.",
+      "We often cook together.",
+      "They often play football.",
+      "It often rains here.",
+      "He often forgets his keys."
+    ]
+  },
+  {
+    "id": "573",
+    "ukrainian": "вже (раніше, ніж очікувалося)",
+    "english": "already",
+    "phrases": [
+      "I have already finished my homework.",
+      "She has already eaten.",
+      "We already know the answer.",
+      "They have already left.",
+      "The movie has already started.",
+      "He already called me."
+    ]
+  },
+  {
+    "id": "574",
+    "ukrainian": "досі (все ще)",
+    "english": "still",
+    "phrases": [
+      "I still live in this city.",
+      "She is still sleeping.",
+      "We still have time.",
+      "It is still raining.",
+      "They still remember that day.",
+      "He still likes cartoons."
+    ]
+  },
+  {
+    "id": "575",
+    "ukrainian": "ще (станом на зараз | у запереченнях і запитаннях)",
+    "english": "yet",
+    "phrases": [
+      "I have not finished yet.",
+      "Has she arrived yet?",
+      "We are not ready yet.",
+      "The bus has not come yet.",
+      "They have not decided yet.",
+      "It is not too late yet."
+    ]
+  },
+  {
+    "id": "576",
+    "ukrainian": "потім (після цього)",
+    "english": "then",
+    "phrases": [
+      "Finish your homework, then play.",
+      "We ate and then watched a movie.",
+      "First wash your hands, then eat.",
+      "She smiled and then laughed.",
+      "Then we went home.",
+      "Think first, then answer."
+    ]
+  },
+  {
+    "id": "577",
+    "ukrainian": "нарешті (після довгого очікування)",
+    "english": "finally",
+    "phrases": [
+      "We finally arrived home.",
+      "She finally found her keys.",
+      "The rain finally stopped.",
+      "He finally understood the lesson.",
+      "I finally finished the book.",
+      "They finally met in person."
+    ]
+  },
+  {
+    "id": "578",
+    "ukrainian": "дикий",
+    "english": "wild",
+    "phrases": [
+      "We saw a wild deer.",
+      "Wild animals live in the forest.",
+      "The garden is full of wild flowers.",
+      "That bird is wild.",
+      "Never feed wild animals.",
+      "They explored a wild area."
+    ]
+  },
+  {
+    "id": "579",
+    "ukrainian": "вибір",
+    "english": "choice",
+    "phrases": [
+      "That was a good choice.",
+      "You have a difficult choice.",
+      "Everyone has a choice.",
+      "She made the right choice.",
+      "We had many choices.",
+      "It is your choice."
+    ]
+  },
+  {
+    "id": "580",
+    "ukrainian": "рішення",
+    "english": "decision",
+    "phrases": [
+      "It was a difficult decision.",
+      "She made a smart decision.",
+      "We support your decision.",
+      "His decision surprised everyone.",
+      "Think before making a decision.",
+      "The final decision is yours."
+    ]
+  },
+  {
+    "id": "581",
+    "ukrainian": "досвід",
+    "english": "experience",
+    "phrases": [
+      "It was a great experience.",
+      "She has a lot of experience.",
+      "Travel gives you new experiences.",
+      "This job gave me useful experience.",
+      "We learned from the experience.",
+      "It was my first experience."
+    ]
+  },
+  {
+    "id": "582",
+    "ukrainian": "звичка",
+    "english": "habit",
+    "phrases": [
+      "Reading is a good habit.",
+      "He has a bad habit.",
+      "Exercise became my daily habit.",
+      "She changed her habits.",
+      "Good habits help you succeed.",
+      "Smoking is an unhealthy habit."
+    ]
+  },
+  {
+    "id": "583",
+    "ukrainian": "знання",
+    "english": "knowledge",
+    "phrases": [
+      "Knowledge is very important.",
+      "She has good knowledge of history.",
+      "Reading increases your knowledge.",
+      "Teachers share their knowledge.",
+      "He showed his knowledge.",
+      "Knowledge helps us solve problems."
+    ]
+  },
+  {
+    "id": "584",
+    "ukrainian": "помилка",
+    "english": "mistake",
+    "phrases": [
+      "Everyone makes a mistake.",
+      "I made a small mistake.",
+      "She learned from her mistakes.",
+      "Please correct this mistake.",
+      "It was an honest mistake.",
+      "Do not worry about one mistake."
+    ]
+  },
+  {
+    "id": "585",
+    "ukrainian": "думка (особистий погляд)",
+    "english": "opinion",
+    "phrases": [
+      "What is your opinion?",
+      "Everyone has a different opinion.",
+      "I respect your opinion.",
+      "She shared her opinion.",
+      "His opinion changed.",
+      "Please give your opinion."
+    ]
+  },
+  {
+    "id": "586",
+    "ukrainian": "причина",
+    "english": "reason",
+    "phrases": [
+      "There is a good reason.",
+      "What is the reason?",
+      "She explained the reason.",
+      "I have no reason to worry.",
+      "The reason is simple.",
+      "Tell me the reason."
+    ]
+  },
+  {
+    "id": "587",
+    "ukrainian": "результат",
+    "english": "result",
+    "phrases": [
+      "The result was excellent.",
+      "We are happy with the result.",
+      "The test result surprised me.",
+      "Hard work brings good results.",
+      "The final result is ready.",
+      "He checked the result."
+    ]
+  },
+  {
+    "id": "588",
+    "ukrainian": "навичка (практичне вміння)",
+    "english": "skill",
+    "phrases": [
+      "Cooking is a useful skill.",
+      "She has great communication skills.",
+      "Practice improves your skills.",
+      "This job needs special skills.",
+      "He learned a new skill.",
+      "Drawing is an important skill."
+    ]
+  },
+  {
+    "id": "589",
+    "ukrainian": "успіх",
+    "english": "success",
+    "phrases": [
+      "Hard work brings success.",
+      "She achieved great success.",
+      "We celebrated our success.",
+      "Success takes time.",
+      "His success inspired others.",
+      "I wish you success."
+    ]
+  },
+  {
+    "id": "590",
+    "ukrainian": "дивовижний (неймовірний, вражаючий)",
+    "english": "amazing",
+    "phrases": [
+      "The view was amazing.",
+      "You did an amazing job.",
+      "It was an amazing day.",
+      "She has an amazing voice.",
+      "We saw amazing animals.",
+      "That is amazing news."
+    ]
+  },
+  {
+    "id": "591",
+    "ukrainian": "дружній (привітний, доброзичливий)",
+    "english": "friendly",
+    "phrases": [
+      "Our teacher is friendly.",
+      "The staff were very friendly.",
+      "She has a friendly smile.",
+      "Everyone was friendly to us.",
+      "The dog is friendly.",
+      "He is always friendly."
+    ]
+  },
+  {
+    "id": "592",
+    "ukrainian": "корисний (той, що допомагає)",
+    "english": "helpful",
+    "phrases": [
+      "Your advice was helpful.",
+      "She is always helpful.",
+      "This guide is very helpful.",
+      "The teacher gave helpful tips.",
+      "Thank you for being helpful.",
+      "The information was helpful."
+    ]
+  },
+  {
+    "id": "593",
+    "ukrainian": "популярний (який подобається багатьом людям)",
+    "english": "popular",
+    "phrases": [
+      "Pizza is a popular food.",
+      "This singer is very popular.",
+      "The park is popular with families.",
+      "It is a popular choice.",
+      "That game became popular.",
+      "She is popular at school."
+    ]
+  },
+  {
+    "id": "594",
+    "ukrainian": "щойно (зовсім недавно)",
+    "english": "just",
+    "phrases": [
+      "I just finished my work.",
+      "She just called me.",
+      "We just arrived.",
+      "He just left the house.",
+      "I just wanted to help.",
+      "They just started the game."
+    ]
+  },
+  {
+    "id": "595",
+    "ukrainian": "порівнювати",
+    "english": "compare",
+    "phrases": [
+      "Let's compare the two books.",
+      "Do not compare yourself to others.",
+      "We compared the prices.",
+      "She compared the pictures.",
+      "It is easy to compare these phones.",
+      "Scientists compare the results."
+    ]
+  },
+  {
+    "id": "596",
+    "ukrainian": "покращувати",
+    "english": "improve",
+    "phrases": [
+      "I want to improve my English.",
+      "Practice helps you improve.",
+      "She improved her writing.",
+      "We can improve together.",
+      "Exercise improves your health.",
+      "The weather improved later."
+    ]
+  },
+  {
+    "id": "597",
+    "ukrainian": "захищати",
+    "english": "protect",
+    "phrases": [
+      "Trees help protect the environment.",
+      "Parents protect their children.",
+      "Wear a hat to protect your head.",
+      "We must protect nature.",
+      "This cover protects the phone.",
+      "Sunglasses protect your eyes."
+    ]
+  },
+  {
+    "id": "598",
+    "ukrainian": "досягати",
+    "english": "achieve",
+    "phrases": [
+      "You can achieve your goals.",
+      "She achieved great success.",
+      "We achieved our dream.",
+      "Hard work helps you achieve more.",
+      "They achieved excellent results.",
+      "Never stop trying to achieve your goals."
+    ]
+  },
+  {
+    "id": "599",
+    "ukrainian": "з'являтися",
+    "english": "appear",
+    "phrases": [
+      "The stars appear at night.",
+      "A rainbow appeared after the rain.",
+      "She appeared at the door.",
+      "New flowers appear in spring.",
+      "The sun appeared from behind the clouds.",
+      "His name appeared on the list."
+    ]
+  },
+  {
+    "id": "600",
+    "ukrainian": "зникати",
+    "english": "disappear",
+    "phrases": [
+      "The fog disappeared quickly.",
+      "The rabbit disappeared into the forest.",
+      "The clouds disappeared.",
+      "My worries disappeared.",
+      "The sun made the ice disappear.",
+      "The bird disappeared behind the trees."
+    ]
+  }
+]

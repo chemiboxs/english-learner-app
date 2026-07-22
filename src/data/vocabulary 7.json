@@ -1,0 +1,652 @@
+[
+  {
+    "id": "301",
+    "ukrainian": "Короткий",
+    "english": "short",
+    "phrases": [
+      "My hair is short, so it is easy to brush.",
+      "This story is short and very easy to read.",
+      "The pencil is too short to use.",
+      "We had a short break between lessons.",
+      "The movie was short but very interesting.",
+      "He wrote a short answer to the question."
+    ]
+  },
+  {
+    "id": "302",
+    "ukrainian": "Важкий",
+    "english": "heavy",
+    "phrases": [
+      "This bag is very heavy, I cannot carry it alone.",
+      "The box is heavy because it has many books inside.",
+      "The elephant is a very heavy animal.",
+      "My backpack feels heavy after school.",
+      "The heavy rain started in the evening.",
+      "He lifted the heavy stone from the ground."
+    ]
+  },
+  {
+    "id": "303",
+    "ukrainian": "Легкий",
+    "english": "light",
+    "phrases": [
+      "This bag is light, so I can carry it easily.",
+      "The feather is very light and moves in the air.",
+      "My jacket is light but warm.",
+      "The small box is light enough for a child to carry.",
+      "This exercise is light and not difficult.",
+      "The bird has light wings and can fly high."
+    ]
+  },
+  {
+    "id": "304",
+    "ukrainian": "Правий",
+    "english": "right",
+    "phrases": [
+      "Turn right at the corner to find the shop.",
+      "My right hand is the one I use to write.",
+      "The right answer is easy to find.",
+      "He sits on the right side of the classroom.",
+      "Take the right road to get home.",
+      "My right shoe is under the chair."
+    ]
+  },
+  {
+    "id": "305",
+    "ukrainian": "Лівий",
+    "english": "left",
+    "phrases": [
+      "Turn left after the park to go home.",
+      "My left hand is holding the pencil.",
+      "The book is on the left side of the table.",
+      "She wears a watch on her left hand.",
+      "The left door is open.",
+      "I sit on the left side of my friend."
+    ]
+  },
+  {
+    "id": "306",
+    "ukrainian": "Верх",
+    "english": "top",
+    "phrases": [
+      "The book is on the top of the shelf.",
+      "We climbed to the top of the hill.",
+      "The bird is sitting on the top of the tree.",
+      "There is a picture at the top of the page.",
+      "Put the box on the top shelf.",
+      "The snow covers the top of the mountain."
+    ]
+  },
+  {
+    "id": "307",
+    "ukrainian": "Низ",
+    "english": "bottom",
+    "phrases": [
+      "My socks are at the bottom of the drawer.",
+      "There is sand at the bottom of the bottle.",
+      "The toy is at the bottom of the box.",
+      "Write your name at the bottom of the page.",
+      "The fish swims near the bottom of the lake.",
+      "The bottom of the stairs is near the door."
+    ]
+  },
+  {
+    "id": "308",
+    "ukrainian": "Всередині",
+    "english": "inside",
+    "phrases": [
+      "It is warm inside the house.",
+      "My keys are inside my backpack.",
+      "The cat is sleeping inside the box.",
+      "There is water inside the bottle.",
+      "We stayed inside because it was raining.",
+      "The children are playing inside the room."
+    ]
+  },
+  {
+    "id": "309",
+    "ukrainian": "Зовні",
+    "english": "outside",
+    "phrases": [
+      "The children are playing outside in the yard.",
+      "It is cold outside today.",
+      "My dog likes running outside.",
+      "We eat lunch outside in summer.",
+      "There is a tree outside the window.",
+      "I left my shoes outside the door."
+    ]
+  },
+  {
+    "id": "310",
+    "ukrainian": "Поруч",
+    "english": "near",
+    "phrases": [
+      "My school is near my house.",
+      "There is a small shop near the park.",
+      "The chair is near the table.",
+      "I sit near my best friend in class.",
+      "The river is near the forest.",
+      "We live near a big city."
+    ]
+  },
+  {
+    "id": "311",
+    "ukrainian": "Сьогодні",
+    "english": "today",
+    "phrases": [
+      "Today is my favorite day of the week.",
+      "I have a test at school today.",
+      "Today we are going to the park after lunch.",
+      "My friend is coming to my house today.",
+      "The weather is sunny today.",
+      "I feel happy today because I finished my homework."
+    ]
+  },
+  {
+    "id": "312",
+    "ukrainian": "Вчора",
+    "english": "yesterday",
+    "phrases": [
+      "Yesterday I visited my grandparents.",
+      "It rained a lot yesterday.",
+      "I played football with my friends yesterday.",
+      "Yesterday was a busy day at school.",
+      "My mother cooked soup yesterday.",
+      "We watched a funny movie yesterday evening."
+    ]
+  },
+  {
+    "id": "313",
+    "ukrainian": "Завтра",
+    "english": "tomorrow",
+    "phrases": [
+      "Tomorrow we will go on a school trip.",
+      "I will finish my homework tomorrow.",
+      "Tomorrow I will meet my friend after school.",
+      "We will visit the museum tomorrow.",
+      "My father will go to work early tomorrow.",
+      "The weather will be warm tomorrow."
+    ]
+  },
+  {
+    "id": "314",
+    "ukrainian": "Зараз",
+    "english": "now",
+    "phrases": [
+      "I am doing my homework now.",
+      "We are eating dinner now.",
+      "I am reading a book now.",
+      "The baby is sleeping now.",
+      "She is talking to her teacher now.",
+      "We are learning English now."
+    ]
+  },
+  {
+    "id": "315",
+    "ukrainian": "Рано",
+    "english": "early",
+    "phrases": [
+      "I wake up early every morning for school.",
+      "We arrived early at the train station.",
+      "My father goes to work early every day.",
+      "I came to class early today.",
+      "The birds start singing early in the morning.",
+      "She finished her homework early."
+    ]
+  },
+  {
+    "id": "316",
+    "ukrainian": "Пізно",
+    "english": "late",
+    "phrases": [
+      "I went to bed late last night.",
+      "We came home late at night.",
+      "The bus was late this morning.",
+      "He arrived late for school.",
+      "It is too late to play outside.",
+      "My sister stayed up late yesterday."
+    ]
+  },
+  {
+    "id": "317",
+    "ukrainian": "Іноді",
+    "english": "sometimes",
+    "phrases": [
+      "I sometimes play football after school.",
+      "She sometimes eats ice cream in the evening.",
+      "We sometimes go to the cinema with our family.",
+      "I sometimes help my mother in the kitchen.",
+      "He sometimes reads books before bed.",
+      "Sometimes the weather changes very quickly."
+    ]
+  },
+  {
+    "id": "318",
+    "ukrainian": "Купувати",
+    "english": "buy",
+    "phrases": [
+      "I want to buy a new pencil case.",
+      "We buy fruit at the local shop.",
+      "My parents buy food for our family.",
+      "I buy a ticket before the trip.",
+      "She likes to buy new clothes.",
+      "They buy gifts for their friends."
+    ]
+  },
+  {
+    "id": "319",
+    "ukrainian": "Продавати",
+    "english": "sell",
+    "phrases": [
+      "The shop sells fresh bread every morning.",
+      "My uncle sells toys in his store.",
+      "They sell vegetables at the market.",
+      "The farmer sells milk from his farm.",
+      "This shop sells books and school supplies.",
+      "People sell different things at the fair."
+    ]
+  },
+  {
+    "id": "320",
+    "ukrainian": "Будувати",
+    "english": "build",
+    "phrases": [
+      "They build a new school in our town.",
+      "We build a sandcastle at the beach.",
+      "Workers build tall houses in the city.",
+      "Children build a tower with blocks.",
+      "My father helps me build a small birdhouse.",
+      "People build bridges over rivers."
+    ]
+  },
+  {
+    "id": "321",
+    "ukrainian": "Шукати",
+    "english": "search",
+    "phrases": [
+      "I search for my keys every morning.",
+      "We search for information on the internet.",
+      "She searches for her favorite book in the library.",
+      "They search for a new place to live.",
+      "I search my backpack before going to school.",
+      "The children search for hidden toys in the room."
+    ]
+  },
+  {
+    "id": "322",
+    "ukrainian": "Знаходити",
+    "english": "find",
+    "phrases": [
+      "I find my book under the table.",
+      "We find new words in English class.",
+      "She finds her lost toy in the bedroom.",
+      "I always find interesting things in the park.",
+      "They find a small bird near the tree.",
+      "He finds the answer to the question."
+    ]
+  },
+  {
+    "id": "323",
+    "ukrainian": "Посміхатися",
+    "english": "smile",
+    "phrases": [
+      "She smiles when she sees her friends.",
+      "I smile when I get a good grade.",
+      "The baby smiles at his mother.",
+      "He smiles because he is happy.",
+      "We smile for the photo.",
+      "My friend always smiles in the morning."
+    ]
+  },
+  {
+    "id": "324",
+    "ukrainian": "Дзеркало",
+    "english": "mirror",
+    "phrases": [
+      "I look in the mirror every morning.",
+      "The mirror is on the wall in my room.",
+      "She looks at herself in the mirror.",
+      "The mirror is clean and shiny.",
+      "I check my hair in the mirror.",
+      "There is a small mirror in the bathroom."
+    ]
+  },
+  {
+    "id": "325",
+    "ukrainian": "Коробка",
+    "english": "box",
+    "phrases": [
+      "There are toys in the box.",
+      "I put my shoes in a box under the bed.",
+      "The box is full of old books.",
+      "He opens the box and finds a gift.",
+      "The cat is sleeping inside the box.",
+      "We carry the heavy box together."
+    ]
+  },
+  {
+    "id": "326",
+    "ukrainian": "Ключ",
+    "english": "key",
+    "phrases": [
+      "I lost my house key this morning.",
+      "The key opens the small door.",
+      "My father keeps the key in his pocket.",
+      "I use a key to open my locker.",
+      "The key is on the table.",
+      "She found the missing key yesterday."
+    ]
+  },
+  {
+    "id": "327",
+    "ukrainian": "Карта",
+    "english": "map",
+    "phrases": [
+      "We use a map to find the city.",
+      "The map shows where the river is.",
+      "I look at the map before our trip.",
+      "The teacher shows us a world map.",
+      "The map helps me find the right road.",
+      "There is a map on the classroom wall."
+    ]
+  },
+  {
+    "id": "328",
+    "ukrainian": "Міст",
+    "english": "bridge",
+    "phrases": [
+      "We walked across the bridge over the river.",
+      "The bridge connects two parts of the city.",
+      "The car is driving across the bridge.",
+      "The old bridge is made of stone.",
+      "People walk over the bridge every day.",
+      "The bridge is long and beautiful."
+    ]
+  },
+  {
+    "id": "329",
+    "ukrainian": "Сніданок",
+    "english": "breakfast",
+    "phrases": [
+      "I eat breakfast before I go to school.",
+      "Breakfast is my favorite meal of the day.",
+      "I drink milk with my breakfast.",
+      "My mother makes breakfast every morning.",
+      "We have breakfast together in the kitchen.",
+      "Eggs and bread are good for breakfast."
+    ]
+  },
+  {
+    "id": "330",
+    "ukrainian": "Обід",
+    "english": "lunch",
+    "phrases": [
+      "We have lunch at school at noon.",
+      "I eat a sandwich for lunch.",
+      "My friends sit with me during lunch.",
+      "Lunch is ready in the kitchen.",
+      "I drink juice with my lunch.",
+      "We talk while eating lunch."
+    ]
+  },
+  {
+    "id": "331",
+    "ukrainian": "Вечеря",
+    "english": "dinner",
+    "phrases": [
+      "We eat dinner together as a family.",
+      "Dinner is ready at seven o’clock.",
+      "My mother cooks dinner every evening.",
+      "We talk about our day during dinner.",
+      "I help set the table for dinner.",
+      "The family sits together for dinner."
+    ]
+  },
+  {
+    "id": "332",
+    "ukrainian": "Печиво",
+    "english": "cookie",
+    "phrases": [
+      "I eat a cookie with milk.",
+      "She baked cookies for her friends.",
+      "The cookie is sweet and delicious.",
+      "I put the cookies on a plate.",
+      "My grandmother makes chocolate cookies.",
+      "The child wants another cookie."
+    ]
+  },
+  {
+    "id": "333",
+    "ukrainian": "Цукерка",
+    "english": "candy",
+    "phrases": [
+      "I got a candy after finishing my homework.",
+      "Children like to eat candy at parties.",
+      "The candy is colorful and sweet.",
+      "She gives me a candy from her bag.",
+      "I do not eat too much candy.",
+      "The shop sells many kinds of candy."
+    ]
+  },
+  {
+    "id": "334",
+    "ukrainian": "Морозиво",
+    "english": "ice cream",
+    "phrases": [
+      "I eat ice cream in summer.",
+      "We bought chocolate ice cream at the shop.",
+      "My favorite ice cream flavor is vanilla.",
+      "The ice cream is cold and sweet.",
+      "She eats ice cream with her friends.",
+      "We have ice cream after dinner."
+    ]
+  },
+  {
+    "id": "335",
+    "ukrainian": "Піца",
+    "english": "pizza",
+    "phrases": [
+      "We ate pizza for dinner last night.",
+      "My favorite food is pizza with cheese.",
+      "I like pizza with vegetables.",
+      "They ordered a big pizza for the party.",
+      "The pizza smells very good.",
+      "We share pizza with our family."
+    ]
+  },
+  {
+    "id": "336",
+    "ukrainian": "Рукавички",
+    "english": "gloves",
+    "phrases": [
+      "I wear gloves in winter.",
+      "My gloves are warm and soft.",
+      "She puts on her gloves before going outside.",
+      "My gloves are in my jacket pocket.",
+      "I lost one of my gloves at the park.",
+      "These gloves keep my hands warm in cold weather."
+    ]
+  },
+  {
+    "id": "337",
+    "ukrainian": "Вчитися",
+    "english": "learn",
+    "phrases": [
+      "I learn new words in English class.",
+      "We learn math and science at school.",
+      "Children learn many things from books.",
+      "I want to learn how to play the guitar.",
+      "She learns new words every day.",
+      "We learn about animals in science lessons."
+    ]
+  },
+  {
+    "id": "338",
+    "ukrainian": "Пам'ятати",
+    "english": "remember",
+    "phrases": [
+      "I remember my friend's birthday.",
+      "Please remember to do your homework.",
+      "I remember the name of my teacher.",
+      "She remembers our trip to the sea.",
+      "Do you remember where my book is?",
+      "He always remembers important dates."
+    ]
+  },
+  {
+    "id": "339",
+    "ukrainian": "Забувати",
+    "english": "forget",
+    "phrases": [
+      "I often forget my pencil at home.",
+      "Don’t forget your school bag.",
+      "I sometimes forget my keys on the table.",
+      "Please do not forget to feed the dog.",
+      "She forgets her homework sometimes.",
+      "He forgot his jacket at school yesterday."
+    ]
+  },
+  {
+    "id": "340",
+    "ukrainian": "Запитувати",
+    "english": "ask",
+    "phrases": [
+      "I ask my teacher a question.",
+      "We ask for help when we don’t understand.",
+      "She asks her friend about the homework.",
+      "I ask my parents for permission.",
+      "The student asks a difficult question.",
+      "They ask the doctor for advice."
+    ]
+  },
+  {
+    "id": "341",
+    "ukrainian": "Розуміти",
+    "english": "understand",
+    "phrases": [
+      "I understand this lesson much better now.",
+      "Do you understand what the teacher means?",
+      "She understands English but speaks very slowly.",
+      "I don't understand why he is so upset.",
+      "We finally understood how the game works.",
+      "Can you explain it again? I still don't understand."
+    ]
+  },
+  {
+    "id": "342",
+    "ukrainian": "Пояснювати",
+    "english": "explain",
+    "phrases": [
+      "The teacher explained the new rule very clearly.",
+      "Can you explain this word in simple English?",
+      "Please explain why you were late today.",
+      "He explained everything before we started working.",
+      "She explained how to use the new app.",
+      "Could you explain the answer one more time?"
+    ]
+  },
+  {
+    "id": "343",
+    "ukrainian": "Сильний",
+    "english": "strong",
+    "phrases": [
+      "He is strong enough to carry the heavy box.",
+      "The wind is so strong that trees are moving.",
+      "She became stronger after months of training.",
+      "This coffee is too strong for me.",
+      "Our team stayed strong until the end.",
+      "The bridge is strong enough for big trucks."
+    ]
+  },
+  {
+    "id": "344",
+    "ukrainian": "Слабкий",
+    "english": "weak",
+    "phrases": [
+      "I still feel weak after being sick.",
+      "The signal is too weak inside this building.",
+      "His legs felt weak after the long run.",
+      "This old chair looks weak and unsafe.",
+      "The battery is weak and needs charging.",
+      "She gave a weak smile before leaving."
+    ]
+  },
+  {
+    "id": "345",
+    "ukrainian": "Сміятися",
+    "english": "laugh",
+    "phrases": [
+      "We laughed at his funny story together.",
+      "The children laughed while playing in the park.",
+      "Her jokes always make me laugh.",
+      "Everybody started laughing after his mistake.",
+      "Try not to laugh during the lesson.",
+      "I couldn't stop laughing for a minute."
+    ]
+  },
+  {
+    "id": "346",
+    "ukrainian": "Плакати",
+    "english": "cry",
+    "phrases": [
+      "The baby cried because he was hungry.",
+      "She started crying after the sad movie.",
+      "Don't cry because everything will be fine.",
+      "He almost cried when he heard the news.",
+      "The little girl cried for her mother.",
+      "Sometimes people cry when they feel happy."
+    ]
+  },
+  {
+    "id": "347",
+    "ukrainian": "Думати",
+    "english": "think",
+    "phrases": [
+      "I think we should leave a little earlier.",
+      "What do you think about this idea?",
+      "She always thinks before making a decision.",
+      "I'm thinking about buying a new bike.",
+      "He thinks the test will be easy.",
+      "Think carefully before you answer the question."
+    ]
+  },
+  {
+    "id": "348",
+    "ukrainian": "Мріяти",
+    "english": "dream",
+    "phrases": [
+      "I dream of visiting Japan one day.",
+      "She dreams about becoming a famous doctor.",
+      "They dream of having a big house.",
+      "Never stop dreaming about your future.",
+      "He has always dreamed of flying a plane.",
+      "Many children dream about exciting adventures."
+    ]
+  },
+  {
+    "id": "349",
+    "ukrainian": "Сад",
+    "english": "garden",
+    "phrases": [
+      "We grow fresh vegetables in our garden.",
+      "The garden looks beautiful in spring.",
+      "My grandmother spends hours in her garden.",
+      "There are colorful flowers all around the garden.",
+      "The children played in the garden all afternoon.",
+      "A small bird landed in our garden."
+    ]
+  },
+  {
+    "id": "350",
+    "ukrainian": "Бібліотека",
+    "english": "library",
+    "phrases": [
+      "I borrowed an interesting book from the library.",
+      "The library is quiet and comfortable to study.",
+      "We often meet at the library after school.",
+      "She returned the books to the library yesterday.",
+      "Our town has a modern public library.",
+      "You should speak quietly inside the library."
+    ]
+  }
+]

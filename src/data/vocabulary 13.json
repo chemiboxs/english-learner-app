@@ -1,0 +1,652 @@
+[
+  {
+    "id": "601",
+    "ukrainian": "вправа (фізична або навчальна)",
+    "english": "exercise",
+    "phrases": [
+      "I do exercise every morning.",
+      "This exercise is easy to understand.",
+      "The teacher gave us a grammar exercise.",
+      "Regular exercise is good for your health.",
+      "We finished all the exercises in the workbook.",
+      "Exercise helps you stay strong and healthy."
+    ]
+  },
+  {
+    "id": "602",
+    "ukrainian": "шовковиця",
+    "english": "mulberry",
+    "phrases": [
+      "We picked mulberries from the tree.",
+      "Mulberries are sweet and juicy.",
+      "My grandmother makes jam from mulberries.",
+      "The birds like to eat mulberries.",
+      "I ate fresh mulberries in summer.",
+      "The mulberry tree grows near our house."
+    ]
+  },
+  {
+    "id": "603",
+    "ukrainian": "смородина",
+    "english": "currant",
+    "phrases": [
+      "Black currants are very popular in summer.",
+      "My mother makes currant juice.",
+      "We grow currants in our garden.",
+      "Currants have a sweet and sour taste.",
+      "I added currants to the cake.",
+      "She picked fresh currants from the bush."
+    ]
+  },
+  {
+    "id": "604",
+    "ukrainian": "аґрус",
+    "english": "gooseberry",
+    "phrases": [
+      "Gooseberries grow on small bushes.",
+      "I like the taste of gooseberries.",
+      "We made a pie with gooseberries.",
+      "The gooseberries in the garden are ripe.",
+      "She picked some gooseberries for dessert.",
+      "Gooseberries can be green or red."
+    ]
+  },
+  {
+    "id": "605",
+    "ukrainian": "журавлина",
+    "english": "cranberry",
+    "phrases": [
+      "Cranberries are small red berries.",
+      "I like cranberry juice.",
+      "We use cranberries to make sauce.",
+      "Cranberries grow in wet areas.",
+      "She added dried cranberries to the cookies.",
+      "Cranberry flavor is popular in drinks."
+    ]
+  },
+  {
+    "id": "606",
+    "ukrainian": "ожина",
+    "english": "blackberry",
+    "phrases": [
+      "Blackberries grow on bushes.",
+      "We picked blackberries in the forest.",
+      "Blackberries are dark and sweet.",
+      "She made a cake with blackberries.",
+      "I like eating fresh blackberries.",
+      "The blackberry season starts in summer."
+    ]
+  },
+  {
+    "id": "607",
+    "ukrainian": "малина",
+    "english": "raspberry",
+    "phrases": [
+      "Raspberries are my favorite berries.",
+      "We picked raspberries in the garden.",
+      "She made raspberry jam.",
+      "Fresh raspberries taste delicious.",
+      "I put raspberries in my yogurt.",
+      "The raspberry bushes grow quickly."
+    ]
+  },
+  {
+    "id": "608",
+    "ukrainian": "лохина",
+    "english": "blueberry",
+    "phrases": [
+      "Blueberries are small and blue.",
+      "I eat blueberries for breakfast.",
+      "She made blueberry muffins.",
+      "We picked blueberries in the forest.",
+      "Blueberries are rich in vitamins.",
+      "My favorite smoothie has blueberries."
+    ]
+  },
+  {
+    "id": "609",
+    "ukrainian": "чорниця",
+    "english": "bilberry",
+    "phrases": [
+      "Bilberries grow in forests.",
+      "We picked bilberries during our walk.",
+      "Bilberries are smaller than blueberries.",
+      "My grandmother makes bilberry jam.",
+      "The forest has many bilberry bushes.",
+      "I like the taste of fresh bilberries."
+    ]
+  },
+  {
+    "id": "610",
+    "ukrainian": "лісові ягоди (суміш різних ягід)",
+    "english": "wild berries",
+    "phrases": [
+      "We collected wild berries in the forest.",
+      "Wild berries can include many different berries.",
+      "She made a dessert with wild berries.",
+      "Wild berries grow naturally in the woods.",
+      "I love the taste of fresh wild berries.",
+      "The basket was full of wild berries."
+    ]
+  },
+  {
+    "id": "611",
+    "ukrainian": "прибувати",
+    "english": "arrive",
+    "phrases": [
+      "We arrive at school at eight o'clock.",
+      "The train will arrive soon.",
+      "I arrived home late yesterday.",
+      "They arrived at the airport on time.",
+      "Please call me when you arrive.",
+      "The guests arrived in the evening."
+    ]
+  },
+  {
+    "id": "612",
+    "ukrainian": "залишати, йти геть",
+    "english": "leave",
+    "phrases": [
+      "I leave home at seven every day.",
+      "She left her bag on the chair.",
+      "We need to leave now.",
+      "He left the office early.",
+      "They will leave tomorrow morning.",
+      "Please do not leave the door open."
+    ]
+  },
+  {
+    "id": "613",
+    "ukrainian": "входити",
+    "english": "enter",
+    "phrases": [
+      "Please enter the room quietly.",
+      "He entered the building.",
+      "You need a ticket to enter the museum.",
+      "She entered the classroom late.",
+      "Do not enter this room.",
+      "The students entered the school."
+    ]
+  },
+  {
+    "id": "614",
+    "ukrainian": "повертатися",
+    "english": "return",
+    "phrases": [
+      "I will return home tonight.",
+      "She returned the book to the library.",
+      "We return from work at six.",
+      "He returned after two days.",
+      "Please return my pen.",
+      "They want to return to the city."
+    ]
+  },
+  {
+    "id": "615",
+    "ukrainian": "платити",
+    "english": "pay",
+    "phrases": [
+      "I need to pay for the food.",
+      "She paid for the ticket.",
+      "Can I pay by card?",
+      "He pays the bills every month.",
+      "We paid a lot of money.",
+      "Please pay at the desk."
+    ]
+  },
+  {
+    "id": "616",
+    "ukrainian": "витрачати",
+    "english": "spend",
+    "phrases": [
+      "I spend time with my family.",
+      "She spends a lot of money on books.",
+      "We spent the day at the beach.",
+      "He spends two hours studying.",
+      "They spent their holiday in Spain.",
+      "Do not spend all your money."
+    ]
+  },
+  {
+    "id": "617",
+    "ukrainian": "заощаджувати",
+    "english": "save",
+    "phrases": [
+      "I save money for a new phone.",
+      "She saves money every month.",
+      "We need to save water.",
+      "He saved the document on his computer.",
+      "They want to save energy.",
+      "Saving money is a good habit."
+    ]
+  },
+  {
+    "id": "618",
+    "ukrainian": "змінювати",
+    "english": "change",
+    "phrases": [
+      "I want to change my clothes.",
+      "The weather can change quickly.",
+      "She changed her hairstyle.",
+      "People change over time.",
+      "We need to change the plan.",
+      "He changed his mind."
+    ]
+  },
+  {
+    "id": "619",
+    "ukrainian": "починати",
+    "english": "start",
+    "phrases": [
+      "The lesson starts at nine.",
+      "I start work in the morning.",
+      "She started a new book.",
+      "The movie will start soon.",
+      "Let's start the game.",
+      "He started learning English."
+    ]
+  },
+  {
+    "id": "620",
+    "ukrainian": "закінчувати",
+    "english": "finish",
+    "phrases": [
+      "I finish school at three.",
+      "She finished her homework.",
+      "The film finishes at ten.",
+      "Please finish your food.",
+      "We finished the project yesterday.",
+      "He wants to finish the book."
+    ]
+  },
+  {
+    "id": "621",
+    "ukrainian": "ламати",
+    "english": "break",
+    "phrases": [
+      "Be careful not to break the glass.",
+      "He broke his phone yesterday.",
+      "I don't want to break the chair.",
+      "She broke the window by accident.",
+      "The toy is easy to break.",
+      "My brother broke his pencil."
+    ]
+  },
+  {
+    "id": "622",
+    "ukrainian": "ремонтувати",
+    "english": "repair",
+    "phrases": [
+      "My father can repair cars.",
+      "They repair old houses.",
+      "I need to repair my bike.",
+      "He repaired the broken chair.",
+      "The mechanic repaired the truck.",
+      "She wants to repair the computer."
+    ]
+  },
+  {
+    "id": "623",
+    "ukrainian": "збирати",
+    "english": "collect",
+    "phrases": [
+      "I collect stamps.",
+      "She collects beautiful stones.",
+      "We collected leaves in the park.",
+      "He likes to collect coins.",
+      "They collect information for the project.",
+      "Children collect shells on the beach."
+    ]
+  },
+  {
+    "id": "624",
+    "ukrainian": "слідувати, йти за",
+    "english": "follow",
+    "phrases": [
+      "Follow me, please.",
+      "The dog follows the boy.",
+      "I follow the rules at school.",
+      "She follows her teacher.",
+      "Please follow the instructions.",
+      "The children followed the path."
+    ]
+  },
+  {
+    "id": "625",
+    "ukrainian": "приєднуватися",
+    "english": "join",
+    "phrases": [
+      "Can I join your game?",
+      "She joined a sports club.",
+      "We joined our friends for dinner.",
+      "He wants to join the team.",
+      "Many students joined the class.",
+      "Please join us tomorrow."
+    ]
+  },
+  {
+    "id": "626",
+    "ukrainian": "наповнювати",
+    "english": "fill",
+    "phrases": [
+      "Please fill the bottle with water.",
+      "She filled the glass with juice.",
+      "I need to fill out this form.",
+      "The room was filled with people.",
+      "He filled the box with toys.",
+      "Fill the bowl with rice."
+    ]
+  },
+  {
+    "id": "627",
+    "ukrainian": "стеля",
+    "english": "ceiling",
+    "phrases": [
+      "The ceiling is very high.",
+      "There is a lamp on the ceiling.",
+      "The room has a white ceiling.",
+      "He looked at the ceiling.",
+      "The ceiling needs repair.",
+      "The picture is near the ceiling."
+    ]
+  },
+  {
+    "id": "628",
+    "ukrainian": "підвал",
+    "english": "basement",
+    "phrases": [
+      "The boxes are in the basement.",
+      "Our house has a small basement.",
+      "He keeps old things in the basement.",
+      "The basement is dark.",
+      "They cleaned the basement yesterday.",
+      "The basement is under the house."
+    ]
+  },
+  {
+    "id": "629",
+    "ukrainian": "горище",
+    "english": "attic",
+    "phrases": [
+      "There are old books in the attic.",
+      "The attic is above my room.",
+      "We found a box in the attic.",
+      "The attic is full of old things.",
+      "She cleaned the attic last week.",
+      "The children played in the attic."
+    ]
+  },
+  {
+    "id": "630",
+    "ukrainian": "коридор",
+    "english": "corridor",
+    "phrases": [
+      "The classroom is at the end of the corridor.",
+      "He walked down the corridor.",
+      "The corridor is long and bright.",
+      "There are pictures on the corridor walls.",
+      "She is waiting in the corridor.",
+      "The hotel has a wide corridor."
+    ]
+  },
+  {
+    "id": "631",
+    "ukrainian": "паркан",
+    "english": "fence",
+    "phrases": [
+      "There is a fence around the garden.",
+      "The fence is very high.",
+      "They painted the fence white.",
+      "The dog is behind the fence.",
+      "We need to repair the fence.",
+      "The house has a wooden fence."
+    ]
+  },
+  {
+    "id": "632",
+    "ukrainian": "ручка, держак",
+    "english": "handle",
+    "phrases": [
+      "The door has a new handle.",
+      "Please hold the handle carefully.",
+      "The bag has a strong handle.",
+      "He opened the door by the handle.",
+      "The cup has a small handle.",
+      "The handle is broken."
+    ]
+  },
+  {
+    "id": "633",
+    "ukrainian": "замок",
+    "english": "lock",
+    "phrases": [
+      "Please lock the door.",
+      "The lock is broken.",
+      "I forgot to lock my bike.",
+      "She opened the lock with a key.",
+      "This door has a new lock.",
+      "Always lock your house at night."
+    ]
+  },
+  {
+    "id": "634",
+    "ukrainian": "душ",
+    "english": "shower",
+    "phrases": [
+      "I take a shower every morning.",
+      "The shower is in the bathroom.",
+      "She had a quick shower.",
+      "The shower is not working.",
+      "He cleaned the shower yesterday.",
+      "I need a hot shower."
+    ]
+  },
+  {
+    "id": "635",
+    "ukrainian": "миска",
+    "english": "bowl",
+    "phrases": [
+      "The soup is in the bowl.",
+      "I need a big bowl for salad.",
+      "The bowl is on the table.",
+      "She washed the bowl.",
+      "The cat eats from a bowl.",
+      "There is fruit in the bowl."
+    ]
+  },
+  {
+    "id": "636",
+    "ukrainian": "кухоль",
+    "english": "mug",
+    "phrases": [
+      "I drink tea from a mug.",
+      "The mug is blue.",
+      "She bought a new coffee mug.",
+      "My mug is on the desk.",
+      "He washed his mug.",
+      "This mug is very big."
+    ]
+  },
+  {
+    "id": "637",
+    "ukrainian": "склянка",
+    "english": "glass",
+    "phrases": [
+      "Please give me a glass of water.",
+      "The glass is on the table.",
+      "He broke the glass.",
+      "She filled the glass with juice.",
+      "This glass is clean.",
+      "I need another glass."
+    ]
+  },
+  {
+    "id": "638",
+    "ukrainian": "гаманець",
+    "english": "wallet",
+    "phrases": [
+      "My wallet is in my bag.",
+      "I lost my wallet yesterday.",
+      "He keeps money in his wallet.",
+      "She found a wallet on the street.",
+      "This wallet is made of leather.",
+      "I bought a new wallet."
+    ]
+  },
+  {
+    "id": "639",
+    "ukrainian": "жіноча сумочка",
+    "english": "purse",
+    "phrases": [
+      "Her purse is very small.",
+      "She keeps her phone in her purse.",
+      "The purse is on the chair.",
+      "My mother bought a new purse.",
+      "The purse has many pockets.",
+      "She opened her purse."
+    ]
+  },
+  {
+    "id": "640",
+    "ukrainian": "монета",
+    "english": "coin",
+    "phrases": [
+      "I found a coin on the ground.",
+      "The coin is very old.",
+      "He put the coin in his pocket.",
+      "She collects different coins.",
+      "This coin is made of metal.",
+      "I need a coin for the machine."
+    ]
+  },
+  {
+    "id": "641",
+    "ukrainian": "квиток",
+    "english": "ticket",
+    "phrases": [
+      "I bought a ticket for the train.",
+      "Please show your ticket.",
+      "The ticket is in my bag.",
+      "She needs a ticket to enter.",
+      "We got two tickets for the concert.",
+      "Do not lose your ticket."
+    ]
+  },
+  {
+    "id": "642",
+    "ukrainian": "черга",
+    "english": "queue",
+    "phrases": [
+      "We are waiting in a queue.",
+      "There is a long queue at the shop.",
+      "Please stand in the queue.",
+      "The queue moves slowly.",
+      "I joined the queue.",
+      "People are standing in a queue."
+    ]
+  },
+  {
+    "id": "643",
+    "ukrainian": "лінія, ряд",
+    "english": "line",
+    "phrases": [
+      "Please stand in line.",
+      "There is a line of people.",
+      "Draw a straight line.",
+      "The children are in a line.",
+      "The line is very long.",
+      "Wait in line for your turn."
+    ]
+  },
+  {
+    "id": "644",
+    "ukrainian": "світлофор",
+    "english": "traffic light",
+    "phrases": [
+      "Stop when the traffic light is red.",
+      "The traffic light is green now.",
+      "We waited at the traffic light.",
+      "The car stopped near the traffic light.",
+      "There is a traffic light at the corner.",
+      "Look at the traffic light before crossing."
+    ]
+  },
+  {
+    "id": "645",
+    "ukrainian": "кут",
+    "english": "corner",
+    "phrases": [
+      "The shop is on the corner.",
+      "There is a chair in the corner.",
+      "Turn left at the corner.",
+      "The cat is hiding in the corner.",
+      "He stood in the corner of the room.",
+      "The table is near the corner."
+    ]
+  },
+  {
+    "id": "646",
+    "ukrainian": "перехрестя",
+    "english": "crossroads",
+    "phrases": [
+      "Turn right at the crossroads.",
+      "The car stopped at the crossroads.",
+      "There is a shop near the crossroads.",
+      "We met at the crossroads.",
+      "Be careful at the crossroads.",
+      "The crossroads are very busy."
+    ]
+  },
+  {
+    "id": "647",
+    "ukrainian": "стежка, шлях",
+    "english": "path",
+    "phrases": [
+      "We walked along the forest path.",
+      "The path leads to the lake.",
+      "The path is very narrow.",
+      "There is a path in the garden.",
+      "Follow the path to the house.",
+      "The children ran along the path."
+    ]
+  },
+  {
+    "id": "648",
+    "ukrainian": "пустеля",
+    "english": "desert",
+    "phrases": [
+      "The desert is very hot.",
+      "Few plants grow in the desert.",
+      "They traveled across the desert.",
+      "The desert has a lot of sand.",
+      "Camels live in the desert.",
+      "The desert is very dry."
+    ]
+  },
+  {
+    "id": "649",
+    "ukrainian": "водоспад",
+    "english": "waterfall",
+    "phrases": [
+      "The waterfall is very beautiful.",
+      "We saw a big waterfall.",
+      "The water falls from the mountain.",
+      "They took photos near the waterfall.",
+      "The waterfall is in the forest.",
+      "Many tourists visit the waterfall."
+    ]
+  },
+  {
+    "id": "650",
+    "ukrainian": "корінь",
+    "english": "root",
+    "phrases": [
+      "The tree has deep roots.",
+      "The root grows under the ground.",
+      "Plants need roots to grow.",
+      "The roots of the tree are strong.",
+      "We saw a big root in the forest.",
+      "The root takes water from the soil."
+    ]
+  }
+]

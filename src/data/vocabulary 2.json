@@ -1,0 +1,658 @@
+[
+  {
+    "id": "51",
+    "ukrainian": "Чотири",
+    "english": "four",
+    "phrases": [
+      "We need four chairs for the classroom party next week.",
+      "My grandma has four cute cats living at her house.",
+      "I can count up to four in English without any mistakes now.",
+      "I have four pencils in my pencil case at school today.",
+      "I am four years old and I go to school every single day.",
+      "There are four cookies on the plate for us to share."
+    ]
+  },
+  {
+    "id": "52",
+    "ukrainian": "П'ять",
+    "english": "five",
+    "phrases": [
+      "I am five years old and I go to school every single day.",
+      "I have five red apples in my lunch box at school today.",
+      "We need five chairs for the classroom party next week.",
+      "My grandma has five cute cats living at her house.",
+      "I have five pencils in my pencil case at school today.",
+      "There are five cookies on the plate for us to share."
+    ]
+  },
+  {
+    "id": "53",
+    "ukrainian": "Шість",
+    "english": "six",
+    "phrases": [
+      "We need six chairs for the classroom party next week.",
+      "I have six pencils in my pencil case at school today.",
+      "I am six years old and I go to school every single day.",
+      "There are six cookies on the plate for us to share.",
+      "My grandma has six cute cats living at her house.",
+      "I have six red apples in my lunch box at school today."
+    ]
+  },
+  {
+    "id": "54",
+    "ukrainian": "Сім",
+    "english": "seven",
+    "phrases": [
+      "There are seven cookies on the plate for us to share.",
+      "We need seven chairs for the classroom party next week.",
+      "I have seven pencils in my pencil case at school today.",
+      "There are seven little birds sitting on the fence outside.",
+      "I am seven years old and I go to school every single day.",
+      "I have seven red apples in my lunch box at school today."
+    ]
+  },
+  {
+    "id": "55",
+    "ukrainian": "Вісім",
+    "english": "eight",
+    "phrases": [
+      "I have eight red apples in my lunch box at school today.",
+      "I am eight years old and I go to school every single day.",
+      "We need eight chairs for the classroom party next week.",
+      "I can count up to eight in English without any mistakes now.",
+      "There are eight little birds sitting on the fence outside.",
+      "There are eight cookies on the plate for us to share."
+    ]
+  },
+  {
+    "id": "56",
+    "ukrainian": "Дев'ять",
+    "english": "nine",
+    "phrases": [
+      "I can count up to nine in English without any mistakes now.",
+      "There are nine little birds sitting on the fence outside.",
+      "There are nine cookies on the plate for us to share.",
+      "I have nine pencils in my pencil case at school today.",
+      "My grandma has nine cute cats living at her house.",
+      "I am nine years old and I go to school every single day."
+    ]
+  },
+  {
+    "id": "57",
+    "ukrainian": "Десять",
+    "english": "ten",
+    "phrases": [
+      "My grandma has ten cute cats living at her house.",
+      "I am ten years old and I go to school every single day.",
+      "There are ten little birds sitting on the fence outside.",
+      "I have ten red apples in my lunch box at school today.",
+      "There are ten cookies on the plate for us to share.",
+      "I have ten pencils in my pencil case at school today."
+    ]
+  },
+  {
+    "id": "58",
+    "ukrainian": "Понеділок",
+    "english": "Monday",
+    "phrases": [
+      "On Monday I always visit my grandmother after school is over.",
+      "We have an important English test on Monday at our school.",
+      "Monday is my favourite day of the whole week without a doubt.",
+      "I have a music lesson every Monday afternoon in the town centre.",
+      "My whole family goes to the park together every Monday.",
+      "I do not have school on Monday so I can rest at home."
+    ]
+  },
+  {
+    "id": "59",
+    "ukrainian": "Вівторок",
+    "english": "Tuesday",
+    "phrases": [
+      "On Tuesday I always visit my grandmother after school is over.",
+      "Tuesday is always a fun day because we get to play outside.",
+      "I have a music lesson every Tuesday afternoon in the town centre.",
+      "We have an important English test on Tuesday at our school.",
+      "Today is Tuesday and I feel very happy about everything.",
+      "Tuesday is my favourite day of the whole week without a doubt."
+    ]
+  },
+  {
+    "id": "60",
+    "ukrainian": "Середа",
+    "english": "Wednesday",
+    "phrases": [
+      "We have an important English test on Wednesday at our school.",
+      "On Wednesday I always visit my grandmother after school is over.",
+      "I do not have school on Wednesday so I can rest at home.",
+      "Wednesday is my favourite day of the whole week without a doubt.",
+      "I have a music lesson every Wednesday afternoon in the town centre.",
+      "Wednesday is always a fun day because we get to play outside."
+    ]
+  },
+  {
+    "id": "61",
+    "ukrainian": "Четвер",
+    "english": "Thursday",
+    "phrases": [
+      "Thursday is my favourite day of the whole week without a doubt.",
+      "We have an important English test on Thursday at our school.",
+      "My whole family goes to the park together every Thursday.",
+      "On Thursday I always visit my grandmother after school is over.",
+      "I do not have school on Thursday so I can rest at home.",
+      "Thursday is always a fun day because we get to play outside."
+    ]
+  },
+  {
+    "id": "62",
+    "ukrainian": "П'ятниця",
+    "english": "Friday",
+    "phrases": [
+      "I do not have school on Friday so I can rest at home.",
+      "I have a music lesson every Friday afternoon in the town centre.",
+      "Friday is always a fun day because we get to play outside.",
+      "Friday is my favourite day of the whole week without a doubt.",
+      "Today is Friday and I feel very happy about everything.",
+      "My whole family goes to the park together every Friday."
+    ]
+  },
+  {
+    "id": "63",
+    "ukrainian": "Субота",
+    "english": "Saturday",
+    "phrases": [
+      "We have an important English test on Saturday at our school.",
+      "On Saturday I always visit my grandmother after school is over.",
+      "I have a music lesson every Saturday afternoon in the town centre.",
+      "Today is Saturday and I feel very happy about everything.",
+      "Saturday is my favourite day of the whole week without a doubt.",
+      "Saturday is always a fun day because we get to play outside."
+    ]
+  },
+  {
+    "id": "64",
+    "ukrainian": "Неділя",
+    "english": "Sunday",
+    "phrases": [
+      "Sunday is always a fun day because we get to play outside.",
+      "We have an important English test on Sunday at our school.",
+      "I have a music lesson every Sunday afternoon in the town centre.",
+      "I do not have school on Sunday so I can rest at home.",
+      "On Sunday I always visit my grandmother after school is over.",
+      "Sunday is my favourite day of the whole week without a doubt."
+    ]
+  },
+  {
+    "id": "65",
+    "ukrainian": "Січень",
+    "english": "January",
+    "phrases": [
+      "I was born in January and I always have a birthday party at home.",
+      "January is a beautiful month with nice weather and sunny days.",
+      "My birthday is in January and I feel very excited about it.",
+      "In January the weather starts to become warmer and nicer outside.",
+      "In January we celebrate many special days with our family at home.",
+      "We go on a family holiday every year in January to the beach."
+    ]
+  },
+  {
+    "id": "66",
+    "ukrainian": "Лютий",
+    "english": "February",
+    "phrases": [
+      "The flowers in the garden bloom in February all around the town.",
+      "In February we celebrate many special days with our family at home.",
+      "My birthday is in February and I feel very excited about it.",
+      "February is a beautiful month with nice weather and sunny days.",
+      "We go on a family holiday every year in February to the beach.",
+      "In February the weather starts to become warmer and nicer outside."
+    ]
+  },
+  {
+    "id": "67",
+    "ukrainian": "Березень",
+    "english": "March",
+    "phrases": [
+      "We go on a family holiday every year in March to the beach.",
+      "The school year ends in March and we have a long summer break.",
+      "I was born in March and I always have a birthday party at home.",
+      "In March the weather starts to become warmer and nicer outside.",
+      "My birthday is in March and I feel very excited about it.",
+      "In March we celebrate many special days with our family at home."
+    ]
+  },
+  {
+    "id": "68",
+    "ukrainian": "Квітень",
+    "english": "April",
+    "phrases": [
+      "I was born in April and I always have a birthday party at home.",
+      "The school year ends in April and we have a long summer break.",
+      "In April the weather starts to become warmer and nicer outside.",
+      "We go on a family holiday every year in April to the beach.",
+      "My birthday is in April and I feel very excited about it.",
+      "April is a beautiful month with nice weather and sunny days."
+    ]
+  },
+  {
+    "id": "69",
+    "ukrainian": "Травень",
+    "english": "May",
+    "phrases": [
+      "We go on a family holiday every year in May to the beach.",
+      "In May the weather starts to become warmer and nicer outside.",
+      "I was born in May and I always have a birthday party at home.",
+      "My birthday is in May and I feel very excited about it.",
+      "May is a beautiful month with nice weather and sunny days.",
+      "In May we celebrate many special days with our family at home."
+    ]
+  },
+  {
+    "id": "70",
+    "ukrainian": "Червень",
+    "english": "June",
+    "phrases": [
+      "In June the weather starts to become warmer and nicer outside.",
+      "In June we celebrate many special days with our family at home.",
+      "The flowers in the garden bloom in June all around the town.",
+      "The school year ends in June and we have a long summer break.",
+      "I was born in June and I always have a birthday party at home.",
+      "My birthday is in June and I feel very excited about it."
+    ]
+  },
+  {
+    "id": "71",
+    "ukrainian": "Липень",
+    "english": "July",
+    "phrases": [
+      "I was born in July and I always have a birthday party at home.",
+      "In July the weather starts to become warmer and nicer outside.",
+      "The school year ends in July and we have a long summer break.",
+      "The flowers in the garden bloom in July all around the town.",
+      "July is a beautiful month with nice weather and sunny days.",
+      "We go on a family holiday every year in July to the beach."
+    ]
+  },
+  {
+    "id": "72",
+    "ukrainian": "Серпень",
+    "english": "August",
+    "phrases": [
+      "The school year ends in August and we have a long summer break.",
+      "August is a beautiful month with nice weather and sunny days.",
+      "In August we celebrate many special days with our family at home.",
+      "The flowers in the garden bloom in August all around the town.",
+      "We go on a family holiday every year in August to the beach.",
+      "In August the weather starts to become warmer and nicer outside."
+    ]
+  },
+  {
+    "id": "73",
+    "ukrainian": "Вересень",
+    "english": "September",
+    "phrases": [
+      "The flowers in the garden bloom in September all around the town.",
+      "We go on a family holiday every year in September to the beach.",
+      "I was born in September and I always have a birthday party at home.",
+      "In September the weather starts to become warmer and nicer outside.",
+      "In September we celebrate many special days with our family at home.",
+      "My birthday is in September and I feel very excited about it."
+    ]
+  },
+  {
+    "id": "74",
+    "ukrainian": "Жовтень",
+    "english": "October",
+    "phrases": [
+      "October is a beautiful month with nice weather and sunny days.",
+      "My birthday is in October and I feel very excited about it.",
+      "I was born in October and I always have a birthday party at home.",
+      "In October we celebrate many special days with our family at home.",
+      "The school year ends in October and we have a long summer break.",
+      "In October the weather starts to become warmer and nicer outside."
+    ]
+  },
+  {
+    "id": "75",
+    "ukrainian": "Листопад",
+    "english": "November",
+    "phrases": [
+      "The flowers in the garden bloom in November all around the town.",
+      "In November the weather starts to become warmer and nicer outside.",
+      "November is a beautiful month with nice weather and sunny days.",
+      "The school year ends in November and we have a long summer break.",
+      "My birthday is in November and I feel very excited about it.",
+      "We go on a family holiday every year in November to the beach."
+    ]
+  },
+  {
+    "id": "76",
+    "ukrainian": "Грудень",
+    "english": "December",
+    "phrases": [
+      "December is a beautiful month with nice weather and sunny days.",
+      "In December we celebrate many special days with our family at home.",
+      "In December the weather starts to become warmer and nicer outside.",
+      "The flowers in the garden bloom in December all around the town.",
+      "The school year ends in December and we have a long summer break.",
+      "We go on a family holiday every year in December to the beach."
+    ]
+  },
+  {
+    "id": "77",
+    "ukrainian": "Весна",
+    "english": "spring",
+    "phrases": [
+      "spring is my favourite time of the whole year without any doubt.",
+      "We go to the beach every spring with our family for a holiday.",
+      "I love spring because I can go outside and play with my friends.",
+      "During spring I like to read books and drink hot chocolate at home.",
+      "In spring the weather is really nice and I always feel very good.",
+      "The trees look so beautiful in spring with all their colours."
+    ]
+  },
+  {
+    "id": "78",
+    "ukrainian": "Літо",
+    "english": "summer",
+    "phrases": [
+      "During summer I like to read books and drink hot chocolate at home.",
+      "summer is my favourite time of the whole year without any doubt.",
+      "The best thing about summer is that I can spend more time outside.",
+      "In summer the weather is really nice and I always feel very good.",
+      "I like to go for long walks in summer together with my dog.",
+      "I love summer because I can go outside and play with my friends."
+    ]
+  },
+  {
+    "id": "79",
+    "ukrainian": "Осінь",
+    "english": "autumn",
+    "alternatives": [
+      "fall"
+    ],
+    "phrases": [
+      "I love autumn because I can go outside and play with my friends.",
+      "The best thing about autumn is that I can spend more time outside.",
+      "autumn is my favourite time of the whole year without any doubt.",
+      "During autumn I like to read books and drink hot chocolate at home.",
+      "I like to go for long walks in autumn together with my dog.",
+      "In autumn the weather is really nice and I always feel very good."
+    ]
+  },
+  {
+    "id": "80",
+    "ukrainian": "Зима",
+    "english": "winter",
+    "phrases": [
+      "In winter the weather is really nice and I always feel very good.",
+      "We go to the beach every winter with our family for a holiday.",
+      "I love winter because I can go outside and play with my friends.",
+      "During winter I like to read books and drink hot chocolate at home.",
+      "The trees look so beautiful in winter with all their colours.",
+      "winter is my favourite time of the whole year without any doubt."
+    ]
+  },
+  {
+    "id": "81",
+    "ukrainian": "Хороший",
+    "english": "good",
+    "phrases": [
+      "The good children in our class are always nice to everyone.",
+      "Today is a good day to play outside with all my friends.",
+      "I feel good when I spend time together with my family at home.",
+      "Being good helps us to make more good friends at our school.",
+      "I try my best to be good every single day of my life.",
+      "My teacher told me that I did a good job on my homework today."
+    ]
+  },
+  {
+    "id": "82",
+    "ukrainian": "Кращий",
+    "english": "better",
+    "phrases": [
+      "My mother always says that being better is very important in life.",
+      "I think being better is very important for everyone around us.",
+      "It is always better to help other people when they need us most.",
+      "My teacher told me that I did a better job on my homework today.",
+      "I feel better when I spend time together with my family at home.",
+      "The better children in our class are always nice to everyone."
+    ]
+  },
+  {
+    "id": "83",
+    "ukrainian": "Найкращий",
+    "english": "best",
+    "phrases": [
+      "It is always best to help other people when they need us most.",
+      "I think being best is very important for everyone around us.",
+      "Being best helps us to make more good friends at our school.",
+      "Today is a best day to play outside with all my friends.",
+      "I try my best to be best every single day of my life.",
+      "My mother always says that being best is very important in life."
+    ]
+  },
+  {
+    "id": "84",
+    "ukrainian": "Миша",
+    "english": "mouse",
+    "phrases": [
+      "I drew a beautiful picture of a mouse in my notebook yesterday.",
+      "We saw a cute mouse at the zoo during our last school trip.",
+      "The mouse rests in a quiet place when it gets tired during the day.",
+      "My little brother loves the mouse and wants to have one at home.",
+      "The mouse lives in a cosy place where it feels safe and warm.",
+      "Can a mouse swim or does it stay on the ground all day long?"
+    ]
+  },
+  {
+    "id": "85",
+    "ukrainian": "Нуль",
+    "english": "zero",
+    "phrases": [
+      "There are zero little birds sitting on the fence outside.",
+      "I have zero red apples in my lunch box at school today.",
+      "There are zero cookies on the plate for us to share.",
+      "We need zero chairs for the classroom party next week.",
+      "I can count up to zero in English without any mistakes now.",
+      "I have zero pencils in my pencil case at school today."
+    ]
+  },
+  {
+    "id": "86",
+    "ukrainian": "Муха",
+    "english": "fly",
+    "alternatives": [
+      "housefly"
+    ],
+    "phrases": [
+      "I always fly every single day before I eat my dinner.",
+      "It is so much fun to fly outside in the warm sunshine.",
+      "The teacher asked us to fly in class during the lesson.",
+      "I love to fly with all my friends after school every day.",
+      "I want to learn how to fly better than anyone else.",
+      "We like to fly together as a family on the weekends."
+    ]
+  },
+  {
+    "id": "87",
+    "ukrainian": "Брат",
+    "english": "brother",
+    "phrases": [
+      "My brother makes the most delicious food in the whole world.",
+      "My brother reads interesting stories to me every single night.",
+      "I play different games with my brother every single weekend.",
+      "My brother is very kind and always helps me with my homework.",
+      "I told my brother a funny story that happened at school today.",
+      "I love spending time with my brother at home after school."
+    ]
+  },
+  {
+    "id": "88",
+    "ukrainian": "Сестра",
+    "english": "sister",
+    "phrases": [
+      "I look up to my sister and want to be just like them one day.",
+      "My sister reads interesting stories to me every single night.",
+      "My sister is very kind and always helps me with my homework.",
+      "I love spending time with my sister at home after school.",
+      "I told my sister a funny story that happened at school today.",
+      "My sister always knows how to make me feel better when I am sad."
+    ]
+  },
+  {
+    "id": "89",
+    "ukrainian": "Друг / подруга",
+    "english": "friend",
+    "phrases": [
+      "I told my friend all about my day at school earlier today.",
+      "A good friend has a very important and special job at our school.",
+      "My friend teaches me many new and interesting things every day.",
+      "I really want to become a friend when I finally grow up.",
+      "The friend gave us a fun project to do during the weekend.",
+      "I asked my friend for help with my homework after the lesson."
+    ]
+  },
+  {
+    "id": "90",
+    "ukrainian": "Школа",
+    "english": "school",
+    "phrases": [
+      "The school is definitely my favourite place to spend my free time.",
+      "I like to sit and read books in the school at home during winter.",
+      "I clean my school every weekend so it stays nice and tidy.",
+      "I play with my friends in the school every single day after school.",
+      "We go to the school together on weekends with my mum and dad.",
+      "The school is always full of children who are having lots of fun."
+    ]
+  },
+  {
+    "id": "91",
+    "ukrainian": "Книга",
+    "english": "book",
+    "phrases": [
+      "My book is sitting on the desk in my bedroom right now.",
+      "I always keep my book in my school bag so I do not lose it.",
+      "Can you please give me that book over there on the shelf?",
+      "This book is very useful and it is also very easy to use.",
+      "I have a brand new book that I really like and use every day.",
+      "I asked my mum to buy me a new book for my birthday present."
+    ]
+  },
+  {
+    "id": "92",
+    "ukrainian": "Їжа",
+    "english": "food",
+    "phrases": [
+      "There is some food in the fridge if you want some right now.",
+      "My mum bought some fresh food at the shop near our house.",
+      "We need to buy some food from the supermarket later today.",
+      "I like food more than any other food in the whole world.",
+      "I do not like food but my little sister loves it very much.",
+      "I like to have food for my breakfast together with my family."
+    ]
+  },
+  {
+    "id": "93",
+    "ukrainian": "Іграшка",
+    "english": "toy",
+    "phrases": [
+      "I have a brand new toy that I really like and use every day.",
+      "My toy is sitting on the desk in my bedroom right now.",
+      "The toy on the table belongs to my older brother actually.",
+      "I use my toy every single day for my school work and homework.",
+      "I asked my mum to buy me a new toy for my birthday present.",
+      "I always keep my toy in my school bag so I do not lose it."
+    ]
+  },
+  {
+    "id": "94",
+    "ukrainian": "Місяць (супутник Землі, небесне тіло)",
+    "english": "moon",
+    "phrases": [
+      "I wrote a poem about the moon for my English class at school.",
+      "I took a picture of the moon to show to my best friend.",
+      "The moon changes its colour during different times of the day.",
+      "I like to watch the moon from my bedroom window at night.",
+      "The moon is very bright today and makes me feel so happy.",
+      "The moon is one of the most beautiful things in nature."
+    ]
+  },
+  {
+    "id": "95",
+    "ukrainian": "Зірка",
+    "english": "star",
+    "phrases": [
+      "I like to watch the star from my bedroom window at night.",
+      "The star is very bright today and makes me feel so happy.",
+      "The star changes its colour during different times of the day.",
+      "I wrote a poem about the star for my English class at school.",
+      "The star is one of the most beautiful things in nature.",
+      "I took a picture of the star to show to my best friend."
+    ]
+  },
+  {
+    "id": "96",
+    "ukrainian": "Вода",
+    "english": "water",
+    "phrases": [
+      "My mum bought some fresh water at the shop near our house.",
+      "Can you please pass me the water from the kitchen counter?",
+      "I put some water in my lunch box to take to school today.",
+      "I like water more than any other food in the whole world.",
+      "I do not like water but my little sister loves it very much.",
+      "I like to have water for my breakfast together with my family."
+    ]
+  },
+  {
+    "id": "97",
+    "ukrainian": "Яблуко",
+    "english": "apple",
+    "phrases": [
+      "I do not like apple but my little sister loves it very much.",
+      "There is some apple in the fridge if you want some right now.",
+      "I like apple more than any other food in the whole world.",
+      "My mum bought some fresh apple at the shop near our house.",
+      "Can you please pass me the apple from the kitchen counter?",
+      "We need to buy some apple from the supermarket later today."
+    ]
+  },
+  {
+    "id": "98",
+    "ukrainian": "Квітка",
+    "english": "flower",
+    "phrases": [
+      "The flower is very bright today and makes me feel so happy.",
+      "I like to watch the flower from my bedroom window at night.",
+      "The flower changes its colour during different times of the day.",
+      "I wrote a poem about the flower for my English class at school.",
+      "I took a picture of the flower to show to my best friend.",
+      "The flower is one of the most beautiful things in nature."
+    ]
+  },
+  {
+    "id": "99",
+    "ukrainian": "Нога",
+    "english": "leg",
+    "phrases": [
+      "The doctor checked my leg during the visit to the hospital.",
+      "I wash my leg carefully every morning before I go to school.",
+      "My leg helps me every single day in so many different ways.",
+      "My leg is very important and I need to keep it clean and safe.",
+      "Taking care of my leg is something I do every single day.",
+      "I hurt my leg when I fell down while playing in the park."
+    ]
+  },
+  {
+    "id": "100",
+    "ukrainian": "Рука",
+    "english": "hand",
+    "phrases": [
+      "The doctor checked my hand during the visit to the hospital.",
+      "I use my hand every single day for so many different things.",
+      "I wash my hand carefully every morning before I go to school.",
+      "Taking care of my hand is something I do every single day.",
+      "I think my hand is healthy because I take good care of it.",
+      "My hand is very important and I need to keep it clean and safe."
+    ]
+  }
+]

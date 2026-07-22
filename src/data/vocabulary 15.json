@@ -1,0 +1,652 @@
+[
+  {
+    "id": "701",
+    "ukrainian": "дядько",
+    "english": "uncle",
+    "phrases": [
+      "My uncle is very kind.",
+      "My uncle lives in a big city.",
+      "We visit our uncle every Sunday.",
+      "My uncle has a new car.",
+      "I like talking to my uncle.",
+      "My uncle works in a hospital."
+    ]
+  },
+  {
+    "id": "702",
+    "ukrainian": "художник",
+    "english": "artist",
+    "phrases": [
+      "The artist paints beautiful pictures.",
+      "My sister is an artist.",
+      "The artist uses many colors.",
+      "I want to be an artist.",
+      "The artist works every day.",
+      "We saw an artist in the park."
+    ]
+  },
+  {
+    "id": "703",
+    "ukrainian": "пляж",
+    "english": "beach",
+    "phrases": [
+      "We go to the beach in summer.",
+      "The beach is very clean.",
+      "Children play on the beach.",
+      "I like walking along the beach.",
+      "The beach is near the sea.",
+      "We found shells on the beach."
+    ]
+  },
+  {
+    "id": "704",
+    "ukrainian": "квасоля",
+    "english": "beans",
+    "phrases": [
+      "I like beans with rice.",
+      "My mother cooks beans for dinner.",
+      "These beans are very tasty.",
+      "We grow beans in the garden.",
+      "Beans are good for you.",
+      "He eats beans every week."
+    ]
+  },
+  {
+    "id": "705",
+    "ukrainian": "капуста",
+    "english": "cabbage",
+    "phrases": [
+      "The cabbage is fresh.",
+      "We grow cabbage in the garden.",
+      "My mother makes cabbage soup.",
+      "I eat cabbage in salad.",
+      "The cabbage is green.",
+      "She bought a big cabbage."
+    ]
+  },
+  {
+    "id": "706",
+    "ukrainian": "вишня",
+    "english": "cherry",
+    "phrases": [
+      "I like sweet cherries.",
+      "The cherry is red.",
+      "We picked cherries yesterday.",
+      "There is a cherry tree in our garden.",
+      "She made a cherry pie.",
+      "The birds eat the cherries."
+    ]
+  },
+  {
+    "id": "707",
+    "ukrainian": "підборіддя",
+    "english": "chin",
+    "phrases": [
+      "He touched his chin.",
+      "My chin hurts today.",
+      "She has a small chin.",
+      "The baby has a round chin.",
+      "He scratched his chin.",
+      "There is a mark on my chin."
+    ]
+  },
+  {
+    "id": "708",
+    "ukrainian": "шоколад",
+    "english": "chocolate",
+    "phrases": [
+      "I love chocolate.",
+      "She bought some chocolate.",
+      "This chocolate is delicious.",
+      "We eat chocolate after dinner.",
+      "He gave me a chocolate bar.",
+      "Chocolate is my favorite sweet."
+    ]
+  },
+  {
+    "id": "709",
+    "ukrainian": "узбережжя",
+    "english": "coast",
+    "phrases": [
+      "We walked along the coast.",
+      "The coast is very beautiful.",
+      "Many birds live on the coast.",
+      "They visited the coast last summer.",
+      "The coast has many beaches.",
+      "We stayed near the coast."
+    ]
+  },
+  {
+    "id": "710",
+    "ukrainian": "штора",
+    "english": "curtain",
+    "phrases": [
+      "Please open the curtain.",
+      "The curtain is blue.",
+      "She closed the curtain.",
+      "The curtain covers the window.",
+      "We bought new curtains.",
+      "The curtain is very long."
+    ]
+  },
+  {
+    "id": "711",
+    "ukrainian": "словник",
+    "english": "dictionary",
+    "phrases": [
+      "I have a new dictionary.",
+      "Please use the dictionary.",
+      "This dictionary is very useful.",
+      "I found the word in the dictionary.",
+      "My dictionary is on the desk.",
+      "She bought an English dictionary."
+    ]
+  },
+  {
+    "id": "712",
+    "ukrainian": "осел",
+    "english": "donkey",
+    "phrases": [
+      "The donkey is very strong.",
+      "We saw a donkey on the farm.",
+      "The donkey carries heavy bags.",
+      "The donkey eats grass.",
+      "The donkey has long ears.",
+      "Children like the donkey."
+    ]
+  },
+  {
+    "id": "713",
+    "ukrainian": "орел",
+    "english": "eagle",
+    "phrases": [
+      "The eagle is flying high.",
+      "An eagle has strong wings.",
+      "We saw an eagle in the sky.",
+      "The eagle lives in the mountains.",
+      "The eagle is a beautiful bird.",
+      "The eagle can see very well."
+    ]
+  },
+  {
+    "id": "714",
+    "ukrainian": "борошно",
+    "english": "flour",
+    "phrases": [
+      "We need flour for the cake.",
+      "She bought a bag of flour.",
+      "The flour is in the kitchen.",
+      "My mother uses flour every week.",
+      "Please add some flour.",
+      "The recipe needs flour."
+    ]
+  },
+  {
+    "id": "715",
+    "ukrainian": "часник",
+    "english": "garlic",
+    "phrases": [
+      "I like garlic in soup.",
+      "She added garlic to the salad.",
+      "Garlic has a strong smell.",
+      "We grow garlic in the garden.",
+      "Please buy some garlic.",
+      "This dish has a lot of garlic."
+    ]
+  },
+  {
+    "id": "716",
+    "ukrainian": "коза",
+    "english": "goat",
+    "phrases": [
+      "The goat eats grass.",
+      "We have a goat on the farm.",
+      "The goat is white.",
+      "The goat drinks water.",
+      "Children fed the goat.",
+      "The goat has small horns."
+    ]
+  },
+  {
+    "id": "717",
+    "ukrainian": "гусак",
+    "english": "goose",
+    "phrases": [
+      "The goose is swimming.",
+      "We saw a goose by the lake.",
+      "The goose has a long neck.",
+      "The goose is very loud.",
+      "The goose eats grass.",
+      "There is a white goose in the yard."
+    ]
+  },
+  {
+    "id": "718",
+    "ukrainian": "стукати",
+    "english": "knock",
+    "phrases": [
+      "Please knock on the door.",
+      "Someone is knocking.",
+      "He knocked three times.",
+      "I heard a knock at the door.",
+      "Always knock before you enter.",
+      "She knocked quietly."
+    ]
+  },
+  {
+    "id": "719",
+    "ukrainian": "губити",
+    "english": "lose",
+    "phrases": [
+      "Do not lose your keys.",
+      "I always lose my pen.",
+      "She does not want to lose.",
+      "We lost our map.",
+      "He lost his phone yesterday.",
+      "Try not to lose your bag."
+    ]
+  },
+  {
+    "id": "720",
+    "ukrainian": "музикант",
+    "english": "musician",
+    "phrases": [
+      "He is a talented musician.",
+      "The musician plays the piano.",
+      "My friend is a musician.",
+      "The musician sings well.",
+      "We listened to the musician.",
+      "She wants to be a musician."
+    ]
+  },
+  {
+    "id": "721",
+    "ukrainian": "олія",
+    "english": "oil",
+    "phrases": [
+      "We need some oil for cooking.",
+      "She added oil to the salad.",
+      "The bottle of oil is on the table.",
+      "My mother buys olive oil.",
+      "Please pour a little oil into the pan.",
+      "There is not much oil left."
+    ]
+  },
+  {
+    "id": "722",
+    "ukrainian": "сова",
+    "english": "owl",
+    "phrases": [
+      "The owl is awake at night.",
+      "We heard an owl in the forest.",
+      "The owl has big eyes.",
+      "An owl can fly very quietly.",
+      "The owl is sitting in the tree.",
+      "I saw an owl yesterday."
+    ]
+  },
+  {
+    "id": "723",
+    "ukrainian": "перець",
+    "english": "pepper",
+    "phrases": [
+      "Please add some pepper.",
+      "I like black pepper.",
+      "The soup needs more pepper.",
+      "She bought pepper at the shop.",
+      "There is pepper on the table.",
+      "Do you want pepper on your food?"
+    ]
+  },
+  {
+    "id": "724",
+    "ukrainian": "шорти",
+    "english": "shorts",
+    "phrases": [
+      "I wear shorts in summer.",
+      "These shorts are blue.",
+      "My shorts are very comfortable.",
+      "He bought new shorts.",
+      "The shorts are too big.",
+      "She is wearing white shorts."
+    ]
+  },
+  {
+    "id": "725",
+    "ukrainian": "раковина",
+    "english": "sink",
+    "phrases": [
+      "Please wash your hands in the sink.",
+      "The sink is clean.",
+      "There are dishes in the sink.",
+      "The sink is in the kitchen.",
+      "The water is running into the sink.",
+      "She cleaned the sink."
+    ]
+  },
+  {
+    "id": "726",
+    "ukrainian": "лебідь",
+    "english": "swan",
+    "phrases": [
+      "The swan is swimming on the lake.",
+      "The swan is white.",
+      "We saw two swans.",
+      "The swan has a long neck.",
+      "The swan is very beautiful.",
+      "The children watched the swan."
+    ]
+  },
+  {
+    "id": "727",
+    "ukrainian": "грім",
+    "english": "thunder",
+    "phrases": [
+      "I heard loud thunder.",
+      "The thunder was very strong.",
+      "Thunder came after the lightning.",
+      "The dog is afraid of thunder.",
+      "We stayed inside because of the thunder.",
+      "The thunder woke me up."
+    ]
+  },
+  {
+    "id": "728",
+    "ukrainian": "вантажівка",
+    "english": "truck",
+    "phrases": [
+      "The truck is very big.",
+      "A truck is carrying boxes.",
+      "The truck stopped near the house.",
+      "My uncle drives a truck.",
+      "The truck is on the road.",
+      "We saw a red truck."
+    ]
+  },
+  {
+    "id": "729",
+    "ukrainian": "форма",
+    "english": "uniform",
+    "phrases": [
+      "The students wear a uniform.",
+      "His uniform is clean.",
+      "She looks nice in her uniform.",
+      "The police officer wears a uniform.",
+      "My school has a uniform.",
+      "Please put on your uniform."
+    ]
+  },
+  {
+    "id": "730",
+    "ukrainian": "офіціант",
+    "english": "waiter",
+    "phrases": [
+      "The waiter brought our food.",
+      "The waiter was very friendly.",
+      "Please call the waiter.",
+      "The waiter gave us the menu.",
+      "The waiter works in a restaurant.",
+      "We thanked the waiter."
+    ]
+  },
+  {
+    "id": "731",
+    "ukrainian": "вигравати",
+    "english": "win",
+    "phrases": [
+      "I want to win the game.",
+      "Our team can win.",
+      "She won the race yesterday.",
+      "They always try to win.",
+      "We hope to win.",
+      "He was happy to win."
+    ]
+  },
+  {
+    "id": "732",
+    "ukrainian": "тітка",
+    "english": "aunt",
+    "phrases": [
+      "My aunt lives in the village.",
+      "My aunt is very kind.",
+      "We visit our aunt every summer.",
+      "My aunt likes to cook.",
+      "She gave my aunt some flowers.",
+      "My aunt has a beautiful garden."
+    ]
+  },
+  {
+    "id": "733",
+    "ukrainian": "пляшка",
+    "english": "bottle",
+    "phrases": [
+      "There is a bottle on the table.",
+      "Please open the bottle.",
+      "The bottle is full of water.",
+      "She bought a bottle of juice.",
+      "The bottle is made of glass.",
+      "He dropped the bottle."
+    ]
+  },
+  {
+    "id": "734",
+    "ukrainian": "щітка",
+    "english": "brush",
+    "phrases": [
+      "I need a new brush.",
+      "She brushes her hair every morning.",
+      "The brush is on the shelf.",
+      "Please clean the shoes with a brush.",
+      "This paintbrush is very small.",
+      "He picked up the brush."
+    ]
+  },
+  {
+    "id": "735",
+    "ukrainian": "килим",
+    "english": "carpet",
+    "phrases": [
+      "The carpet is soft.",
+      "We bought a new carpet.",
+      "The children are sitting on the carpet.",
+      "The carpet is blue.",
+      "Please clean the carpet.",
+      "There is a carpet in the living room."
+    ]
+  },
+  {
+    "id": "736",
+    "ukrainian": "кінотеатр",
+    "english": "cinema",
+    "phrases": [
+      "We are going to the cinema.",
+      "The cinema is near my house.",
+      "I like this cinema.",
+      "They watched a film at the cinema.",
+      "The cinema opens at ten.",
+      "Let's meet at the cinema."
+    ]
+  },
+  {
+    "id": "737",
+    "ukrainian": "кольоровий олівець",
+    "english": "crayon",
+    "phrases": [
+      "The child is drawing with a crayon.",
+      "I have a red crayon.",
+      "She found a blue crayon.",
+      "The crayons are in the box.",
+      "Please give me a green crayon.",
+      "He likes drawing with crayons."
+    ]
+  },
+  {
+    "id": "738",
+    "ukrainian": "шухляда",
+    "english": "drawer",
+    "phrases": [
+      "The keys are in the drawer.",
+      "Please open the drawer.",
+      "The drawer is full of papers.",
+      "She closed the drawer.",
+      "My socks are in the drawer.",
+      "The drawer is under the desk."
+    ]
+  },
+  {
+    "id": "739",
+    "ukrainian": "ліфт",
+    "english": "elevator",
+    "phrases": [
+      "Let's take the elevator.",
+      "The elevator is very fast.",
+      "We are waiting for the elevator.",
+      "The elevator is on the first floor.",
+      "The elevator is not working.",
+      "She uses the elevator every day."
+    ]
+  },
+  {
+    "id": "740",
+    "ukrainian": "конверт",
+    "english": "envelope",
+    "phrases": [
+      "Please put the letter in the envelope.",
+      "The envelope is white.",
+      "She opened the envelope.",
+      "I need a large envelope.",
+      "His name is on the envelope.",
+      "The envelope is on the desk."
+    ]
+  },
+  {
+    "id": "741",
+    "ukrainian": "холодильник",
+    "english": "fridge",
+    "phrases": [
+      "The milk is in the fridge.",
+      "Please close the fridge.",
+      "There is some cheese in the fridge.",
+      "The fridge is very clean.",
+      "We bought a new fridge.",
+      "Open the fridge, please."
+    ]
+  },
+  {
+    "id": "742",
+    "ukrainian": "глобус",
+    "english": "globe",
+    "phrases": [
+      "The globe is on the desk.",
+      "We looked at the globe.",
+      "The teacher showed us the globe.",
+      "I found Brazil on the globe.",
+      "The globe is round.",
+      "My classroom has a globe."
+    ]
+  },
+  {
+    "id": "743",
+    "ukrainian": "спортзал",
+    "english": "gym",
+    "phrases": [
+      "I go to the gym every week.",
+      "The gym is close to my house.",
+      "She is at the gym now.",
+      "We exercise in the gym.",
+      "The gym opens at seven.",
+      "My friends like this gym."
+    ]
+  },
+  {
+    "id": "744",
+    "ukrainian": "кенгуру",
+    "english": "kangaroo",
+    "phrases": [
+      "The kangaroo can jump high.",
+      "We saw a kangaroo at the zoo.",
+      "The baby kangaroo is very cute.",
+      "A kangaroo has strong legs.",
+      "The kangaroo is eating grass.",
+      "Children like the kangaroo."
+    ]
+  },
+  {
+    "id": "745",
+    "ukrainian": "драбина",
+    "english": "ladder",
+    "phrases": [
+      "He is climbing the ladder.",
+      "The ladder is very tall.",
+      "Please hold the ladder.",
+      "We need a ladder to paint the wall.",
+      "The ladder is in the garage.",
+      "She carried the ladder outside."
+    ]
+  },
+  {
+    "id": "746",
+    "ukrainian": "ананас",
+    "english": "pineapple",
+    "phrases": [
+      "The pineapple is very sweet.",
+      "I like fresh pineapple.",
+      "She cut the pineapple into pieces.",
+      "We bought a pineapple at the market.",
+      "This juice has pineapple in it.",
+      "The pineapple is on the table."
+    ]
+  },
+  {
+    "id": "747",
+    "ukrainian": "намисто",
+    "english": "necklace",
+    "phrases": [
+      "She is wearing a beautiful necklace.",
+      "The necklace is made of gold.",
+      "He gave her a necklace.",
+      "My grandmother has an old necklace.",
+      "The necklace is in the box.",
+      "She bought a new necklace."
+    ]
+  },
+  {
+    "id": "748",
+    "ukrainian": "духовка",
+    "english": "oven",
+    "phrases": [
+      "The cake is in the oven.",
+      "Please turn on the oven.",
+      "The oven is very hot.",
+      "My mother uses the oven every day.",
+      "We baked bread in the oven.",
+      "The oven is clean."
+    ]
+  },
+  {
+    "id": "749",
+    "ukrainian": "палац",
+    "english": "palace",
+    "phrases": [
+      "The king lives in a palace.",
+      "The palace is very beautiful.",
+      "We visited the palace.",
+      "The palace has many rooms.",
+      "There is a big garden near the palace.",
+      "Many tourists visit the palace."
+    ]
+  },
+  {
+    "id": "750",
+    "ukrainian": "паспорт",
+    "english": "passport",
+    "phrases": [
+      "I always carry my passport.",
+      "Please show your passport.",
+      "My passport is in my bag.",
+      "She got a new passport.",
+      "Do not lose your passport.",
+      "We need our passports for the trip."
+    ]
+  }
+]

@@ -1,0 +1,665 @@
+[
+  {
+    "id": "751",
+    "ukrainian": "піднімати",
+    "english": "lift",
+    "phrases": [
+      "Can you lift this box?",
+      "He lifted the bag from the floor.",
+      "She cannot lift heavy things.",
+      "The machine lifts the car.",
+      "I lifted my hand to answer.",
+      "They lifted the table together."
+    ]
+  },
+  {
+    "id": "752",
+    "ukrainian": "замовляти",
+    "english": "order",
+    "phrases": [
+      "I want to order a pizza.",
+      "She ordered a new phone online.",
+      "We ordered food at the restaurant.",
+      "He ordered a cup of coffee.",
+      "Please order your books today.",
+      "They ordered dinner for the family."
+    ]
+  },
+  {
+    "id": "753",
+    "ukrainian": "планувати",
+    "english": "plan",
+    "phrases": [
+      "We plan a trip for summer.",
+      "She plans her day every morning.",
+      "I have a plan for the weekend.",
+      "They are planning a party.",
+      "He planned everything carefully.",
+      "Let's plan our next lesson."
+    ]
+  },
+  {
+    "id": "754",
+    "ukrainian": "обіцяти",
+    "english": "promise",
+    "phrases": [
+      "I promise to help you.",
+      "She promised to call me.",
+      "He always keeps his promises.",
+      "They promised to come tomorrow.",
+      "Please promise me you will be careful.",
+      "I promise not to tell anyone."
+    ]
+  },
+  {
+    "id": "755",
+    "ukrainian": "трясти",
+    "english": "shake",
+    "phrases": [
+      "Shake the bottle before opening it.",
+      "He shook my hand.",
+      "The tree shakes in the wind.",
+      "She shook her head.",
+      "The baby shook the toy.",
+      "The ground started to shake."
+    ]
+  },
+  {
+    "id": "756",
+    "ukrainian": "красти",
+    "english": "steal",
+    "phrases": [
+      "Someone tried to steal my bike.",
+      "He stole a book from the library.",
+      "It is wrong to steal things.",
+      "The thief stole money.",
+      "She never steals from people.",
+      "The police caught the man who stole the car."
+    ]
+  },
+  {
+    "id": "757",
+    "ukrainian": "використовувати",
+    "english": "use",
+    "phrases": [
+      "I use my computer every day.",
+      "She uses a dictionary to learn words.",
+      "We use water for cooking.",
+      "Can I use your pen?",
+      "He uses his phone at work.",
+      "They use this room for meetings."
+    ]
+  },
+  {
+    "id": "758",
+    "ukrainian": "керівник, менеджер",
+    "english": "manager",
+    "phrases": [
+      "The manager works in the office.",
+      "I spoke with the restaurant manager.",
+      "She is the manager of the shop.",
+      "The manager helps the workers.",
+      "He became a manager last year.",
+      "The manager made an important decision."
+    ]
+  },
+  {
+    "id": "759",
+    "ukrainian": "квартира",
+    "english": "apartment",
+    "phrases": [
+      "I live in a small apartment.",
+      "The apartment has two rooms.",
+      "She found a new apartment.",
+      "Their apartment is near the park.",
+      "We cleaned the apartment yesterday.",
+      "The apartment is on the fifth floor."
+    ]
+  },
+  {
+    "id": "760",
+    "ukrainian": "зарядний пристрій",
+    "english": "charger",
+    "phrases": [
+      "I need my phone charger.",
+      "The charger is on the table.",
+      "She forgot her charger at home.",
+      "This charger does not work.",
+      "Can I use your charger?",
+      "He bought a new charger."
+    ]
+  },
+  {
+    "id": "761",
+    "ukrainian": "кущ",
+    "english": "bush",
+    "phrases": [
+      "There is a small bush in the garden.",
+      "The bird is hiding in the bush.",
+      "We planted a new bush near the house.",
+      "The bushes are green in spring.",
+      "A rabbit jumped out of the bush.",
+      "The garden has many beautiful bushes."
+    ]
+  },
+  {
+    "id": "762",
+    "ukrainian": "джунглі",
+    "english": "jungle",
+    "phrases": [
+      "Many animals live in the jungle.",
+      "The jungle is hot and wet.",
+      "They explored the jungle with a guide.",
+      "The jungle has many different plants.",
+      "A tiger lives in the jungle.",
+      "The jungle can be dangerous."
+    ]
+  },
+  {
+    "id": "763",
+    "ukrainian": "будівля",
+    "english": "building",
+    "phrases": [
+      "This building is very tall.",
+      "There is a new building in the city.",
+      "The school building is old.",
+      "He works in a big building.",
+      "They built a new building last year.",
+      "The building has many windows."
+    ]
+  },
+  {
+    "id": "764",
+    "ukrainian": "дорога",
+    "english": "road",
+    "phrases": [
+      "The road is very busy today.",
+      "We drove along a long road.",
+      "The road leads to the village.",
+      "Be careful when you cross the road.",
+      "There is a small road near the forest.",
+      "The road was wet after the rain."
+    ]
+  },
+  {
+    "id": "765",
+    "ukrainian": "метро",
+    "english": "subway",
+    "phrases": [
+      "I go to work by subway.",
+      "The subway station is near my house.",
+      "The subway is fast and cheap.",
+      "She took the subway downtown.",
+      "The subway is crowded in the morning.",
+      "We waited for the subway."
+    ]
+  },
+  {
+    "id": "766",
+    "ukrainian": "шлях, спосіб",
+    "english": "way",
+    "phrases": [
+      "Can you show me the way?",
+      "This is the best way to learn.",
+      "I know a different way home.",
+      "There is a way to solve this problem.",
+      "She found a way to help him.",
+      "The way is too long."
+    ]
+  },
+  {
+    "id": "767",
+    "ukrainian": "живий",
+    "english": "alive",
+    "phrases": [
+      "The fish is still alive.",
+      "The plant is alive after the rain.",
+      "The animal was found alive.",
+      "Are you sure he is alive?",
+      "Many animals are alive in the jungle.",
+      "The old tree is still alive."
+    ]
+  },
+  {
+    "id": "768",
+    "ukrainian": "майбутнє",
+    "english": "future",
+    "phrases": [
+      "I think about my future.",
+      "She wants a good future.",
+      "The future can be exciting.",
+      "We learn for our future.",
+      "Nobody knows the future.",
+      "He plans his future carefully."
+    ]
+  },
+  {
+    "id": "769",
+    "ukrainian": "минуле",
+    "english": "past",
+    "phrases": [
+      "We talked about the past.",
+      "The past is part of our story.",
+      "She learned from her past mistakes.",
+      "He often thinks about the past.",
+      "The building has a long past.",
+      "Forget the past and move forward."
+    ]
+  },
+  {
+    "id": "770",
+    "ukrainian": "теперішнє, подарунок",
+    "english": "present",
+    "phrases": [
+      "I live in the present moment.",
+      "She gave me a birthday present.",
+      "The present is important.",
+      "He opened his present quickly.",
+      "We should enjoy the present.",
+      "This present is for you."
+    ]
+  },
+  {
+    "id": "771",
+    "ukrainian": "секрет",
+    "english": "secret",
+    "phrases": [
+      "I have a secret to tell you.",
+      "She keeps her secret safe.",
+      "This is a big secret.",
+      "He told me his secret.",
+      "Please do not share my secret.",
+      "The answer is still a secret."
+    ]
+  },
+  {
+    "id": "772",
+    "ukrainian": "вирішувати, розв'язувати",
+    "english": "solve",
+    "phrases": [
+      "We need to solve this problem quickly.",
+      "She solved the difficult puzzle.",
+      "Can you help me solve this issue?",
+      "They are trying to solve the problem together.",
+      "A good plan can solve many problems.",
+      "He finally solved the mystery."
+    ]
+  },
+  {
+    "id": "773",
+    "ukrainian": "покращувати, вдосконалювати",
+    "english": "improve",
+    "phrases": [
+      "I want to improve my English skills.",
+      "She improved her pronunciation by practicing.",
+      "This course will help you improve.",
+      "The company wants to improve its service.",
+      "He is trying to improve his health.",
+      "Small changes can improve your life."
+    ]
+  },
+  {
+    "id": "774",
+    "ukrainian": "розвивати, розробляти",
+    "english": "develop",
+    "phrases": [
+      "Children develop new skills every day.",
+      "The company is developing a new product.",
+      "I want to develop better habits.",
+      "She developed an interest in science.",
+      "They are working to develop new ideas.",
+      "Reading helps you develop your vocabulary."
+    ]
+  },
+  {
+    "id": "775",
+    "ukrainian": "пропонувати, пропозиція",
+    "english": "offer",
+    "phrases": [
+      "He offered me some useful advice.",
+      "The company offers many services.",
+      "She offered to help with the project.",
+      "I appreciate your kind offer.",
+      "They made an interesting offer.",
+      "This job offers good opportunities."
+    ]
+  },
+  {
+    "id": "776",
+    "ukrainian": "погоджуватися",
+    "english": "agree",
+    "phrases": [
+      "I agree with your opinion.",
+      "They agreed to meet tomorrow.",
+      "We do not always agree on everything.",
+      "She agreed that the idea was useful.",
+      "I completely agree with you.",
+      "Can we agree on a solution?"
+    ]
+  },
+  {
+    "id": "777",
+    "ukrainian": "відмовлятися",
+    "english": "refuse",
+    "phrases": [
+      "He refused to answer the question.",
+      "She refused the offer politely.",
+      "I refuse to give up.",
+      "They refused to accept the decision.",
+      "He refused my invitation.",
+      "Some people refuse to change."
+    ]
+  },
+  {
+    "id": "778",
+    "ukrainian": "залежати",
+    "english": "depend",
+    "phrases": [
+      "It depends on the situation.",
+      "Success depends on hard work.",
+      "The result depends on your choice.",
+      "Children often depend on their parents.",
+      "It depends on how you look at it.",
+      "Our plans depend on the weather."
+    ]
+  },
+  {
+    "id": "779",
+    "ukrainian": "незалежність",
+    "english": "independence",
+    "phrases": [
+      "Independence is important for adults.",
+      "She wants financial independence.",
+      "The country celebrates its independence.",
+      "Living alone gave him more independence.",
+      "Independence requires responsibility.",
+      "He values his independence."
+    ]
+  },
+  {
+    "id": "780",
+    "ukrainian": "незалежний",
+    "english": "independent",
+    "phrases": [
+      "She is an independent person.",
+      "He became independent at a young age.",
+      "I want to be more independent.",
+      "Independent thinking is important.",
+      "The company is independent from the government.",
+      "Living independently can be challenging."
+    ]
+  },
+  {
+    "id": "781",
+    "ukrainian": "пам'ять",
+    "english": "memory",
+    "phrases": [
+      "I have a good memory for names.",
+      "This photo brings back many memories.",
+      "She has a childhood memory of that place.",
+      "My memory is not as good as before.",
+      "The trip created unforgettable memories.",
+      "He shared a happy memory with us."
+    ]
+  },
+  {
+    "id": "782",
+    "ukrainian": "помічати, зауважувати",
+    "english": "notice",
+    "phrases": [
+      "I noticed a small mistake in the text.",
+      "She noticed that he looked tired.",
+      "Did you notice the difference?",
+      "People often notice changes in appearance.",
+      "He noticed something unusual.",
+      "I didn't notice the time passing."
+    ]
+  },
+  {
+    "id": "783",
+    "ukrainian": "розглядати, вважати, брати до уваги",
+    "english": "consider",
+    "phrases": [
+      "I am considering a new job offer.",
+      "Please consider my suggestion.",
+      "They considered all possible options.",
+      "We should consider the consequences.",
+      "She is considering moving to another city.",
+      "He considers himself successful."
+    ]
+  },
+  {
+    "id": "784",
+    "ukrainian": "терплячий",
+    "english": "patient",
+    "phrases": [
+      "You need to be patient with children.",
+      "She is very patient and calm.",
+      "Be patient, everything will be fine.",
+      "He is patient when explaining things.",
+      "A good teacher should be patient.",
+      "I am trying to become more patient."
+    ]
+  },
+  {
+    "id": "785",
+    "ukrainian": "терпіння",
+    "english": "patience",
+    "phrases": [
+      "Learning a language requires patience.",
+      "Thank you for your patience.",
+      "She has a lot of patience with people.",
+      "Patience helps you achieve your goals.",
+      "You need patience to solve difficult problems.",
+      "His patience was tested many times."
+    ]
+  },
+  {
+    "id": "786",
+    "ukrainian": "впевнений",
+    "english": "confident",
+    "phrases": [
+      "She feels confident before the exam.",
+      "He is confident about his decision.",
+      "Practice makes you more confident.",
+      "I am confident that we can succeed.",
+      "A confident person speaks clearly.",
+      "She became more confident over time."
+    ]
+  },
+  {
+    "id": "787",
+    "ukrainian": "можливий",
+    "english": "possible",
+    "phrases": [
+      "Is it possible to change the date?",
+      "Everything is possible with enough effort.",
+      "We need to find the best possible solution.",
+      "It is possible that he is right.",
+      "Try to finish the work as soon as possible.",
+      "This is the only possible answer."
+    ]
+  },
+  {
+    "id": "788",
+    "ukrainian": "необхідний, потрібний",
+    "english": "necessary",
+    "phrases": [
+      "It is necessary to practice every day.",
+      "Good communication is necessary for success.",
+      "Is it necessary to bring a passport?",
+      "These changes are necessary.",
+      "Sleep is necessary for good health.",
+      "We will do everything necessary."
+    ]
+  },
+  {
+    "id": "789",
+    "ukrainian": "успішний",
+    "english": "successful",
+    "phrases": [
+      "She became successful through hard work.",
+      "The project was very successful.",
+      "Successful people learn from mistakes.",
+      "He has a successful career.",
+      "A successful business needs good planning.",
+      "The event was successful and enjoyable."
+    ]
+  },
+  {
+    "id": "790",
+    "ukrainian": "підтримувати, підтримка",
+    "english": "support",
+    "phrases": [
+      "My family always supports my decisions.",
+      "She supported me during a difficult time.",
+      "We need to support this idea.",
+      "The company provides support for customers.",
+      "Thank you for your support.",
+      "Friends should support each other."
+    ]
+  },
+  {
+    "id": "791",
+    "ukrainian": "тримати, зберігати, залишати",
+    "english": "keep",
+    "phrases": [
+      "I keep my keys in my bag.",
+      "Please keep this information private.",
+      "She keeps learning new things.",
+      "He always keeps his promises.",
+      "Try to keep calm in stressful situations.",
+      "I want to keep this memory forever."
+    ]
+  },
+  {
+    "id": "792",
+    "ukrainian": "покладатися, залежати від",
+    "english": "rely",
+    "phrases": [
+      "You can rely on me anytime.",
+      "Many people rely on technology every day.",
+      "We rely on accurate information.",
+      "She relies on her experience to make decisions.",
+      "Do not rely only on luck.",
+      "The project relies on teamwork."
+    ]
+  },
+  {
+    "id": "793",
+    "ukrainian": "приймати, погоджуватися",
+    "english": "accept",
+    "phrases": [
+      "She accepted the job offer.",
+      "It is important to accept your mistakes.",
+      "He accepted my apology.",
+      "The company does not accept cash payments.",
+      "We should accept different opinions.",
+      "She found it hard to accept the truth."
+    ]
+  },
+  {
+    "id": "794",
+    "ukrainian": "заперечувати, відмовлятися визнавати",
+    "english": "deny",
+    "phrases": [
+      "He denied making that mistake.",
+      "She denied the accusations.",
+      "They denied that anything happened.",
+      "I cannot deny the fact that he is right.",
+      "He denied knowing about the problem.",
+      "The company denied responsibility."
+    ]
+  },
+  {
+    "id": "795",
+    "ukrainian": "згадувати, зазначати",
+    "english": "mention",
+    "phrases": [
+      "She mentioned your name yesterday.",
+      "He never mentioned this problem before.",
+      "I forgot to mention one important thing.",
+      "The article mentions several examples.",
+      "Did he mention where he was going?",
+      "She mentioned that she was tired."
+    ]
+  },
+  {
+    "id": "796",
+    "ukrainian": "обговорювати",
+    "english": "discuss",
+    "phrases": [
+      "We need to discuss this problem.",
+      "They discussed their plans for the future.",
+      "Let's discuss it later.",
+      "The students discussed the topic in class.",
+      "We should discuss all possible options.",
+      "They discussed how to improve the situation."
+    ]
+  },
+  {
+    "id": "797",
+    "ukrainian": "переконувати",
+    "english": "convince",
+    "phrases": [
+      "She convinced me to try something new.",
+      "He convinced his parents to let him go.",
+      "It is difficult to convince people sometimes.",
+      "The results convinced me that it works.",
+      "She tried to convince him to change his mind.",
+      "You cannot convince everyone."
+    ]
+  },
+  {
+    "id": "798",
+    "ukrainian": "звичайний, типовий",
+    "english": "usual",
+    "phrases": [
+      "This is my usual morning routine.",
+      "He arrived later than usual.",
+      "She ordered her usual coffee.",
+      "It was a usual day at work.",
+      "I went to bed at my usual time.",
+      "The situation is not unusual for them."
+    ]
+  },
+  {
+    "id": "799",
+    "ukrainian": "незвичайний, нетиповий",
+    "english": "unusual",
+    "phrases": [
+      "That is a very unusual idea.",
+      "I noticed something unusual in the room.",
+      "It is unusual to see him angry.",
+      "She has an unusual hobby.",
+      "The weather is unusual today.",
+      "This experience was unusual and memorable."
+    ]
+  },
+  {
+    "id": "800",
+    "ukrainian": "приватний, особистий",
+    "english": "private",
+    "phrases": [
+      "This is my private information.",
+      "She has a private office.",
+      "Keep your password private.",
+      "They talked about a private matter.",
+      "I prefer to keep my life private.",
+      "The company provides private services."
+    ]
+  },
+  {
+    "id": "801",
+    "ukrainian": "публічний, громадський",
+    "english": "public",
+    "phrases": [
+      "The information is available to the public.",
+      "He gave a public speech.",
+      "Public transport is convenient in this city.",
+      "She works in the public sector.",
+      "This place is open to the public.",
+      "They discussed the issue in public."
+    ]
+  }
+]
