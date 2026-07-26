@@ -7,6 +7,27 @@ export interface Word {
   phrases?: string[];
 }
 
+export interface IrregularVerb {
+  id: string;
+  ukrainian: string;
+  base: string;
+  past: string;
+  participle: string;
+  examples?: {
+    base?: string[];
+    past?: string[];
+    participle?: string[];
+  };
+}
+
+export const getIrregularForms = (verb: IrregularVerb): string[] => {
+  return [verb.base, verb.past, verb.participle];
+};
+
+export const getIrregularFormLabels = (): string[] => {
+  return ['Base', 'Past', 'Participle'];
+};
+
 export interface VocabularyState {
   currentWord: Word | null;
   availableWords: Word[];

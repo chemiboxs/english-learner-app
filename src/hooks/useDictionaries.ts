@@ -1,14 +1,14 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Word } from '../types/vocabulary';
 
-export type Mode = 'words' | 'phrases';
+export type Mode = 'words' | 'phrases' | 'irregular';
 
-const loadDictionaries = async (): Promise<Map<string, Word[]>> => {
-  const dictionaries = new Map<string, Word[]>();
-  
+const loadDictionaries = async (): Promise<Map<string, unknown[]>> => {
+  const dictionaries = new Map<string, unknown[]>();
+
   try {
-    const modules = import.meta.glob<{ default: Word[] }>('../data/*.json', { eager: true });
-    
+    const modules = import.meta.glob<{ default: unknown[] }>('../data/*.json', { eager: true });
+
     Object.entries(modules).forEach(([path, module]) => {
       const fileName = path.split('/').pop()?.replace('.json', '') || '';
       if (!fileName) return;
@@ -20,40 +20,53 @@ const loadDictionaries = async (): Promise<Map<string, Word[]>> => {
   } catch (error) {
     console.error('Error loading dictionaries:', error);
   }
-  
+
   return dictionaries;
 };
 
 const isWordsFile = (name: string) => name.includes('vocabulary');
 const isPhrasesFile = (name: string) => name.includes('.phrases');
+const isIrregularFile = (name: string) => name.includes('.irreg');
 const storageKeyForMode = (mode: Mode) => `selectedDictionary_${mode}`;
 
+const filterByMode = (dictionaries: Map<string, unknown[]>, mode: Mode) => {
+  const filtered = new Map<string, unknown[]>();
+  dictionaries.forEach((data, name) => {
+    const matches =
+      mode === 'words' ? isWordsFile(name) :
+      mode === 'phrases' ? isPhrasesFile(name) :
+      isIrregularFile(name);
+    if (matches) {
+      filtered.set(name, data);
+    }
+  });
+  return filtered;
+};
+
+const sortKeys = (keys: string[]) => {
+  return keys.sort((a, b) => {
+    const numA = parseInt(a.match(/\d+/)?.[0] || '0', 10);
+    const numB = parseInt(b.match(/\d+/)?.[0] || '0', 10);
+    if (numA && numB) return numA - numB;
+    return a.localeCompare(b);
+  });
+};
+
 export const useDictionaries = () => {
-  const [dictionaries, setDictionaries] = useState<Map<string, Word[]>>(new Map());
+  const [dictionaries, setDictionaries] = useState<Map<string, unknown[]>>(new Map());
   const [selectedDictionary, setSelectedDictionary] = useState<string>('');
   const [isLoading, setIsLoading] = useState(true);
   const [mode, setMode] = useState<Mode>(() => {
     const saved = localStorage.getItem('mode');
-    return saved === 'words' || saved === 'phrases' ? saved : 'words';
+    return saved === 'words' || saved === 'phrases' || saved === 'irregular' ? saved : 'words';
   });
 
   const filteredDictionaries = useMemo(() => {
-    const filtered = new Map<string, Word[]>();
-    dictionaries.forEach((words, name) => {
-      if (mode === 'phrases' ? isPhrasesFile(name) : isWordsFile(name)) {
-        filtered.set(name, words);
-      }
-    });
-    return filtered;
+    return filterByMode(dictionaries, mode);
   }, [dictionaries, mode]);
 
   const sortedFilteredKeys = useMemo(() => {
-    return Array.from(filteredDictionaries.keys()).sort((a, b) => {
-      const numA = parseInt(a.match(/\d+/)?.[0] || '0', 10);
-      const numB = parseInt(b.match(/\d+/)?.[0] || '0', 10);
-      if (numA && numB) return numA - numB;
-      return a.localeCompare(b);
-    });
+    return sortKeys(Array.from(filteredDictionaries.keys()));
   }, [filteredDictionaries]);
 
   useEffect(() => {
@@ -87,14 +100,8 @@ export const useDictionaries = () => {
       localStorage.setItem(storageKeyForMode(mode), selectedDictionary);
     }
 
-    const keys = Array.from(dictionaries.keys())
-      .filter(name => newMode === 'phrases' ? isPhrasesFile(name) : isWordsFile(name))
-      .sort((a, b) => {
-        const numA = parseInt(a.match(/\d+/)?.[0] || '0', 10);
-        const numB = parseInt(b.match(/\d+/)?.[0] || '0', 10);
-        if (numA && numB) return numA - numB;
-        return a.localeCompare(b);
-      });
+    const filtered = filterByMode(dictionaries, newMode);
+    const keys = sortKeys(Array.from(filtered.keys()));
 
     const saved = localStorage.getItem(storageKeyForMode(newMode));
 
@@ -114,28 +121,29 @@ export const useDictionaries = () => {
     }
   };
 
-  const getCurrentDictionary = (): Word[] => {
-    return filteredDictionaries.get(selectedDictionary) || [];
+  const getCurrentDictionary = <T = Word,>(): T[] => {
+    return (filteredDictionaries.get(selectedDictionary) || []) as T[];
   };
 
   const getDictionaryList = (): string[] => {
     return sortedFilteredKeys;
   };
 
-  const getAllWords = (): Word[] => {
-    const allWords: Word[] = [];
+  const getAllWords = <T = Word,>(): T[] => {
+    const all: T[] = [];
     const seenIds = new Set<string>();
-    
-    filteredDictionaries.forEach((words) => {
-      words.forEach((word) => {
-        if (!seenIds.has(word.id)) {
-          allWords.push(word);
-          seenIds.add(word.id);
+
+    filteredDictionaries.forEach((items) => {
+      (items as T[]).forEach((item) => {
+        const id = (item as Record<string, string>).id;
+        if (id && !seenIds.has(id)) {
+          all.push(item);
+          seenIds.add(id);
         }
       });
     });
-    
-    return allWords;
+
+    return all;
   };
 
   return {

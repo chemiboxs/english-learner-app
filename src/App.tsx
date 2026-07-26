@@ -1,11 +1,14 @@
-// src/App.tsx
 import React from 'react';
 import { VocabularyApp } from './components/VocabularyApp';
+import { IrregularVerbApp } from './components/IrregularVerbApp';
 import { useDictionaries } from './hooks/useDictionaries';
+import { IrregularVerb } from './types/vocabulary';
 import { VoiceSelector } from './components/VoiceSelector';
 import { WordsList } from './components/WordsList';
 import { Select } from './components/Select';
 import './index.css';
+
+type Mode = 'words' | 'phrases' | 'irregular';
 
 function App() {
   const {
@@ -39,7 +42,7 @@ function App() {
   };
 
   const handleModeChange = (newMode: string) => {
-    switchMode(newMode as 'words' | 'phrases');
+    switchMode(newMode as Mode);
     setStats({ learned: 0, skipped: 0 });
     setKey(prev => prev + 1);
   };
@@ -81,12 +84,13 @@ function App() {
     const currentWords = getCurrentDictionary();
 
     if (currentWords.length > 0) {
-      const storageKey = `vocabulary_data_${currentWords
-        .map(w => w.id)
+      const idHash = currentWords
+        .map((w: { id: string }) => w.id)
         .sort()
-        .join('|')}`;
+        .join('|');
 
-      localStorage.removeItem(storageKey);
+      localStorage.removeItem(`vocabulary_data_${idHash}`);
+      localStorage.removeItem(`irrverb_data_${idHash}`);
     }
 
     setStats({
@@ -110,6 +114,7 @@ function App() {
     );
   }
 
+  const isIrregular = mode === 'irregular';
   const currentWords = getCurrentDictionary();
   const allWords = getAllWords();
   const dictionaryList = getDictionaryList();
@@ -118,9 +123,43 @@ const commitShort = __COMMIT_SHA__ !== 'dev' ? __COMMIT_SHA__.slice(0, 7) : 'dev
 const versionLabel = `v.${commitShort}`;
 
 const displayName = (name: string) => {
-  const idx = name.indexOf('.phrases');
-  return idx !== -1 ? name.slice(0, idx) : name;
+  let idx = name.indexOf('.phrases');
+  if (idx !== -1) return name.slice(0, idx);
+  idx = name.indexOf('.irreg');
+  if (idx !== -1) return name.slice(0, idx);
+  return name;
 };
+
+const currentLabel = isIrregular ? 'Current verbs' : mode === 'words' ? 'Current words' : 'Current phrases';
+const allLabel = isIrregular ? 'All verbs' : mode === 'words' ? 'All words' : 'All phrases';
+const titleLabel = isIrregular ? 'Verbs' : mode === 'words' ? 'Words' : 'Phrases';
+
+const formatVerb = (v: IrregularVerb) => {
+  const base = v.base || '';
+  const past = v.past || '';
+  const participle = v.participle || '';
+  const examples = v.examples;
+  const allPhrases: string[] = [];
+  if (examples) {
+    if (examples.base) allPhrases.push(...examples.base);
+    if (examples.past) allPhrases.push(...examples.past);
+    if (examples.participle) allPhrases.push(...examples.participle);
+  }
+  return {
+    id: v.id,
+    ukrainian: v.ukrainian,
+    english: `${base} / ${past} / ${participle}`,
+    phrases: allPhrases,
+  };
+};
+
+const currentDisplayWords = isIrregular
+  ? (currentWords as unknown as IrregularVerb[]).map(formatVerb)
+  : currentWords;
+
+const allDisplayWords = isIrregular
+  ? (allWords as unknown as IrregularVerb[]).map(formatVerb)
+  : allWords;
 
   return (
     <div className="App">
@@ -159,6 +198,7 @@ const displayName = (name: string) => {
               options={[
                 { value: 'words', label: 'Words' },
                 { value: 'phrases', label: 'Phrases' },
+                { value: 'irregular', label: 'Irregular' },
               ]}
               className="lg:w-[120px]"
             />
@@ -190,7 +230,7 @@ const displayName = (name: string) => {
                   shadow-sm hover:shadow-md active:shadow-none
                 "
               >
-                {mode === 'words' ? 'Current words' : 'Current phrases'}
+                {currentLabel}
               </button>
 
               <button
@@ -212,7 +252,7 @@ const displayName = (name: string) => {
                   shadow-sm hover:shadow-md active:shadow-none
                 "
               >
-                {mode === 'words' ? 'All words' : 'All phrases'}
+                {allLabel}
               </button>
             </div>
           </div>
@@ -294,7 +334,7 @@ const displayName = (name: string) => {
         </div>
       </header>
 
-      {currentWords.length > 0 && (
+      {currentWords.length > 0 && !isIrregular && (
         <VocabularyApp
           key={key}
           words={currentWords}
@@ -312,12 +352,30 @@ const displayName = (name: string) => {
         />
       )}
 
+      {currentWords.length > 0 && isIrregular && (
+        <IrregularVerbApp
+          key={key}
+          verbs={currentWords as unknown as IrregularVerb[]}
+          learnedVerbs={[]}
+          skippedVerbs={[]}
+          onStatsUpdate={handleStatsUpdate}
+          showModal={showModal}
+          setShowModal={setShowModal}
+          modalType={modalType}
+          resetVerbsCallback={handleResetVocabulary}
+          dictionaryList={dictionaryList}
+          selectedDictionary={selectedDictionary}
+          onPrevDictionary={handlePrevDictionary}
+          onNextDictionary={handleNextDictionary}
+        />
+      )}
+
       {/* CURRENT DICTIONARY WORDS MODAL */}
       <WordsList
-        words={currentWords}
+        words={currentDisplayWords}
         isOpen={showCurrentWordsModal}
         onClose={() => setShowCurrentWordsModal(false)}
-        title={mode === 'words' ? 'Current Words' : 'Current Phrases'}
+        title={`Current ${titleLabel}`}
         type="all"
         onPrevDictionary={handlePrevDictionary}
         onNextDictionary={handleNextDictionary}
@@ -327,10 +385,10 @@ const displayName = (name: string) => {
 
       {/* ALL VOCABULARIES WORDS MODAL */}
       <WordsList
-        words={allWords}
+        words={allDisplayWords}
         isOpen={showAllWordsModal}
         onClose={() => setShowAllWordsModal(false)}
-        title={mode === 'words' ? 'All Words' : 'All Phrases'}
+        title={`All ${titleLabel}`}
         type="all"
       />
 
