@@ -11,6 +11,8 @@ function App() {
   const {
     selectedDictionary,
     isLoading,
+    mode,
+    switchMode,
     switchDictionary,
     getCurrentDictionary,
     getDictionaryList,
@@ -32,6 +34,12 @@ function App() {
 
   const handleDictionaryChange = (newDict: string) => {
     switchDictionary(newDict);
+    setStats({ learned: 0, skipped: 0 });
+    setKey(prev => prev + 1);
+  };
+
+  const handleModeChange = (newMode: string) => {
+    switchMode(newMode as 'words' | 'phrases');
     setStats({ learned: 0, skipped: 0 });
     setKey(prev => prev + 1);
   };
@@ -106,8 +114,13 @@ function App() {
   const allWords = getAllWords();
   const dictionaryList = getDictionaryList();
 
-  const commitShort = __COMMIT_SHA__ !== 'dev' ? __COMMIT_SHA__.slice(0, 7) : 'dev';
-  const versionLabel = `v.${commitShort}`;
+const commitShort = __COMMIT_SHA__ !== 'dev' ? __COMMIT_SHA__.slice(0, 7) : 'dev';
+const versionLabel = `v.${commitShort}`;
+
+const displayName = (name: string) => {
+  const idx = name.indexOf('.phrases');
+  return idx !== -1 ? name.slice(0, idx) : name;
+};
 
   return (
     <div className="App">
@@ -141,13 +154,23 @@ function App() {
           {/* LEFT */}
           <div className="flex flex-col lg:flex-row items-center lg:flex-nowrap justify-center lg:justify-start gap-2">
             <Select
+              value={mode}
+              onChange={handleModeChange}
+              options={[
+                { value: 'words', label: 'Words' },
+                { value: 'phrases', label: 'Phrases' },
+              ]}
+              className="lg:w-[120px]"
+            />
+
+            <Select
               value={selectedDictionary}
               onChange={handleDictionaryChange}
-              options={dictionaryList.map(d => ({ value: d, label: d }))}
+              options={dictionaryList.map(d => ({ value: d, label: displayName(d) }))}
               className="lg:w-[180px]"
             />
 
-            <div className="flex flex-row gap-2">
+            <div className="flex flex-row gap-2 relative z-10">
               <button
                 onClick={() => setShowCurrentWordsModal(true)}
                 className="
@@ -167,7 +190,7 @@ function App() {
                   shadow-sm hover:shadow-md active:shadow-none
                 "
               >
-                Current words
+                {mode === 'words' ? 'Current words' : 'Current phrases'}
               </button>
 
               <button
@@ -189,7 +212,7 @@ function App() {
                   shadow-sm hover:shadow-md active:shadow-none
                 "
               >
-                All words
+                {mode === 'words' ? 'All words' : 'All phrases'}
               </button>
             </div>
           </div>
@@ -294,7 +317,7 @@ function App() {
         words={currentWords}
         isOpen={showCurrentWordsModal}
         onClose={() => setShowCurrentWordsModal(false)}
-        title="Current Words"
+        title={mode === 'words' ? 'Current Words' : 'Current Phrases'}
         type="all"
         onPrevDictionary={handlePrevDictionary}
         onNextDictionary={handleNextDictionary}
@@ -307,7 +330,7 @@ function App() {
         words={allWords}
         isOpen={showAllWordsModal}
         onClose={() => setShowAllWordsModal(false)}
-        title="All Words"
+        title={mode === 'words' ? 'All Words' : 'All Phrases'}
         type="all"
       />
 

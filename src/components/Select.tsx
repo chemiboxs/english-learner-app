@@ -48,7 +48,7 @@ export const Select: React.FC<SelectProps> = ({ value, onChange, options, classN
       {isOpen && (
         <div
           className="
-            absolute top-full left-0 right-0 mt-1 z-50
+            absolute top-full left-0 right-0 mt-1 z-[100]
             bg-surface-container-lowest border border-outline rounded-lg shadow-soft-lg
             overflow-hidden animate-fade-in
           "
