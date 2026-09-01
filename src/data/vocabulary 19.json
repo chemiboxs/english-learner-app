@@ -1,0 +1,652 @@
+[
+  {
+    "id": "901",
+    "ukrainian": "борода",
+    "english": "beard",
+    "phrases": [
+      "He has a long beard.",
+      "My brother is growing a beard.",
+      "His beard is starting to turn grey.",
+      "He shaved his beard yesterday.",
+      "The man with the beard is my teacher.",
+      "She likes the way he looks with a beard."
+    ]
+  },
+  {
+    "id": "902",
+    "ukrainian": "макіяж",
+    "english": "make-up",
+    "phrases": [
+      "She doesn't wear much make-up.",
+      "I need a little more make-up for the party.",
+      "She put on her make-up before work.",
+      "This make-up is good for sensitive skin.",
+      "Her make-up looked natural and simple.",
+      "She took off her make-up before going to bed."
+    ]
+  },
+  {
+    "id": "903",
+    "ukrainian": "парфуми; парфум",
+    "english": "perfume",
+    "phrases": [
+      "She is wearing a lovely perfume.",
+      "I bought some perfume for my mother.",
+      "This perfume smells very fresh.",
+      "He doesn't like strong perfume.",
+      "She put a little perfume on before going out.",
+      "The perfume was too expensive for me."
+    ]
+  },
+  {
+    "id": "904",
+    "ukrainian": "крастися; пробиратися непомітно",
+    "english": "sneak",
+    "phrases": [
+      "The cat tried to sneak into the kitchen.",
+      "He sneaked out of the house without saying goodbye.",
+      "She tried to sneak past the teacher.",
+      "The children sneaked downstairs after bedtime.",
+      "I didn't see him sneak into the room.",
+      "He tried to sneak some food into the cinema."
+    ]
+  },
+  {
+    "id": "905",
+    "ukrainian": "кросівки",
+    "english": "sneakers",
+    "phrases": [
+      "I bought a new pair of sneakers.",
+      "These sneakers are very comfortable.",
+      "She wears sneakers when she goes running.",
+      "My sneakers are covered in mud.",
+      "You should wear comfortable sneakers for walking.",
+      "He left his sneakers by the front door."
+    ]
+  },
+  {
+    "id": "906",
+    "ukrainian": "божевільний; шалений; неймовірний",
+    "english": "crazy",
+    "phrases": [
+      "That man must be crazy to drive so fast.",
+      "The noise in the street was driving me crazy.",
+      "We had a crazy idea to travel by train all night.",
+      "The party was crazy but really fun.",
+      "It is crazy to spend that much money on a bag.",
+      "She has a crazy schedule this week."
+    ]
+  },
+  {
+    "id": "907",
+    "ukrainian": "ввічливий",
+    "english": "polite",
+    "phrases": [
+      "It is polite to say thank you.",
+      "He is always polite to his teachers.",
+      "Please be polite to the other guests.",
+      "She gave me a polite smile.",
+      "It is polite to wait for your turn.",
+      "The waiter was very polite and helpful."
+    ]
+  },
+  {
+    "id": "908",
+    "ukrainian": "удача; везіння",
+    "english": "luck",
+    "phrases": [
+      "Good luck with your exam!",
+      "I had a lot of luck finding a cheap hotel.",
+      "We had bad luck with the weather.",
+      "He believes that luck is important in life.",
+      "With a little luck, we will arrive on time.",
+      "I wish you good luck in your new job."
+    ]
+  },
+  {
+    "id": "909",
+    "ukrainian": "щасливий; удачливий",
+    "english": "lucky",
+    "phrases": [
+      "I was lucky to catch the last bus.",
+      "You are lucky to have such good friends.",
+      "She is lucky because she loves her job.",
+      "We were lucky with the weather.",
+      "He was lucky enough to find his lost phone.",
+      "You are lucky that nobody was hurt."
+    ]
+  },
+  {
+    "id": "910",
+    "ukrainian": "дивний; незвичайний",
+    "english": "strange",
+    "phrases": [
+      "I heard a strange noise outside.",
+      "That is a strange question.",
+      "She had a strange feeling about the place.",
+      "It was strange to see him there.",
+      "This food tastes strange to me.",
+      "A strange man was standing near the door."
+    ]
+  },
+  {
+    "id": "911",
+    "ukrainian": "ненавидіти",
+    "english": "hate",
+    "phrases": [
+      "I hate getting up early.",
+      "She hates waiting for buses.",
+      "He really hates cold weather.",
+      "I hate it when people are late.",
+      "They hate doing difficult homework.",
+      "She hated the movie because it was too long."
+    ]
+  },
+  {
+    "id": "912",
+    "ukrainian": "віддавати перевагу, більше любити",
+    "english": "prefer",
+    "phrases": [
+      "I prefer tea to coffee.",
+      "She prefers to walk to work.",
+      "Do you prefer summer or winter?",
+      "He prefers working in the morning.",
+      "I prefer this restaurant because it is quieter.",
+      "They prefer staying at home on rainy days."
+    ]
+  },
+  {
+    "id": "913",
+    "ukrainian": "біль; біль, страждання",
+    "english": "pain",
+    "phrases": [
+      "I have a pain in my back.",
+      "She felt a sharp pain in her leg.",
+      "The medicine helped reduce the pain.",
+      "He was in a lot of pain after the accident.",
+      "This exercise can cause pain if you do it incorrectly.",
+      "The pain went away after a few minutes."
+    ]
+  },
+  {
+    "id": "914",
+    "ukrainian": "палець ноги",
+    "english": "toe",
+    "phrases": [
+      "I hurt my toe yesterday.",
+      "She has a small cut on her toe.",
+      "He hit his toe against the table.",
+      "My shoes are too tight around my toes.",
+      "I can move all my toes.",
+      "She stood on my toe by accident."
+    ]
+  },
+  {
+    "id": "915",
+    "ukrainian": "кров",
+    "english": "blood",
+    "phrases": [
+      "There was blood on his shirt.",
+      "The doctor took a sample of my blood.",
+      "She cut her finger and it started to bleed blood.",
+      "Blood carries oxygen around the body.",
+      "He lost a lot of blood after the accident.",
+      "The nurse checked his blood pressure."
+    ]
+  },
+  {
+    "id": "916",
+    "ukrainian": "боліти; завдавати болю; травмувати",
+    "english": "hurt",
+    "phrases": [
+      "My back hurts today.",
+      "I hurt my foot while playing football.",
+      "Does your arm still hurt?",
+      "Be careful not to hurt yourself.",
+      "She hurt her knee when she fell.",
+      "It hurts when I move my neck."
+    ]
+  },
+  {
+    "id": "917",
+    "ukrainian": "лід",
+    "english": "ice",
+    "phrases": [
+      "Can I have some ice in my drink?",
+      "The lake is covered with ice.",
+      "Be careful because there is ice on the road.",
+      "She put some ice on her injured foot.",
+      "The ice melted in the sun.",
+      "We went skating on the ice."
+    ]
+  },
+  {
+    "id": "918",
+    "ukrainian": "деревина, дерево; ліс",
+    "english": "wood",
+    "phrases": [
+      "The table is made of wood.",
+      "He put some wood on the fire.",
+      "This chair is made from strong wood.",
+      "We walked through the wood after lunch.",
+      "There are many animals living in the wood.",
+      "They built a small house near the wood."
+    ]
+  },
+  {
+    "id": "919",
+    "ukrainian": "глибокий",
+    "english": "deep",
+    "phrases": [
+      "The water is too deep to stand in.",
+      "There is a deep hole in the ground.",
+      "The river is very deep here.",
+      "Take a deep breath and relax.",
+      "He made a deep cut in the wood.",
+      "The snow is deep in the mountains."
+    ]
+  },
+  {
+    "id": "920",
+    "ukrainian": "природа",
+    "english": "nature",
+    "phrases": [
+      "I love spending time in nature.",
+      "We went for a walk to enjoy nature.",
+      "Nature is beautiful in spring.",
+      "The park is a great place to see nature.",
+      "We should protect nature and wild animals.",
+      "She enjoys taking pictures of nature."
+    ]
+  },
+  {
+    "id": "921",
+    "ukrainian": "сто",
+    "english": "hundred",
+    "phrases": [
+      "There were more than a hundred people there.",
+      "This book costs one hundred dollars.",
+      "I have walked a hundred kilometers this month.",
+      "The village is about a hundred years old.",
+      "She saved a hundred euros for the trip.",
+      "There are a hundred students in the school."
+    ]
+  },
+  {
+    "id": "922",
+    "ukrainian": "тисяча",
+    "english": "thousand",
+    "phrases": [
+      "The city has more than a thousand years of history.",
+      "The video has a thousand views.",
+      "There were thousands of people at the concert.",
+      "The car costs about ten thousand dollars.",
+      "She saved a thousand euros for her holiday.",
+      "A thousand people signed the petition."
+    ]
+  },
+  {
+    "id": "923",
+    "ukrainian": "іспит",
+    "english": "exam",
+    "phrases": [
+      "I have an English exam tomorrow.",
+      "She studied hard for the exam.",
+      "He passed his final exam.",
+      "The exam was more difficult than I expected.",
+      "When is your next exam?",
+      "I need to get a good mark in this exam."
+    ]
+  },
+  {
+    "id": "924",
+    "ukrainian": "плюс; плюс, додатково",
+    "english": "plus",
+    "phrases": [
+      "Two plus three is five.",
+      "The room costs fifty euros, plus breakfast.",
+      "The price is one hundred dollars plus tax.",
+      "She is learning English plus another language.",
+      "There are many plus points to this job.",
+      "The hotel has a swimming pool, plus a small gym."
+    ]
+  },
+  {
+    "id": "925",
+    "ukrainian": "додавати; додавати числа",
+    "english": "add",
+    "phrases": [
+      "Add some sugar to your coffee.",
+      "Can you add my name to the list?",
+      "She added some vegetables to the soup.",
+      "Add these numbers together.",
+      "I want to add one more thing.",
+      "He added a few pictures to the presentation."
+    ]
+  },
+  {
+    "id": "926",
+    "ukrainian": "складати іспит; проходити; передавати",
+    "english": "pass",
+    "phrases": [
+      "I hope I pass my English exam.",
+      "She passed her driving test last week.",
+      "Please pass me the salt.",
+      "He passed the ball to his friend.",
+      "We passed a beautiful village on the way home.",
+      "The car passed us on the left."
+    ]
+  },
+  {
+    "id": "927",
+    "ukrainian": "повторювати",
+    "english": "repeat",
+    "phrases": [
+      "Can you repeat the question, please?",
+      "Please repeat the sentence after me.",
+      "She repeated the word three times.",
+      "I didn't hear you, so could you repeat that?",
+      "The teacher asked us to repeat the exercise.",
+      "He repeated the same mistake again."
+    ]
+  },
+  {
+    "id": "928",
+    "ukrainian": "мультфільм",
+    "english": "cartoon",
+    "phrases": [
+      "The children are watching a cartoon.",
+      "This is my favorite cartoon.",
+      "She watched cartoons when she was a child.",
+      "We saw a funny cartoon at the cinema.",
+      "He likes cartoons about animals.",
+      "My little brother watches cartoons every morning."
+    ]
+  },
+  {
+    "id": "929",
+    "ukrainian": "концерт",
+    "english": "concert",
+    "phrases": [
+      "We went to a concert last night.",
+      "The concert starts at eight o'clock.",
+      "I bought two tickets for the concert.",
+      "The band gave a great concert.",
+      "She has never been to a live concert.",
+      "There were thousands of people at the concert."
+    ]
+  },
+  {
+    "id": "930",
+    "ukrainian": "клуб; нічний клуб",
+    "english": "club",
+    "phrases": [
+      "I joined a sports club last year.",
+      "She goes to a book club every week.",
+      "He plays tennis at a local club.",
+      "We went to a club after the concert.",
+      "The club was very crowded tonight.",
+      "They opened a new music club in the city."
+    ]
+  },
+  {
+    "id": "931",
+    "ukrainian": "театр",
+    "english": "theater",
+    "phrases": [
+      "We went to the theater last night.",
+      "She works at a small theater.",
+      "There is a new play at the theater.",
+      "I bought two tickets for the theater.",
+      "The theater was full of people.",
+      "He loves watching plays at the theater."
+    ]
+  },
+  {
+    "id": "932",
+    "ukrainian": "музичний інструмент; інструмент",
+    "english": "instrument",
+    "phrases": [
+      "The guitar is my favorite instrument.",
+      "She plays several musical instruments.",
+      "What instrument do you play?",
+      "He is learning to play a new instrument.",
+      "The piano is a difficult instrument to learn.",
+      "The doctor used a special instrument."
+    ]
+  },
+  {
+    "id": "933",
+    "ukrainian": "магія; диво",
+    "english": "magic",
+    "phrases": [
+      "The children believe in magic.",
+      "The magician performed a magic trick.",
+      "She loves stories about magic.",
+      "He showed us some magic at the party.",
+      "The movie is full of magic and adventure.",
+      "There was something magical about that evening."
+    ]
+  },
+  {
+    "id": "934",
+    "ukrainian": "вірити; вважати",
+    "english": "believe",
+    "phrases": [
+      "I believe you.",
+      "She believes in herself.",
+      "Do you believe this story?",
+      "He believes that everything will be fine.",
+      "I can't believe my eyes.",
+      "They believe it is a good idea."
+    ]
+  },
+  {
+    "id": "935",
+    "ukrainian": "коло; круг",
+    "english": "circle",
+    "phrases": [
+      "Draw a circle on the paper.",
+      "The children sat in a circle.",
+      "There is a small circle on the map.",
+      "Please stand in a circle.",
+      "She drew a circle around the correct answer.",
+      "The moon looked like a bright circle."
+    ]
+  },
+  {
+    "id": "936",
+    "ukrainian": "круглий; навколо; обертатися",
+    "english": "round",
+    "phrases": [
+      "The table is round.",
+      "She has a round face.",
+      "We sat round the table and talked.",
+      "The Earth moves round the Sun.",
+      "He walked round the park.",
+      "There is a round window in the house."
+    ]
+  },
+  {
+    "id": "937",
+    "ukrainian": "кут; кутова частина",
+    "english": "angle",
+    "phrases": [
+      "This angle is very small.",
+      "Draw a right angle here.",
+      "The two lines meet at an angle.",
+      "Look at the picture from a different angle.",
+      "There is a chair in the corner at an angle.",
+      "The camera was at the perfect angle."
+    ]
+  },
+  {
+    "id": "938",
+    "ukrainian": "квадрат; квадратний",
+    "english": "square",
+    "phrases": [
+      "Draw a square on the paper.",
+      "The table has a square shape.",
+      "Each side of the square is the same length.",
+      "The room is almost square.",
+      "There is a small square box on the desk.",
+      "The children colored the square blue."
+    ]
+  },
+  {
+    "id": "939",
+    "ukrainian": "трикутник; трикутний",
+    "english": "triangle",
+    "phrases": [
+      "Draw a triangle on the board.",
+      "A triangle has three sides.",
+      "She cut the sandwich into two triangles.",
+      "The warning sign is a red triangle.",
+      "He made a triangle from three pieces of wood.",
+      "Can you find the biggest triangle in the picture?"
+    ]
+  },
+  {
+    "id": "940",
+    "ukrainian": "прямокутник; прямокутний",
+    "english": "rectangle",
+    "phrases": [
+      "Draw a rectangle on the paper.",
+      "The window is shaped like a rectangle.",
+      "A rectangle has four sides.",
+      "She cut the paper into a large rectangle.",
+      "The screen has a rectangular shape.",
+      "He colored the rectangle green."
+    ]
+  },
+  {
+    "id": "941",
+    "ukrainian": "карта; картка",
+    "english": "card",
+    "phrases": [
+      "I bought a birthday card for my sister.",
+      "She gave me a card with a nice message.",
+      "He paid with his credit card.",
+      "Do you have a bus card?",
+      "I got a Christmas card from my friend.",
+      "Please put your card on the table."
+    ]
+  },
+  {
+    "id": "942",
+    "ukrainian": "ножиці",
+    "english": "scissors",
+    "phrases": [
+      "Can I borrow your scissors?",
+      "These scissors are very sharp.",
+      "She used scissors to cut the paper.",
+      "The scissors are on the desk.",
+      "Be careful with those scissors.",
+      "I need a pair of scissors for this project."
+    ]
+  },
+  {
+    "id": "943",
+    "ukrainian": "золото; золотий",
+    "english": "gold",
+    "phrases": [
+      "She was wearing a gold ring.",
+      "The necklace is made of gold.",
+      "Gold is a valuable metal.",
+      "He won a gold medal in the competition.",
+      "The watch has a gold color.",
+      "They found a small piece of gold."
+    ]
+  },
+  {
+    "id": "944",
+    "ukrainian": "срібло; срібний",
+    "english": "silver",
+    "phrases": [
+      "She was wearing a silver necklace.",
+      "The ring is made of silver.",
+      "He won a silver medal.",
+      "Silver is a beautiful metal.",
+      "She bought a silver watch.",
+      "The moon looked silver in the night sky."
+    ]
+  },
+  {
+    "id": "945",
+    "ukrainian": "важкий; твердий; складний",
+    "english": "hard",
+    "phrases": [
+      "This bread is too hard to eat.",
+      "The ground is hard after the cold weather.",
+      "This exercise is very hard.",
+      "She works hard every day.",
+      "It is hard to learn a new language.",
+      "He tried hard to pass the exam."
+    ]
+  },
+  {
+    "id": "946",
+    "ukrainian": "змагання, конкурс",
+    "english": "competition",
+    "phrases": [
+      "She won the singing competition.",
+      "There is a sports competition at school.",
+      "He is preparing for an important competition.",
+      "Twenty students took part in the competition.",
+      "The competition was very difficult.",
+      "Our team finished second in the competition."
+    ]
+  },
+  {
+    "id": "947",
+    "ukrainian": "хобі, захоплення",
+    "english": "hobby",
+    "phrases": [
+      "Reading is my favorite hobby.",
+      "What do you do as a hobby?",
+      "Her hobby is taking pictures.",
+      "He started a new hobby last year.",
+      "My hobbies include cooking and drawing.",
+      "Having a hobby is a good way to relax."
+    ]
+  },
+  {
+    "id": "948",
+    "ukrainian": "команда; група",
+    "english": "team",
+    "phrases": [
+      "Our team won the game.",
+      "She plays on the school basketball team.",
+      "We work as a team.",
+      "The team is preparing for the competition.",
+      "He is the captain of our team.",
+      "Everyone on the team helped with the project."
+    ]
+  },
+  {
+    "id": "949",
+    "ukrainian": "шахи",
+    "english": "chess",
+    "phrases": [
+      "I often play chess with my brother.",
+      "She learned to play chess at school.",
+      "He is very good at chess.",
+      "We played a game of chess after dinner.",
+      "Chess helps you think carefully.",
+      "My grandfather taught me how to play chess."
+    ]
+  },
+  {
+    "id": "950",
+    "ukrainian": "кут",
+    "english": "corner",
+    "phrases": [
+      "There is a small shop on the corner.",
+      "Turn left at the next corner.",
+      "She is sitting in the corner of the room.",
+      "I found my keys in the corner of the kitchen.",
+      "The bank is around the corner.",
+      "He put the chair in the corner."
+    ]
+  }
+]

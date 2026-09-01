@@ -1,0 +1,652 @@
+[
+  {
+    "id": "851",
+    "ukrainian": "колядка, різдвяна пісня",
+    "english": "carol",
+    "phrases": [
+      "The children sang a Christmas carol.",
+      "We learned a new carol at school.",
+      "They sang carols outside the church.",
+      "My grandmother loves Christmas carols.",
+      "Everyone joined in when they heard the carol.",
+      "We sang traditional carols during the holiday."
+    ]
+  },
+  {
+    "id": "852",
+    "ukrainian": "народитися",
+    "english": "born",
+    "phrases": [
+      "I was born in Ukraine.",
+      "She was born in 2005.",
+      "He was born in a small town.",
+      "Where were you born?",
+      "My parents were born in the same city.",
+      "She was born on a cold winter day."
+    ]
+  },
+  {
+    "id": "853",
+    "ukrainian": "народження",
+    "english": "birth",
+    "phrases": [
+      "The baby's birth was a happy event.",
+      "Her birth was recorded at the local hospital.",
+      "We celebrated the birth of their first child.",
+      "The doctor was there for the birth.",
+      "He gave his parents a gift after the birth of their baby.",
+      "The date of birth is written on the form."
+    ]
+  },
+  {
+    "id": "854",
+    "ukrainian": "помирати",
+    "english": "die",
+    "phrases": [
+      "Plants die without enough water.",
+      "Many animals die because of pollution.",
+      "His grandfather died last year.",
+      "The flowers will die without sunlight.",
+      "People can die from serious illnesses.",
+      "The old tree finally died after the storm."
+    ]
+  },
+  {
+    "id": "855",
+    "ukrainian": "крейда",
+    "english": "chalk",
+    "phrases": [
+      "The teacher wrote the answer on the board with chalk.",
+      "Can you give me a piece of chalk?",
+      "There was white chalk on the table.",
+      "She drew a small picture with chalk.",
+      "The children used colored chalk outside.",
+      "He wrote his name in chalk."
+    ]
+  },
+  {
+    "id": "856",
+    "ukrainian": "колір",
+    "english": "color/colour",
+    "phrases": [
+      "What is your favorite color?",
+      "I like the color of your jacket.",
+      "This room is full of bright colors.",
+      "What colour is your new car?",
+      "The leaves change color in autumn.",
+      "She chose a beautiful color for the walls."
+    ]
+  },
+  {
+    "id": "857",
+    "ukrainian": "Європа",
+    "english": "Europe",
+    "phrases": [
+      "I would like to travel around Europe.",
+      "France is a country in Europe.",
+      "Many people in Europe speak more than one language.",
+      "She has visited several countries in Europe.",
+      "Europe has many old and beautiful cities.",
+      "He moved to Europe to study."
+    ]
+  },
+  {
+    "id": "858",
+    "ukrainian": "Україна",
+    "english": "Ukraine",
+    "phrases": [
+      "I am from Ukraine.",
+      "Kyiv is the capital of Ukraine.",
+      "Ukraine is in Eastern Europe.",
+      "She wants to travel around Ukraine.",
+      "My friend moved to Ukraine last year.",
+      "Many people visit Ukraine for its history and culture."
+    ]
+  },
+  {
+    "id": "859",
+    "ukrainian": "Англія",
+    "english": "England",
+    "phrases": [
+      "London is the capital of England.",
+      "She studied English in England.",
+      "He moved to England for work.",
+      "England is part of the United Kingdom.",
+      "They traveled around England last summer.",
+      "My friend has family in England."
+    ]
+  },
+  {
+    "id": "860",
+    "ukrainian": "Італія",
+    "english": "Italy",
+    "phrases": [
+      "Italy is famous for its food.",
+      "We traveled to Italy last summer.",
+      "Rome is the capital of Italy.",
+      "She wants to visit Italy one day.",
+      "My brother studied in Italy for a year.",
+      "They tried traditional Italian food in Italy."
+    ]
+  },
+  {
+    "id": "861",
+    "ukrainian": "Франція",
+    "english": "France",
+    "phrases": [
+      "Paris is the capital of France.",
+      "We visited France last year.",
+      "France is famous for its art and food.",
+      "She wants to study in France.",
+      "They traveled around France by train.",
+      "My friend lives in the south of France."
+    ]
+  },
+  {
+    "id": "862",
+    "ukrainian": "Німеччина",
+    "english": "Germany",
+    "phrases": [
+      "Berlin is the capital of Germany.",
+      "He works for a company in Germany.",
+      "We traveled to Germany by train.",
+      "Germany is in central Europe.",
+      "She has friends who live in Germany.",
+      "I would like to visit Germany one day."
+    ]
+  },
+  {
+    "id": "863",
+    "ukrainian": "Японія",
+    "english": "Japan",
+    "phrases": [
+      "Japan is famous for its technology.",
+      "Tokyo is the capital of Japan.",
+      "She wants to travel to Japan.",
+      "He lived in Japan for two years.",
+      "Japanese food is popular around the world.",
+      "They learned about Japanese culture at school."
+    ]
+  },
+  {
+    "id": "864",
+    "ukrainian": "Іспанія",
+    "english": "Spain",
+    "phrases": [
+      "Spain is famous for its beautiful beaches.",
+      "Madrid is the capital of Spain.",
+      "We went to Spain for our holiday.",
+      "She speaks Spanish because she lived in Spain.",
+      "They are planning a trip to Spain.",
+      "My parents visit Spain almost every year."
+    ]
+  },
+  {
+    "id": "865",
+    "ukrainian": "човен",
+    "english": "boat",
+    "phrases": [
+      "We went across the lake by boat.",
+      "There is a small boat near the shore.",
+      "He bought a boat last year.",
+      "They spent the afternoon in a boat.",
+      "The boat moved slowly across the water.",
+      "Can you drive a boat?"
+    ]
+  },
+  {
+    "id": "866",
+    "ukrainian": "фермер",
+    "english": "farmer",
+    "phrases": [
+      "The farmer grows vegetables on his land.",
+      "Her father is a farmer.",
+      "The farmer gets up early every morning.",
+      "We bought fresh eggs from a local farmer.",
+      "The farmer takes care of many animals.",
+      "Farmers work hard during the summer."
+    ]
+  },
+  {
+    "id": "867",
+    "ukrainian": "село, селище",
+    "english": "village",
+    "phrases": [
+      "My grandparents live in a small village.",
+      "The village is surrounded by green fields.",
+      "We walked through the village in the evening.",
+      "There is a small shop in the center of the village.",
+      "She grew up in a quiet village.",
+      "The village is about ten kilometers from the city."
+    ]
+  },
+  {
+    "id": "868",
+    "ukrainian": "домашня тварина",
+    "english": "pet",
+    "phrases": [
+      "Do you have a pet?",
+      "My dog is my favorite pet.",
+      "She takes good care of her pet.",
+      "Our pet sleeps in the kitchen.",
+      "He wants to get a pet for his children.",
+      "Having a pet can be a lot of work."
+    ]
+  },
+  {
+    "id": "869",
+    "ukrainian": "рости; вирощувати",
+    "english": "grow",
+    "phrases": [
+      "Children grow very quickly.",
+      "We grow tomatoes in our garden.",
+      "These flowers grow well in the sun.",
+      "She wants to grow her own vegetables.",
+      "The tree has grown a lot this year.",
+      "It is difficult to grow plants without enough water."
+    ]
+  },
+  {
+    "id": "870",
+    "ukrainian": "проблема",
+    "english": "problem",
+    "phrases": [
+      "We have a small problem.",
+      "Can you help me solve this problem?",
+      "There is a problem with my computer.",
+      "He always tries to find a solution to the problem.",
+      "The bad weather caused many problems.",
+      "Don't worry; we can deal with this problem."
+    ]
+  },
+  {
+    "id": "871",
+    "ukrainian": "речення",
+    "english": "sentence",
+    "phrases": [
+      "Please write a sentence with this word.",
+      "This sentence is difficult to understand.",
+      "Read the sentence again.",
+      "She made a mistake in the last sentence.",
+      "Can you translate this sentence into Ukrainian?",
+      "The teacher asked us to make five sentences."
+    ]
+  },
+  {
+    "id": "872",
+    "ukrainian": "кожен, кожна, кожне",
+    "english": "each",
+    "phrases": [
+      "Each student has a book.",
+      "They each have their own room.",
+      "I call my parents each week.",
+      "Each person needs a ticket.",
+      "We received a gift each.",
+      "Each of these questions has a different answer."
+    ]
+  },
+  {
+    "id": "873",
+    "ukrainian": "текст",
+    "english": "text",
+    "phrases": [
+      "I need to read this text.",
+      "The text is easy to understand.",
+      "Please write a short text about yourself.",
+      "She sent me a long text.",
+      "There are some new words in the text.",
+      "I found this information in the text."
+    ]
+  },
+  {
+    "id": "874",
+    "ukrainian": "повідомлення",
+    "english": "message",
+    "phrases": [
+      "I sent you a message this morning.",
+      "Did you get my message?",
+      "She left a message on my phone.",
+      "Please send me a message when you arrive.",
+      "He got an important message from his boss.",
+      "I will read your message later."
+    ]
+  },
+  {
+    "id": "875",
+    "ukrainian": "радіо",
+    "english": "radio",
+    "phrases": [
+      "I listen to the radio in the morning.",
+      "There is a good song on the radio.",
+      "She turned on the radio in the car.",
+      "My grandfather listens to the radio every day.",
+      "We heard the news on the radio.",
+      "Can you turn the radio down?"
+    ]
+  },
+  {
+    "id": "876",
+    "ukrainian": "адреса",
+    "english": "address",
+    "phrases": [
+      "What is your home address?",
+      "Please write your address here.",
+      "I don't know the address of the hotel.",
+      "She sent me the address by message.",
+      "Can you give me your email address?",
+      "We need the correct address before we leave."
+    ]
+  },
+  {
+    "id": "877",
+    "ukrainian": "дата",
+    "english": "date",
+    "phrases": [
+      "What is today's date?",
+      "Please write the date at the top of the page.",
+      "What date is your birthday?",
+      "We need to choose a date for the meeting.",
+      "The date on this document is wrong.",
+      "I forgot the date of the appointment."
+    ]
+  },
+  {
+    "id": "878",
+    "ukrainian": "людина, особа",
+    "english": "person",
+    "phrases": [
+      "She is a very kind person.",
+      "There is one person waiting outside.",
+      "Every person has a different story.",
+      "He is the right person for this job.",
+      "I saw a strange person near the house.",
+      "One person can make a big difference."
+    ]
+  },
+  {
+    "id": "879",
+    "ukrainian": "люди",
+    "english": "people",
+    "phrases": [
+      "There were many people at the concert.",
+      "People often learn from their mistakes.",
+      "I like meeting new people.",
+      "Some people prefer working from home.",
+      "The people in this village are very friendly.",
+      "Many people use English at work."
+    ]
+  },
+  {
+    "id": "880",
+    "ukrainian": "пустеля",
+    "english": "desert",
+    "phrases": [
+      "The Sahara is a very large desert.",
+      "It is very hot in the desert during the day.",
+      "Few plants can survive in the desert.",
+      "They traveled across the desert by car.",
+      "The desert can be very cold at night.",
+      "We saw camels in the desert."
+    ]
+  },
+  {
+    "id": "881",
+    "ukrainian": "десерт",
+    "english": "dessert",
+    "phrases": [
+      "Would you like some dessert?",
+      "We had ice cream for dessert.",
+      "She made a chocolate dessert.",
+      "I usually have fruit for dessert.",
+      "The dessert was delicious.",
+      "Let's order dessert after dinner."
+    ]
+  },
+  {
+    "id": "882",
+    "ukrainian": "салат",
+    "english": "salad",
+    "phrases": [
+      "I usually have a salad for lunch.",
+      "She made a fresh vegetable salad.",
+      "Would you like some salad with your meal?",
+      "This salad has tomatoes, cheese, and olives.",
+      "He ordered a chicken salad.",
+      "Put the salad in the fridge."
+    ]
+  },
+  {
+    "id": "883",
+    "ukrainian": "страва; тарілка",
+    "english": "dish",
+    "phrases": [
+      "This is my favorite dish.",
+      "She prepared a traditional Italian dish.",
+      "The restaurant has many vegetarian dishes.",
+      "Please put the dirty dishes in the kitchen.",
+      "We ordered several dishes to share.",
+      "This dish is made with rice and vegetables."
+    ]
+  },
+  {
+    "id": "884",
+    "ukrainian": "перекус, легка їжа",
+    "english": "snack",
+    "phrases": [
+      "I usually have a snack in the afternoon.",
+      "She took some fruit as a snack.",
+      "Would you like a quick snack?",
+      "I bought a snack at the station.",
+      "Nuts are a healthy snack.",
+      "The children had a snack after school."
+    ]
+  },
+  {
+    "id": "885",
+    "ukrainian": "свіжий",
+    "english": "fresh",
+    "phrases": [
+      "We bought fresh bread this morning.",
+      "I like fresh fruit and vegetables.",
+      "Is this fish fresh?",
+      "The air feels fresh after the rain.",
+      "She made fresh orange juice.",
+      "These flowers need fresh water."
+    ]
+  },
+  {
+    "id": "886",
+    "ukrainian": "кип'ятити, варити",
+    "english": "boil",
+    "phrases": [
+      "Boil the water before you make tea.",
+      "I need to boil some eggs.",
+      "She boiled the potatoes for dinner.",
+      "How long should I boil the pasta?",
+      "The water is starting to boil.",
+      "Boil the vegetables for about ten minutes."
+    ]
+  },
+  {
+    "id": "887",
+    "ukrainian": "готувати, підготовляти",
+    "english": "prepare",
+    "phrases": [
+      "I need to prepare dinner tonight.",
+      "She prepared breakfast for the family.",
+      "We are preparing for the exam.",
+      "He prepared everything before the guests arrived.",
+      "Please prepare a list of questions.",
+      "They are preparing a special meal for us."
+    ]
+  },
+  {
+    "id": "888",
+    "ukrainian": "диван",
+    "english": "couch",
+    "phrases": [
+      "I sat on the couch and watched TV.",
+      "The new couch is very comfortable.",
+      "There are two pillows on the couch.",
+      "She fell asleep on the couch.",
+      "We bought a couch for the living room.",
+      "The cat is sleeping under the couch."
+    ]
+  },
+  {
+    "id": "889",
+    "ukrainian": "тренер; автобус далекого сполучення",
+    "english": "coach",
+    "phrases": [
+      "Our coach is very good at teaching young players.",
+      "The coach gave us some useful advice.",
+      "She wants to become a football coach.",
+      "We traveled to the next city by coach.",
+      "The coach leaves at eight in the morning.",
+      "He is the new coach of the team."
+    ]
+  },
+  {
+    "id": "890",
+    "ukrainian": "тепло; спека; нагрівати",
+    "english": "heat",
+    "phrases": [
+      "I can't sleep because of the heat.",
+      "The heat was very strong yesterday.",
+      "This jacket keeps you warm in the heat.",
+      "Turn down the heat if you are too warm.",
+      "The heat from the fire filled the room.",
+      "We stayed inside to avoid the afternoon heat."
+    ]
+  },
+  {
+    "id": "891",
+    "ukrainian": "гель",
+    "english": "gel",
+    "phrases": [
+      "She uses hair gel every morning.",
+      "Put some gel on your hands.",
+      "This shower gel smells very nice.",
+      "I bought a new hair gel yesterday.",
+      "The gel helps keep my hair in place.",
+      "Apply a small amount of gel to your skin."
+    ]
+  },
+  {
+    "id": "892",
+    "ukrainian": "кільце; дзвонити",
+    "english": "ring",
+    "phrases": [
+      "She wears a beautiful ring on her finger.",
+      "He bought a gold ring for his wife.",
+      "The ring was a gift from my grandmother.",
+      "Please ring me when you get home.",
+      "Someone is ringing the doorbell.",
+      "My phone started to ring during the meeting."
+    ]
+  },
+  {
+    "id": "893",
+    "ukrainian": "список",
+    "english": "list",
+    "phrases": [
+      "I made a shopping list.",
+      "Please write your name on the list.",
+      "She gave me a list of things to buy.",
+      "I forgot to put milk on my list.",
+      "Let's make a list of places to visit.",
+      "There are ten names on the list."
+    ]
+  },
+  {
+    "id": "894",
+    "ukrainian": "меню; список варіантів",
+    "english": "menu",
+    "phrases": [
+      "Can I see the menu, please?",
+      "There are many vegetarian dishes on the menu.",
+      "We looked at the menu before choosing a table.",
+      "The restaurant has a children's menu.",
+      "Click the menu button to see more options.",
+      "You can choose the language from the menu."
+    ]
+  },
+  {
+    "id": "895",
+    "ukrainian": "товари; речі",
+    "english": "goods",
+    "phrases": [
+      "The shop sells goods from different countries.",
+      "These goods are made in Italy.",
+      "The goods arrived at the store this morning.",
+      "The company transports goods by train.",
+      "We checked the goods before accepting the delivery.",
+      "The price includes the cost of transporting the goods."
+    ]
+  },
+  {
+    "id": "896",
+    "ukrainian": "подавати; обслуговувати",
+    "english": "serve",
+    "phrases": [
+      "They serve breakfast from seven to ten.",
+      "The waiter served us quickly.",
+      "This restaurant serves traditional food.",
+      "She served coffee to the guests.",
+      "The shop serves customers until late.",
+      "He served in the army for two years."
+    ]
+  },
+  {
+    "id": "897",
+    "ukrainian": "двоюрідний брат; двоюрідна сестра",
+    "english": "cousin",
+    "phrases": [
+      "My cousin lives in London.",
+      "I visited my cousin last weekend.",
+      "She has three cousins.",
+      "My cousin and I went to the same school.",
+      "We often spend holidays with our cousins.",
+      "My cousin is a few years older than me."
+    ]
+  },
+  {
+    "id": "898",
+    "ukrainian": "підліток",
+    "english": "teenager",
+    "phrases": [
+      "My brother is a teenager now.",
+      "Teenagers often spend a lot of time online.",
+      "She started learning English as a teenager.",
+      "The teenager was waiting for the bus.",
+      "Being a teenager can be difficult sometimes.",
+      "He works part-time as a teenager."
+    ]
+  },
+  {
+    "id": "899",
+    "ukrainian": "дорослий; доросла людина",
+    "english": "adult",
+    "phrases": [
+      "The movie is suitable for children and adults.",
+      "Every adult needs a ticket.",
+      "She became an adult last year.",
+      "Adults should set a good example for children.",
+      "He is an adult, so he can make his own decisions.",
+      "The class is for adults who want to learn English."
+    ]
+  },
+  {
+    "id": "900",
+    "ukrainian": "одружений; заміжня",
+    "english": "married",
+    "phrases": [
+      "Are you married?",
+      "My sister is married and has two children.",
+      "They have been married for ten years.",
+      "She is married to a doctor.",
+      "He got married last summer.",
+      "My parents are still happily married."
+    ]
+  }
+]
