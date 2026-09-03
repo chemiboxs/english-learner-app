@@ -5,6 +5,7 @@ export interface Word {
   emoji?: string;
   alternatives?: string[];
   phrases?: string[];
+  source?: string;
 }
 
 export interface IrregularVerb {

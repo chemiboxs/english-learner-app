@@ -133,11 +133,11 @@ export const useDictionaries = () => {
     const all: T[] = [];
     const seenIds = new Set<string>();
 
-    filteredDictionaries.forEach((items) => {
+    filteredDictionaries.forEach((items, dictName) => {
       (items as T[]).forEach((item) => {
         const id = (item as Record<string, string>).id;
         if (id && !seenIds.has(id)) {
-          all.push(item);
+          all.push({ ...item, source: dictName } as T);
           seenIds.add(id);
         }
       });
