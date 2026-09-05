@@ -26,17 +26,17 @@
     ]
   },
   {
-    "id": "303",
-    "ukrainian": "Легкий",
-    "english": "light",
-    "phrases": [
-      "This bag is light, so I can carry it easily.",
-      "The feather is very light and moves in the air.",
-      "My jacket is light but warm.",
-      "The small box is light enough for a child to carry.",
-      "This exercise is light and not difficult.",
-      "The bird has light wings and can fly high."
-    ]
+  "id": "303",
+  "ukrainian": "крило",
+  "english": "wing",
+  "phrases": [
+  "The bird hurt its wing.",
+  "The plane's left wing was damaged.",
+  "We saw a butterfly with beautiful wings.",
+  "The chicken wing was very spicy.",
+  "The hotel has a new wing.",
+  "The building has two wings."
+  ]
   },
   {
     "id": "304",

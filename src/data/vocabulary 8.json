@@ -156,17 +156,17 @@
     ]
   },
   {
-    "id": "363",
-    "ukrainian": "Вільний",
-    "english": "free",
-    "phrases": [
-      "I'm free after four this afternoon.",
-      "Are you free this weekend?",
-      "The museum is free on Sundays.",
-      "Feel free to ask any questions.",
-      "She finally had some free time.",
-      "This seat is free if you need it."
-    ]
+  "id": "363",
+  "ukrainian": "вільний",
+  "english": "free",
+  "phrases": [
+  "I'm free after four this afternoon if you want to meet.",
+  "Are you free this weekend, or do you already have plans?",
+  "Is this seat free, or is someone sitting here?",
+  "Feel free to ask me if you need any help.",
+  "She finally has some free time to play with her friends.",
+  "Are you free now, or are you busy with your homework?"
+  ]
   },
   {
     "id": "364",

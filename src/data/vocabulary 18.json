@@ -377,17 +377,17 @@
     ]
   },
   {
-    "id": "880",
-    "ukrainian": "пустеля",
-    "english": "desert",
-    "phrases": [
-      "The Sahara is a very large desert.",
-      "It is very hot in the desert during the day.",
-      "Few plants can survive in the desert.",
-      "They traveled across the desert by car.",
-      "The desert can be very cold at night.",
-      "We saw camels in the desert."
-    ]
+  "id": "880",
+  "ukrainian": "представляти; знайомити",
+  "english": "introduce",
+  "phrases": [
+  "Let me introduce you to my best friend, Alex.",
+  "The teacher introduced a new student to the class.",
+  "I want to introduce my cousin to you because you have similar interests.",
+  "She introduced herself and told us where she was from.",
+  "Can you introduce me to your friends at the party?",
+  "Our teacher introduced a new game to help us learn English."
+  ]
   },
   {
     "id": "881",

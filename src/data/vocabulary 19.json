@@ -637,16 +637,16 @@
     ]
   },
   {
-    "id": "950",
-    "ukrainian": "кут",
-    "english": "corner",
-    "phrases": [
-      "There is a small shop on the corner.",
-      "Turn left at the next corner.",
-      "She is sitting in the corner of the room.",
-      "I found my keys in the corner of the kitchen.",
-      "The bank is around the corner.",
-      "He put the chair in the corner."
-    ]
+  "id": "950",
+  "ukrainian": "заохочувати; підтримувати; підбадьорювати",
+  "english": "encourage",
+  "phrases": [
+  "My parents always encourage me to try new things.",
+  "The teacher encouraged us to ask questions when we didn't understand.",
+  "Her friends encouraged her to join the school football team.",
+  "My coach encourages me to keep practicing when something is difficult.",
+  "We should encourage our friends when they are nervous about a test.",
+  "His parents encouraged him to keep trying after he made a mistake."
+  ]
   }
 ]

@@ -429,17 +429,17 @@
     ]
   },
   {
-    "id": "684",
-    "ukrainian": "приносити",
-    "english": "bring",
-    "phrases": [
-      "Please bring me a glass of water.",
-      "She brought a gift for her friend.",
-      "Can you bring your book tomorrow?",
-      "He brings lunch to work every day.",
-      "They brought good news.",
-      "I will bring my camera on the trip."
-    ]
+  "id": "684",
+  "ukrainian": "відкривати; виявляти; дізнаватися",
+  "english": "discover",
+  "phrases": [
+  "We discovered a small café while walking around the city.",
+  "She discovered a new favorite book at the school library.",
+  "I was surprised to discover that my friend likes the same music.",
+  "The children discovered a hidden path behind the old house.",
+  "You can discover many interesting things when you travel to new places.",
+  "He discovered that he was good at drawing after joining an art club."
+  ]
   },
   {
     "id": "685",

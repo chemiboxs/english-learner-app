@@ -533,29 +533,32 @@
     ]
   },
   {
-    "id": "642",
-    "ukrainian": "черга",
-    "english": "queue",
-    "phrases": [
-      "We are waiting in a queue.",
-      "There is a long queue at the shop.",
-      "Please stand in the queue.",
-      "The queue moves slowly.",
-      "I joined the queue.",
-      "People are standing in a queue."
-    ]
+  "id": "642",
+  "ukrainian": "черга",
+  "english": "queue",
+  "alternatives": [
+  "line"
+  ],
+  "phrases": [
+  "We are waiting in a queue to buy tickets for the movie.",
+  "Please stand in the queue and wait for your turn.",
+  "The queue is moving slowly because only one person is working.",
+  "There is a long line at the café, so let's come back later.",
+  "I joined the line and started looking at my phone.",
+  "We had to wait in line for twenty minutes before getting inside."
+  ]
   },
   {
     "id": "643",
     "ukrainian": "лінія, ряд",
     "english": "line",
     "phrases": [
-      "Please stand in line.",
-      "There is a line of people.",
-      "Draw a straight line.",
-      "The children are in a line.",
-      "The line is very long.",
-      "Wait in line for your turn."
+    "Please stand in line and wait for your turn.",
+    "There is a long line of people outside the shop.",
+    "Draw a straight line from the first dot to the last one.",
+    "The children are standing in a line near the school door.",
+    "The line is very long, so we may have to wait.",
+    "Please stay in line while we wait for the teacher."
     ]
   },
   {

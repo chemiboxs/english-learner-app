@@ -1,0 +1,263 @@
+  [
+    {
+      "id": "11802",
+      "ukrainian": "що",
+      "english": "what",
+      "phrases": [
+        "What do you want to eat?",
+        "What is your name?",
+        "What happened yesterday?",
+        "What time does the train leave?",
+        "I don't know what to say.",
+        "What are you looking for?"
+      ]
+    },
+    {
+      "id": "11803",
+      "ukrainian": "де",
+      "english": "where",
+      "phrases": [
+        "Where do you live?",
+        "Where is my phone?",
+        "Where did you buy this jacket?",
+        "Where can I find a taxi?",
+        "Do you know where she is?",
+        "Where are we going tonight?"
+      ]
+    },
+    {
+      "id": "11804",
+      "ukrainian": "коли",
+      "english": "when",
+      "phrases": [
+        "When does the lesson start?",
+        "When will you come home?",
+        "When did you meet him?",
+        "Do you know when the shop closes?",
+        "When is your birthday?",
+        "Tell me when you are ready."
+      ]
+    },
+    {
+      "id": "11805",
+      "ukrainian": "хто",
+      "english": "who",
+      "phrases": [
+        "Who is that man?",
+        "Who called you last night?",
+        "Who wants some coffee?",
+        "Who is your best friend?",
+        "Do you know who she is?",
+        "Who left this bag here?"
+      ]
+    },
+    {
+      "id": "11806",
+      "ukrainian": "чому",
+      "english": "why",
+      "phrases": [
+        "Why are you so tired?",
+        "Why did you leave early?",
+        "Why is the door open?",
+        "Can you tell me why he is angry?",
+        "Why don't we take a taxi?",
+        "I don't understand why she is upset."
+      ]
+    },
+    {
+      "id": "11807",
+      "ukrainian": "який, котрий",
+      "english": "which",
+      "phrases": [
+        "Which color do you like?",
+        "Which bus goes to the city center?",
+        "Which book should I read?",
+        "Which one is your bag?",
+        "Do you know which train we need?",
+        "Which day is better for you?"
+      ]
+    },
+    {
+      "id": "11808",
+      "ukrainian": "як",
+      "english": "how",
+      "phrases": [
+        "How are you feeling today?",
+        "How does this machine work?",
+        "How can I help you?",
+        "How did you learn English?",
+        "How much does this cost?",
+        "Do you know how to get there?"
+      ]
+    },
+
+    {
+    "id": "11809",
+    "ukrainian": "добре; гаразд; ну; що ж",
+    "english": "well",
+    "phrases": [
+    "Well, I don't know what to say.",
+    "Well, let's start the lesson.",
+    "She speaks English very well.",
+    "Well, that's a good idea.",
+    "I was feeling well yesterday.",
+    "Well, what do you want to do now?"
+    ]
+    },
+    {
+    "id": "11810",
+    "ukrainian": "так; тому; отже; настільки",
+    "english": "so",
+    "phrases": [
+    "So, what are we going to do?",
+    "I was tired, so I went home early.",
+    "Why are you so angry?",
+    "It was so cold yesterday.",
+    "She was late, so we started without her.",
+    "So, you don't want to come with us?"
+    ]
+    },
+    {
+    "id": "11811",
+    "ukrainian": "одного разу; коли; щойно",
+    "english": "once",
+    "phrases": [
+    "I once lived in London.",
+    "Once you finish your work, you can go home.",
+    "I have been there once before.",
+    "Once I understood the problem, everything became easier.",
+    "She once told me that story.",
+    "Call me once you arrive at the station."
+    ]
+    },
+    {
+    "id": "11812",
+    "ukrainian": "пізніше; згодом; потім",
+    "english": "later",
+    "phrases": [
+    "I'll call you later.",
+    "Can we talk about it later?",
+    "She came back later that evening.",
+    "I'll finish my work later.",
+    "See you later!",
+    "We can decide where to go later."
+    ]
+    },
+    {
+    "id": "11813",
+    "ukrainian": "крило",
+    "english": "wing",
+    "phrases": [
+    "The bird hurt its wing.",
+    "The plane's left wing was damaged.",
+    "We saw a butterfly with beautiful wings.",
+    "The chicken wing was very spicy.",
+    "The hotel has a new wing.",
+    "The building has two wings."
+    ]
+    },
+    {
+    "id": "11814",
+    "ukrainian": "відро; цебро",
+    "english": "bucket",
+    "phrases": [
+    "Fill the bucket with water.",
+    "He carried a bucket of sand.",
+    "The children were playing with a bucket on the beach.",
+    "I need a bucket to wash the floor.",
+    "She dropped the bucket on the ground.",
+    "There was a bucket under the leaking roof."
+    ]
+    },
+    {
+    "id": "11815",
+    "ukrainian": "дюжина; дванадцять",
+    "english": "dozen",
+    "phrases": [
+    "I bought a dozen eggs.",
+    "We need a dozen chairs for the party.",
+    "She ordered a dozen roses.",
+    "There were about a dozen people in the room.",
+    "He gave me a dozen reasons to stay.",
+    "Can I have a dozen of these, please?"
+    ]
+    },
+    {
+    "id": "11816",
+    "ukrainian": "пара; водяна пара",
+    "english": "steam",
+    "phrases": [
+    "Steam was coming from the hot water.",
+    "Be careful—the steam is very hot.",
+    "The bathroom was full of steam.",
+    "Steam rose from the cup of tea.",
+    "The windows were covered with steam.",
+    "Steam came out of the pot when I opened the lid."
+    ]
+    },
+    {
+    "id": "11817",
+    "ukrainian": "справді; дійсно; по-справжньому",
+    "english": "truly",
+    "phrases": [
+    "I truly believe that you can do it.",
+    "She is truly a great teacher.",
+    "Are you truly happy here?",
+    "I am truly sorry for what happened.",
+    "This is a truly beautiful place.",
+    "He truly cares about his family."
+    ]
+    },
+    {
+      "id": "11818",
+      "ukrainian": "північ",
+      "english": "north",
+      "phrases": [
+        "We are driving north today.",
+        "The wind is coming from the north.",
+        "My grandparents live in the north of the country.",
+        "The birds fly north in spring.",
+        "Turn north after the bridge.",
+        "It is colder in the north."
+      ]
+    },
+    {
+      "id": "11819",
+      "ukrainian": "південь",
+      "english": "south",
+      "phrases": [
+        "They moved to the south last year.",
+        "We are traveling south this weekend.",
+        "The weather is warmer in the south.",
+        "The road goes south from here.",
+        "Many people visit the south in summer.",
+        "The birds fly south before winter."
+      ]
+    },
+    {
+      "id": "11820",
+      "ukrainian": "захід",
+      "english": "west",
+      "phrases": [
+        "The sun sets in the west.",
+        "We drove west for two hours.",
+        "My hotel is on the west side of the city.",
+        "The wind is blowing from the west.",
+        "They live in the west of the country.",
+        "Go west until you see the river."
+      ]
+    },
+    {
+      "id": "11821",
+      "ukrainian": "схід",
+      "english": "east",
+      "phrases": [
+        "The sun rises in the east.",
+        "We are traveling east tomorrow.",
+        "She lives in the east of the city.",
+        "The train is going east.",
+        "The wind is coming from the east.",
+        "Turn east at the next street."
+      ]
+    }
+    ]

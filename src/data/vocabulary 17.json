@@ -312,17 +312,17 @@
     ]
   },
   {
-    "id": "825",
-    "ukrainian": "квартира",
-    "english": "apartment",
-    "phrases": [
-      "They bought a new apartment.",
-      "I live in a small apartment.",
-      "Her apartment is on the fifth floor.",
-      "We found an apartment near the park.",
-      "The apartment has a large kitchen.",
-      "He rents an apartment with his friend."
-    ]
+  "id": "825",
+  "ukrainian": "скаржитися; нарікати",
+  "english": "complain",
+  "phrases": [
+  "He always complains when he has too much homework to do.",
+  "She complained about the cold weather during our walk.",
+  "Don't complain about the food before you have even tried it.",
+  "My little brother often complains when he has to go to bed early.",
+  "The students complained because the classroom was too hot.",
+  "If something is wrong, you should explain the problem instead of just complaining."
+  ]
   },
   {
     "id": "826",

@@ -247,17 +247,17 @@
     ]
   },
   {
-    "id": "770",
-    "ukrainian": "теперішнє, подарунок",
-    "english": "present",
-    "phrases": [
-      "I live in the present moment.",
-      "She gave me a birthday present.",
-      "The present is important.",
-      "He opened his present quickly.",
-      "We should enjoy the present.",
-      "This present is for you."
-    ]
+  "id": "770",
+  "ukrainian": "теперішнє",
+  "english": "present",
+  "phrases": [
+  "I try to live in the present and enjoy each day.",
+  "The present is all we have, so we should enjoy it.",
+  "She is focused on the present and not worried about tomorrow.",
+  "We need to think about the present situation and find a solution.",
+  "He is happy with his present life and enjoys spending time with friends.",
+  "It's important to stay in the present moment and enjoy what you are doing."
+  ]
   },
   {
     "id": "771",
@@ -286,17 +286,17 @@
     ]
   },
   {
-    "id": "773",
-    "ukrainian": "покращувати, вдосконалювати",
-    "english": "improve",
-    "phrases": [
-      "I want to improve my English skills.",
-      "She improved her pronunciation by practicing.",
-      "This course will help you improve.",
-      "The company wants to improve its service.",
-      "He is trying to improve his health.",
-      "Small changes can improve your life."
-    ]
+  "id": "773",
+  "ukrainian": "позичати; брати в борг",
+  "english": "borrow",
+  "phrases": [
+  "Can I borrow your pencil? I forgot to bring one today.",
+  "I need to borrow a book from the library for my homework.",
+  "She borrowed my jacket because she was cold outside.",
+  "Can I borrow your bike after you finish riding it?",
+  "He often borrows things from his friends but always gives them back.",
+  "I borrowed some money from my dad to buy a birthday present."
+  ]
   },
   {
     "id": "774",

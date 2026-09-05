@@ -39,17 +39,17 @@
     ]
   },
   {
-    "id": "954",
-    "ukrainian": "слідувати; йти за; дотримуватися",
-    "english": "follow",
-    "phrases": [
-      "Follow me, please.",
-      "The children followed their teacher into the classroom.",
-      "You should follow the instructions carefully.",
-      "We followed the road to the village.",
-      "I always follow the news online.",
-      "Follow these steps to open the file."
-    ]
+  "id": "954",
+  "ukrainian": "належати; бути чиїмось",
+  "english": "belong",
+  "phrases": [
+  "This backpack belongs to my brother, so please give it to him.",
+  "These books belong to the school, so we must leave them here.",
+  "Does this pencil belong to you, or did someone leave it here?",
+  "I found a phone on the desk, but I don't know who it belongs to.",
+  "She feels like she belongs in the new class after making some friends.",
+  "Put your shoes in the cupboard where they belong."
+  ]
   },
   {
     "id": "955",
@@ -208,17 +208,17 @@
     ]
   },
   {
-    "id": "967",
-    "ukrainian": "лінія; черга; рядок",
-    "english": "line",
-    "phrases": [
-      "There is a long line at the ticket office.",
-      "Please stand in line.",
-      "Draw a straight line on the paper.",
-      "Write your name on the first line.",
-      "The bus line is very busy in the morning.",
-      "I waited in line for twenty minutes."
-    ]
+  "id": "967",
+  "ukrainian": "уникати; оминати",
+  "english": "avoid",
+  "phrases": [
+  "I try to avoid eating too much sugar every day.",
+  "We should avoid talking loudly while the baby is sleeping.",
+  "She takes a different road to avoid the busy traffic.",
+  "Try to avoid making the same mistake again.",
+  "He avoids playing outside when the weather is very cold.",
+  "I want to avoid being late for school tomorrow."
+  ]
   },
   {
     "id": "968",
@@ -299,17 +299,17 @@
     ]
   },
   {
-    "id": "974",
-    "ukrainian": "приєднуватися; вступати; долучатися",
-    "english": "join",
-    "phrases": [
-      "Can I join you for dinner?",
-      "She joined a local sports club.",
-      "He wants to join our team.",
-      "Would you like to join us for a coffee?",
-      "I joined the company two years ago.",
-      "Many students joined the competition."
-    ]
+  "id": "974",
+  "ukrainian": "усвідомлювати; розуміти; збагнути",
+  "english": "realize",
+  "phrases": [
+  "I didn't realize that we had a test at school today.",
+  "She suddenly realized that she had left her bag at home.",
+  "When I saw the map, I realized how far we had to walk.",
+  "He didn't realize that his friend was waiting outside.",
+  "I realize now that I should have listened to my parents.",
+  "She realized that learning English could be fun when she started reading books."
+  ]
   },
   {
     "id": "975",
@@ -336,5 +336,18 @@
       "Something strange happened on the way home.",
       "These things sometimes happen in life."
     ]
+  },
+  {
+  "id": "977",
+  "ukrainian": "довіряти; довіра",
+  "english": "trust",
+  "phrases": [
+  "I trust my best friend because she always tells me the truth.",
+  "You can trust him to keep your secret safe.",
+  "It takes time to trust someone you have just met.",
+  "My parents trust me to take care of our dog when they are away.",
+  "I don't trust websites that ask for too much personal information.",
+  "She trusts her teacher and feels comfortable asking for help."
+  ]
   }
 ]
