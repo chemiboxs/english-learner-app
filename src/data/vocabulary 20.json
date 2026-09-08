@@ -349,5 +349,109 @@
   "I don't trust websites that ask for too much personal information.",
   "She trusts her teacher and feels comfortable asking for help."
   ]
-  }
+  },
+  {
+  "id": "978",
+  "ukrainian": "доступний; наявний",
+  "english": "available",
+  "phrases": [
+    "Is this book available in the school library?",
+    "The teacher is available after class if you need help.",
+    "There are no available seats on the bus.",
+    "This product is available in many different colors.",
+    "I checked the website to see if the tickets were available.",
+    "The hotel has a few rooms available for tonight."
+  ]
+},
+{
+  "id": "979",
+  "ukrainian": "справді; дуже",
+  "english": "really",
+  "phrases": [
+    "I really like this song.",
+    "Do you really want to go there alone?",
+    "She was really happy to see her old friend.",
+    "I didn't really understand the question.",
+    "It was really cold when we went outside.",
+    "He really wants to become an explorer one day."
+  ]
+},
+{
+  "id": "980",
+  "ukrainian": "справжній; реальний",
+  "english": "real",
+  "phrases": [
+    "Is this a real story or a movie?",
+    "She has a real talent for drawing.",
+    "The danger was real, so we decided to leave.",
+    "I couldn't believe that the famous actor was a real person.",
+    "This problem is real, and we need to find a solution.",
+    "He finally understood that his dream could become real."
+  ]
+},
+{
+  "id": "981",
+  "ukrainian": "герой",
+  "english": "hero",
+  "phrases": [
+    "The main hero of the story is a young boy.",
+    "My grandfather was a hero to me when I was a child.",
+    "The firefighter became a local hero after saving two people.",
+    "The hero of the movie has to protect his family.",
+    "She thinks her mother is a real hero.",
+    "Everyone was excited when the hero finally arrived."
+  ]
+},
+{
+  "id": "982",
+  "ukrainian": "дослідник; мандрівник",
+  "english": "explorer",
+  "phrases": [
+    "The explorer traveled to places that few people had seen before.",
+    "He wants to become an explorer and travel around the world.",
+    "The famous explorer spent years studying the ocean.",
+    "We read a book about an explorer who crossed the desert.",
+    "The explorer discovered a small island in the Pacific Ocean.",
+    "She is an explorer who loves learning about different countries."
+  ]
+},
+{
+  "id": "983",
+  "ukrainian": "виділяти; підкреслювати; виділення",
+  "english": "highlight",
+  "phrases": [
+    "Please highlight the most important words in the text.",
+    "The teacher asked us to highlight the new vocabulary.",
+    "This photo highlights the beauty of the mountains.",
+    "I used a yellow pen to highlight the important information.",
+    "The guide highlighted the best places to visit.",
+    "The final goal was the highlight of the game."
+  ]
+},
+{
+  "id": "984",
+  "ukrainian": "прибулець; інопланетянин",
+  "english": "alien",
+  "phrases": [
+    "The movie is about an alien who comes to Earth.",
+    "The children imagined that they had met an alien.",
+    "Scientists are looking for signs of alien life in space.",
+    "The alien spaceship landed near the city.",
+    "He loves watching movies about aliens and other planets.",
+    "The story tells us what happens when an alien becomes friends with a boy."
+  ]
+},
+{
+  "id": "985",
+  "ukrainian": "тунець",
+  "english": "tuna",
+  "phrases": [
+    "I usually have a tuna sandwich for lunch.",
+    "She ordered a salad with tuna and vegetables.",
+    "We bought a can of tuna at the supermarket.",
+    "My brother doesn't like tuna, but I love it.",
+    "This restaurant serves fresh tuna with rice.",
+    "I made a simple tuna salad for dinner."
+  ]
+}
 ]
