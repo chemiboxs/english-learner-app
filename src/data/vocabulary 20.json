@@ -453,5 +453,135 @@
     "This restaurant serves fresh tuna with rice.",
     "I made a simple tuna salad for dinner."
   ]
-}
+},
+  {
+    "id": "986",
+    "ukrainian": "коштовність, дорогоцінний камінь",
+    "english": "jewel",
+    "phrases": [
+      "She wore a beautiful jewel around her neck.",
+      "The museum has a collection of rare jewels.",
+      "This ring contains a precious jewel.",
+      "He gave her a jewel as a birthday present.",
+      "The necklace was decorated with small jewels.",
+      "They discovered a valuable jewel in the old house."
+    ]
+  },
+  {
+    "id": "987",
+    "ukrainian": "низький; низько",
+    "english": "low",
+    "phrases": [
+      "The table is too low for me.",
+      "The temperature is very low today.",
+      "He spoke in a low voice.",
+      "Prices are usually low in this store.",
+      "The plane was flying very low.",
+      "My battery is getting low."
+    ]
+  },
+  {
+    "id": "988",
+    "ukrainian": "високий; високо",
+    "english": "high",
+    "phrases": [
+      "The mountain is very high.",
+      "The temperature is high today.",
+      "He lives in a high building.",
+      "The plane is flying high above the clouds.",
+      "Prices are getting higher every year.",
+      "She jumped high into the air."
+    ]
+  },
+  {
+    "id": "989",
+    "ukrainian": "частина",
+    "english": "part",
+    "phrases": [
+      "This is my favorite part of the movie.",
+      "I only read the first part of the book.",
+      "Everyone played a part in the project.",
+      "This machine has many small parts.",
+      "We spent part of the day at the beach.",
+      "Learning new words is an important part of studying English."
+    ]
+  },
+  {
+    "id": "990",
+    "ukrainian": "і так далі",
+    "english": "etc",
+    "phrases": [
+      "We bought fruit, vegetables, bread, etc.",
+      "You need to bring a passport, tickets, money, etc.",
+      "She likes reading, drawing, dancing, etc.",
+      "The shop sells clothes, shoes, bags, etc.",
+      "We talked about work, family, travel, etc.",
+      "You can use a pen, pencil, marker, etc."
+    ]
+  },
+  {
+    "id": "991",
+    "ukrainian": "дієслово",
+    "english": "verb",
+    "phrases": [
+      "Run is a common English verb.",
+      "We learned ten new verbs today.",
+      "This verb has an irregular past tense.",
+      "You need to use the correct verb in this sentence.",
+      "Can you give me an example of a verb?",
+      "The teacher explained how to use this verb."
+    ]
+  },
+  {
+    "id": "992",
+    "ukrainian": "іменник",
+    "english": "noun",
+    "phrases": [
+      "Book is a common English noun.",
+      "We learned several new nouns today.",
+      "This noun can be used in both singular and plural forms.",
+      "You should put a noun after the article.",
+      "Can you find the noun in this sentence?",
+      "The teacher explained how to use this noun."
+    ]
+  },
+  {
+    "id": "993",
+    "ukrainian": "дія; діяти",
+    "english": "act",
+    "phrases": [
+      "We need to act quickly.",
+      "He decided to act immediately.",
+      "The police asked him to act calmly.",
+      "It was a brave act.",
+      "Her act of kindness helped many people.",
+      "You should act like a responsible adult."
+    ]
+  },
+  {
+    "id": "994",
+    "ukrainian": "вступ; введення; знайомство",
+    "english": "introduction",
+    "phrases": [
+      "The book has a short introduction.",
+      "Let me give you a quick introduction to the topic.",
+      "The teacher started the lesson with an introduction.",
+      "I wrote an introduction for my essay.",
+      "His introduction to the company was very helpful.",
+      "The introduction explains the main idea of the book."
+    ]
+  },
+  {
+    "id": "995",
+    "ukrainian": "розділ",
+    "english": "chapter",
+    "phrases": [
+      "I read the first chapter last night.",
+      "This book has twelve chapters.",
+      "We need to finish this chapter today.",
+      "The next chapter is very interesting.",
+      "She skipped the last chapter by mistake.",
+      "The teacher asked us to read chapter five."
+    ]
+  }
 ]
