@@ -27,6 +27,15 @@ const getUIPreferencesKey = (wordIds: string[]): string => {
 };
 
 const loadVocabularyData = (allWords: Word[]): SavedVocabularyData => {
+  const latestWordsById = new Map(allWords.map(w => [w.id, w]));
+
+  const mergeWithLatest = (words: Word[]): Word[] =>
+    words.map(w => {
+      const latest = latestWordsById.get(w.id);
+      if (!latest) return w;
+      return { ...w, english: latest.english, alternatives: latest.alternatives, emoji: latest.emoji, phrases: latest.phrases };
+    });
+
   try {
     const key = getStorageKey(allWords.map(w => w.id));
     const data = localStorage.getItem(key);
@@ -35,9 +44,9 @@ const loadVocabularyData = (allWords: Word[]): SavedVocabularyData => {
       const wordIds = allWords.map(w => w.id);
       
       return {
-        learnedWords: (parsedData.learnedWords || []).filter((w: Word) => wordIds.includes(w.id)),
-        skippedWords: (parsedData.skippedWords || []).filter((w: Word) => wordIds.includes(w.id)),
-        availableWords: (parsedData.availableWords || []).filter((w: Word) => wordIds.includes(w.id)),
+        learnedWords: mergeWithLatest((parsedData.learnedWords || []).filter((w: Word) => wordIds.includes(w.id))),
+        skippedWords: mergeWithLatest((parsedData.skippedWords || []).filter((w: Word) => wordIds.includes(w.id))),
+        availableWords: mergeWithLatest((parsedData.availableWords || []).filter((w: Word) => wordIds.includes(w.id))),
         isCompleted: parsedData.isCompleted || false,
       };
     }

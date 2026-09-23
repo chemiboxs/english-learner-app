@@ -1,263 +1,418 @@
   [
-    {
-      "id": "11802",
-      "ukrainian": "що",
-      "english": "what",
-      "phrases": [
-        "What do you want to eat?",
-        "What is your name?",
-        "What happened yesterday?",
-        "What time does the train leave?",
-        "I don't know what to say.",
-        "What are you looking for?"
-      ]
-    },
-    {
-      "id": "11803",
-      "ukrainian": "де",
-      "english": "where",
-      "phrases": [
-        "Where do you live?",
-        "Where is my phone?",
-        "Where did you buy this jacket?",
-        "Where can I find a taxi?",
-        "Do you know where she is?",
-        "Where are we going tonight?"
-      ]
-    },
-    {
-      "id": "11804",
-      "ukrainian": "коли",
-      "english": "when",
-      "phrases": [
-        "When does the lesson start?",
-        "When will you come home?",
-        "When did you meet him?",
-        "Do you know when the shop closes?",
-        "When is your birthday?",
-        "Tell me when you are ready."
-      ]
-    },
-    {
-      "id": "11805",
-      "ukrainian": "хто",
-      "english": "who",
-      "phrases": [
-        "Who is that man?",
-        "Who called you last night?",
-        "Who wants some coffee?",
-        "Who is your best friend?",
-        "Do you know who she is?",
-        "Who left this bag here?"
-      ]
-    },
-    {
-      "id": "11806",
-      "ukrainian": "чому",
-      "english": "why",
-      "phrases": [
-        "Why are you so tired?",
-        "Why did you leave early?",
-        "Why is the door open?",
-        "Can you tell me why he is angry?",
-        "Why don't we take a taxi?",
-        "I don't understand why she is upset."
-      ]
-    },
-    {
-      "id": "11807",
-      "ukrainian": "який, котрий",
-      "english": "which",
-      "phrases": [
-        "Which color do you like?",
-        "Which bus goes to the city center?",
-        "Which book should I read?",
-        "Which one is your bag?",
-        "Do you know which train we need?",
-        "Which day is better for you?"
-      ]
-    },
-    {
-      "id": "11808",
-      "ukrainian": "як",
-      "english": "how",
-      "phrases": [
-        "How are you feeling today?",
-        "How does this machine work?",
-        "How can I help you?",
-        "How did you learn English?",
-        "How much does this cost?",
-        "Do you know how to get there?"
-      ]
-    },
-
-    {
-    "id": "11809",
-    "ukrainian": "добре; гаразд; ну; що ж",
-    "english": "well",
+{
+  "id": "1001",
+  "ukrainian": "застереження; обмовка; важлива умова",
+  "english": "caveat",
+  "phrases": [
+    "There is one important caveat.",
+    "The plan sounds good, with one caveat.",
+    "I agree with the idea, but there is a caveat.",
+    "The offer comes with a few caveats.",
+    "There is a caveat to this rule.",
+    "The results are promising, with one important caveat."
+  ]
+},
+  {
+    "id": "1002",
+    "ukrainian": "наляканий",
+    "english": "afraid",
     "phrases": [
-    "Well, I don't know what to say.",
-    "Well, let's start the lesson.",
-    "She speaks English very well.",
-    "Well, that's a good idea.",
-    "I was feeling well yesterday.",
-    "Well, what do you want to do now?"
+      "I am afraid of dogs.",
+      "She was afraid to ask for help.",
+      "Are you afraid of the dark?",
+      "He is afraid that he might be late.",
+      "Don't be afraid to make mistakes.",
+      "The child was afraid of the loud noise."
     ]
-    },
-    {
-    "id": "11810",
-    "ukrainian": "так; тому; отже; настільки",
-    "english": "so",
+  },
+  {
+    "id": "1003",
+    "ukrainian": "обережний",
+    "english": "careful",
     "phrases": [
-    "So, what are we going to do?",
-    "I was tired, so I went home early.",
-    "Why are you so angry?",
-    "It was so cold yesterday.",
-    "She was late, so we started without her.",
-    "So, you don't want to come with us?"
+      "Be careful when you cross the road.",
+      "You need to be careful with this glass.",
+      "She is always careful with her money.",
+      "Be careful not to hurt yourself.",
+      "He was very careful while driving.",
+      "You should be careful about what you say."
     ]
-    },
-    {
-    "id": "11811",
-    "ukrainian": "одного разу; коли; щойно",
-    "english": "once",
+  },
+  {
+    "id": "1004",
+    "ukrainian": "певний; впевнений",
+    "english": "certain",
     "phrases": [
-    "I once lived in London.",
-    "Once you finish your work, you can go home.",
-    "I have been there once before.",
-    "Once I understood the problem, everything became easier.",
-    "She once told me that story.",
-    "Call me once you arrive at the station."
+      "I am certain that he is telling the truth.",
+      "Are you certain about your decision?",
+      "She is certain that everything will be fine.",
+      "I'm not certain what time they will arrive.",
+      "There is no certain answer to this question.",
+      "He was certain that he had seen her before."
     ]
-    },
-    {
-    "id": "11812",
-    "ukrainian": "пізніше; згодом; потім",
-    "english": "later",
+  },
+  {
+    "id": "1005",
+    "ukrainian": "зручний; комфортний",
+    "english": "comfortable",
     "phrases": [
-    "I'll call you later.",
-    "Can we talk about it later?",
-    "She came back later that evening.",
-    "I'll finish my work later.",
-    "See you later!",
-    "We can decide where to go later."
+      "This chair is very comfortable.",
+      "I feel comfortable talking to her.",
+      "These shoes are comfortable enough for walking.",
+      "The hotel room was clean and comfortable.",
+      "Make yourself comfortable.",
+      "Are you comfortable with this decision?"
     ]
-    },
-    {
-    "id": "11813",
-    "ukrainian": "крило",
-    "english": "wing",
+  },
+  {
+    "id": "1006",
+    "ukrainian": "допитливий",
+    "english": "curious",
     "phrases": [
-    "The bird hurt its wing.",
-    "The plane's left wing was damaged.",
-    "We saw a butterfly with beautiful wings.",
-    "The chicken wing was very spicy.",
-    "The hotel has a new wing.",
-    "The building has two wings."
+      "Children are naturally curious.",
+      "I'm curious to know what happened.",
+      "She was curious about her new neighbors.",
+      "He is curious about how the machine works.",
+      "I'm just curious.",
+      "They were curious to see what was inside the box."
     ]
-    },
-    {
-    "id": "11814",
-    "ukrainian": "відро; цебро",
-    "english": "bucket",
+  },
+  {
+    "id": "1007",
+    "ukrainian": "розчарований",
+    "english": "disappointed",
     "phrases": [
-    "Fill the bucket with water.",
-    "He carried a bucket of sand.",
-    "The children were playing with a bucket on the beach.",
-    "I need a bucket to wash the floor.",
-    "She dropped the bucket on the ground.",
-    "There was a bucket under the leaking roof."
+      "I was disappointed with the result.",
+      "She felt disappointed after the game.",
+      "He was disappointed that she didn't come.",
+      "We were disappointed by the quality of the food.",
+      "I'm really disappointed in you.",
+      "They were disappointed because the event was canceled."
     ]
-    },
-    {
-    "id": "11815",
-    "ukrainian": "дюжина; дванадцять",
-    "english": "dozen",
+  },
+  {
+    "id": "1008",
+    "ukrainian": "схвильований; захоплений",
+    "english": "excited",
     "phrases": [
-    "I bought a dozen eggs.",
-    "We need a dozen chairs for the party.",
-    "She ordered a dozen roses.",
-    "There were about a dozen people in the room.",
-    "He gave me a dozen reasons to stay.",
-    "Can I have a dozen of these, please?"
+      "I'm excited about my new job.",
+      "She was excited to see her friends.",
+      "The children are excited about the trip.",
+      "He looks really excited.",
+      "I'm so excited that I can't sleep.",
+      "They were excited to hear the good news."
     ]
-    },
-    {
-    "id": "11816",
-    "ukrainian": "пара; водяна пара",
-    "english": "steam",
+  },
+  {
+    "id": "1009",
+    "ukrainian": "самотній",
+    "english": "lonely",
     "phrases": [
-    "Steam was coming from the hot water.",
-    "Be careful—the steam is very hot.",
-    "The bathroom was full of steam.",
-    "Steam rose from the cup of tea.",
-    "The windows were covered with steam.",
-    "Steam came out of the pot when I opened the lid."
+      "I felt lonely when I moved to a new city.",
+      "She gets lonely when she is alone for too long.",
+      "He lives alone, but he doesn't feel lonely.",
+      "The old man looked lonely.",
+      "Talking to friends can help when you feel lonely.",
+      "She was lonely after her best friend moved away."
     ]
-    },
-    {
-    "id": "11817",
-    "ukrainian": "справді; дійсно; по-справжньому",
-    "english": "truly",
+  },
+  {
+    "id": "1010",
+    "ukrainian": "нервовий; схвильований",
+    "english": "nervous",
     "phrases": [
-    "I truly believe that you can do it.",
-    "She is truly a great teacher.",
-    "Are you truly happy here?",
-    "I am truly sorry for what happened.",
-    "This is a truly beautiful place.",
-    "He truly cares about his family."
+      "I always feel nervous before an exam.",
+      "She was nervous about her first day at work.",
+      "Don't be nervous.",
+      "He looked nervous during the interview.",
+      "I get nervous when I have to speak in public.",
+      "She was too nervous to say anything."
     ]
-    },
-    {
-      "id": "11818",
-      "ukrainian": "північ",
-      "english": "north",
-      "phrases": [
-        "We are driving north today.",
-        "The wind is coming from the north.",
-        "My grandparents live in the north of the country.",
-        "The birds fly north in spring.",
-        "Turn north after the bridge.",
-        "It is colder in the north."
-      ]
-    },
-    {
-      "id": "11819",
-      "ukrainian": "південь",
-      "english": "south",
-      "phrases": [
-        "They moved to the south last year.",
-        "We are traveling south this weekend.",
-        "The weather is warmer in the south.",
-        "The road goes south from here.",
-        "Many people visit the south in summer.",
-        "The birds fly south before winter."
-      ]
-    },
-    {
-      "id": "11820",
-      "ukrainian": "захід",
-      "english": "west",
-      "phrases": [
-        "The sun sets in the west.",
-        "We drove west for two hours.",
-        "My hotel is on the west side of the city.",
-        "The wind is blowing from the west.",
-        "They live in the west of the country.",
-        "Go west until you see the river."
-      ]
-    },
-    {
-      "id": "11821",
-      "ukrainian": "схід",
-      "english": "east",
-      "phrases": [
-        "The sun rises in the east.",
-        "We are traveling east tomorrow.",
-        "She lives in the east of the city.",
-        "The train is going east.",
-        "The wind is coming from the east.",
-        "Turn east at the next street."
-      ]
-    }
+  },
+  {
+    "id": "1011",
+    "ukrainian": "звичайний; пересічний",
+    "english": "ordinary",
+    "phrases": [
+      "It was just an ordinary day.",
+      "He comes from an ordinary family.",
+      "She wore ordinary clothes.",
+      "There was nothing ordinary about the experience.",
+      "It looks like an ordinary house.",
+      "Sometimes ordinary moments are the most important."
+    ]
+  },
+  {
+    "id": "1012",
+    "ukrainian": "гордий",
+    "english": "proud",
+    "phrases": [
+      "I'm proud of you.",
+      "She is proud of her achievements.",
+      "His parents were proud of him.",
+      "You should be proud of yourself.",
+      "He felt proud when he finished the project.",
+      "I'm proud to be part of this team."
+    ]
+  },
+  {
+    "id": "1013",
+    "ukrainian": "стурбований; занепокоєний",
+    "english": "worried",
+    "phrases": [
+      "I'm worried about you.",
+      "She was worried about her son's health.",
+      "Don't be worried about the problem.",
+      "He looks worried.",
+      "We were worried that we might miss the train.",
+      "I was really worried when she didn't call."
+    ]
+  },
+  {
+    "id": "1014",
+    "ukrainian": "порада",
+    "english": "advice",
+    "phrases": [
+      "Can you give me some advice?",
+      "I need your advice.",
+      "She gave me some useful advice.",
+      "His advice helped me make a decision.",
+      "You should listen to your parents' advice.",
+      "Let me give you a piece of advice."
+    ]
+  },
+  {
+    "id": "1015",
+    "ukrainian": "можливість",
+    "english": "opportunity",
+    "phrases": [
+      "This is a great opportunity.",
+      "I had an opportunity to study abroad.",
+      "Don't miss this opportunity.",
+      "She was given an opportunity to lead the project.",
+      "I would like to take this opportunity to thank you.",
+      "The job offers many opportunities for growth."
+    ]
+  },
+  {
+    "id": "1016",
+    "ukrainian": "стосунки; взаємини",
+    "english": "relationship",
+    "phrases": [
+      "They have a good relationship.",
+      "Communication is important in any relationship.",
+      "She has a close relationship with her sister.",
+      "Their relationship changed over time.",
+      "He wants to improve his relationship with his parents.",
+      "Trust is an important part of a healthy relationship."
+    ]
+  },
+  {
+    "id": "1017",
+    "ukrainian": "ситуація; становище",
+    "english": "situation",
+    "phrases": [
+      "We need to understand the situation.",
+      "This is a difficult situation.",
+      "How can we solve this situation?",
+      "She knows how to deal with difficult situations.",
+      "The situation has changed completely.",
+      "I don't know what to do in this situation."
+    ]
+  },
+  {
+    "id": "1018",
+    "ukrainian": "рішення; розв'язання",
+    "english": "solution",
+    "phrases": [
+      "We need to find a solution.",
+      "There is no easy solution to this problem.",
+      "She came up with a simple solution.",
+      "I hope we can find a solution soon.",
+      "This solution could save us a lot of time.",
+      "They are looking for a solution to the problem."
+    ]
+  },
+  {
+    "id": "1019",
+    "ukrainian": "проблема; неприємність; клопіт",
+    "english": "trouble",
+    "phrases": [
+      "I'm having trouble with my computer.",
+      "We had some trouble finding the address.",
+      "He got into trouble at school.",
+      "Don't worry, we'll solve the problem without any trouble.",
+      "She is always getting into trouble.",
+      "If you have any trouble, let me know."
+    ]
+  },
+  {
+    "id": "1020",
+    "ukrainian": "перевага",
+    "english": "advantage",
+    "phrases": [
+      "This job has several advantages.",
+      "One advantage of living here is the quiet neighborhood.",
+      "Experience gives you a big advantage.",
+      "What are the advantages of this system?",
+      "She used her knowledge to her advantage.",
+      "Being able to speak English is a great advantage."
+    ]
+  },
+  {
+    "id": "1021",
+    "ukrainian": "виклик; складне завдання",
+    "english": "challenge",
+    "phrases": [
+      "Learning a new language is a challenge.",
+      "This job is a real challenge.",
+      "She enjoys new challenges.",
+      "We faced many challenges during the project.",
+      "The biggest challenge was finding enough time.",
+      "He accepted the challenge."
+    ]
+  },
+  {
+    "id": "1022",
+    "ukrainian": "приклад",
+    "english": "example",
+    "phrases": [
+      "Can you give me an example?",
+      "This is a good example of teamwork.",
+      "For example, you could start with a short introduction.",
+      "She gave several examples.",
+      "Let me show you an example.",
+      "This building is a great example of modern architecture."
+    ]
+  },
+  {
+    "id": "1023",
+    "ukrainian": "інформація",
+    "english": "information",
+    "phrases": [
+      "I need more information.",
+      "Can you give me some information about the course?",
+      "This website provides useful information.",
+      "We found some interesting information online.",
+      "Please read the information carefully.",
+      "I don't have enough information to make a decision."
+    ]
+  },
+  {
+    "id": "1024",
+    "ukrainian": "насправді; фактично",
+    "english": "actually",
+    "phrases": [
+      "I actually enjoyed the movie.",
+      "She is actually very good at English.",
+      "Actually, I don't know the answer.",
+      "He looks young, but he is actually forty.",
+      "I thought it would be difficult, but it was actually easy.",
+      "What did you actually mean?"
+    ]
+  },
+  {
+    "id": "1025",
+    "ukrainian": "особливо",
+    "english": "especially",
+    "phrases": [
+      "I like fruit, especially apples.",
+      "This is especially important for beginners.",
+      "I was especially tired after the trip.",
+      "She loves winter, especially when it snows.",
+      "The restaurant is especially busy on weekends.",
+      "I enjoy reading, especially in the evening."
+    ]
+  },
+  {
+    "id": "1026",
+    "ukrainian": "мабуть; ймовірно",
+    "english": "probably",
+    "phrases": [
+      "I'll probably stay at home tonight.",
+      "She is probably still at work.",
+      "It will probably rain tomorrow.",
+      "He's probably right.",
+      "We will probably need more time.",
+      "They probably don't know about the change."
+    ]
+  },
+  {
+    "id": "1027",
+    "ukrainian": "натомість; замість цього",
+    "english": "instead",
+    "phrases": [
+      "I wanted to walk, but I took the bus instead.",
+      "She didn't call; she sent a message instead.",
+      "Let's stay home instead.",
+      "He chose tea instead of coffee.",
+      "Try using this method instead.",
+      "We went to the park instead of going to the cinema."
+    ]
+  },
+  {
+    "id": "1028",
+    "ukrainian": "нещодавно",
+    "english": "recently",
+    "phrases": [
+      "I recently moved to this city.",
+      "Have you seen him recently?",
+      "She recently started a new job.",
+      "We recently bought a new car.",
+      "I haven't been there recently.",
+      "He has been very busy recently."
+    ]
+  },
+  {
+    "id": "1029",
+    "ukrainian": "зазвичай",
+    "english": "usually",
+    "phrases": [
+      "I usually wake up at seven.",
+      "She usually walks to work.",
+      "We usually have dinner at home.",
+      "He doesn't usually drink coffee.",
+      "What do you usually do on weekends?",
+      "It is usually very cold here in winter."
+    ]
+  },
+  {
+    "id": "1030",
+    "ukrainian": "однак; проте",
+    "english": "however",
+    "phrases": [
+      "I wanted to go; however, I was too tired.",
+      "The task was difficult. However, we finished it.",
+      "He is young; however, he has a lot of experience.",
+      "It looks simple. However, it can be quite difficult.",
+      "She didn't like the idea; however, she agreed to try it.",
+      "The hotel was expensive. However, the service was excellent."
+    ]
+  },
+  {
+    "id": "1031",
+    "ukrainian": "хоча; незважаючи на те, що",
+    "english": "although",
+    "phrases": [
+      "Although it was raining, we went for a walk.",
+      "Although he was tired, he continued working.",
+      "I enjoyed the trip although it was expensive.",
+      "Although she is young, she is very experienced.",
+      "Although the test was difficult, I passed it.",
+      "He went to work although he wasn't feeling well."
+    ]
+  },
+  {
+    "id": "1032",
+    "ukrainian": "поки; тоді як; у той час як",
+    "english": "while",
+    "phrases": [
+      "I listened to music while I was cooking.",
+      "She called me while I was driving.",
+      "He read a book while waiting for the bus.",
+      "While I understand your point, I disagree.",
+      "She likes tea, while her brother prefers coffee.",
+      "Please be quiet while the baby is sleeping."
+    ]
+  }
     ]
