@@ -1,0 +1,542 @@
+[
+  {
+    "id": "4026",
+    "ukrainian": "стояти",
+    "base": "stand",
+    "past": "stood",
+    "participle": "stood",
+    "examples": {
+      "base": [
+        "Please stand near the door until your name is called.",
+        "I usually stand while working at my desk."
+      ],
+      "past": [
+        "He stood outside waiting for the bus yesterday.",
+        "We stood together during the entire concert performance."
+      ],
+      "participle": [
+        "I have stood here for almost thirty minutes already.",
+        "They have stood by their decision from the beginning."
+      ]
+    }
+  },
+  {
+    "id": "4027",
+    "ukrainian": "чути",
+    "base": "hear",
+    "past": "heard",
+    "participle": "heard",
+    "examples": {
+      "base": [
+        "I want to hear your opinion about this idea.",
+        "Can you hear the music from the next room?"
+      ],
+      "past": [
+        "She heard a strange noise during the night.",
+        "We heard the news on the radio yesterday morning."
+      ],
+      "participle": [
+        "I have heard this story many times before.",
+        "They have heard about the new changes already."
+      ]
+    }
+  },
+  {
+    "id": "4028",
+    "ukrainian": "дозволяти",
+    "base": "let",
+    "past": "let",
+    "participle": "let",
+    "examples": {
+      "base": [
+        "Please let me know your final decision tomorrow.",
+        "Never let small problems ruin your entire day."
+      ],
+      "past": [
+        "She let her children play outside after dinner.",
+        "He let me use his computer for work."
+      ],
+      "participle": [
+        "I have let my team handle the difficult task.",
+        "They have let many customers share their opinions."
+      ]
+    }
+  },
+  {
+    "id": "4029",
+    "ukrainian": "означати",
+    "base": "mean",
+    "past": "meant",
+    "participle": "meant",
+    "examples": {
+      "base": [
+        "What does this word mean in English exactly?",
+        "I didn't mean to interrupt your important conversation."
+      ],
+      "past": [
+        "She meant every word during her honest apology.",
+        "This decision meant a lot to our family."
+      ],
+      "participle": [
+        "I have meant to call you for several days.",
+        "The message has meant different things to people."
+      ]
+    }
+  },
+  {
+    "id": "4030",
+    "ukrainian": "встановлювати, встановити",
+    "base": "set",
+    "past": "set",
+    "participle": "set",
+    "examples": {
+      "base": [
+        "I need to set a clear goal for this year.",
+        "Please set the alarm before going to sleep tonight."
+      ],
+      "past": [
+        "She set the table before the guests arrived.",
+        "They set new rules for the company last month."
+      ],
+      "participle": [
+        "I have set everything ready for tomorrow's presentation.",
+        "The team has set ambitious goals for the future."
+      ]
+    }
+  },
+  {
+    "id": "4031",
+    "ukrainian": "зустрічати",
+    "base": "meet",
+    "past": "met",
+    "participle": "met",
+    "examples": {
+      "base": [
+        "I hope to meet new people during my next trip.",
+        "We often meet friends after work on Fridays."
+      ],
+      "past": [
+        "She met her old teacher at the local market.",
+        "I met an interesting person during the conference yesterday."
+      ],
+      "participle": [
+        "I have met many talented people in my career.",
+        "They have met several times to discuss the project."
+      ]
+    }
+  },
+  {
+    "id": "4032",
+    "ukrainian": "бігти",
+    "base": "run",
+    "past": "ran",
+    "participle": "run",
+    "examples": {
+      "base": [
+        "I usually run in the park every morning.",
+        "You should run faster if you want to win."
+      ],
+      "past": [
+        "He ran five kilometres before breakfast yesterday.",
+        "She ran home because it started raining heavily."
+      ],
+      "participle": [
+        "I have run several marathons during my life.",
+        "They have run this business successfully for years."
+      ]
+    }
+  },
+  {
+    "id": "4033",
+    "ukrainian": "платити",
+    "base": "pay",
+    "past": "paid",
+    "participle": "paid",
+    "examples": {
+      "base": [
+        "I need to pay the bill before leaving the restaurant.",
+        "You can pay online using your bank card."
+      ],
+      "past": [
+        "She paid for the tickets yesterday afternoon.",
+        "We paid extra money for faster delivery service."
+      ],
+      "participle": [
+        "I have paid all my monthly bills already.",
+        "They have paid for the entire project themselves."
+      ]
+    }
+  },
+  {
+    "id": "4034",
+    "ukrainian": "сидіти",
+    "base": "sit",
+    "past": "sat",
+    "participle": "sat",
+    "examples": {
+      "base": [
+        "Please sit here and wait for your turn.",
+        "I like to sit near the window while reading."
+      ],
+      "past": [
+        "She sat quietly during the entire meeting yesterday.",
+        "We sat together and talked about our future plans."
+      ],
+      "participle": [
+        "I have sat in this chair many times before.",
+        "They have sat together since the beginning of class."
+      ]
+    }
+  },
+  {
+    "id": "4035",
+    "ukrainian": "говорити",
+    "base": "speak",
+    "past": "spoke",
+    "participle": "spoken",
+    "examples": {
+      "base": [
+        "I want to speak English more confidently every day.",
+        "Please speak slowly so everyone can understand you."
+      ],
+      "past": [
+        "She spoke with the manager about the problem yesterday.",
+        "We spoke about our plans during the long journey."
+      ],
+      "participle": [
+        "I have spoken to him about this issue already.",
+        "They have spoken English since they moved abroad."
+      ]
+    }
+  },
+  {
+    "id": "4036",
+    "ukrainian": "лежати",
+    "base": "lie",
+    "past": "lay",
+    "participle": "lain",
+    "examples": {
+      "base": [
+        "I like to lie down after a long working day.",
+        "The book will lie on the table until tomorrow."
+      ],
+      "past": [
+        "She lay on the sofa and watched television.",
+        "The keys lay beside the computer all morning."
+      ],
+      "participle": [
+        "I have lain awake thinking about the problem.",
+        "The documents have lain there for several weeks."
+      ]
+    }
+  },
+  {
+    "id": "4037",
+    "ukrainian": "вести",
+    "base": "lead",
+    "past": "led",
+    "participle": "led",
+    "examples": {
+      "base": [
+        "Good leaders lead their teams through difficult situations.",
+        "This road will lead you to the city centre."
+      ],
+      "past": [
+        "She led the project during its most difficult stage.",
+        "He led us through the forest safely yesterday."
+      ],
+      "participle": [
+        "I have led several successful teams in my career.",
+        "They have led the company for many years."
+      ]
+    }
+  },
+  {
+    "id": "4038",
+    "ukrainian": "читати",
+    "base": "read",
+    "past": "read",
+    "participle": "read",
+    "speech": { "base": "reed", "past": "red", "participle": "red" },
+    "examples": {
+      "base": [
+        "I like to read books before going to sleep.",
+        "You should read the instructions before using this device."
+      ],
+      "past": [
+        "She read an interesting article about modern technology.",
+        "I read that book during my summer holiday."
+      ],
+      "participle": [
+        "I have read many books about personal development.",
+        "They have read the report before making a decision."
+      ]
+    },
+    "speechExamples": {
+      "base": [
+        "I like to reed books before going to sleep.",
+        "You should reed the instructions before using this device."
+      ],
+      "past": [
+        "She red an interesting article about modern technology.",
+        "I red that book during my summer holiday."
+      ],
+      "participle": [
+        "I have red many books about personal development.",
+        "They have red the report before making a decision."
+      ]
+    }
+  },
+  {
+    "id": "4039",
+    "ukrainian": "рости",
+    "base": "grow",
+    "past": "grew",
+    "participle": "grown",
+    "examples": {
+      "base": [
+        "Children grow quickly during their first years of life.",
+        "Plants grow better with enough sunlight and water."
+      ],
+      "past": [
+        "The company grew rapidly after launching the new product.",
+        "She grew up in a small village near the mountains."
+      ],
+      "participle": [
+        "The business has grown significantly over recent years.",
+        "I have grown more confident since learning English."
+      ]
+    }
+  },
+  {
+    "id": "4040",
+    "ukrainian": "втрачати",
+    "base": "lose",
+    "past": "lost",
+    "participle": "lost",
+    "examples": {
+      "base": [
+        "I don't want to lose this important opportunity again.",
+        "Be careful not to lose your personal documents."
+      ],
+      "past": [
+        "She lost her keys while walking through the park.",
+        "We lost the game despite our strong effort."
+      ],
+      "participle": [
+        "I have lost my phone somewhere near the station.",
+        "They have lost confidence after several unsuccessful attempts."
+      ]
+    }
+  },
+  {
+    "id": "4041",
+    "ukrainian": "падати",
+    "base": "fall",
+    "past": "fell",
+    "participle": "fallen",
+    "examples": {
+      "base": [
+        "Be careful not to fall when walking on ice.",
+        "Leaves usually fall from trees during autumn months."
+      ],
+      "past": [
+        "She fell down while running in the park yesterday.",
+        "I fell in love with this beautiful city immediately."
+      ],
+      "participle": [
+        "I have fallen many times but always continued moving forward.",
+        "The snow has fallen heavily throughout the entire night."
+      ]
+    }
+  },
+  {
+    "id": "4042",
+    "ukrainian": "надсилати",
+    "base": "send",
+    "past": "sent",
+    "participle": "sent",
+    "examples": {
+      "base": [
+        "I need to send this email before the meeting starts.",
+        "Please send me the documents as soon as possible."
+      ],
+      "past": [
+        "She sent a message after arriving home safely.",
+        "We sent the invitation to all our closest friends."
+      ],
+      "participle": [
+        "I have sent the report to my manager already.",
+        "They have sent several updates about the project progress."
+      ]
+    }
+  },
+  {
+    "id": "4043",
+    "ukrainian": "будувати",
+    "base": "build",
+    "past": "built",
+    "participle": "built",
+    "examples": {
+      "base": [
+        "They want to build a new house near the lake.",
+        "We need to build strong relationships with our customers."
+      ],
+      "past": [
+        "The company built a modern office building last year.",
+        "He built his career through hard work and dedication."
+      ],
+      "participle": [
+        "They have built a successful business over many years.",
+        "The bridge has been built using modern technology."
+      ]
+    }
+  },
+  {
+    "id": "4044",
+    "ukrainian": "розуміти",
+    "base": "understand",
+    "past": "understood",
+    "participle": "understood",
+    "examples": {
+      "base": [
+        "I want to understand this topic before the exam.",
+        "You need to understand how this system works."
+      ],
+      "past": [
+        "She understood the problem after a detailed explanation.",
+        "We understood each other without saying many words."
+      ],
+      "participle": [
+        "I have understood the main idea of this lesson.",
+        "They have understood what needs to be done next."
+      ]
+    }
+  },
+  {
+    "id": "4045",
+    "ukrainian": "малювати",
+    "base": "draw",
+    "past": "drew",
+    "participle": "drawn",
+    "examples": {
+      "base": [
+        "Children love to draw pictures during creative activities.",
+        "I want to draw a simple map of the area."
+      ],
+      "past": [
+        "She drew a beautiful picture for her friend's birthday.",
+        "He drew a plan before starting the construction work."
+      ],
+      "participle": [
+        "I have drawn several sketches for the new project.",
+        "The artist has drawn many famous portraits."
+      ]
+    }
+  },
+  {
+    "id": "4046",
+    "ukrainian": "витрачати",
+    "base": "spend",
+    "past": "spent",
+    "participle": "spent",
+    "examples": {
+      "base": [
+        "I try to spend more time with my family.",
+        "Don't spend too much money on unnecessary things."
+      ],
+      "past": [
+        "We spent the weekend visiting beautiful places nearby.",
+        "She spent several hours preparing for the presentation."
+      ],
+      "participle": [
+        "I have spent enough time thinking about this decision.",
+        "They have spent a lot of money improving their home."
+      ]
+    }
+  },
+  {
+    "id": "4047",
+    "ukrainian": "різати",
+    "base": "cut",
+    "past": "cut",
+    "participle": "cut",
+    "examples": {
+      "base": [
+        "Please cut the paper into smaller equal pieces.",
+        "I usually cut vegetables before preparing dinner."
+      ],
+      "past": [
+        "She cut her finger while preparing the meal.",
+        "He cut the rope with a sharp knife."
+      ],
+      "participle": [
+        "I have cut the vegetables for tonight's dinner.",
+        "The price has been cut because of the sale."
+      ]
+    }
+  },
+  {
+    "id": "4048",
+    "ukrainian": "перемагати",
+    "base": "win",
+    "past": "won",
+    "participle": "won",
+    "examples": {
+      "base": [
+        "I want to win this competition with my team.",
+        "Hard work can help you win important opportunities."
+      ],
+      "past": [
+        "She won the first prize in the competition.",
+        "Our team won the final match last weekend."
+      ],
+      "participle": [
+        "I have won several awards during my professional career.",
+        "They have won many games this season already."
+      ]
+    }
+  },
+  {
+    "id": "4049",
+    "ukrainian": "навчати",
+    "base": "teach",
+    "past": "taught",
+    "participle": "taught",
+    "examples": {
+      "base": [
+        "She wants to teach English to young students.",
+        "Good teachers teach important skills for everyday life."
+      ],
+      "past": [
+        "My father taught me how to ride a bicycle.",
+        "She taught English at a local school for years."
+      ],
+      "participle": [
+        "I have taught many students during my teaching career.",
+        "They have taught us valuable lessons about teamwork."
+      ]
+    }
+  },
+  {
+    "id": "4050",
+    "ukrainian": "купувати",
+    "base": "buy",
+    "past": "bought",
+    "participle": "bought",
+    "examples": {
+      "base": [
+        "I usually buy fresh food at the local market.",
+        "You should buy quality products that last longer."
+      ],
+      "past": [
+        "She bought a new laptop for her studies.",
+        "We bought tickets for the concert yesterday evening."
+      ],
+      "participle": [
+        "I have bought everything needed for the trip.",
+        "They have bought a new apartment in the city."
+      ]
+    }
+  }
+]

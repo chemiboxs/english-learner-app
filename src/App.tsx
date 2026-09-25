@@ -126,7 +126,12 @@ const displayName = (name: string) => {
   let idx = name.indexOf('.phrases');
   if (idx !== -1) return name.slice(0, idx);
   idx = name.indexOf('.irreg');
-  if (idx !== -1) return name.slice(0, idx);
+  if (idx !== -1) {
+    const base = name.slice(0, idx);
+    const numMatch = name.match(/\.irreg\.(\d+)/);
+    if (numMatch) return `${base} ${numMatch[1]}`;
+    return base;
+  }
   return name;
 };
 
@@ -134,7 +139,7 @@ const currentLabel = isIrregular ? 'Current verbs' : mode === 'words' ? 'Current
 const allLabel = isIrregular ? 'All verbs' : mode === 'words' ? 'All words' : 'All phrases';
 const titleLabel = isIrregular ? 'Verbs' : mode === 'words' ? 'Words' : 'Phrases';
 
-const formatVerb = (v: IrregularVerb) => {
+const formatVerb = (v: IrregularVerb & { source?: string }) => {
   const base = v.base || '';
   const past = v.past || '';
   const participle = v.participle || '';
@@ -150,6 +155,7 @@ const formatVerb = (v: IrregularVerb) => {
     ukrainian: v.ukrainian,
     english: `${base} / ${past} / ${participle}`,
     phrases: allPhrases,
+    source: v.source,
   };
 };
 

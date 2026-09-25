@@ -1,0 +1,527 @@
+[
+  {
+    "id": "4051",
+    "ukrainian": "ловити",
+    "base": "catch",
+    "past": "caught",
+    "participle": "caught",
+    "examples": {
+      "base": [
+        "I usually catch the bus near my house every morning.",
+        "Try to catch the ball before it reaches the ground."
+      ],
+      "past": [
+        "She caught a cold after walking outside in the rain.",
+        "He caught the train just before the station closed."
+      ],
+      "participle": [
+        "I have caught several mistakes in this document already.",
+        "They have caught many fish during their summer vacation."
+      ]
+    }
+  },
+  {
+    "id": "4052",
+    "ukrainian": "боротися",
+    "base": "fight",
+    "past": "fought",
+    "participle": "fought",
+    "examples": {
+      "base": [
+        "People should fight for their dreams and goals.",
+        "They fight against unfair decisions in their community."
+      ],
+      "past": [
+        "She fought hard to achieve her biggest goal.",
+        "The two teams fought until the very end."
+      ],
+      "participle": [
+        "I have fought many challenges throughout my entire life.",
+        "They have fought for better working conditions for years."
+      ]
+    }
+  },
+  {
+    "id": "4053",
+    "ukrainian": "продавати",
+    "base": "sell",
+    "past": "sold",
+    "participle": "sold",
+    "examples": {
+      "base": [
+        "They want to sell their old car this year.",
+        "Many shops sell fresh products every single day."
+      ],
+      "past": [
+        "She sold her apartment before moving to another city.",
+        "We sold several items during the weekend market."
+      ],
+      "participle": [
+        "I have sold many products through my online store.",
+        "They have sold their house after finding a buyer."
+      ]
+    }
+  },
+  {
+    "id": "4054",
+    "ukrainian": "обирати",
+    "base": "choose",
+    "past": "chose",
+    "participle": "chosen",
+    "examples": {
+      "base": [
+        "You can choose the best option for your situation.",
+        "I always choose comfortable clothes for everyday activities."
+      ],
+      "past": [
+        "She chose a different career path after graduation.",
+        "We chose the hotel because of its great location."
+      ],
+      "participle": [
+        "I have chosen a new direction for my career.",
+        "They have chosen the right person for the job."
+      ]
+    }
+  },
+  {
+    "id": "4055",
+    "ukrainian": "носити",
+    "base": "wear",
+    "past": "wore",
+    "participle": "worn",
+    "examples": {
+      "base": [
+        "I usually wear comfortable clothes when working from home.",
+        "You should wear a jacket because it is cold outside."
+      ],
+      "past": [
+        "She wore a beautiful dress at the wedding ceremony.",
+        "He wore glasses when he was studying at university."
+      ],
+      "participle": [
+        "I have worn these shoes for several years already.",
+        "The jacket has been worn many times before."
+      ]
+    }
+  },
+  {
+    "id": "4056",
+    "ukrainian": "ламати",
+    "base": "break",
+    "past": "broke",
+    "participle": "broken",
+    "examples": {
+      "base": [
+        "Be careful not to break the glass on the table.",
+        "I don't want to break this important promise again."
+      ],
+      "past": [
+        "She broke her phone while travelling last weekend.",
+        "He broke the window accidentally during the game."
+      ],
+      "participle": [
+        "I have broken my old computer several times before.",
+        "The chair has been broken since last month."
+      ]
+    }
+  },
+  {
+    "id": "4057",
+    "ukrainian": "керувати автомобілем",
+    "base": "drive",
+    "past": "drove",
+    "participle": "driven",
+    "examples": {
+      "base": [
+        "I want to drive across the country someday.",
+        "She can drive safely even during difficult weather conditions."
+      ],
+      "past": [
+        "He drove to work early this morning.",
+        "We drove several hours to reach the mountain village."
+      ],
+      "participle": [
+        "I have driven this car for many years.",
+        "They have driven thousands of kilometres during their travels."
+      ]
+    }
+  },
+  {
+    "id": "4058",
+    "ukrainian": "їсти",
+    "base": "eat",
+    "past": "ate",
+    "participle": "eaten",
+    "examples": {
+      "base": [
+        "I usually eat breakfast before starting my workday.",
+        "You should eat healthy food every day."
+      ],
+      "past": [
+        "She ate dinner with her family yesterday evening.",
+        "We ate at a small restaurant near the hotel."
+      ],
+      "participle": [
+        "I have eaten enough food for today already.",
+        "They have eaten everything prepared for the guests."
+      ]
+    }
+  },
+  {
+    "id": "4059",
+    "ukrainian": "пити",
+    "base": "drink",
+    "past": "drank",
+    "participle": "drunk",
+    "examples": {
+      "base": [
+        "I always drink plenty of water during the day.",
+        "You should drink tea when you feel tired."
+      ],
+      "past": [
+        "She drank coffee before going to work.",
+        "We drank fresh juice during our summer vacation."
+      ],
+      "participle": [
+        "I have drunk enough water after exercising today.",
+        "They have drunk all the coffee from the pot."
+      ]
+    }
+  },
+  {
+    "id": "4060",
+    "ukrainian": "спати",
+    "base": "sleep",
+    "past": "slept",
+    "participle": "slept",
+    "examples": {
+      "base": [
+        "I need to sleep earlier before my important exam.",
+        "Children usually sleep longer during school holidays."
+      ],
+      "past": [
+        "She slept badly because of the loud noise outside.",
+        "We slept in a small hotel near the airport."
+      ],
+      "participle": [
+        "I have slept enough and feel much better now.",
+        "They have slept for eight hours after the journey."
+      ]
+    }
+  },
+  {
+    "id": "4061",
+    "ukrainian": "забувати",
+    "base": "forget",
+    "past": "forgot",
+    "participle": "forgotten",
+    "examples": {
+      "base": [
+        "I often forget names when meeting new people.",
+        "Please do not forget to lock the door."
+      ],
+      "past": [
+        "She forgot her keys at home yesterday morning.",
+        "I forgot about the meeting because I was busy."
+      ],
+      "participle": [
+        "I have forgotten the password for my old account.",
+        "They have forgotten how difficult the situation was."
+      ]
+    }
+  },
+  {
+    "id": "4062",
+    "ukrainian": "прокидатися",
+    "base": "wake",
+    "past": "woke",
+    "participle": "woken",
+    "examples": {
+      "base": [
+        "I usually wake up early before starting my workday.",
+        "Try to wake up at the same time daily."
+      ],
+      "past": [
+        "She woke up late because her alarm failed.",
+        "I woke up during the night because of noise."
+      ],
+      "participle": [
+        "I have woken up feeling much better today.",
+        "They have woken up before sunrise many times."
+      ]
+    }
+  },
+  {
+    "id": "4063",
+    "ukrainian": "плавати",
+    "base": "swim",
+    "past": "swam",
+    "participle": "swum",
+    "examples": {
+      "base": [
+        "I like to swim in the sea during summer.",
+        "Children learn to swim at a young age."
+      ],
+      "past": [
+        "She swam across the lake during the competition.",
+        "We swam in the pool after our workout."
+      ],
+      "participle": [
+        "I have swum in many different places around the world.",
+        "They have swum together since they were children."
+      ]
+    }
+  },
+  {
+    "id": "4064",
+    "ukrainian": "співати",
+    "base": "sing",
+    "past": "sang",
+    "participle": "sung",
+    "examples": {
+      "base": [
+        "I love to sing my favourite songs at home.",
+        "She can sing beautifully in front of large audiences."
+      ],
+      "past": [
+        "He sang a popular song during the concert.",
+        "We sang together around the campfire last night."
+      ],
+      "participle": [
+        "I have sung this song many times before.",
+        "They have sung together for more than ten years."
+      ]
+    }
+  },
+  {
+    "id": "4065",
+    "ukrainian": "дзвонити",
+    "base": "ring",
+    "past": "rang",
+    "participle": "rung",
+    "examples": {
+      "base": [
+        "Please ring me when you arrive at home.",
+        "The bell usually rings before every school lesson."
+      ],
+      "past": [
+        "She rang her friend after finishing work yesterday.",
+        "The phone rang while I was cooking dinner."
+      ],
+      "participle": [
+        "I have rung the office several times today.",
+        "The alarm has rung earlier than expected this morning."
+      ]
+    }
+  },
+  {
+    "id": "4066",
+    "ukrainian": "літати",
+    "base": "fly",
+    "past": "flew",
+    "participle": "flown",
+    "examples": {
+      "base": [
+        "I want to fly around the world someday.",
+        "Many birds fly south during the winter season."
+      ],
+      "past": [
+        "She flew to London for a business meeting.",
+        "We flew home after an amazing vacation abroad."
+      ],
+      "participle": [
+        "I have flown on many different airlines before.",
+        "They have flown thousands of kilometres this year."
+      ]
+    }
+  },
+  {
+    "id": "4067",
+    "ukrainian": "трясти",
+    "base": "shake",
+    "past": "shook",
+    "participle": "shaken",
+    "examples": {
+      "base": [
+        "Please shake the bottle before opening it carefully.",
+        "People often shake hands when meeting someone new."
+      ],
+      "past": [
+        "She shook my hand after the successful interview.",
+        "The earthquake shook buildings across the entire city."
+      ],
+      "participle": [
+        "I have shaken the bottle several times already.",
+        "She has been shaken by the unexpected news."
+      ]
+    }
+  },
+  {
+    "id": "4068",
+    "ukrainian": "кидати",
+    "base": "throw",
+    "past": "threw",
+    "participle": "thrown",
+    "examples": {
+      "base": [
+        "Please throw the rubbish into the correct container.",
+        "Children often throw balls while playing outside together."
+      ],
+      "past": [
+        "He threw the ball across the playground yesterday.",
+        "She threw away some old clothes last weekend."
+      ],
+      "participle": [
+        "I have thrown away all unnecessary documents already.",
+        "The ball has been thrown over the fence."
+      ]
+    }
+  },
+  {
+    "id": "4069",
+    "ukrainian": "ховати",
+    "base": "hide",
+    "past": "hid",
+    "participle": "hidden",
+    "examples": {
+      "base": [
+        "Children sometimes hide toys under their beds.",
+        "Never hide important information from your closest friends."
+      ],
+      "past": [
+        "She hid the present before the birthday celebration.",
+        "He hid behind the door during the game."
+      ],
+      "participle": [
+        "I have hidden the documents in a safe place.",
+        "The truth has been hidden for many years."
+      ]
+    }
+  },
+  {
+    "id": "4070",
+    "ukrainian": "кусати",
+    "base": "bite",
+    "past": "bit",
+    "participle": "bitten",
+    "examples": {
+      "base": [
+        "Some insects bite people during warm summer evenings.",
+        "Dogs may bite when they feel threatened or scared."
+      ],
+      "past": [
+        "The mosquito bit me during the night.",
+        "The dog bit the toy and damaged it."
+      ],
+      "participle": [
+        "I have been bitten by insects many times.",
+        "The apple has been bitten several times already."
+      ]
+    }
+  },
+  {
+    "id": "4071",
+    "ukrainian": "дути",
+    "base": "blow",
+    "past": "blew",
+    "participle": "blown",
+    "examples": {
+      "base": [
+        "The wind can blow strongly during winter storms.",
+        "Please blow on the hot soup before eating."
+      ],
+      "past": [
+        "The wind blew all night near the coast.",
+        "She blew out the candles on her birthday cake."
+      ],
+      "participle": [
+        "The wind has blown away many fallen leaves.",
+        "The candles have been blown out already."
+      ]
+    }
+  },
+  {
+    "id": "4072",
+    "ukrainian": "бити, вдаряти",
+    "base": "hit",
+    "past": "hit",
+    "participle": "hit",
+    "examples": {
+      "base": [
+        "Try not to hit the ball too hard.",
+        "The waves hit the rocks near the beach."
+      ],
+      "past": [
+        "The ball hit the window during the game.",
+        "He hit his hand against the table accidentally."
+      ],
+      "participle": [
+        "The target has been hit several times already.",
+        "I have hit my knee while playing football."
+      ]
+    }
+  },
+  {
+    "id": "4073",
+    "ukrainian": "завдавати болю",
+    "base": "hurt",
+    "past": "hurt",
+    "participle": "hurt",
+    "examples": {
+      "base": [
+        "Be careful not to hurt other people's feelings.",
+        "This exercise may hurt your muscles at first."
+      ],
+      "past": [
+        "She hurt her leg while running in the park.",
+        "His words hurt me more than I expected."
+      ],
+      "participle": [
+        "I have hurt my back during training before.",
+        "She has never hurt anyone intentionally in her life."
+      ]
+    }
+  },
+  {
+    "id": "4074",
+    "ukrainian": "коштувати",
+    "base": "cost",
+    "past": "cost",
+    "participle": "cost",
+    "examples": {
+      "base": [
+        "This phone costs less than the previous model.",
+        "Good education can cost a lot of money."
+      ],
+      "past": [
+        "The new computer cost more than I expected.",
+        "The repairs cost hundreds of pounds last month."
+      ],
+      "participle": [
+        "The project has cost much more than planned.",
+        "The mistake has cost the company valuable time."
+      ]
+    }
+  },
+  {
+    "id": "4075",
+    "ukrainian": "позичати, давати в борг",
+    "base": "lend",
+    "past": "lent",
+    "participle": "lent",
+    "examples": {
+      "base": [
+        "I can lend you my book for a week.",
+        "Banks usually lend money to reliable customers."
+      ],
+      "past": [
+        "She lent me her laptop during the weekend.",
+        "He lent some money to his close friend."
+      ],
+      "participle": [
+        "I have lent my car to my brother.",
+        "They have lent money to several local businesses."
+      ]
+    }
+  }
+]

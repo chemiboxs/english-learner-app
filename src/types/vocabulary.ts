@@ -14,7 +14,13 @@ export interface IrregularVerb {
   base: string;
   past: string;
   participle: string;
+  speech?: { base?: string; past?: string; participle?: string };
   examples?: {
+    base?: string[];
+    past?: string[];
+    participle?: string[];
+  };
+  speechExamples?: {
     base?: string[];
     past?: string[];
     participle?: string[];
