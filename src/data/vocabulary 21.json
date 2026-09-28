@@ -414,5 +414,32 @@
       "She likes tea, while her brother prefers coffee.",
       "Please be quiet while the baby is sleeping."
     ]
-  }
+  },
+    {
+  "id": "1033",
+  "ukrainian": "зразок; приклад",
+  "english": "sample",
+  "phrases": [
+    "Can I see a sample of your work?",
+    "This is a sample of the new product.",
+    "The teacher gave us a sample answer.",
+    "I need a sample before I buy the product.",
+    "Please look at this sample and tell me what you think.",
+    "We received a free sample of the new shampoo."
+  ]
+},
+{
+  "id": "1034",
+  "ukrainian": "тиск (фізичний або психологічний)",
+  "english": "pressure",
+  "phrases": [
+    "I feel a lot of pressure at work.",
+    "The pressure of the exam made me nervous.",
+    "She is under pressure to finish the project.",
+    "Don't put too much pressure on yourself.",
+    "He works well under pressure.",
+    "The doctor checked my blood pressure."
+  ]
+}
+
     ]
