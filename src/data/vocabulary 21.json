@@ -440,6 +440,18 @@
     "He works well under pressure.",
     "The doctor checked my blood pressure."
   ]
-}
-
+},
+    { 
+      "id": "1035", 
+      "ukrainian": "чудовий; приголомшливий; неймовірний",
+      "english": "awesome", 
+      "phrases": [ 
+        "Your new laptop is awesome!", 
+        "We had an awesome time at the party.", 
+        "That movie was awesome!", 
+        "You did an awesome job!", 
+        "The view from the mountain is awesome.", 
+        "This is an awesome idea!" 
+      ]
+    }
     ]
